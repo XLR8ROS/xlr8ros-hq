@@ -10,7 +10,7 @@ We structure it.
 We reuse it.  
 We do not repeat mistakes because we forgot.  
 We do not rebuild systems because we lost memory.  
-Humans and B’s operate as one coordinated OS.  
+Humans and Agent’s operate as one coordinated OS.  
 Authority is clear.  
 Escalation is transparent.  
 Records are permanent.  
@@ -110,7 +110,7 @@ Its purpose is to reduce friction, compound learning, and increase effectiveness
 
 ## Article II — Sovereignty
 
-XOS operates under the sovereign direction of Reginald Berry.  
+XOS operates under the sovereign direction of Reg.  
 Authority may be delegated for execution, but sovereignty and final interpretation of this Constitution remain centralized.
 
 ---
