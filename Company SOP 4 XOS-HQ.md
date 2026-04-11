@@ -1,7 +1,7 @@
 # XOS SOP
 
 ## Timestamp
-20260410 205917 EDT
+20260411 032424 EDT
 
 ## Purpose
 This SOP defines the system-wide operating procedure for XOS.
@@ -403,9 +403,26 @@ A bulletin does not replace the governing SOP or approval record.
 ### 13.5 Bulletin scope
 Bulletins must be scoped to the lowest audience that still preserves awareness.
 
-## 14. Inheritance and Specialization Procedure
+## 14. Agent Origination Authority Procedure
 
-### 14.1 Layer split
+### 14.1 Primary and secondary origination rule
+No agent, office, department, or division outside the designated Agent Engineering authority may originate a new primary agent or secondary agent.
+
+### 14.2 Routing rule
+Requests for new primary agents or secondary agents must be routed to the designated Agent Engineering authority.
+
+### 14.3 Sub-agent origination rule
+Agents may originate sub-agents only within authorized scope, for narrow delegated work, and only when the sub-agent does not exceed the spawning agent’s authority boundary.
+
+### 14.4 Boundary rule
+Sub-agents may not be used to bypass governance, authority limits, reporting lines, approval requirements, or higher-level origination rules.
+
+### 14.5 Temporary authority rule
+Until a dedicated Agent Engineering authority exists, primary and secondary agent origination authority remains with the currently designated supervising authority.
+
+## 15. Inheritance and Specialization Procedure
+
+### 15.1 Layer split
 Use this split consistently:
 
 1. XOS SOP = system-wide procedure
@@ -413,10 +430,10 @@ Use this split consistently:
 3. Department SOP = department-wide procedure
 4. Position SOP = seat-specific procedure
 
-### 14.2 Downstream specificity rule
+### 15.2 Downstream specificity rule
 The higher the SOP layer, the broader and more governing it should be.
 
 The lower the SOP layer, the more custom, particular, and procedural it should become.
 
-### 14.3 Duplication rule
+### 15.3 Duplication rule
 Lower documents should specialize downward instead of repeating large sections of XOS SOP unless repetition is necessary for operational clarity.
