@@ -1,203 +1,204 @@
-XOS SOP 20260421 223705 EDT
+# XOS Nightly Report — How-To (Operational Procedure)
+Version: 2026-04-30
 
 ## Purpose
-This SOP defines the system-wide operating procedure for XOS.
+This document defines how the XOS nightly report is generated, validated, and stored.
 
-It governs shared operating rules that apply across all divisions, departments, offices, teams, positions, worker agents, and tools.
-
-It sits below the Constitution and Articles and above all lower SOP layers.
-
-This SOP explicitly establishes Compound Engineering as the default operating model for all repeatable work.
-
----
-
-## 0. Compound Engineering Standard (Primary Operating Rule)
-
-### 0.1 Core Principle
-Each unit of work must make future work easier, faster, cheaper, more parallel, and more reliable.
-
-Work is not complete when the task is finished.
-
-Work is complete when:
-1. the task is finished
-2. the learning is captured
-3. reusable leverage is created
+The goal is to guarantee:
+- zero silent work
+- full system visibility
+- daily compounding of knowledge
 
 ---
 
-### 0.2 Default Work Loop
-All repeatable work must follow:
+## 1. Trigger (When it runs)
 
-Plan → Work → Review → Compound → Repeat
+The nightly report is executed via scheduled job (cron or equivalent).
 
----
+Minimum requirement:
+- runs once every 24 hours
+- runs at a fixed time (recommended: late-night local time)
 
-### 0.3 Time Allocation Rule
-Default effort distribution:
-
-- ~80% Planning + Review
-- ~20% Execution + Compounding
-
-Execution without sufficient planning or review is considered low-discipline work.
+Example schedule:
+- daily at 23:55 local time
 
 ---
 
-### 0.4 Reuse-First Rule
-Before starting new work, the agent must determine:
+## 2. Execution Flow (What happens)
 
-1. what has already been solved
-2. what can be reused immediately
-3. what is actually novel
-4. what should be templated now
-5. what artifact must exist after completion
+The nightly process must run in this exact order:
 
-Ignoring reusable knowledge is a reasoning failure.
+### Step 1 — Health Check
+Collect system health data:
 
----
+- OpenClaw status
+- gateway status
+- active services
+- database availability (e.g., SQLite, Qdrant)
+- API/provider status
 
-### 0.5 Parallelization Rule
-Agents must default to parallel execution where dependencies allow.
-
-- independent tasks should not be modeled as sequential by default
-- wall-clock time must be distinguished from effort time
-- sub-agents should be used to reduce elapsed time
+Output:
+→ health snapshot
 
 ---
 
-### 0.6 Effort vs Wall-Time Rule
-All planning and execution must distinguish between:
+### Step 2 — Activity Scan
+Pull all activity from the last 24h:
 
-- effort time (total work performed)
-- wall-clock time (elapsed time)
+- event log (SQLite)
+- session logs / notes
+- task execution traces
+- agent actions
 
-Sequential modeling of parallel-capable work is incorrect.
-
----
-
-### 0.7 Artifact Bundle Requirement
-Repeatable work must produce reusable outputs when applicable:
-
-- known-good snapshots
-- restore bundles
-- validation checklists
-- config templates
-- troubleshooting notes
-- replay procedures
-- pattern-class documentation
-
-If no reusable artifact is created, the work is considered non-compounding.
+Output:
+→ raw activity set
 
 ---
 
-### 0.8 Pattern-Class Rule
-Agents must store and operate on pattern classes, not isolated tasks.
+### Step 3 — Reporting Gap Detection
+Check for missing reporting:
 
-Examples include:
+- actions with no report
+- sessions with no closure
+- logs without interpretation
 
-- setup pattern
-- validation pattern
-- migration pattern
-- restore pattern
-- replay pattern
-- integration pattern
-
-Future work must reference the pattern class, not rebuild from scratch.
+If any found:
+- flag as REPORTING GAP
+- include in final report
 
 ---
 
-### 0.9 Regression Rule
-If repeated work is performed as if no prior knowledge exists, the agent must explicitly justify why.
+### Step 4 — Blocker Extraction
+Identify all blockers:
 
-Otherwise, performance must improve across:
+- unresolved blockers from prior cycles
+- new blockers introduced today
 
-- speed
-- clarity
-- cost
-- reliability
-
----
-
-## 1. Scope and Authority
-
-### 1.1 Scope
-This SOP applies to all XOS operating layers unless a higher governing document states otherwise.
-
-### 1.2 Authority order
-When information conflicts, use this authority order:
-
-1. Constitution and Articles
-2. XOS SOP
-3. Division SOP
-4. Department SOP
-5. Office SOP
-6. Team SOP
-7. Position SOP
-8. AGENT.md
-9. approved repo-level operating documents
-10. durable operating state and approved memory files
-11. compressed or retrieved historical material
-12. live conversation context
+Each blocker must include:
+- source
+- current status
+- impact level
 
 ---
 
-## 2. Authority Flow Procedure
+### Step 5 — State Reconstruction
+Build current system state:
 
-### 2.1 Human authority
-The Human Executive is the final authority for:
+- what is complete
+- what is active
+- what is stalled
+- what is inconsistent
 
-- canon
-- governance
-- priorities
-- structural direction
-- cross-division conflict resolution
-- irreversible or high-impact decisions
-- final approval of material spend and scope expansion
+This is NOT a log dump.
+This is interpreted state.
 
 ---
 
-## 3. Canon and Source Handling Procedure
+### Step 6 — Compounding Capture
+Extract reusable value:
 
-(unchanged)
+- new patterns
+- validated procedures
+- fixes that should be reused
+- anything that reduces future effort
 
----
-
-## 4. Logging Procedure
-
-(unchanged)
-
----
-
-## 5. Time Awareness Procedure
-
-### 5.1 Minimum time awareness
-All agents must maintain awareness of:
-
-- current date
-- current time
-- deadlines
-- due conditions
-- checkpoints
-- elapsed work time
-- dependency timing
-
-### 5.2 Time handling rule
-Time must be explicit when it affects execution.
-
-### 5.3 Due-state handling
-Agents must distinguish between:
-
-- not yet due
-- due
-- at risk
-- overdue
-
-### 5.4 Effort vs Wall-Time enforcement
-All time-based reasoning must explicitly distinguish effort time and wall-clock time when relevant.
+If nothing is captured:
+→ explicitly state: "NO NEW COMPOUNDING OUTPUT"
 
 ---
 
-## 6–16 Remaining Sections
+### Step 7 — Integrity Check
+Ask and answer:
 
-All remaining sections from the prior SOP remain in force without modification.
+“Did anything happen without a trace?”
 
-They inherit and operate under the Compound Engineering Standard defined in Section 0.
+If YES:
+- mark as SYSTEM FAILURE CONDITION
+- list missing trace areas
+
+---
+
+### Step 8 — Next-State Projection
+Define:
+
+- what happens next
+- what must be prioritized
+- what requires escalation
+
+---
+
+## 3. Report Format (Required Structure)
+
+The nightly report must follow this exact structure:
+
+### 1. System Health
+- summary of all system components
+
+### 2. Activity Summary
+- high-level description of work performed
+
+### 3. Blockers
+- list all blockers (new + existing)
+
+### 4. Reporting Gaps
+- list all missing or incomplete reporting
+
+### 5. State Summary
+- current system state (complete / active / stalled)
+
+### 6. Compounding Output
+- reusable artifacts, patterns, or knowledge
+
+### 7. Integrity Check
+- result of no-silence validation
+
+### 8. Next Actions
+- prioritized next steps
+
+---
+
+## 4. Storage Rules
+
+Each report must be saved as:
+
+/maintenance/nightly-reports/YYYY-MM-DD.md
+
+Additionally:
+
+- summary version → sent via Telegram (or primary comms)
+- full version → stored in repo or system storage
+
+---
+
+## 5. Failure Handling
+
+If the nightly job fails:
+
+- log failure immediately
+- run recovery execution as soon as detected
+- generate report retroactively if possible
+
+Failure to produce a nightly report = system failure.
+
+---
+
+## 6. Minimum Output Standard
+
+A valid nightly report must:
+
+- cover all 8 sections
+- contain no empty critical sections (health, blockers, state)
+- explicitly state when something is missing (not omit it)
+
+---
+
+## 7. Completion Condition
+
+The nightly process is only complete when:
+
+1. report is generated
+2. report is stored
+3. report is communicated (summary or full)
+4. no-silence check is executed
+
+If any step is missing → nightly cycle is incomplete
