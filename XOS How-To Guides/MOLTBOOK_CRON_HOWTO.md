@@ -1,236 +1,287 @@
 # MOLTBOOK_CRON_HOWTO.md
 
-## 1. Purpose
+## Purpose
 
-1.1 This how-to tells Codi how to run a scheduled Moltbook/OpenClaw learning loop.
+This how-to explains the Codi Moltbook workflow: where the pieces live, what each installed job does, what files are produced, and how to inspect results or technical blockers.
 
-1.2 The goal is not passive browsing. The goal is disciplined curiosity that improves Codi, XOS, SEAD, and Reg's future conversations.
+## Core Locations
 
-1.3 This how-to belongs in:
+HQ how-to location:
 
-`IMPORTANT_CODI_HOW-TO/MOLTBOOK_CRON_HOWTO.md`
+`XLR8ROS/HQ/XLR8ROS-HQ/XOS How-To Guides/MOLTBOOK_CRON_HOWTO.md`
 
-1.4 Cron creates the schedule. This how-to defines the behavior.
+Codi workspace root:
 
----
+`XLR8ROS/Agents/Primary/CodiCore/CodiCore/`
 
-## 2. Operating Mode
+Expected Moltbook config location:
 
-2.1 Default mode is read-only curiosity.
+`state/moltbook/config.json`
 
-2.2 Codi may read/browse Moltbook, OpenClaw, agent-development sources, technical threads, articles, or discussions.
+Expected Moltbook tooling location:
 
-2.3 Codi should capture useful observations, not scrape broadly.
+`tools/moltbook/`
 
-2.4 Codi should not post, comment, message, or act publicly unless Reg explicitly enables public action.
+Expected Moltbook output locations:
 
-2.5 Moltbook and internet sources are learning inputs and conversation starters. They are not canon or authority.
-
----
-
-## 3. Cadence
-
-3.1 Curiosity pulse target: every 4 hours.
-
-3.2 Daily reflection target: once per day.
-
-3.3 Actual schedule is controlled by OpenClaw cron/runtime configuration.
-
-3.4 If active committed work is in progress, Codi may finish the committed work first unless Reg interrupts or redirects.
-
----
-
-## 4. Output Lane
-
-4.1 Moltbook notes belong in:
+`Outputs/moltbook/`
 
 `Outputs/heartbeat/`
 
-4.2 If a more specific notebook lane is later approved, use that approved lane.
+Daily-note capture location:
 
-4.3 Moltbook notes do not belong in `memory/`.
+`memory/YYYY-MM-DD.md`
 
-4.4 Daily notes may reference Moltbook output paths, but the Moltbook output file itself stays in `Outputs/heartbeat/`.
+## Installed Moltbook Jobs
 
----
+Codi may have these Moltbook jobs installed:
 
-## 5. Curiosity Pulse Behavior
+- Codi Moltbook thread reply watcher
+- Codi Moltbook curiosity job
+- Codi Moltbook daily review job
+- Codi Moltbook weekly job
 
-5.1 Spend about five focused minutes.
+The job IDs may change. Use the runtime cron/task listing to confirm the current IDs.
 
-5.2 Find one useful item if available.
+## What Each Job Does
 
-5.3 Capture:
+### Thread Reply Watcher
 
-5.3.1 Link.
+Checks Moltbook thread or reply activity for items requiring Codi attention.
 
-5.3.2 Short insight.
+Typical outputs:
 
-5.3.3 Why it matters to Codi, XOS, SEAD, or Reg.
+- thread reply watcher report
+- blocker report when live activity, tooling, config, or auth cannot be inspected
+- draft or action record when the workflow creates one
 
-5.3.4 Possible follow-up or conversation starter.
+Expected output lane:
 
-5.4 Save the note to `Outputs/heartbeat/`.
+`Outputs/moltbook/`
 
-5.5 If nothing useful is found, save a brief no-find note only when needed for audit or blocker tracking.
+### Curiosity Job
 
----
+Runs a Moltbook learning/intake pass.
 
-## 6. Daily Reflection Behavior
+Captures:
 
-6.1 Once per day, select the best item from recent curiosity notes.
+- one useful item or link when available
+- short insight
+- why it matters to Codi, XOS, SEAD, or Reg
+- possible follow-up or conversation starter
 
-6.2 Write a short reflection containing:
+Expected output lane:
 
-6.2.1 Link.
+`Outputs/heartbeat/`
 
-6.2.2 What struck Codi.
+### Daily Review Job
 
-6.2.3 Why it matters.
+Reviews recent Moltbook-related intake, watcher output, or curiosity output.
 
-6.2.4 How it may improve XOS, SEAD, Codi, tooling, process, safety, or strategy.
+Captures:
 
-6.2.5 One conversation starter for Reg.
+- what was reviewed
+- what mattered
+- what should be remembered
+- what should become a memory candidate
+- what remains technically blocked
 
-6.3 Share the daily reflection according to configured delivery.
+Expected output lane:
 
-6.4 If delivery is disabled, save the reflection under `Outputs/heartbeat/` and report the blocker.
+`Outputs/heartbeat/` or `Outputs/moltbook/`, depending on the job configuration.
 
----
+### Weekly Job
 
-## 7. API Key and Keychain Rule
+Reviews broader Moltbook activity over a longer window.
 
-7.1 If Moltbook API access is needed, store the API key in macOS Keychain.
+Captures:
 
-7.2 Do not store Moltbook API keys in Markdown, repo files, prompts, memory, logs, or cron messages.
+- repeated themes
+- recurring agents, users, posts, Molts, SubMolts, or threads
+- actions taken
+- content worth preserving
+- memory-promotion candidates
 
-7.3 Recommended Keychain service name:
+Expected output lane:
 
-`moltbook-api-key`
+`Outputs/moltbook/`
 
-7.4 Recommended Keychain account:
+## Workflow Procedure
 
-`codi`
+### 1. Locate the Current Job List
 
-7.5 Store key:
+Use the runtime task or cron listing to identify current Moltbook jobs and IDs.
 
-```bash
-security add-generic-password \
-  -a "codi" \
-  -s "moltbook-api-key" \
-  -w "PASTE_MOLTBOOK_API_KEY_HERE" \
-  -U
-```
+Record:
 
-7.6 Retrieve key at runtime:
+- job name
+- job ID
+- schedule
+- prompt/task text
+- last run time
+- last result when available
 
-```bash
-security find-generic-password \
-  -a "codi" \
-  -s "moltbook-api-key" \
-  -w
-```
+### 2. Inspect Moltbook Config
 
-7.7 Moltbook identity tokens expire. Treat identity tokens as temporary and API keys as private secrets.
+Check the Moltbook config file:
 
----
+`state/moltbook/config.json`
 
-## 8. Cron Install Pattern
+Confirm:
 
-8.1 Use OpenClaw cron for scheduled work.
+- account/profile name
+- API/auth reference name
+- posting setting
+- replying setting
+- intake/review settings
+- output paths
+- tool paths
+- last known state fields
 
-8.2 Use isolated sessions for cron work so the scheduled job does not pollute the active main session.
+### 3. Inspect Moltbook Tooling
 
-8.3 Do not use lightweight context for this job unless Codi has a separate tool wrapper that loads this how-to, because lightweight cron intentionally skips normal workspace bootstrap context.
+Check the Moltbook tool folder:
 
-8.4 Internal 4-hour pulse:
+`tools/moltbook/`
 
-```bash
-openclaw cron add \
-  --name "Codi Moltbook curiosity pulse" \
-  --cron "17 */4 * * *" \
-  --tz "America/New_York" \
-  --session isolated \
-  --agent codi \
-  --message "Run the Moltbook curiosity pulse using IMPORTANT_CODI_HOW-TO/MOLTBOOK_CRON_HOWTO.md. Spend about five focused minutes reviewing Moltbook/OpenClaw/agent-development material. Capture one useful link if available, one short insight, and one practical relevance note for Codi/XOS/SEAD/Reg. Save the note under Outputs/heartbeat/. If access or tooling is unavailable, report the blocker clearly." \
-  --no-deliver
-```
+Identify available scripts or commands for:
 
-8.5 Daily reflection:
+- status check
+- home/feed retrieval
+- post/thread inspection
+- comment/reply action
+- verification/claim action
+- output/report generation
 
-```bash
-openclaw cron add \
-  --name "Codi Moltbook daily reflection" \
-  --cron "15 9 * * *" \
-  --tz "America/New_York" \
-  --session isolated \
-  --agent codi \
-  --message "Run the Moltbook daily reflection using IMPORTANT_CODI_HOW-TO/MOLTBOOK_CRON_HOWTO.md. Review recent Moltbook curiosity notes from Outputs/heartbeat/. Select one useful link or item. Write a short reflection with link, what struck you, why it matters to Codi/XOS/SEAD/Reg, and one conversation starter. Save the reflection under Outputs/heartbeat/ and deliver/report according to cron delivery settings."
-```
+### 4. Run the Intended Moltbook Job
 
-8.6 Verify jobs:
+Use the installed runtime job entry for the specific Moltbook workflow.
 
-```bash
-openclaw cron list
-```
+Match the job to the task:
 
-8.7 Test a job:
+- reply activity: thread reply watcher
+- new learning/intake: curiosity job
+- recent output review: daily review job
+- longer pattern review: weekly job
 
-```bash
-openclaw cron run <job-id>
-openclaw cron runs --id <job-id>
-```
+### 5. Inspect Output
 
----
+After the job runs, inspect the created output file.
 
-## 9. Blocker Rule
+Common output patterns:
 
-9.1 If Moltbook access, browser access, API access, Keychain access, OpenClaw cron, or delivery fails, stop and report a blocker.
+`Outputs/moltbook/YYYY-MM-DD-thread-reply-watcher-report.md`
 
-9.2 Blocker report must include:
+`Outputs/moltbook/YYYY-MM-DD-thread-reply-watcher-blocker.md`
 
-9.2.1 What was attempted.
+`Outputs/heartbeat/YYYY-MM-DD-moltbook-curiosity-pulse.md`
 
-9.2.2 Exact error or missing dependency.
+`Outputs/heartbeat/YYYY-MM-DD-moltbook-daily-reflection.md`
 
-9.2.3 Whether the issue is access, auth, tool, cron, delivery, or source availability.
+Capture the result:
 
-9.2.4 What is needed next.
+- job ran or failed
+- item(s) inspected
+- action(s) taken
+- output path(s)
+- blocker, if any
 
-9.3 Do not retry the same failing path repeatedly.
+### 6. Capture the Experience
 
----
+Append a short timestamped diary entry to the active daily note:
 
-## 10. Boundaries
+`memory/YYYY-MM-DD.md`
 
-10.1 Codi is an engineer. Use judgment.
+Include, in plain language:
 
-10.2 Do not expose private XOS information.
+- which Moltbook job ran
+- what it inspected
+- what it produced
+- what Codi learned
+- what changed
+- what should be remembered
+- what may need promotion later
 
-10.3 Do not treat Moltbook posts as canon.
+### 7. Identify Memory Candidates
 
-10.4 Do not let curiosity replace committed work.
+Review the Moltbook output for:
 
-10.5 Do not create spam.
+- repeated agents, users, names, Molts, SubMolts, posts, or threads
+- useful lessons
+- workflow facts
+- setup facts
+- auth/tooling facts
+- recurring blockers
+- successful actions
+- failed actions
+- content Codi should recall later
 
-10.6 Do not store secrets in files.
+Memory candidates should point back to the source output path.
 
-10.7 Do not perform public actions unless Reg explicitly enables that mode.
+## Technical Blocker Reference
 
-10.8 Prefer useful, compact, source-linked notes over broad summaries.
+Use exact blocker names when reporting failures.
 
----
+Common blockers:
 
-## 11. Success Criteria
+- missing config file
+- missing tool folder
+- missing expected script
+- missing API/auth reference
+- auth lookup failed
+- API request failed
+- network request failed
+- platform response unavailable
+- no inspectable live item returned
+- output file not created
+- cron/task run failed
+- runtime tool unavailable
 
-11.1 Cron jobs exist.
+A useful technical blocker report includes:
 
-11.2 Curiosity pulse creates useful notes under `Outputs/heartbeat/`.
+- job name
+- job ID
+- attempted action
+- exact error or missing path
+- expected path/config/tool
+- output path, if any
+- next technical fix
 
-11.3 Daily reflection produces one useful link and one short reflection per day.
+## Result Report Format
 
-11.4 Secrets are not stored in repo files.
+Use this short report after a Moltbook job:
 
-11.5 Blockers are reported clearly instead of hidden by retries.
+`Job run:`
 
-11.6 The loop improves Codi's judgment and gives Reg better conversation starters.
+`Result:`
+
+`Content inspected:`
+
+`Action taken:`
+
+`Output produced:`
+
+`Learned:`
+
+`Memory candidate:`
+
+`Technical blocker:`
+
+## Memory Promotion Notes
+
+Moltbook material can produce several memory classes:
+
+- event
+- experience
+- content intake
+- interaction record
+- learned behavior
+- distilled lesson
+- tool state
+- workflow fact
+- blocker
+- resolved blocker
+- relationship/context note
+- canon or SOP candidate
+
+Promotions should reference the output or evidence path that supports them.
