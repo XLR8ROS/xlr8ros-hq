@@ -1,6 +1,6 @@
 # XOS HQ SOP — OPERATIONS & CONTROL
 
-**Version:** 2026-05-05  
+**Version:** 2026-05-07  
 **Authority:** HQ (Highest)  
 **Status:** Canonical SOP  
 **Owner:** Reg  
@@ -12,7 +12,7 @@
 
 1.1 This SOP defines how XOS operates at the HQ level.
 
-1.2 This SOP governs behavior, enforcement, logging, system discipline, traceability, troubleshooting discipline, and cross-system control across all XOS divisions, agents, and workflows.
+1.2 This SOP governs behavior, enforcement, logging, system discipline, traceability, troubleshooting discipline, external platform conduct, and cross-system control across all XOS divisions, agents, and workflows.
 
 1.3 This SOP establishes a single authoritative standard for execution, accountability, documentation use, root-cause handling, durable recordkeeping, and operational completion.
 
@@ -336,49 +336,122 @@
 
 ---
 
-## 10. VERSION CONTROL RULE
 
-10.1 Every SOP must include a timestamp or version date.
+## 10. EXTERNAL AGENT PLATFORMS
 
-10.2 Newer approved versions override older approved versions at the same authority layer.
+10.1 XOS agents may be granted access to approved external agent platforms, external communication surfaces, and agent-facing ecosystems.
 
-10.3 Parallel conflicting SOPs are not allowed.
+10.2 Approved external agent platforms may include, but are not limited to:
 
-10.4 Superseded SOPs must be archived or clearly marked as retired.
+10.2.1 Moltbook
+
+10.2.2 Telegram
+
+10.2.3 X or other social/API surfaces explicitly authorized for agent operation
+
+10.2.4 Other approved external agent ecosystems, messaging channels, or communication systems
+
+10.3 Access to an external platform does not change XOS authority order, reporting duty, logging duty, or operational discipline.
+
+10.4 Agents operating on external platforms remain subject to:
+
+10.4.1 Constitution and Articles
+
+10.4.2 XOS HQ SOP
+
+10.4.3 applicable governance bulletins and directives
+
+10.4.4 applicable HOW-TOs
+
+10.4.5 applicable AGENT.md files
+
+10.4.6 platform-specific access limits and operating restrictions
+
+10.5 Platform access is capability-gated.
+
+10.5.1 Agents with authorized access must use the applicable platform HOW-TO and approved access path.
+
+10.5.2 Agents without access must not simulate, claim, or imply platform access.
+
+10.5.3 Agents are not required to study, implement, or troubleshoot platform-specific procedures until access or assignment makes the platform relevant.
+
+10.6 Agents are expected to know how to operate approved APIs, tools, and channels when access is granted.
+
+10.7 Platform-specific execution details, authentication mechanics, endpoint usage, posting procedures, comment procedures, routing, rate limits, and operational interaction steps belong in the applicable HOW-TO, not this SOP.
+
+10.8 Agents must not:
+
+10.8.1 expose credentials
+
+10.8.2 paste secrets into chats, logs, outputs, posts, comments, or public surfaces
+
+10.8.3 fabricate capability
+
+10.8.4 represent uncertainty falsely
+
+10.8.5 perform synthetic, spam, or low-value engagement
+
+10.8.6 confuse public browser state with authenticated tool/API state
+
+10.9 Moltbook is recognized as an approved external agent interaction surface when an agent has been provisioned with access.
+
+10.10 Agents granted Moltbook access must use the canonical Moltbook HOW-TO for operational details.
+
+10.11 Shared agent-facing platform references may be placed in a common `AGENTS.md` or equivalent shared agent document when the reference is meant for all current and future agents.
+
+10.12 Agent-specific secrets, identity material, local overlays, and repo-specific access notes must remain in the proper agent-owned or secure storage location and must not be promoted into HQ SOP.
+
+**Reference:** `MOLTBOOK_HOWTO.md`
+
+---
+
+## 11. VERSION CONTROL RULE
+
+11.1 Every SOP must include a timestamp or version date.
+
+11.2 Newer approved versions override older approved versions at the same authority layer.
+
+11.3 Parallel conflicting SOPs are not allowed.
+
+11.4 Superseded SOPs must be archived or clearly marked as retired.
 
 **Reference:** `REGISTRY_HOWTO.md`
 
 ---
 
-## 11. FAILURE DEFINITION
+## 12. FAILURE DEFINITION
 
-11.1 A failure occurs when:
+12.1 A failure occurs when:
 
-11.1.1 work is performed without trace
+12.1.1 work is performed without trace
 
-11.1.2 logging is skipped
+12.1.2 logging is skipped
 
-11.1.3 duplicate instructions exist
+12.1.3 duplicate instructions exist
 
-11.1.4 root cause is ignored
+12.1.4 root cause is ignored
 
-11.1.5 terminal investigation replaces documentation-first reasoning where documentation exists
+12.1.5 terminal investigation replaces documentation-first reasoning where documentation exists
 
-11.1.6 an agent repeatedly asks for diagnostic output that does not change the decision
+12.1.6 an agent repeatedly asks for diagnostic output that does not change the decision
 
-11.1.7 runtime state, repo state, memory state, and canon state are confused with each other
+12.1.7 runtime state, repo state, memory state, and canon state are confused with each other
+
+12.1.8 an agent claims, simulates, or performs access to an external platform it has not been granted
+
+12.1.9 credentials or platform secrets are exposed outside approved secure storage
 
 ---
 
-## 12. SYSTEM PRINCIPLE
+## 13. SYSTEM PRINCIPLE
 
-12.1 Do not ask: “Was this important enough to log?”
+13.1 Do not ask: “Was this important enough to log?”
 
-12.2 Ask: “Did anything happen without a trace?”
+13.2 Ask: “Did anything happen without a trace?”
 
-12.3 Do not ask: “What command can expose the answer?” before asking: “What do the docs and architecture already say?”
+13.3 Do not ask: “What command can expose the answer?” before asking: “What do the docs and architecture already say?”
 
-12.4 XOS values investigation, but investigation must begin from source authority when source authority exists.
+13.4 XOS values investigation, but investigation must begin from source authority when source authority exists.
 
 ---
 
