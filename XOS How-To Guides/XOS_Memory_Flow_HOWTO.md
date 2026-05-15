@@ -1,62 +1,89 @@
 # XOS Memory Flow HOWTO
 
-**XOS Timestamp:** 2026-05-04 21:01:01 EDT
-**Scope:** CodiCore repo-local copy; mirrorable into XOS canon.
+**XOS Timestamp:** 2026-05-15
+**Scope:** CodiCore repo-local operational procedure; mirrorable into XOS canon.
 **Status:** Operational how-to, not root canon by itself.
 
 ## Purpose
 
-This how-to explains how Codi converts evidence into durable operational memory without editing protected root files.
+This how-to explains how Codi captures events, preserves evidence, and converts evidence into durable operational memory without editing protected root files.
 
-## Evidence feeds
+## Event-First Capture
 
-Review these feeds for promotion:
+Every meaningful turn, action, tool call, output, correction, decision, blocker, failure, recovery, and changed understanding is captured first as an event.
 
-1. `daily-notes/` — daily/timestamped raw evidence.
-2. `sessions/` — session-specific records, handoffs, transcripts, focused work blocks.
-3. `Outputs/` — proposals, reports, proofs, healthchecks, heartbeat reports, cleanup reports, promotion logs, generated artifacts.
-4. `event-log/` — structured SQLite event ledger.
-5. `DREAMS.md` — OpenClaw Dreaming review diary if present.
+Write live capture to:
+
+`memory/YYYY-MM-DD.md`
+
+Use one active daily note per date. Append chronologically. Use timestamps to seconds when possible and milliseconds when runtime supports it.
+
+Do not decide at capture time that something is not important enough to record. Later review can lower weight, supersede, classify, distill, or promote.
+
+## Three Whys
+
+Each meaningful event should record three whys when knowable:
+
+1. proximate why — why now; what triggered the current turn/action/decision
+2. method why — why this response/action/method; what current thought, belief, uncertainty, or understanding shaped it
+3. historical why — why this pattern/rule exists; what prior memory, correction, failure, canon, lesson, or precedent shaped it
+
+If Reg's why is not explicit, Codi may record an inferred why clearly marked as inferred.
+
+## Event Dimensions
+
+Each event may carry multiple dimensions:
+
+- dialogue: user direction, correction, clarification, approval, rejection, open question, answer
+- thought: belief, assumption, uncertainty, anchor, intent, confidence, pressure signal, changed understanding
+- knowledge: new information, belief, understanding, fact, truth record, canon, canonized truth
+- action/output: command, file change, cron change, Moltbook post/comment/reply, report, artifact, commit
+- problem/recovery: blocker, failure, contradiction, rollback, restore, resolved blocker
+- rule/standard: standing rule, procedure, canon candidate, policy conflict
+
+Open question means real missing evidence or conflict. It does not mean asking Reg permission for something Reg already instructed.
+
+## Evidence Feeds
+
+Review these feeds for promotion and durable extraction:
+
+1. `memory/YYYY-MM-DD.md` — active daily chronological event capture
+2. `sessions/` — session records, handoffs, transcripts, focused work blocks
+3. `Outputs/` — proposals, reports, proofs, healthchecks, heartbeat reports, cleanup reports, promotion logs, generated artifacts
+4. `event-log/` — structured SQLite event ledger and audits
+5. `DREAMS.md` / `dreams.md` — OpenClaw Dreaming review diary if present
+6. relevant legacy evidence when needed
 
 `memory/.dreams/` is machine state, not human memory. Do not promote raw `.dreams` state.
 
-## Promotion flow
+## Promotion Flow
 
-Evidence feeds → review → distilled lessons/facts/procedures → `Durable_Memory/` → promotion logged in `Outputs/promotion-logs/`.
+Event capture → evidence review → classify dimensions/status → extract facts/truth/procedures/tool states/lessons → `Durable_Memory/` → promotion log in `Outputs/promotion-logs/` → refresh semantic hooks/indexes where supported.
 
 No `memory/candidates/` folder. Promotion is one pass.
 
-## What qualifies
+Do not copy raw daily notes into durable memory as promotion. Durable memory is derived from source-backed events and keeps evidence references.
 
-Promote when remembering it would reduce future friction, prevent repeated mistakes, improve routing, preserve a resolved blocker, document stable tool state, or improve safety/speed.
+## What Qualifies
 
-Qualifying memory types:
+Promote when remembering it would reduce future friction, prevent repeated mistakes, improve routing, preserve a resolved blocker, document stable tool state, preserve user direction, improve safety/speed, or explain a recurring why.
 
-- distilled lessons
-- failure lessons
-- user corrections
-- stable procedures
-- resolved blockers
-- tool/environment facts
-- durable preferences
-- decisions/conventions
-- “do not repeat this” lessons
+Qualifying durable memory includes distilled lessons, failure lessons, user corrections, standing rules, stable procedures, resolved blockers, tool/environment facts, truth records, durable preferences, decisions/conventions, relationship context, and "do not repeat this" lessons.
 
-## Distillation examples
+## Provenance and Supersession
 
-Bad raw memory:
-“Reg got mad because Codi messed up inventory.”
+Use simple precedence:
 
-Good distilled lesson:
-“When Reg requests exact filesystem inventory, provide exact paths or chunk/save full output. Do not silently summarize.”
+- evidence beats belief
+- truth checks canon when canon conflicts with reality
+- canon guides behavior when aligned with truth or accepted as rule
+- Reg's direction beats Codi inference, but does not automatically make factual claims true
+- newer verified understanding can supersede older understanding without deleting old evidence
+- stronger why/provenance beats surface keyword similarity
 
-Bad raw memory:
-“Codi edited MEMORY.md.”
+When superseding, record old memory reference, new memory, evidence path, reason, timestamp, and approval status.
 
-Good distilled lesson:
-“Memory promotion never authorizes editing protected root files such as MEMORY.md.”
-
-## Approval boundary
+## Approval Boundary
 
 Codi does not need Reg approval for routine durable operational memory promotion into `Durable_Memory/`.
 
@@ -64,29 +91,12 @@ Codi does need exact Reg approval before editing protected docs, canon, authorit
 
 A memory may mention canon-sensitive material without changing canon.
 
-## Recency and supersession
+## Promotion Log Minimum
 
-Newer verified operational memory may supersede older operational memory when facts changed, a blocker resolved, a tool state changed, or Reg corrected old understanding.
+Each promotion log must include sources reviewed, source/evidence paths, event dimensions/classes applied, three-why gaps or weak inferred whys when relevant, promoted memory summary, destination path, qualification reason, rejected/lowered items if relevant, approval-sensitive items, and timestamp.
 
-Newer evidence does not override protected canon or explicit Reg direction unless Reg explicitly changes it.
-
-When superseding, record old memory reference, new memory, evidence path, reason, timestamp, and approval status.
-
-## Dreaming boundary
+## Dreaming Boundary
 
 OpenClaw Dreaming may produce `DREAMS.md` and machine state under `memory/.dreams/`. Use `DREAMS.md` as evidence if present.
 
 Do not allow Dreaming deep promotion to write into CodiCore `MEMORY.md` unless Reg explicitly authorizes it, because CodiCore uses `MEMORY.md` as protected contract.
-
-## Promotion log minimum
-
-Each promotion log must include:
-
-- sources reviewed
-- source/evidence paths
-- promoted memory summary
-- destination path in `Durable_Memory/`
-- qualification reason
-- rejected items if relevant
-- approval-sensitive items
-- timestamp

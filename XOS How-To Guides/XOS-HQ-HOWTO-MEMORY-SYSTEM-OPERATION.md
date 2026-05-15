@@ -1,132 +1,62 @@
-# XOS-HQ-HOWTO-MEMORY-SYSTEM-OPERATION.md  
-**Version:** 2026-05-01  
-**Authority:** HQ  
+# XOS-HQ-HOWTO-MEMORY-SYSTEM-OPERATION.md
+**Version:** 2026-05-15
+**Authority:** HQ
 
----
+## 1. Purpose
 
-## 1. PURPOSE  
+Define how to operate the XOS memory system in practice: live daily event capture, session handling, event evidence, nightly review, and durable promotion.
 
-Define how to operate the XOS memory system in practice, including daily logging, session handling, event capture, and nightly audit execution.
+## 2. Daily Execution
 
----
+For every meaningful turn, action, decision, correction, blocker, failure, recovery, tool action, external interaction, or changed understanding:
 
-## 2. DAILY EXECUTION  
+1. perform or answer the current work
+2. capture the event in the active daily note
+3. preserve source evidence in the correct lane
+4. place outputs correctly
 
-### 2.1 During Work  
+Active daily note:
 
-For every meaningful action:
+`memory/YYYY-MM-DD.md`
 
-1. Perform the action  
-2. Ensure it passes through the wrapper (automatic event logging)  
-3. Confirm output is placed correctly:
-   - outputs/ for artifacts  
-   - sessions/YYYY/MM/ for session logs  
+Use one daily note per date and append chronologically with precise timestamps.
 
----
+## 3. Three-Why Event Capture
 
-### 2.2 Session Handling  
+Each meaningful event should record:
 
-At session end:
+1. proximate why — why now
+2. method why — why this response/action/method
+3. historical why — what prior memory, correction, canon, failure, precedent, or standing rule shaped it
 
-1. Open or create session log:
-   `sessions/YYYY/MM/<session-id>.md`  
+If a why is inferred, mark it as inferred.
 
-2. Record:
-   - objective  
-   - actions taken  
-   - decisions  
-   - blockers  
-   - outputs  
+## 4. Session Handling
 
-3. Save log before session close  
+At session end, create or update the session record under the current session lane and capture objective, actions taken, decisions, blockers, outputs, unresolved open questions, and memory/canon candidates.
 
----
+## 5. Evidence Lanes
 
-## 3. EVENT LOGGING  
+Use the current repo memory contract for exact local paths. Standard evidence feeds include active daily notes, sessions, outputs, event-log, DREAMS/dreaming evidence if present, and relevant legacy evidence.
 
-Automatic logging:
+## 6. Nightly Audit
 
-- occurs via wrapper  
-- writes to:
-  `memory/sqlite/events.sqlite`  
+Nightly audit reviews evidence feeds and reports sources checked, capture gaps, event dimensions, three-why gaps, candidates found, durable promotions, rejected/lowered items, distilled lessons, truth records/tool states/procedures, and approval-sensitive items.
 
-If logging fails:
+## 7. Promotion Rules
 
-- Minor action:
-  → immediately log using fallback procedure  
+Promote source-backed operational memory into the durable memory lane defined by the local memory contract.
 
-- Critical/system-changing action:
-  → STOP  
-  → do not proceed  
+Do not promote raw daily notes unchanged. Distill from captured events and preserve evidence references.
 
----
+Editing protected memory contracts, SOPs, canon, governance, role files, or operating doctrine requires exact authorization.
 
-## 4. NIGHTLY AUDIT  
+## 8. Failure Handling
 
-Create one file:
+If logging fails on a minor action, capture the event with fallback procedure as soon as possible.
 
-`maintenance/nightly-reports/YYYY-MM-DD.md`
+If logging fails on a critical/system-changing action, stop before continuing, preserve evidence, and report the blocker.
 
----
+## 9. Principle
 
-### Required Sections
-
-#### Sources Checked
-- event log  
-- session logs  
-- daily notes / MEMORY.md  
-- outputs  
-
-#### Candidates Listed
-- promotion candidates derived from sources  
-
-#### Missing Sources
-- explicitly list any missing sources  
-- if none: state "None"  
-
----
-
-## 5. PROMOTION RULES  
-
-- Every candidate MUST include source reference  
-- No source reference = invalid candidate  
-
----
-
-## 6. READINESS CHECK  
-
-System is READY only if:
-
-- all sources exist  
-- session logs exist  
-- automatic logging is working  
-- audit is complete  
-
-If any fail:
-
-- mark NOT READY  
-- continue logging anyway  
-
----
-
-## 7. FAILURE HANDLING  
-
-If something breaks:
-
-- log it immediately  
-- do not hide missing logs  
-- do not bypass system rules  
-
----
-
-## 8. PRINCIPLE  
-
-Do not ask:
-
-“Did I log enough?”  
-
-Ask:
-
-“Did anything happen without a trace?”  
-
----
+A completed action without traceable memory is operationally incomplete. Capture first; classify, weight, distill, and promote later.

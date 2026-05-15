@@ -220,91 +220,63 @@
 
 ## 7. MEMORY SYSTEM OPERATIONAL STANDARD
 
-### 7.1 Daily Expectations
+### 7.1 Daily Event Capture
 
-7.1.1 All meaningful actions must be logged.
+7.1.1 Every meaningful turn, action, tool call, decision, correction, blocker, failure, recovery, output, and changed understanding must be captured as an event before it disappears from operational context.
 
-7.1.2 Session logs must be routed into `sessions/YYYY/MM/` when session logs are file-based.
+7.1.2 Event capture uses the active daily note or the local memory lane defined by the applicable memory contract.
 
-7.1.3 Daily notes must be routed into `daily-notes/YYYY/MM/` when the active repo uses canonical date layering.
+7.1.3 The standard daily-note pattern is one chronological file per date:
 
-7.1.4 Session logs must be finalized or updated at session close.
+`memory/YYYY-MM-DD.md`
 
-7.1.5 Work-product artifacts must be routed into the canonical output lane for the repo or system.
+7.1.4 Each meaningful event should preserve who, what, when, where/context, evidence/source, and three whys:
 
-7.1.6 Automatic event logging must occur for:
+7.1.4.1 Proximate why — why now.
 
-7.1.6.1 file write/edit
+7.1.4.2 Method why — why this response, action, or method.
 
-7.1.6.2 output artifact creation
+7.1.4.3 Historical why — what prior memory, correction, canon, failure, precedent, or standing rule shaped it.
 
-7.1.6.3 session-log write
+7.1.5 If a why is inferred, it must be marked as inferred.
 
-7.1.6.4 API call or tool call where an agent action occurs
+### 7.2 Review and Promotion
 
-7.1.7 The event log functions as the black box record of system events.
+7.2.1 Capture comes before classification, weighting, distillation, or promotion.
 
----
+7.2.2 Agents must not skip capture because the event seems unimportant in the moment.
 
-### 7.2 Nightly Audit Requirement
+7.2.3 Review may lower retrieval weight, supersede old understanding, classify dimensions, extract truth records, distill lessons, or promote durable memory.
 
-7.2.1 One nightly audit artifact must be produced.
+7.2.4 Raw daily notes are evidence and must not be promoted unchanged as durable memory.
 
-7.2.2 Audit must include:
+### 7.3 Precedence
 
-7.2.2.1 sources checked
+7.3.1 Evidence beats belief.
 
-7.2.2.2 candidates listed
+7.3.2 Truth checks canon when canon conflicts with reality.
 
-7.2.2.3 missing sources explicitly named
+7.3.3 Canon guides behavior when aligned with truth or accepted as rule.
 
-7.2.2.4 blockers and structure gaps
+7.3.4 Explicit Reg direction beats agent inference, but it does not automatically make factual claims true when source evidence conflicts.
 
-7.2.2.5 promotion actions or the reason no promotion occurred
+7.3.5 Newer verified understanding may supersede older understanding without erasing older evidence.
 
-7.2.3 Promotion candidates must include source references.
+### 7.4 Nightly Audit Requirement
 
-7.2.4 Nightly logging must occur even if readiness is not met.
+7.4.1 Nightly audit must inspect required evidence feeds and report source coverage.
 
----
+7.4.2 A valid audit identifies capture gaps, event dimensions, three-why gaps, promotion candidates, lowered/rejected items, distilled lessons, truth records, tool states, procedures, approval-sensitive items, and updated durable paths.
 
-### 7.3 Readiness Definition
+### 7.5 Readiness Definition
 
-7.3.1 The system is READY only when:
+7.5.1 An agent or workflow is not memory-ready unless it can preserve meaningful events, explain why actions happened, distinguish evidence from belief, and recover the source trail later.
 
-7.3.1.1 required memory sources are present
+### 7.6 Failure Handling
 
-7.3.1.2 session logging is active
+7.6.1 If capture fails on a minor action, the agent must capture the event with fallback procedure as soon as possible.
 
-7.3.1.3 automatic event logging is functioning
-
-7.3.1.4 nightly audit is complete
-
-7.3.1.5 promotion-readiness gating passes
-
-7.3.1.6 required reports are durable and findable
-
----
-
-### 7.4 Failure Handling
-
-7.4.1 Missing required sources must:
-
-7.4.1.1 allow nightly logging
-
-7.4.1.2 block readiness claim
-
-7.4.2 Logging failures must be handled as:
-
-7.4.2.1 minor actions → immediate fallback logging
-
-7.4.2.2 critical/system-changing actions → block and escalate
-
-7.4.3 Structural changes require explicit approval.
-
-**Reference:** `XOS-HQ-HOWTO-MEMORY-SYSTEM-OPERATION.md`
-
----
+7.6.2 If capture fails on a critical/system-changing action, the agent must stop before continuing, preserve evidence, and report the blocker.
 
 ## 8. HOW-TO SEPARATION RULE
 
