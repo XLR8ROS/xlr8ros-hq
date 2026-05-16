@@ -9,106 +9,146 @@ Agents/Primary/.DS_Store
 Agents/Primary/CodiCore
 Agents/Primary/CodiCore/.DS_Store
 Agents/Primary/CodiCore/CodiCore
+Agents/Primary/CodiCore/CodiCore/.DS_Store
 Agents/Primary/CodiCore/CodiCore/.clawhub
 Agents/Primary/CodiCore/CodiCore/.clawhub/lock.json
 Agents/Primary/CodiCore/CodiCore/.dreams
 Agents/Primary/CodiCore/CodiCore/.dreams/events.jsonl
 Agents/Primary/CodiCore/CodiCore/.dreams/short-term-recall.json
-Agents/Primary/CodiCore/CodiCore/.DS_Store
 Agents/Primary/CodiCore/CodiCore/.gitignore
 Agents/Primary/CodiCore/CodiCore/.openclaw
 Agents/Primary/CodiCore/CodiCore/.openclaw/workspace-state.json
-Agents/Primary/CodiCore/CodiCore/agents
 Agents/Primary/CodiCore/CodiCore/AGENTS.md
-Agents/Primary/CodiCore/CodiCore/agents/custodian
-Agents/Primary/CodiCore/CodiCore/agents/custodian/custodian.js
-Agents/Primary/CodiCore/CodiCore/agents/distiller
-Agents/Primary/CodiCore/CodiCore/agents/distiller/distiller.js
-Agents/Primary/CodiCore/CodiCore/agents/intake
-Agents/Primary/CodiCore/CodiCore/agents/intake/intake.js
-Agents/Primary/CodiCore/CodiCore/agents/reader
-Agents/Primary/CodiCore/CodiCore/agents/reader/reader.js
-Agents/Primary/CodiCore/CodiCore/archives
-Agents/Primary/CodiCore/CodiCore/archives/.DS_Store
-Agents/Primary/CodiCore/CodiCore/archives/daily-notes
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/.DS_Store
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/.DS_Store
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/INDEX.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/.DS_Store
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/.DS_Store
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-03-31.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-01.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-05.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-06.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-10.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-21.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-22.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-29.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-30-manifest-snapshot-lesson.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-04-30.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-01-telegram-6686948714.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-01-tier3-audit.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-01.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-02-1731.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-02-1849.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-02-2344.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-0356.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-0443.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-0501.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-0508.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-1032.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-approve-only.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-docker-qdrant-install-proposal-revised.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-docker-qdrant-install-proposal.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-qdrant-docker-proposal.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-qdrant-restore-wiring-proposal.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-03-sub-agent-acp-capability-gate-proposal.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-04-heartbeat-rule.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-04-memory-rename.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-04.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-05-completion-is-verified-state-not-milestone.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-05-completion-requires-verified-state.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-05-remaining-changes-summary.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-05-repo-lane-guide.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/$(date +%Y%m%d-%H%M%S)/originals/2026-05-05-thorough-verification-before-completion.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/archives__legacy-memory__legacy__2026-03-31.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/archives__legacy-memory__legacy__2026-04-01.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/archives__legacy-memory__legacy__2026-04-05.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/archives__legacy-memory__legacy__2026-04-06.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/archives__legacy-memory__legacy__2026-04-10.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__04__2026-04-22.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__04__2026-04-29.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__04__2026-04-30.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-01.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-02-1731.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-02-1849.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-02-2344.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-0356.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-0443.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-0501.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-0508.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-1032.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-03-approve-only.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-04-memory-rename.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__05__2026-05-04.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/daily-notes__2026__2026-05-05-remaining-changes-summary.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/memory__2026-05-05-audio-default.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/memory__2026-05-05-navigation-memory.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/originals
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-121847/sessions__2026__05__2026-05-01-telegram-6686948714.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals/2026-04-01.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals/2026-04-05.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals/2026-04-06.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals/2026-04-10.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migration-backups/20260505-130241/daily-notes-merge/originals/2026-04-21.md
-Agents/Primary/CodiCore/CodiCore/archives/legacy-memory/legacy/um/migratio
+Agents/Primary/CodiCore/CodiCore/DISTILLED LESSONS 
+Agents/Primary/CodiCore/CodiCore/Distilled_Lessons
+Agents/Primary/CodiCore/CodiCore/Distilled_Lessons/2026-03-31.md
+Agents/Primary/CodiCore/CodiCore/Distilled_Lessons/Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+Agents/Primary/CodiCore/CodiCore/Distilled_Lessons/Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+Agents/Primary/CodiCore/CodiCore/Distilled_Lessons/Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-06-closed-book-boundary-failure.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-06-performed-verification-and-curiosity-antipatterns.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-06-review-posture-and-candidate-selection.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-06-verification-and-uncertainty-doctrine.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-07-memory-flow-promotions-and-retrieval-boundaries.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-07-moltbook-curiosity-pulse-relevance-and-link.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-07-moltbook-watcher-blockers-and-disabled-features.md
+Agents/Primary/CodiCore/CodiCore/Durable_Memory/2026-05-07-repo-hygiene-lane-and-verification-rules.md
+Agents/Primary/CodiCore/CodiCore/HEARTBEAT.md
+Agents/Primary/CodiCore/CodiCore/IDENTITY.md
+Agents/Primary/CodiCore/CodiCore/IMPORTANT_CODI_HOW-TO
+Agents/Primary/CodiCore/CodiCore/IMPORTANT_CODI_HOW-TO/.DS_Store
+Agents/Primary/CodiCore/CodiCore/IMPORTANT_CODI_HOW-TO/MOLTBOOK_HOWTO.md
+Agents/Primary/CodiCore/CodiCore/IMPORTANT_CODI_HOW-TO/XOS_Memory_Flow_HOWTO.md
+Agents/Primary/CodiCore/CodiCore/IMPORTANT_CODI_HOW-TO/XOS_Repo_Hygiene_HOWTO.md
+Agents/Primary/CodiCore/CodiCore/MEMORY.md
+Agents/Primary/CodiCore/CodiCore/Navigation
+Agents/Primary/CodiCore/CodiCore/Navigation/.DS_Store
+Agents/Primary/CodiCore/CodiCore/Outputs
+Agents/Primary/CodiCore/CodiCore/Outputs/.DS_Store
+Agents/Primary/CodiCore/CodiCore/Outputs/2026-05-05-audio-default.md
+Agents/Primary/CodiCore/CodiCore/Outputs/2026-05-05-navigation-memory.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__heartbeat__2026__05__2026-05-04-heartbeat-rule.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__how-tos__drafts__2026__05__2026-05-05-repo-lane-guide.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__proposals__2026__05__2026-05-03-docker-qdrant-install-proposal-revised.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__proposals__2026__05__2026-05-03-docker-qdrant-install-proposal.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__proposals__2026__05__2026-05-03-qdrant-docker-proposal.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__proposals__2026__05__2026-05-03-qdrant-restore-wiring-proposal.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__proposals__2026__05__2026-05-03-sub-agent-acp-capability-gate-proposal.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/Outputs__reports__2026__04__2026-04-21.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/maintenance__2026-04-22.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/maintenance__2026-05-01.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/maintenance__logs__2026__04__2026-04-30-manifest-snapshot-lesson.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/maintenance__nightly-reports__2026__04__2026-04-30.md
+Agents/Primary/CodiCore/CodiCore/Outputs/Reload/maintenance__nightly-reports__2026__05__2026-05-01-tier3-audit.md
+Agents/Primary/CodiCore/CodiCore/Outputs/audio
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-broad-promotion-index-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-canon-reread-report-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-codicore-agents-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-codicore-identity-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-codicore-memory-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-codicore-tools-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-company-sop-xos-hq-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-sead-chief-exec-suite-coordination-howto-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-sead-sop-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-user-md-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-xos-hq-sop-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-reader-agent-xos-memory-flow-howto-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/audio/2026-05-07-unread-canon-agent-report-audio.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/canon-review
+Agents/Primary/CodiCore/CodiCore/Outputs/canon-review/2026-05-07-canon-reread-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/canon-review/2026-05-07-unread-canon-agent-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/canon-review/2026-05-07-unread-canon-file-list.md
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup/2026
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup/2026/05
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup/2026/05/Outputs-2-README.md
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup/2026/05/data-memory-README.md
+Agents/Primary/CodiCore/CodiCore/Outputs/cleanup/2026/05/outputs-README.md
+Agents/Primary/CodiCore/CodiCore/Outputs/cron-health-sweep-2026-05-15.txt
+Agents/Primary/CodiCore/CodiCore/Outputs/healthchecks
+Agents/Primary/CodiCore/CodiCore/Outputs/healthchecks/2026
+Agents/Primary/CodiCore/CodiCore/Outputs/healthchecks/2026/05
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-06-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-06-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-06_Moltbook_Curiosity_Pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-07-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-07_moltbook_curiosity_pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-08-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-08-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-09-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-10-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-10-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-11-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-11-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-12-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-12-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-13-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-13-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-14-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-14-moltbook-daily-reflection.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-14-moltbook-recurring-snapshot.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026-05-15-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026/05
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/2026/05/2026-05-13-moltbook-curiosity-pulse.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-06.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-07.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-09.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-10.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-11.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/Moltbook_CuriosityPulse_2026-05-12.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/moltbook-curiosity-pulse-2026-05-05.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/moltbook-curiosity-pulse-2026-05-06.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/moltbook-curiosity-pulse-2026-05-14.md
+Agents/Primary/CodiCore/CodiCore/Outputs/heartbeat/moltbook_curiosity_pulse_2026-05-06.md
+Agents/Primary/CodiCore/CodiCore/Outputs/maps
+Agents/Primary/CodiCore/CodiCore/Outputs/maps/2026
+Agents/Primary/CodiCore/CodiCore/Outputs/maps/2026/05
+Agents/Primary/CodiCore/CodiCore/Outputs/maps/2026/05/codicore-post-cleanup-20260505-024559.md
+Agents/Primary/CodiCore/CodiCore/Outputs/maps/codicore-pre-cleanup-20260505-024559.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-06-moltbook-daily-response-candidate.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-06_reply_watcher_no_action.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-06_reply_watcher_report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-07-moltbook-daily-response-candidate.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-07_reply_watcher_no_action.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-07_reply_watcher_report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08-moltbook-daily-response-candidate.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08-moltbook-thread-reply-watcher-blocker.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08-thread-reply-watcher-blocker.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08-thread-reply-watcher-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08_reply_watcher_report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-08_thread_reply_watcher_report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-09-thread-reply-watcher-blocker.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-09-thread-reply-watcher-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-10-moltbook-daily-response-candidate.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-10-thread-reply-watcher-blocker.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-10-thread-reply-watcher-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-11-moltbook-daily-response-candidate.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-11-thread-reply-watcher-blocker.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-11-thread-reply-watcher-report.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-11-weekly-original-post-draft.md
+Agents/Primary/CodiCore/CodiCore/Outputs/moltbook/2026-05-1
