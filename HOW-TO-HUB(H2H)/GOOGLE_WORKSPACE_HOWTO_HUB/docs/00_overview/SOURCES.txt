@@ -1,0 +1,2 @@
+https://developers.google.com/workspace/guides/configure-mcp-servers
+https://github.com/google/mcp

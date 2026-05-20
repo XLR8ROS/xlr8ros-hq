@@ -1,0 +1,12 @@
+https://developers.google.com/workspace/gmail/api/guides/configure-mcp-server
+https://developers.google.com/workspace/gmail/api/reference/mcp
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/create_draft
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/list_drafts
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/get_thread
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/search_threads
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/label_thread
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/unlabel_thread
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/list_labels
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/label_message
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/unlabel_message
+https://developers.google.com/workspace/gmail/api/reference/mcp/tools_list/create_label

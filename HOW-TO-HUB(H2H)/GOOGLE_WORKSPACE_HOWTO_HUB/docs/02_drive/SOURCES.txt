@@ -1,0 +1,9 @@
+https://developers.google.com/workspace/drive/api/guides/configure-mcp-server
+https://developers.google.com/workspace/drive/api/reference/mcp
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/create_file
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/download_file_content
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/get_file_metadata
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/get_file_permissions
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/list_recent_files
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/read_file_content
+https://developers.google.com/workspace/drive/api/reference/mcp/tools_list/search_files

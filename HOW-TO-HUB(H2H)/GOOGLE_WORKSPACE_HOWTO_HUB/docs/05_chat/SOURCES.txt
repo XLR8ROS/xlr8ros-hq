@@ -1,0 +1,6 @@
+https://developers.google.com/workspace/chat/api/guides/configure-mcp-server
+https://developers.google.com/workspace/chat/api/reference/mcp
+https://developers.google.com/workspace/chat/api/reference/mcp/tools_list/list_messages
+https://developers.google.com/workspace/chat/api/reference/mcp/tools_list/search_messages
+https://developers.google.com/workspace/chat/api/reference/mcp/tools_list/search_conversations
+https://developers.google.com/workspace/chat/api/reference/mcp/tools_list/send_message

@@ -1,0 +1,5 @@
+https://developers.google.com/people/v1/configure-mcp-server
+https://developers.google.com/people/v1/mcp
+https://developers.google.com/people/v1/mcp/tools_list/search_directory_people
+https://developers.google.com/people/v1/mcp/tools_list/search_contacts
+https://developers.google.com/people/v1/mcp/tools_list/get_user_profile

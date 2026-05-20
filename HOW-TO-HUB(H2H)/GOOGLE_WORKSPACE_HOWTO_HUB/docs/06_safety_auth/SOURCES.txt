@@ -1,0 +1,4 @@
+https://developers.google.com/workspace/tools-safety
+https://developers.google.com/workspace/guides/enable-apis
+https://developers.google.com/identity/protocols/oauth2
+https://developers.google.com/workspace/guides/create-credentials

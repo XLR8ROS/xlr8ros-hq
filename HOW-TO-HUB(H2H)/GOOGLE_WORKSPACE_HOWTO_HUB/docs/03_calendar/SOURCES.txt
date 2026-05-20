@@ -1,0 +1,10 @@
+https://developers.google.com/workspace/calendar/api/guides/configure-mcp-server
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/list_events
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/get_event
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/list_calendars
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/suggest_time
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/create_event
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/update_event
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/delete_event
+https://developers.google.com/workspace/calendar/api/v3/reference/mcp/tools_list/respond_to_event
