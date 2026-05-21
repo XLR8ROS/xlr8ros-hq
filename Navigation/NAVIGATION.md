@@ -1,7 +1,7 @@
 # XLR8ROS Navigation
 
 Root: `/Users/reginaldberry/Library/Mobile Documents/com~apple~CloudDocs/XLR8ROS`
-Generated: 2026-05-21 03:05:06
+Generated: 2026-05-21 06:05:11
 
 ```text
 XLR8ROS/
@@ -128,6 +128,7 @@ XLR8ROS/
 │               │   │   │   ├── 74cce4dc5a0c2b90c4750c4868966a300da01f
 │               │   │   │   ├── 9bca84b9cebf06df60bfe6d90cc33e8c3787ce
 │               │   │   │   ├── a8853e7d93bc2b4488d2ece13790428889a1db
+│               │   │   │   ├── b2431ed91c5332a8077e199a9e0c9b77602e6a
 │               │   │   │   ├── cce41256ed3c43bf394725691e6c270e643783
 │               │   │   │   ├── cdffc3e6cfa18f2d90a3ef4b52aca29c975c98
 │               │   │   │   ├── d402498f53475c35aca42c1158bb886d28476e
@@ -154,6 +155,7 @@ XLR8ROS/
 │               │   │   │   ├── 7c5932a67c98a4742507329e093bb979521fc6
 │               │   │   │   ├── 7f7fc14eabb757938152b056d656a95f3e6b02
 │               │   │   │   ├── 8d12c918c33b6fd94eaf22ba48d98114139f98
+│               │   │   │   ├── a1fb5e0841f01c0844416970c710ce70e19bd4
 │               │   │   │   ├── a45d2753d71daa5df005eb9574aecd708057ea
 │               │   │   │   ├── bbbf90e58e37deab59dd57b022669d6f2c3166
 │               │   │   │   ├── dbb99de65c8ac78a91e3ea915db8923ea41519
@@ -216,6 +218,7 @@ XLR8ROS/
 │               │   │   │   ├── c414e4372dd7e4e369850619d6270e3519982d
 │               │   │   │   └── cd6c376f068ab6561e86670e57cb4a48405205
 │               │   │   ├── 11
+│               │   │   │   ├── 08a1d2f6edaffc1326c0c72ade771f996e39e6
 │               │   │   │   ├── 142e5091b045babad0d935441c18802a651f01
 │               │   │   │   ├── 23968aa5913b855fe6a07562bbceb5681a54d4
 │               │   │   │   ├── 38f3f694b80329a015f772b9de8d2462da575c
@@ -258,6 +261,7 @@ XLR8ROS/
 │               │   │   │   ├── 982495313b87e0eb0755f5d0470219382d401b
 │               │   │   │   ├── 9d9535b2c74ad43364f767f73b58eaaa840e6a
 │               │   │   │   ├── ad5570b34b3c578a1f8170e7b9d0723c120e04
+│               │   │   │   ├── b981bb1020cc8b30afee846cd4f4bee18a47ed
 │               │   │   │   ├── b9c7b3dceea1e7061f4f97eb65d012b6aece92
 │               │   │   │   ├── bd46e129a162648b1d1f758763453f08ca9f39
 │               │   │   │   ├── c42d7503c41a99a501fdd4e8ec340ba0268682
@@ -344,6 +348,7 @@ XLR8ROS/
 │               │   │   │   ├── 0cd96e324e4d7dcd32192cb110b66d809d50ea
 │               │   │   │   ├── 31c91d65089bae2ba0fb41e11b5b95ff7303cd
 │               │   │   │   ├── 433c289137a178d1f8ec2d997a292ccbc77a75
+│               │   │   │   ├── 58b2e059d5096cd1e577802f6f483be1f9bc85
 │               │   │   │   ├── ade55429caa11eb1c284347c6f30a7ca981e02
 │               │   │   │   └── e222d8f67b76043367ccd9594fb6f56eb124e5
 │               │   │   ├── 1e
@@ -371,6 +376,7 @@ XLR8ROS/
 │               │   │   │   ├── f0fd680096985fe21d5731e0eb20d32aa56e0b
 │               │   │   │   └── f6780b220fb5cbc6e903c1261dec6df833c1b7
 │               │   │   ├── 21
+│               │   │   │   ├── 01a1c299d3250a37bad79e4898016b7cda09d5
 │               │   │   │   ├── 5588c20bda23fa57472cbf9aacc436b866efe2
 │               │   │   │   └── eedbb3526808fdef7de957d0ba839a45d16aeb
 │               │   │   ├── 22
@@ -384,6 +390,7 @@ XLR8ROS/
 │               │   │   │   └── b9686c12d1df4077454385a1a326a9d0cbd995
 │               │   │   ├── 23
 │               │   │   │   ├── 3bb9b6161b36364f6172d1082be1dc7979a974
+│               │   │   │   ├── 43016c3aa5e8641d6997d2dcba34454813a5c4
 │               │   │   │   ├── 7bd06e19eaaded71a01fc1c97e5ceade958c40
 │               │   │   │   ├── 850d1b6a235adb9a7717a9f3b682abe608fff3
 │               │   │   │   ├── 905c6d4c088d82847942c4e1599af12823834d
@@ -436,11 +443,13 @@ XLR8ROS/
 │               │   │   │   ├── 95af2edbd8ec1700916007941c4a39da4623db
 │               │   │   │   ├── 98edb48ef14615b3762ab5c3228400ba48887c
 │               │   │   │   ├── bca7fa14114f56e958044f3d1c9bf5f906a18f
-│               │   │   │   └── cee419a8c58ade594e6bfac44729169af853be
+│               │   │   │   ├── cee419a8c58ade594e6bfac44729169af853be
+│               │   │   │   └── d3469730d07186c2f90f10a38610d5acb4f2dd
 │               │   │   ├── 28
 │               │   │   │   ├── 5daea2117b024cb4114bb418def5b58edc6cc2
 │               │   │   │   ├── 7a4053bcd2f65de69696dfb9d3ab952b7bbee8
-│               │   │   │   └── 9ed54fa4abc639f383e6c0e96319e248655c43
+│               │   │   │   ├── 9ed54fa4abc639f383e6c0e96319e248655c43
+│               │   │   │   └── ccc87e2e0f370e9e19a7684e2c19211d6a2bf2
 │               │   │   ├── 29
 │               │   │   │   ├── 39c79f38ad5413275852b58b823032f9480ca2
 │               │   │   │   ├── 42c2a84ff20dee410f692406c71d5505401774
@@ -472,6 +481,7 @@ XLR8ROS/
 │               │   │   │   └── e2ee55d955ca7c57c829dd1db7dc89292eb10d
 │               │   │   ├── 2d
 │               │   │   │   ├── 1c6e8365cbaca716e8c5b026d2332a6dfba77e
+│               │   │   │   ├── 3913a046ab2d0f9518cd085deb99cc7bf3689a
 │               │   │   │   ├── 3951f822cb4439ddd4a57c00b140da0f3ef9bb
 │               │   │   │   ├── 96ca30c9f711246b28e906b6652833272033c3
 │               │   │   │   ├── ad7fd2b3e8b7723bd94438eccb986c5505dd73
@@ -480,6 +490,7 @@ XLR8ROS/
 │               │   │   │   ├── c6cf5717a58e038aa8285b4a92422760d17696
 │               │   │   │   └── e65a9ebef765538df35a6a1d5733eee40b52ff
 │               │   │   ├── 2e
+│               │   │   │   ├── 4ed3c6808d67bed89d1fa94dd1aa35bbf494af
 │               │   │   │   ├── 5b9006f5c397d7b78df77028b3de5e5880856f
 │               │   │   │   ├── b1318a5cca9805257c8f970d97274105aa1430
 │               │   │   │   ├── c5d4b8da3cc0b51076f2cb9ec7b50964a8b67d
@@ -499,6 +510,7 @@ XLR8ROS/
 │               │   │   │   └── fc074df6aefb39d3be63ffd7d3a082b8a60c5b
 │               │   │   ├── 30
 │               │   │   │   ├── 05373b53663bc9631c2f4b5a5ce0ab69338027
+│               │   │   │   ├── 331aade81f87b992840f93346c4377c5290453
 │               │   │   │   ├── 5a9b848b2416c8d87bab451802b2b7c6e4a031
 │               │   │   │   ├── 660b4992894e828458a52fb85a3952a6464b9d
 │               │   │   │   ├── 75f878100caba23fb767c270b11cc4a54a26b5
@@ -532,6 +544,7 @@ XLR8ROS/
 │               │   │   │   └── aa2bbb4124a0e3086ba45e07d98fa50ee68538
 │               │   │   ├── 33
 │               │   │   │   ├── 021663ec720bf389da066fb4e02d7492cd8bc4
+│               │   │   │   ├── 2204b75acff45a8f27e8ee20191b54c5df205f
 │               │   │   │   ├── 44244f1f6045c0da2a64eef66ff9ca031341fc
 │               │   │   │   ├── 6114025fcaa4213e925da340e19c11c102350e
 │               │   │   │   ├── 707c8ee2fb80eba56337f73fb9eefc949961f8
@@ -543,6 +556,8 @@ XLR8ROS/
 │               │   │   │   ├── 45b049817b8174377599c2fc6cd081035cfd19
 │               │   │   │   ├── 4706f6332199c13bd40373a6432af6460b72fd
 │               │   │   │   ├── 590a16d6033f338d025d6bae84e3156909da21
+│               │   │   │   ├── 8e72ce111609a8374f02dbf45b6a4174c44e47
+│               │   │   │   ├── b5662e8a1ff93ae8a93da6153aab2204517273
 │               │   │   │   ├── b93493e22166a5cc84734bd7a8325f9de29111
 │               │   │   │   ├── f4447f6d6df81f66abfa8a3c6cd1beccaa3ccc
 │               │   │   │   ├── f9b9b246f6db384406efe0a240f223c22d566e
@@ -658,6 +673,7 @@ XLR8ROS/
 │               │   │   │   ├── c15d750703ab434b686ae5dd12980397b8064d
 │               │   │   │   ├── c73a69ebe26cb32016717741402de70482c284
 │               │   │   │   ├── d03c079ff72b922474f4e2a84b3dca87d8b415
+│               │   │   │   ├── e42496ec710f04b8a023b7bc084a0d7a1b2e90
 │               │   │   │   ├── e4be44989d35a7fc044fbbc3bc17109ba5f2c7
 │               │   │   │   └── f14b006fb1653dc3706082958e622ea32ccdcc
 │               │   │   ├── 40
@@ -693,7 +709,8 @@ XLR8ROS/
 │               │   │   │   ├── 2a691d086cc697452f5d80bd8232acbc95ba50
 │               │   │   │   ├── 35247567c567548c865e03fba79325ef5f173c
 │               │   │   │   ├── 4488efd1048b6f10af5a94aab20b30cc8202d6
-│               │   │   │   └── 60760572661385ee7206aa9e748f90abc12491
+│               │   │   │   ├── 60760572661385ee7206aa9e748f90abc12491
+│               │   │   │   └── bdb2e0b0065e327afa51b2bef30e724e08d262
 │               │   │   ├── 43
 │               │   │   │   ├── 0b12757393618adea79d31353757bd08cf00bc
 │               │   │   │   ├── 2bd38af37613936066d374ff211df6c43f7a18
@@ -831,6 +848,7 @@ XLR8ROS/
 │               │   │   ├── 51
 │               │   │   │   ├── 0523c7cf269d6fc47bff23bc24b6b9404713d4
 │               │   │   │   ├── 21542b6650dc2a06604821d8249628fbe28b2b
+│               │   │   │   ├── 77003c3d0f67093ac14ed0539d5f93b1853785
 │               │   │   │   ├── b9226ff9833b8bb1fd51da9b1be464d15525c7
 │               │   │   │   └── d84345abb72e8b938bb5b4459a4b6cdbf27b87
 │               │   │   ├── 52
@@ -868,6 +886,7 @@ XLR8ROS/
 │               │   │   │   ├── 0279cc83d9497b831328ab0b02f3532f8b0eb9
 │               │   │   │   ├── 5b06b1b0b0622cc432d443006e753cf2bb4eaa
 │               │   │   │   ├── 6600fe76d0a07469be96cb24a1282ff976bf80
+│               │   │   │   ├── 76745559f1ce547524c553135d8a647477102c
 │               │   │   │   ├── 7acd7df7be3f52a8f09e11d709c56b501c2c7f
 │               │   │   │   ├── 8765dade5edb3a9a509038ff7f18a0a62a0bdd
 │               │   │   │   ├── 92cd839d1fc085cd1f90c6b7109eb1f57a3b1b
@@ -898,6 +917,7 @@ XLR8ROS/
 │               │   │   ├── 59
 │               │   │   │   ├── 0d1b0a8b8ff3c98ac942ae80a0477b996f9c69
 │               │   │   │   ├── 151828ed256ce358fde1f6e1d606298cb6c921
+│               │   │   │   ├── 1664ac5e33f4ca383632d206126e75e9b48743
 │               │   │   │   ├── 25a6d15313b4621ebbbce583255f6ac9e9824c
 │               │   │   │   ├── 2d40091b7fc2ffaf32df0985f8bfa71379dc8d
 │               │   │   │   ├── 4eb7559f095a64cdbce0655440fe4836ae4a51
@@ -906,6 +926,7 @@ XLR8ROS/
 │               │   │   │   ├── 7f96ae4f401ff7b74f708cf77d721a88b2bcea
 │               │   │   │   ├── 8c260531da996cbbc26490177b1aeac018747b
 │               │   │   │   ├── 90321e58aa56f167abf6ef12906cd955a972ba
+│               │   │   │   ├── a19cbd78570cc8a3f5523e7e6a87a59b49f9e3
 │               │   │   │   └── fdd1a28207ae42d423e77c8a07dc0ae3ab1a91
 │               │   │   ├── 5a
 │               │   │   │   ├── 3e435faecdb1a59255ae054f7ec857680b8adc
@@ -915,6 +936,7 @@ XLR8ROS/
 │               │   │   │   ├── c1d1512f4492b21ac5a8c1ca2914c21069a40d
 │               │   │   │   ├── c24409b701802644555711a8ac0b8b52d04f0b
 │               │   │   │   ├── cb20cea72a42bfce7c104e4c5ae30823c30541
+│               │   │   │   ├── e24b187cef81e8cb570bf6ecdc4b71c5b987de
 │               │   │   │   └── ed7029b62981f54ca2083fed53ff879197ac93
 │               │   │   ├── 5b
 │               │   │   │   ├── 004f42fe54032f67c86dda3cfae23f01a54a9d
@@ -943,6 +965,7 @@ XLR8ROS/
 │               │   │   │   ├── 8489228305a2bf03e3c66660a533def6b9ff47
 │               │   │   │   ├── a058c2f38d2e2bb071bdab0487d2549c912abd
 │               │   │   │   ├── a9d0c9a70783af05b8f2e87eb9782fe382b584
+│               │   │   │   ├── b16f6c74a98a94131dfa91a94a710aebc182ca
 │               │   │   │   ├── d4a24a88328e3e7d208dcf0d17ca3a07e6ea3f
 │               │   │   │   └── e5f38b0b6de7dd90914d81c54897fff66e55fd
 │               │   │   ├── 5e
@@ -1060,6 +1083,7 @@ XLR8ROS/
 │               │   │   │   ├── 0093e9d24a35cc73d59722a140a5c982c3bc06
 │               │   │   │   ├── 2d1a8a1dcf67afbcac46bd8359301cc3d1eaea
 │               │   │   │   ├── 4ad0f6569c2c74c2d898c45c096687029933a7
+│               │   │   │   ├── 64ec936129484472cf712a888291b05dd14b74
 │               │   │   │   ├── 80544f5902b58e34e9d8dade562debbb7375d3
 │               │   │   │   ├── 914f1bbc7f758586e31cfacdb2071e14d399b4
 │               │   │   │   ├── d80f6eba0bc4a6231b52bb2bcdf409290b5885
@@ -1274,6 +1298,7 @@ XLR8ROS/
 │               │   │   │   ├── 2b4c3cbd52b83100765fbee0d00e29587f9a8e
 │               │   │   │   ├── 32cb1af5c247ef4cbcb21c4380070ab242738f
 │               │   │   │   ├── 974e9af064474ebff2768bf0d11528845f957c
+│               │   │   │   ├── b6ad96fe531eb6e3b9b37b402d50963b8f7f5a
 │               │   │   │   ├── c6eafed2b075e7d42fea811a89201a99f3a125
 │               │   │   │   ├── dd69ce58b052219af7b6d2ee812541dc2f026d
 │               │   │   │   ├── e6d8139d8da795506d90220020f600e086556b
@@ -1287,7 +1312,8 @@ XLR8ROS/
 │               │   │   │   ├── b3e29e076de18e6b551035de00fb68517559ea
 │               │   │   │   ├── c086f2f3c95713d6412f32e189e1f52b2f60dc
 │               │   │   │   ├── c167a5cab21c98bc5176762e5726dbc6e56600
-│               │   │   │   └── d70355a56de430d02ee85cd4a937c70bd896c7
+│               │   │   │   ├── d70355a56de430d02ee85cd4a937c70bd896c7
+│               │   │   │   └── ef57897959b2ebc22ba00c1fe8324f432a541d
 │               │   │   ├── 81
 │               │   │   │   ├── 0bf083a1f810882d199dd0ffdee70ecb3280ce
 │               │   │   │   ├── 4db7e557fd68f85380b0d823d858b380fa6236
@@ -1373,6 +1399,7 @@ XLR8ROS/
 │               │   │   │   ├── 1a56d89f65afed147cde4ed750d0722dac52a1
 │               │   │   │   ├── 2065d783a93bf50fe0a0859625c42b7076a1f8
 │               │   │   │   ├── 4a83751363bff0b2c8b5b640806bed1abc5719
+│               │   │   │   ├── 7d0d648d883129cae0d7e64640fc1a36b710ac
 │               │   │   │   ├── 928d0c7402092fe1769fb3990fe7a7dee1ca3c
 │               │   │   │   ├── 952acba0377553548012a9a192b71f936312fe
 │               │   │   │   ├── a10f89d7cbfbc35f964716bedc98bcb1659035
@@ -1427,6 +1454,7 @@ XLR8ROS/
 │               │   │   │   └── f6ac2cba308356ee56368ba2a4a330bec2954e
 │               │   │   ├── 8f
 │               │   │   │   ├── 2c0389f6a62a9a2aa954544ab2ef2fa2c98ac3
+│               │   │   │   ├── 61302343531d1514ca5233a66b4aa6675ebe5e
 │               │   │   │   ├── 722372e2805d6d62eefe23d84e785b7a223464
 │               │   │   │   └── 989738d017319880908787253993223a2ccb58
 │               │   │   ├── 90
@@ -1448,6 +1476,7 @@ XLR8ROS/
 │               │   │   │   ├── 0f45da7449d60ef81cf524c117aa0941a35807
 │               │   │   │   ├── 151c0e3f7bef693eda7a66c7bc6893ee87cc11
 │               │   │   │   ├── 2b9bfbd65a70520913f4d60b479342e7b0b73f
+│               │   │   │   ├── 350e861cd87b69818465e1fe24209873c49ae5
 │               │   │   │   ├── 98467e9ef0f0b0e4afab6c4d0b1ca95107e587
 │               │   │   │   ├── ab48f817ccce9fc2b2ac468c1029871ed139ef
 │               │   │   │   ├── b53c8e8323b8a42d9becdc3bf546a5195df21f
@@ -1510,6 +1539,7 @@ XLR8ROS/
 │               │   │   │   ├── 2135feee3d8deee3b10309361aadcd74250edb
 │               │   │   │   ├── 215a18c8d1c29d62215a21df8ca93a484ed853
 │               │   │   │   ├── 221b9107559d705e6aac9073cb5ef70ef81c8a
+│               │   │   │   ├── 257469394971972ddf671cd192f0e0d9147dd7
 │               │   │   │   ├── 383ef0c8c29f03522f6fc148e4eabad1ef43fe
 │               │   │   │   ├── 76d70ad9a04906537ab55c1fe6eec3cfd6ad5f
 │               │   │   │   ├── ad7ad32d4c76c3e84b2f9aa249c935a15db7e5
@@ -1588,6 +1618,7 @@ XLR8ROS/
 │               │   │   ├── 9f
 │               │   │   │   ├── 451c7b277c74e998e5dbf12ef6e7809c3eab0c
 │               │   │   │   ├── 6cabc731f3b0fcd89b1babae1e9b086b95f4e0
+│               │   │   │   ├── 97f8376b040d2cd530fc7a176c760cf9acbbd5
 │               │   │   │   └── b884754ed775f026d9ba19668bf4d776bd7fa4
 │               │   │   ├── a0
 │               │   │   │   ├── d6fa11790b4d28e3ae2551ec7ca1376cee405a
@@ -1662,6 +1693,7 @@ XLR8ROS/
 │               │   │   │   ├── 44f974c60a0325baa49e64e8f44847708b504b
 │               │   │   │   ├── 4b1c34a605a8f276ba3ff297000751bbe9a906
 │               │   │   │   ├── 548a23c4faa0b4406d557f08bde7f8b6499f67
+│               │   │   │   ├── 54f5b74f540d268de69308bb2289062f8361b6
 │               │   │   │   ├── 7f12a977d2d0088ffd404dc768caccca5a48b1
 │               │   │   │   ├── 82e5071d56fa293c1f6aeca0cf4fe9b91dca34
 │               │   │   │   ├── 8c41b296782caaab8ca97a740ecbfc7faf05a2
@@ -1674,6 +1706,7 @@ XLR8ROS/
 │               │   │   ├── a7
 │               │   │   │   ├── 321d68dc5dd21f0eeb48c254deb66d1b636691
 │               │   │   │   ├── 362030749e859dbf8f74f12a7ee9ed85588a1d
+│               │   │   │   ├── 6289cc987a782022cee8e5300450ee1a5d76fe
 │               │   │   │   ├── c13cd1db87c0a3aca08e8bf6a2521af09ed115
 │               │   │   │   ├── c168254538d63b8bba7b64fcb214060bc63815
 │               │   │   │   ├── ca9db2df2ce23c429e665e452cb961d516feb3
@@ -1709,6 +1742,7 @@ XLR8ROS/
 │               │   │   │   ├── 2db26d562dee11b622e196f5646b57f8bfbd43
 │               │   │   │   ├── 62207c2a419356ec3e7038f61ba2eaf0bbc1a4
 │               │   │   │   ├── 7a06096a5f623bb26eb6a8f37f985df44ca915
+│               │   │   │   ├── 7e039ad7aaf0a784c3b68d70614897b97fb43c
 │               │   │   │   ├── ae8a2f1701c668cbb8cd85fece8d2be6b51840
 │               │   │   │   ├── ca50762663a6917c809bfd23f4c0af7f59be0d
 │               │   │   │   └── e6b0baed5d16c8fa52c8b66ed277ff6957a823
@@ -1733,10 +1767,12 @@ XLR8ROS/
 │               │   │   │   ├── 51193efa3ab293e9b2075527e2e42ac1264b36
 │               │   │   │   ├── 71e453bdf19d9d92d0122e479411c4888584e4
 │               │   │   │   ├── 72ee3194c35f0a4ad380bb412b6258e608f14e
+│               │   │   │   ├── b2dcf8b7e46abab5052ff72ef68faf66b6c3e1
 │               │   │   │   ├── bb3dae68523384ccef3fc12421988e0a43d60e
 │               │   │   │   └── f74f48788c4a0817f2b5316832ceb79d0a0977
 │               │   │   ├── ae
 │               │   │   │   ├── 1c050aae443d069e6f075d0b1ebafae214f2b0
+│               │   │   │   ├── 2650c609f7b6f0d9c3cbb9c27685e5085e6774
 │               │   │   │   ├── 39bf2b95b0ba9add56328140fe41e13d4bbbd3
 │               │   │   │   ├── 4ee13c08e7628701b925b8962108bd7643bf6e
 │               │   │   │   ├── 517169a320deefc170cefc7a6dd1679c0e7e0d
@@ -1762,6 +1798,7 @@ XLR8ROS/
 │               │   │   │   ├── 2b1229ba6c2928d574cff123fdfae162d366fa
 │               │   │   │   ├── 3988e4f5cf7ed2a9fb4f757ee45ccad78eeb0b
 │               │   │   │   ├── 7a3b7c6d326dddb764f9e5ba5c0c0659aa7c40
+│               │   │   │   ├── a0a3f0d9271dd57498d6c1d20ec918dcadcc59
 │               │   │   │   ├── a4166f18ab7a6e71a9488e6e43805104b721b6
 │               │   │   │   └── b0fa2cbe66116dd950b8e105fcf95dcd7d049a
 │               │   │   ├── b1
@@ -1823,6 +1860,7 @@ XLR8ROS/
 │               │   │   │   ├── bdc57632c92709a0e12e55f3617cc136f4e6db
 │               │   │   │   └── eccd2e997124f172bf3e6e8cf250ef9c0ac30a
 │               │   │   ├── b7
+│               │   │   │   ├── 0b984403b875b13a319154ad9febdd1a1e3714
 │               │   │   │   ├── 34015b94c6bac9b92dedbc1580504a1fe05886
 │               │   │   │   ├── 50a05396b6cfa42bb036aba09a4fdb3a02cb46
 │               │   │   │   ├── 5e7cb426ab2ea29035dd696a042dfb76bb1a5d
@@ -1846,6 +1884,7 @@ XLR8ROS/
 │               │   │   │   ├── 19fc0219b97a3cc29a0b8f4a68e602af14f039
 │               │   │   │   ├── 2fc84d3b6488c1fee18655d975591d1d6d54cf
 │               │   │   │   ├── 81026447e7e0c1ddb5e1e686742eccca2ffbad
+│               │   │   │   ├── b05a4423c7360a183907c9057c7157890af248
 │               │   │   │   └── eeee36908530d6d070053124a01becf3e48b20
 │               │   │   ├── ba
 │               │   │   │   ├── 148db9d016d87ed957e1f5618da94da81a9fc7
@@ -1900,7 +1939,8 @@ XLR8ROS/
 │               │   │   │   ├── c5eeec0fede9c34339d805c42159f2cd2b4983
 │               │   │   │   ├── da904ccc4f5af39b2a3f2a65c7762b60f66470
 │               │   │   │   ├── ee076b1061b191d868b9c15ae752646d576506
-│               │   │   │   └── f2a22eda4da2b661edcd1ed54333bc9ed1a120
+│               │   │   │   ├── f2a22eda4da2b661edcd1ed54333bc9ed1a120
+│               │   │   │   └── fa92793480370d817cb1a2156f76a29d8644aa
 │               │   │   ├── bf
 │               │   │   │   ├── 0304921e7d07e6bb5628d14baaebce9754e0db
 │               │   │   │   ├── 1e12690daadc0462c26aa90f05f32ce43d70d7
@@ -1950,6 +1990,7 @@ XLR8ROS/
 │               │   │   │   └── e00a8c54b6da520e8decf66560d6e15efb31c8
 │               │   │   ├── c4
 │               │   │   │   ├── 075498ae88a5ae9161096ec1f53d1410eeab3b
+│               │   │   │   ├── 4077d0afe63f014cd934e75683b29567977a3d
 │               │   │   │   ├── 48cc64f4fa730144deec8acb8331e17bf4ee7d
 │               │   │   │   ├── 5683a20c62c85b9d40bd06128155202f4162da
 │               │   │   │   ├── 91cecf4d77ca9d4ef96022b1dc715114e5eec2
@@ -1965,7 +2006,8 @@ XLR8ROS/
 │               │   │   │   ├── 4eeabfb3e158dad3e2cecec7e03ee253cb640f
 │               │   │   │   ├── 4fa28aa70eef6fdf0ab80605499ed9832b8ffc
 │               │   │   │   ├── 5375fd677ca980db740aae99a2e94d4aba4ba1
-│               │   │   │   └── ee4e7b6a9fbf241bfbfcf953e4b06c6e740f23
+│               │   │   │   ├── ee4e7b6a9fbf241bfbfcf953e4b06c6e740f23
+│               │   │   │   └── efe4d4d2a1e24284366eec73d2e19884547f76
 │               │   │   ├── c6
 │               │   │   │   ├── 54b7d0b6014763326f33ab983d5a2322ad98f4
 │               │   │   │   ├── 7acc5089f736e7b9a90f59c30ab87051afb1b2
@@ -1994,6 +2036,7 @@ XLR8ROS/
 │               │   │   │   ├── 57e73c44488524206fa0eaeb3e6b2776b183a2
 │               │   │   │   ├── 630b5cd35535c580b7dba45d99635bd773f5a9
 │               │   │   │   ├── 685a750405c0734693289b4f7440eb6219f615
+│               │   │   │   ├── d66d2f8e1b0512e708aca74eb147347b51bc1e
 │               │   │   │   └── f1c9a2c62abdbd76131e574780e0e66db502f6
 │               │   │   ├── c9
 │               │   │   │   ├── 0ccc91acf3401eacdc22ac93b51432cfda17ba
@@ -2009,9 +2052,11 @@ XLR8ROS/
 │               │   │   ├── ca
 │               │   │   │   ├── 100738dfdcb5f809ad96745546bca055c662b3
 │               │   │   │   ├── 43d34072430223cf44860de5b5a12b7b864224
+│               │   │   │   ├── 4468c00a5c4085728585ee2111537c25d26b99
 │               │   │   │   ├── 50d43f43bd19aa267cf8174c892ea8b200333a
 │               │   │   │   ├── 837b0e6cf8c097bb2c4e6f4222eb6ce615464c
-│               │   │   │   └── 92501a49913c33e2bfce6ad00167e77563d305
+│               │   │   │   ├── 92501a49913c33e2bfce6ad00167e77563d305
+│               │   │   │   └── e1137493ec2476ab43c4095000651d7cdca1a9
 │               │   │   ├── cb
 │               │   │   │   ├── 13261cea2a410a2c95c23467997fbd2f983e55
 │               │   │   │   ├── 17c4e867252e245d85e9ecc1fb7469f138fb22
@@ -2055,6 +2100,7 @@ XLR8ROS/
 │               │   │   │   ├── ec17c7ceb4ec0be91713747af938ac5a21efff
 │               │   │   │   └── f4b7f590bf3731e94d832e5f9a6389a1b49590
 │               │   │   ├── cf
+│               │   │   │   ├── 0a7b2f0da4442d41cf64151edddd03360b00a1
 │               │   │   │   ├── 0b3551b2c8ae70cc4de14ec4a794d9be0df089
 │               │   │   │   └── 1311eea6d2e88aeaf7876cad6f4586d69919df
 │               │   │   ├── d0
@@ -2079,6 +2125,7 @@ XLR8ROS/
 │               │   │   │   ├── 5cafe5ddb189bc17d1b1b06aa039d40af4a2df
 │               │   │   │   ├── 7a64384722ce16426946f92557526d0d84de70
 │               │   │   │   ├── 99f055fba64483cbc2fbdfadf191c8521a15ec
+│               │   │   │   ├── 9b23cc8246e2904198196ebaa50b63a71022a4
 │               │   │   │   ├── b40845535fe76ceba0f1cea28e41d8ae86009d
 │               │   │   │   └── bebfe9acbfa468e398509ffdabd072ea1b311b
 │               │   │   ├── d2
@@ -2170,6 +2217,7 @@ XLR8ROS/
 │               │   │   │   └── e7f19cdb07e3df61b03590eb1ce5ba854b6569
 │               │   │   ├── dc
 │               │   │   │   ├── 0e92d06eb1165905503daf796641cfe3658cca
+│               │   │   │   ├── 0f4e3a3fbf4c8cc7b700781c7309d52c4b937f
 │               │   │   │   ├── 3aad6f8f3fcc3bcc1b988ba0654ecf3ad6ebcc
 │               │   │   │   ├── 421d690d767ebbb295be8e9cdfca3bcb87386d
 │               │   │   │   ├── 4d5cec32c0ea18ae4cba884b8a518568a0839f
@@ -2235,7 +2283,8 @@ XLR8ROS/
 │               │   │   │   ├── d2048c8e4dae5819e3638830b429dd82b18316
 │               │   │   │   ├── d91dda210aaefe11fb9643fcccad8026de2010
 │               │   │   │   ├── e02937f284a3bae59b6128c986a21ffdb8a46c
-│               │   │   │   └── e15678a067f0b96c8feb01b628c65d17f4cd3e
+│               │   │   │   ├── e15678a067f0b96c8feb01b628c65d17f4cd3e
+│               │   │   │   └── e48ce4854e53a21168ff61e3db6f7d84f78693
 │               │   │   ├── e2
 │               │   │   │   ├── 11d12a39f413aaded1b8d1a88c0c4b45bf7389
 │               │   │   │   ├── 31d3d0e44f5357ccfb23615138cb2a18dd958e
@@ -2266,6 +2315,7 @@ XLR8ROS/
 │               │   │   │   ├── 90a5bfe55487c95fbf704ec58ec7768dac3e63
 │               │   │   │   ├── 94188236f0a9c98baf4692ececb79c2bc5ccfa
 │               │   │   │   ├── d351cfc008c605f79c30ecef5acf758e8502d9
+│               │   │   │   ├── d3925af3b1de3827dbc28dcdbc16969fdee208
 │               │   │   │   └── d999176db9c331e0f7b41cf37955c73532d0fb
 │               │   │   ├── e5
 │               │   │   │   ├── 0f1a3210f4e008ab24074d963c4db9715c6e4a
@@ -2320,6 +2370,7 @@ XLR8ROS/
 │               │   │   │   ├── 4e76bba62180df4c3254cca83e3b71322d52cb
 │               │   │   │   ├── 5921bcf5fca8546e954feb6ad0d2a7cae4edf6
 │               │   │   │   ├── 5eeb396118b65cf8e934c5cc9cec9e92465b73
+│               │   │   │   ├── 5f77e42bddff4cfe31be395f22ef9abea58a3c
 │               │   │   │   ├── 68f8cae7d78ad55c96fd54cf07002189744273
 │               │   │   │   ├── 735a62cb5cd2288fcd63029d5974ebfdcc08c7
 │               │   │   │   ├── 81469706bb0e5c85ed65b102d30839781cdc41
@@ -2476,6 +2527,7 @@ XLR8ROS/
 │               │   │   │   ├── 25c6825a5c8931b08fa6a2c6267f425f7f230e
 │               │   │   │   ├── 2a605f601ba8744f6d29ca1484bdccb41ca832
 │               │   │   │   ├── 542615e4f421ea4de0f7589cdf8f1cedef5ca2
+│               │   │   │   ├── 590148ca3837b57111246b75426eba0b291937
 │               │   │   │   └── 8af4804bcb14576bd6f6ae66ff141cf9a36410
 │               │   │   ├── f8
 │               │   │   │   ├── 3f5c52d729a0bdd7bb5871e063a1c6a697004a
@@ -2527,6 +2579,7 @@ XLR8ROS/
 │               │   │   │   ├── 3cef8712bcd0d2ac06adefcfc9eed4dcc821aa
 │               │   │   │   ├── 50b3cad1b843b96f9ba500d9155fd207fff048
 │               │   │   │   ├── 5ef40cf235dc82caad26336ae7514a3be1e6a8
+│               │   │   │   ├── 77b5fcb97c6a815aceca5f6a0c19a6345bb524
 │               │   │   │   ├── 85f4c8ac4b7bc0fc280fe1c4d2bde47881d47a
 │               │   │   │   ├── 9de3cf06dd23c5347b6d7d136b449d7fe0bdc7
 │               │   │   │   ├── e2be147650681d16a84b97a276769d6da35537
@@ -2536,6 +2589,7 @@ XLR8ROS/
 │               │   │   │   ├── 155443dc905e5007b5e5c750c85339084c1922
 │               │   │   │   ├── 22b69433d360943c7cb6650ab4d03ac6d59e19
 │               │   │   │   ├── 2adaaf16b775c79f5b79eb794e51b304ec0aa2
+│               │   │   │   ├── 2b08d5da96164c4d5c31f9377a04f70089b697
 │               │   │   │   ├── 33d4e139795600c2a4a10edbfbf75199905d50
 │               │   │   │   ├── 3cf657c4aaee9c159fc2ffa5a174821185b8c9
 │               │   │   │   ├── 4e69f5c4f83ee7a965a6f5aed3da0d361ffe13
@@ -2551,7 +2605,8 @@ XLR8ROS/
 │               │   │   │   ├── 03ea67579d10c61156c2dbda8b1a0f987393e9
 │               │   │   │   ├── 35a3bf1686d792631ca8c3c0282f3a43310d90
 │               │   │   │   ├── 884c5b8e9dd7b7ba37784258805417cb57973f
-│               │   │   │   └── d2b710be79bc4ec176e9384d35c6862936e0fc
+│               │   │   │   ├── d2b710be79bc4ec176e9384d35c6862936e0fc
+│               │   │   │   └── d547496c5b6666059f5708eabd0587f4ba2526
 │               │   │   └── pack
 │               │   │       ├── pack-c5a4a90628b26584a53cff66636df8b189876ad1.idx
 │               │   │       ├── pack-c5a4a90628b26584a53cff66636df8b189876ad1.pack
@@ -2719,7 +2774,501 @@ XLR8ROS/
 │               │   │   ├── 2026-05-20
 │               │   │   │   ├── codicore-stale-stage-2026-05-20.tar.gz
 │               │   │   │   └── manifest.json
-│               │   │   └── 2026-05-17-stale-files.tar.gz
+│               │   │   ├── 2026-05-21
+│               │   │   │   ├── files
+│               │   │   │   │   ├── Outputs
+│               │   │   │   │   │   ├── cleanup-staging
+│               │   │   │   │   │   │   ├── 2026-05-17
+│               │   │   │   │   │   │   │   ├── files
+│               │   │   │   │   │   │   │   │   ├── .clawhub
+│               │   │   │   │   │   │   │   │   │   └── lock.json
+│               │   │   │   │   │   │   │   │   ├── .dreams
+│               │   │   │   │   │   │   │   │   │   └── short-term-recall.json
+│               │   │   │   │   │   │   │   │   ├── .openclaw
+│               │   │   │   │   │   │   │   │   │   └── workspace-state.json
+│               │   │   │   │   │   │   │   │   ├── Distilled_Lessons
+│               │   │   │   │   │   │   │   │   │   ├── 2026-03-31.md
+│               │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│               │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│               │   │   │   │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│               │   │   │   │   │   │   │   │   ├── event-log
+│               │   │   │   │   │   │   │   │   │   └── minor-action-fallback.md
+│               │   │   │   │   │   │   │   │   ├── memory
+│               │   │   │   │   │   │   │   │   │   └── migration-backups
+│               │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│               │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│               │   │   │   │   │   │   │   │   │           └── 2026-05-14-0305.md
+│               │   │   │   │   │   │   │   │   └── skills
+│               │   │   │   │   │   │   │   │       └── sqlite
+│               │   │   │   │   │   │   │   │           ├── .clawhub
+│               │   │   │   │   │   │   │   │           │   └── origin.json
+│               │   │   │   │   │   │   │   │           └── _meta.json
+│               │   │   │   │   │   │   │   └── manifest.json
+│               │   │   │   │   │   │   ├── 2026-05-18
+│               │   │   │   │   │   │   │   └── bundle
+│               │   │   │   │   │   │   │       └── memory
+│               │   │   │   │   │   │   │           └── migration-backups
+│               │   │   │   │   │   │   │               └── 20260516-daily-note-normalization
+│               │   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│               │   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│               │   │   │   │   │   │   │                   └── 2026-05-15-0107.md
+│               │   │   │   │   │   │   └── 2026-05-17-stale-files.tar.gz
+│               │   │   │   │   │   ├── moltbook
+│               │   │   │   │   │   │   ├── .code1
+│               │   │   │   │   │   │   ├── .code2
+│               │   │   │   │   │   │   ├── .code3
+│               │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-110138-edt-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-130113-edt-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-163053-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-163053-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-163053-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-222935-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│               │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│               │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│               │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-16_083108_dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
+│               │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-000416-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-103128-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-110202-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-113231-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│               │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-130000-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-230101-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│               │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│               │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│               │   │   │   │   │   │   ├── 2026-05-17-curiosity-pulse.md
+│               │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-18-020140-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0230-edt-summary.json
+│               │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.json
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.headers.txt
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.json
+│               │   │   │   │   │   │   ├── 2026-05-18-040113-edt-summary.json
+│               │   │   │   │   │   │   └── 2026-05-18-moltbook-curiosity-pulse.md
+│               │   │   │   │   │   └── promotion-logs
+│               │   │   │   │   │       ├── 2026-05-16-durable-memory-promotion-log.md
+│               │   │   │   │   │       ├── 2026-05-17-durable-memory-promotion-log.md
+│               │   │   │   │   │       └── 2026-05-18-durable-memory-promotion-log.md
+│               │   │   │   │   ├── skills
+│               │   │   │   │   │   └── sqlite
+│               │   │   │   │   │       └── .clawhub
+│               │   │   │   │   │           └── origin.json
+│               │   │   │   │   └── archives.zip
+│               │   │   │   └── manifest.json
+│               │   │   ├── 2026-05-17-stale-files.tar.gz
+│               │   │   └── 2026-05-21-cleanup-staging.tar.gz
 │               │   ├── moltbook
 │               │   │   ├── 2026-05-18
 │               │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
@@ -3142,6 +3691,60 @@ XLR8ROS/
 │               │   │   │   ├── home.json
 │               │   │   │   ├── home.status.txt
 │               │   │   │   ├── notifications.headers.txt
+│               │   │   │   ├── notifications.json
+│               │   │   │   └── notifications.status.txt
+│               │   │   ├── 2026-05-21-0330-edt-reply-watcher-run
+│               │   │   │   ├── agents-dm-requests.headers.txt
+│               │   │   │   ├── agents-dm-requests.json
+│               │   │   │   ├── agents-dm-requests.status.txt
+│               │   │   │   ├── home.headers.txt
+│               │   │   │   ├── home.json
+│               │   │   │   ├── home.status.txt
+│               │   │   │   ├── notifications.headers.txt
+│               │   │   │   ├── notifications.json
+│               │   │   │   └── notifications.status.txt
+│               │   │   ├── 2026-05-21-0400-edt-reply-watcher-run
+│               │   │   │   ├── agents-dm-requests.headers.txt
+│               │   │   │   ├── agents-dm-requests.json
+│               │   │   │   ├── home.headers.txt
+│               │   │   │   ├── home.json
+│               │   │   │   ├── notifications.headers.txt
+│               │   │   │   └── notifications.json
+│               │   │   ├── 2026-05-21-0430-edt-reply-watcher-run
+│               │   │   │   ├── agents-dm-requests.headers.txt
+│               │   │   │   ├── agents-dm-requests.json
+│               │   │   │   ├── agents-dm-requests.status.txt
+│               │   │   │   ├── home.headers.txt
+│               │   │   │   ├── home.json
+│               │   │   │   ├── home.status.txt
+│               │   │   │   ├── notifications.headers.txt
+│               │   │   │   ├── notifications.json
+│               │   │   │   └── notifications.status.txt
+│               │   │   ├── 2026-05-21-0500-edt-reply-watcher-run
+│               │   │   │   ├── agents-dm-requests.headers.txt
+│               │   │   │   ├── agents-dm-requests.json
+│               │   │   │   ├── agents-dm-requests.status.txt
+│               │   │   │   ├── home.headers.txt
+│               │   │   │   ├── home.json
+│               │   │   │   ├── home.status.txt
+│               │   │   │   ├── notifications.headers.txt
+│               │   │   │   ├── notifications.json
+│               │   │   │   └── notifications.status.txt
+│               │   │   ├── 2026-05-21-0531-edt-reply-watcher-run
+│               │   │   │   ├── api-v1-agents-dm-requests.headers.txt
+│               │   │   │   ├── api-v1-agents-dm-requests.json
+│               │   │   │   ├── api-v1-agents-dm-requests.status.txt
+│               │   │   │   ├── api-v1-home.headers.txt
+│               │   │   │   ├── api-v1-home.json
+│               │   │   │   ├── api-v1-home.status.txt
+│               │   │   │   ├── api-v1-notifications.headers.txt
+│               │   │   │   ├── api-v1-notifications.json
+│               │   │   │   └── api-v1-notifications.status.txt
+│               │   │   ├── 2026-05-21-0600-edt-reply-watcher-run
+│               │   │   │   ├── agents-dm-requests.json
+│               │   │   │   ├── agents-dm-requests.status.txt
+│               │   │   │   ├── home.json
+│               │   │   │   ├── home.status.txt
 │               │   │   │   ├── notifications.json
 │               │   │   │   └── notifications.status.txt
 │               │   │   ├── .code1
@@ -4171,7 +4774,14 @@ XLR8ROS/
 │               │   │   ├── 2026-05-21-0200-edt-codi-moltbook-reply-watcher.md
 │               │   │   ├── 2026-05-21-023055-edt-codi-moltbook-reply-watcher.md
 │               │   │   ├── 2026-05-21-0300-edt-codi-moltbook-reply-watcher.md
-│               │   │   └── 2026-05-21-codi-moltbook-curiosity-pulse.md
+│               │   │   ├── 2026-05-21-0330-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-0400-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-0430-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-0500-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-0531-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-0600-edt-codi-moltbook-reply-watcher.md
+│               │   │   ├── 2026-05-21-codi-moltbook-curiosity-pulse.md
+│               │   │   └── 2026-05-21-moltbook-curiosity-pulse.md
 │               │   ├── promotion-logs
 │               │   │   ├── 2026-05-16-durable-memory-promotion-log.md
 │               │   │   ├── 2026-05-17-durable-memory-promotion-log.md
@@ -4565,6 +5175,7 @@ XLR8ROS/
 │   │       │   │   │   ├── 6d881db29e99a2ad024728b9576c43152f4599
 │   │       │   │   │   ├── 96bb316a60c9754b9bca89b1b0a1fad516774d
 │   │       │   │   │   ├── c15d750703ab434b686ae5dd12980397b8064d
+│   │       │   │   │   ├── e42496ec710f04b8a023b7bc084a0d7a1b2e90
 │   │       │   │   │   └── f14b006fb1653dc3706082958e622ea32ccdcc
 │   │       │   │   ├── 40
 │   │       │   │   │   ├── 765ac0a3a9b5d809d0013dc83baca70243502c
@@ -4612,6 +5223,7 @@ XLR8ROS/
 │   │       │   │   │   └── e70bf2a6413699768a9c517b4c4b16a086b6e4
 │   │       │   │   ├── 49
 │   │       │   │   │   ├── 03b7b31a5348c9e6a671873bf3a651e7b92b58
+│   │       │   │   │   ├── 14dbe0afd5dcfc540ce244d39dcd92c0404ceb
 │   │       │   │   │   ├── 165af71887b33bcdb45bdc5f6755ff7b033c90
 │   │       │   │   │   ├── 16db64a7bff09b7cb8173da3844f6e5001a016
 │   │       │   │   │   ├── 319b7fe37f14de7996c9ed58641e4f0ec2f9fb
@@ -4727,6 +5339,8 @@ XLR8ROS/
 │   │       │   │   │   ├── ac1776e966374ec78a1536142fda4f86155d59
 │   │       │   │   │   ├── c76bceaec96fd46ea7d3a4777c8ad5303ca280
 │   │       │   │   │   └── c9cf31fb3e00e66daa6baf7fc73bfe0e25d859
+│   │       │   │   ├── 62
+│   │       │   │   │   └── 256a4e4b75dc3f2fc04a1af1483dd801c4a4d4
 │   │       │   │   ├── 63
 │   │       │   │   │   ├── 0a4de6e9dc78952467407b4322ea1f748bd734
 │   │       │   │   │   ├── 246a911d2dbb01f3699734a6fd288518eced2d
@@ -4968,6 +5582,7 @@ XLR8ROS/
 │   │       │   │   │   └── f692c7ba1d7509c9058d01f15d20ca85af5b9e
 │   │       │   │   ├── 9b
 │   │       │   │   │   ├── 166a95536855a848638d793aa78b6225850cf7
+│   │       │   │   │   ├── 2ee32a1bca83e58d696a37b0fe250c19510762
 │   │       │   │   │   └── 694e06c2d3bca7ad6d2b8c5563748202bbf70e
 │   │       │   │   ├── 9c
 │   │       │   │   │   └── afd6c523b255c93f38ee875202753cc1d85382
@@ -5072,6 +5687,7 @@ XLR8ROS/
 │   │       │   │   │   ├── 636cb18d6626a78337d7f2283de39f775667e0
 │   │       │   │   │   ├── 7a3b7c6d326dddb764f9e5ba5c0c0659aa7c40
 │   │       │   │   │   ├── 8b0f8ce47ccac9bdff3ff60c236e682acf8a08
+│   │       │   │   │   ├── a0a3f0d9271dd57498d6c1d20ec918dcadcc59
 │   │       │   │   │   └── d9de2ef8e0dd1f64ad5f02ac4fbda26d54a726
 │   │       │   │   ├── b1
 │   │       │   │   │   ├── 0b1e345c3874e9a2bbf3ed6d27f27b68cfb7e4
@@ -5954,7 +6570,8 @@ XLR8ROS/
 │       │   │   │   └── a61bc27196297789c077e96d7ca7e4ddb34c7b
 │       │   │   ├── 3f
 │       │   │   │   ├── 5ca10219b694bd3ad18dc3ac5941938256fb07
-│       │   │   │   └── 96bb316a60c9754b9bca89b1b0a1fad516774d
+│       │   │   │   ├── 96bb316a60c9754b9bca89b1b0a1fad516774d
+│       │   │   │   └── e42496ec710f04b8a023b7bc084a0d7a1b2e90
 │       │   │   ├── 40
 │       │   │   │   └── d1241be9aa3a38d30ea61d1efcc9bf93fdd79a
 │       │   │   ├── 41
@@ -6109,6 +6726,7 @@ XLR8ROS/
 │       │   │   ├── 89
 │       │   │   │   ├── 41818bf4d9bce8dfa03f26b85305bb8cc2f6fe
 │       │   │   │   ├── 9bb01ccecbee1db2aab73a201b01a28fc40d5f
+│       │   │   │   ├── b0969f21cef5eec308d45a1cb7f59843bf23ef
 │       │   │   │   └── c7b3817bf550e0005b125dcc8c939552bcc796
 │       │   │   ├── 8a
 │       │   │   │   └── ce6d8fc50707cb84174feaebbad25511c45d8c
@@ -6199,6 +6817,7 @@ XLR8ROS/
 │       │   │   │   └── 60c77267cfa665457e7ff6d132a6a50de0f6ad
 │       │   │   ├── b0
 │       │   │   │   ├── 35a7d47058b74fc7c9b12feb8f2b5a071557b5
+│       │   │   │   ├── a0a3f0d9271dd57498d6c1d20ec918dcadcc59
 │       │   │   │   └── d08a900f96ce84f6edf5588f61886809a40dc9
 │       │   │   ├── b1
 │       │   │   │   ├── 0b1e345c3874e9a2bbf3ed6d27f27b68cfb7e4
@@ -6237,7 +6856,8 @@ XLR8ROS/
 │       │   │   ├── c3
 │       │   │   │   ├── 0b74d6e1f2c25ee96fda71f553a97a64eecb87
 │       │   │   │   ├── 104f94dee8dd238a9aad8ad4b6a1cee6571180
-│       │   │   │   └── e0892af400182210dd9a2cc4f26cfd6bf7ee57
+│       │   │   │   ├── e0892af400182210dd9a2cc4f26cfd6bf7ee57
+│       │   │   │   └── f6a8d03ef6b9294e7e7a871605dbf55f4c2699
 │       │   │   ├── c5
 │       │   │   │   └── 75a5c3b97881edc4c6650538a4a8fc32dc56f9
 │       │   │   ├── c6
