@@ -227,3 +227,11 @@ pnpm-debug.log*
 *.swp
 *.swo
 *~
+# Repo junk / local machine residue
+latest-summary.*
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+
