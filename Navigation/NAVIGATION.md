@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-22T12:04:25
+Generated: 2026-05-22T15:04:25
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -1486,6 +1486,62 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   ├── 2026-05-22-123000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   ├── 2026-05-22-130054-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── agents-dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── notifications.status.txt
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-1330-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   ├── 2026-05-22-1400-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   ├── 2026-05-22-143054-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-1500-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── .code1
 │   │   │   │   │   │   ├── .code2
 │   │   │   │   │   │   ├── .code3
@@ -2612,6 +2668,13 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-22-1130-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-120000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-1201-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   ├── 2026-05-22-123000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-130054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-1330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-140000-edt-reply-watcher-run.json
+│   │   │   │   │   │   ├── 2026-05-22-143054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-1500-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-weekly-review.md
 │   │   │   │   │   │   └── 2026-05-22-curiosity-pulse.md
 │   │   │   │   │   ├── promotion-logs/
@@ -2652,7 +2715,8 @@ XLR8ROS/
 │   │   │   │   │       │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-22-060153-edt-reply-watcher-summary.json
-│   │   │   │   │       │   └── 2026-05-22-080137-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-22-080137-edt-reply-watcher-summary.json
+│   │   │   │   │       │   └── 2026-05-22-123000-edt-reply-watcher-summary.json
 │   │   │   │   │       ├── config.json
 │   │   │   │   │       └── dm_attention_state.json
 │   │   │   │   ├── tasks/
@@ -2676,7 +2740,6 @@ XLR8ROS/
 │   │   │   │   │   ├── xos_event_writer.py
 │   │   │   │   │   ├── xos_refresh_navigation_map.sh
 │   │   │   │   │   └── xos_refresh_navigation_tree.sh
-│   │   │   │   ├── .DS_Store
 │   │   │   │   ├── .gitignore
 │   │   │   │   ├── AGENTS.md
 │   │   │   │   ├── archives.zip
@@ -2700,6 +2763,8 @@ XLR8ROS/
 │       ├── HQ_SEAD_XLR8ROS_SEAD_XOS_SEAD_Chief_Executive_Suite_Navigation_NAVIGATION.md
 │       └── HQ_XLR8ROS-HQ_Navigation_NAVIGATION.md
 ├── HQ/
+│   ├── HOW-2-HUB/
+│   │   └── README.md
 │   ├── SEAD/
 │   │   ├── XLR8ROS_SEAD/
 │   │   │   ├── archives/
