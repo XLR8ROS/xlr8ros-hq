@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-22T07:56:50
+Generated: 2026-05-22T09:05:04
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -102,6 +102,7 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-20-0445.md
 │   │   │   │   │   ├── 2026-05-20.md
 │   │   │   │   │   ├── 2026-05-21.md
+│   │   │   │   │   ├── 2026-05-22-0808.md
 │   │   │   │   │   └── 2026-05-22.md
 │   │   │   │   ├── Navigation/
 │   │   │   │   │   └── NAVIGATION.md
@@ -139,30 +140,22 @@ XLR8ROS/
 │   │   │   │   │   │   │   │           └── _meta.json
 │   │   │   │   │   │   │   └── manifest.json
 │   │   │   │   │   │   ├── 2026-05-18/
-│   │   │   │   │   │   │   ├── bundle/
-│   │   │   │   │   │   │   │   └── memory/
-│   │   │   │   │   │   │   │       └── migration-backups/
-│   │   │   │   │   │   │   │           └── 20260516-daily-note-normalization/
-│   │   │   │   │   │   │   │               ├── 2026-05-05-request-timed-out-before-a-res.md
-│   │   │   │   │   │   │   │               ├── 2026-05-07-closed-book.md
-│   │   │   │   │   │   │   │               ├── 2026-05-08-trust-breach.md
-│   │   │   │   │   │   │   │               ├── 2026-05-10-0851.md
-│   │   │   │   │   │   │   │               ├── 2026-05-10-greeting.md
-│   │   │   │   │   │   │   │               ├── 2026-05-11-1441.md
-│   │   │   │   │   │   │   │               ├── 2026-05-14 copy.md
-│   │   │   │   │   │   │   │               ├── 2026-05-14-0305.md
-│   │   │   │   │   │   │   │               ├── 2026-05-14-1528.md
-│   │   │   │   │   │   │   │               ├── 2026-05-14-1751.md
-│   │   │   │   │   │   │   │               ├── 2026-05-14-1957.md
-│   │   │   │   │   │   │   │               └── 2026-05-15-0107.md
-│   │   │   │   │   │   │   ├── cleanup-staging-2026-05-18.zip
-│   │   │   │   │   │   │   └── manifest.json
-│   │   │   │   │   │   ├── 2026-05-19/
-│   │   │   │   │   │   │   ├── manifest.json
-│   │   │   │   │   │   │   └── stale-files-bundle.tar.gz
-│   │   │   │   │   │   ├── 2026-05-20/
-│   │   │   │   │   │   │   ├── codicore-stale-stage-2026-05-20.tar.gz
-│   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │       └── memory/
+│   │   │   │   │   │   │           └── migration-backups/
+│   │   │   │   │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │                   └── 2026-05-15-0107.md
 │   │   │   │   │   │   ├── 2026-05-21/
 │   │   │   │   │   │   │   ├── files/
 │   │   │   │   │   │   │   │   ├── Outputs/
@@ -655,9 +648,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │       └── .clawhub/
 │   │   │   │   │   │   │   │   │           └── origin.json
 │   │   │   │   │   │   │   │   └── archives.zip
-│   │   │   │   │   │   │   └── manifest.json
-│   │   │   │   │   │   ├── 2026-05-22/
-│   │   │   │   │   │   │   ├── codicore-stale-staging-2026-05-22.tar.gz
 │   │   │   │   │   │   │   └── manifest.json
 │   │   │   │   │   │   ├── 2026-05-17-stale-files.tar.gz
 │   │   │   │   │   │   └── 2026-05-21-cleanup-staging.tar.gz
@@ -1467,6 +1457,21 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   ├── notifications.status.txt
 │   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-0830-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── agents-dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── notifications.status.txt
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-090053-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── .code1
 │   │   │   │   │   │   ├── .code2
 │   │   │   │   │   │   ├── .code3
@@ -2580,6 +2585,14 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-22-060153-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-063115-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-073225-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-080137-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-080137-edt-dm-requests.json
+│   │   │   │   │   │   ├── 2026-05-22-080137-edt-home.json
+│   │   │   │   │   │   ├── 2026-05-22-080137-edt-notifications.json
+│   │   │   │   │   │   ├── 2026-05-22-0830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-090053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-090053-edt-summary.json
+│   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-weekly-review.md
 │   │   │   │   │   │   └── 2026-05-22-curiosity-pulse.md
 │   │   │   │   │   ├── promotion-logs/
 │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
@@ -2599,25 +2612,31 @@ XLR8ROS/
 │   │   │   │   ├── state/
 │   │   │   │   │   ├── bootstrap_import/
 │   │   │   │   │   │   └── BOOTSTRAP.md
-│   │   │   │   │   └── moltbook/
-│   │   │   │   │       ├── runtime/
-│   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── dm-requests.headers.txt
-│   │   │   │   │       │   │   ├── dm-requests.json
-│   │   │   │   │       │   │   ├── dm-requests.status.txt
-│   │   │   │   │       │   │   ├── home.headers.txt
-│   │   │   │   │       │   │   ├── home.json
-│   │   │   │   │       │   │   ├── home.status.txt
-│   │   │   │   │       │   │   ├── notifications.headers.txt
-│   │   │   │   │       │   │   ├── notifications.json
-│   │   │   │   │       │   │   └── notifications.status.txt
-│   │   │   │   │       │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
-│   │   │   │   │       │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
-│   │   │   │   │       │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
-│   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
-│   │   │   │   │       │   └── 2026-05-22-060153-edt-reply-watcher-summary.json
-│   │   │   │   │       ├── config.json
-│   │   │   │   │       └── dm_attention_state.json
+│   │   │   │   │   ├── moltbook/
+│   │   │   │   │   │   ├── runtime/
+│   │   │   │   │   │   │   ├── 2026-05-21-1600-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   │   ├── 2026-05-22-080137-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
+│   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
+│   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
+│   │   │   │   │   │   │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
+│   │   │   │   │   │   │   ├── 2026-05-22-060153-edt-reply-watcher-summary.json
+│   │   │   │   │   │   │   └── 2026-05-22-080137-edt-reply-watcher-summary.json
+│   │   │   │   │   │   ├── config.json
+│   │   │   │   │   │   └── dm_attention_state.json
+│   │   │   │   │   └── .DS_Store
 │   │   │   │   ├── tasks/
 │   │   │   │   │   └── control-plane-backlog.md
 │   │   │   │   ├── tools/
@@ -2712,6 +2731,20 @@ XLR8ROS/
 │   │   │   │   │       ├── 2026-05-16/
 │   │   │   │   │       │   ├── codi-stale-stage-2026-05-16.zip
 │   │   │   │   │       │   └── manifest.json
+│   │   │   │   │       ├── weekly-transfers/
+│   │   │   │   │       │   ├── 2026-05-18/
+│   │   │   │   │       │   │   ├── cleanup-staging-2026-05-18.zip
+│   │   │   │   │       │   │   └── manifest.json
+│   │   │   │   │       │   ├── 2026-05-19/
+│   │   │   │   │       │   │   ├── manifest.json
+│   │   │   │   │       │   │   └── stale-files-bundle.tar.gz
+│   │   │   │   │       │   ├── 2026-05-20/
+│   │   │   │   │       │   │   ├── codicore-stale-stage-2026-05-20.tar.gz
+│   │   │   │   │       │   │   └── manifest.json
+│   │   │   │   │       │   ├── 2026-05-22/
+│   │   │   │   │       │   │   ├── codicore-stale-staging-2026-05-22.tar.gz
+│   │   │   │   │       │   │   └── manifest.json
+│   │   │   │   │       │   └── weekly-archive-manifest-2026-W21.json
 │   │   │   │   │       └── weekly-archive-manifest-2026-W20.json
 │   │   │   │   ├── HOW-TO 4 XOS SEAD CHIEF EXECUTIVE SUITE/
 │   │   │   │   │   ├── CHIEF_OF_SEAD_BLOCKER_HANDLING_HOWTO.md
