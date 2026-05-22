@@ -1,0 +1,23 @@
+# Pull Errors
+
+- Responses API — https://developers.openai.com/api/docs/guides/responses — HTTPError: HTTP Error 404: Not Found
+- Agents SDK Overview — https://developers.openai.com/api/docs/agents — HTTPError: HTTP Error 404: Not Found
+- Agents SDK Quickstart — https://developers.openai.com/api/docs/agents/quickstart — HTTPError: HTTP Error 404: Not Found
+- Agent Definitions — https://developers.openai.com/api/docs/agents/agent-definitions — HTTPError: HTTP Error 404: Not Found
+- Running Agents — https://developers.openai.com/api/docs/agents/running-agents — HTTPError: HTTP Error 404: Not Found
+- Orchestration — https://developers.openai.com/api/docs/agents/orchestration — HTTPError: HTTP Error 404: Not Found
+- Guardrails — https://developers.openai.com/api/docs/agents/guardrails — HTTPError: HTTP Error 404: Not Found
+- Results and State — https://developers.openai.com/api/docs/agents/results — HTTPError: HTTP Error 404: Not Found
+- Evaluate Agent Workflows — https://developers.openai.com/api/docs/agents/evals — HTTPError: HTTP Error 404: Not Found
+- Speech Generation — https://developers.openai.com/api/docs/guides/speech-generation — HTTPError: HTTP Error 404: Not Found
+- Streaming — https://developers.openai.com/api/docs/guides/streaming — HTTPError: HTTP Error 404: Not Found
+- Deployment Checklist — https://developers.openai.com/api/docs/guides/production-deployment — HTTPError: HTTP Error 404: Not Found
+- Permissions — https://developers.openai.com/api/docs/guides/permissions — HTTPError: HTTP Error 404: Not Found
+- MCP Apps in ChatGPT — https://developers.openai.com/apps-sdk/concepts/mcp-apps — HTTPError: HTTP Error 404: Not Found
+- Apps SDK Troubleshooting — https://developers.openai.com/apps-sdk/guides/troubleshooting — HTTPError: HTTP Error 404: Not Found
+- Codex Overview — https://developers.openai.com/codex/docs — HTTPError: HTTP Error 404: Not Found
+- Codex CLI Overview — https://developers.openai.com/codex/docs/cli — HTTPError: HTTP Error 404: Not Found
+- Codex AGENTS.md — https://developers.openai.com/codex/docs/agents-md — HTTPError: HTTP Error 404: Not Found
+- Codex MCP — https://developers.openai.com/codex/docs/mcp — HTTPError: HTTP Error 404: Not Found
+- Codex GitHub Integration — https://developers.openai.com/codex/docs/github — HTTPError: HTTP Error 404: Not Found
+- Codex Automations — https://developers.openai.com/codex/docs/automations — HTTPError: HTTP Error 404: Not Found
