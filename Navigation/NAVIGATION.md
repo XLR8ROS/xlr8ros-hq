@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-22T09:05:04
+Generated: 2026-05-22T12:04:25
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -1348,7 +1348,8 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-notifications.headers.txt
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-notifications.json
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-summary.json
-│   │   │   │   │   │   │   └── codi-moltbook-reply-watcher-070300-EDT.md
+│   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT.md
+│   │   │   │   │   │   │   └── dm-reply-watcher-110000-EDT.md
 │   │   │   │   │   │   ├── 2026-05-22-000056-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
 │   │   │   │   │   │   │   ├── agents-dm-requests.json
@@ -1469,6 +1470,19 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── notifications.status.txt
 │   │   │   │   │   │   │   └── summary.json
 │   │   │   │   │   │   ├── 2026-05-22-090053-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   ├── 2026-05-22-093035-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   ├── 2026-05-22-100041-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-120000-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
@@ -2592,6 +2606,12 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-22-0830-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-090053-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-090053-edt-summary.json
+│   │   │   │   │   │   ├── 2026-05-22-093035-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-093035-edt-reply-watcher-run.json
+│   │   │   │   │   │   ├── 2026-05-22-100041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-1130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-120000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-1201-edt-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-weekly-review.md
 │   │   │   │   │   │   └── 2026-05-22-curiosity-pulse.md
 │   │   │   │   │   ├── promotion-logs/
@@ -2602,7 +2622,6 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   ├── skills/
 │   │   │   │   │   └── sqlite/
@@ -2612,31 +2631,30 @@ XLR8ROS/
 │   │   │   │   ├── state/
 │   │   │   │   │   ├── bootstrap_import/
 │   │   │   │   │   │   └── BOOTSTRAP.md
-│   │   │   │   │   ├── moltbook/
-│   │   │   │   │   │   ├── runtime/
-│   │   │   │   │   │   │   ├── 2026-05-21-1600-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   ├── dm-requests.headers.txt
-│   │   │   │   │   │   │   │   ├── dm-requests.json
-│   │   │   │   │   │   │   │   ├── dm-requests.status.txt
-│   │   │   │   │   │   │   │   ├── home.headers.txt
-│   │   │   │   │   │   │   │   ├── home.json
-│   │   │   │   │   │   │   │   ├── home.status.txt
-│   │   │   │   │   │   │   │   ├── notifications.headers.txt
-│   │   │   │   │   │   │   │   ├── notifications.json
-│   │   │   │   │   │   │   │   └── notifications.status.txt
-│   │   │   │   │   │   │   ├── 2026-05-22-080137-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   ├── dm-requests.json
-│   │   │   │   │   │   │   │   ├── home.json
-│   │   │   │   │   │   │   │   └── notifications.json
-│   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
-│   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
-│   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
-│   │   │   │   │   │   │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
-│   │   │   │   │   │   │   ├── 2026-05-22-060153-edt-reply-watcher-summary.json
-│   │   │   │   │   │   │   └── 2026-05-22-080137-edt-reply-watcher-summary.json
-│   │   │   │   │   │   ├── config.json
-│   │   │   │   │   │   └── dm_attention_state.json
-│   │   │   │   │   └── .DS_Store
+│   │   │   │   │   └── moltbook/
+│   │   │   │   │       ├── runtime/
+│   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-run/
+│   │   │   │   │       │   │   ├── dm-requests.headers.txt
+│   │   │   │   │       │   │   ├── dm-requests.json
+│   │   │   │   │       │   │   ├── dm-requests.status.txt
+│   │   │   │   │       │   │   ├── home.headers.txt
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── home.status.txt
+│   │   │   │   │       │   │   ├── notifications.headers.txt
+│   │   │   │   │       │   │   ├── notifications.json
+│   │   │   │   │       │   │   └── notifications.status.txt
+│   │   │   │   │       │   ├── 2026-05-22-080137-edt-reply-watcher-run/
+│   │   │   │   │       │   │   ├── dm-requests.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   └── notifications.json
+│   │   │   │   │       │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-22-060153-edt-reply-watcher-summary.json
+│   │   │   │   │       │   └── 2026-05-22-080137-edt-reply-watcher-summary.json
+│   │   │   │   │       ├── config.json
+│   │   │   │   │       └── dm_attention_state.json
 │   │   │   │   ├── tasks/
 │   │   │   │   │   └── control-plane-backlog.md
 │   │   │   │   ├── tools/
@@ -3135,7 +3153,6 @@ XLR8ROS/
 │   │   │   │   ├── XOS-HQ-HOWTO-GITHUB-ACCESS.md
 │   │   │   │   ├── XOS_Memory_Flow_HOWTO.md
 │   │   │   │   └── XOS_Repo_Hygiene_HOWTO.md
-│   │   │   ├── .DS_Store
 │   │   │   └── README.md
 │   │   ├── Navigation/
 │   │   │   └── NAVIGATION.md
@@ -3153,7 +3170,6 @@ XLR8ROS/
 │   │   │   ├── XOS-HQ-HOWTO-GITHUB-ACCESS.md
 │   │   │   ├── XOS-HQ-HOWTO-MEMORY-SYSTEM-OPERATION.md
 │   │   │   └── XOS_Memory_Flow_HOWTO.md
-│   │   ├── .DS_Store
 │   │   ├── .gitignore
 │   │   ├── Company SOP 4 XOS-HQ.md
 │   │   ├── Constitution.md
