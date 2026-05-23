@@ -191,6 +191,13 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+# Repo hygiene junk
+.DS_Store
+**/.openclaw/
+**/.dreams/
+latest-summary*
+*.status.txt
+
 # PyPI configuration file
 .pypirc
 
