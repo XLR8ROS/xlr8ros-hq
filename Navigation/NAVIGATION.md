@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-22T21:04:25
+Generated: 2026-05-23T03:53:28
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -99,7 +99,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-20.md
 │   │   │   │   │   ├── 2026-05-21.md
 │   │   │   │   │   ├── 2026-05-22-0808.md
-│   │   │   │   │   └── 2026-05-22.md
+│   │   │   │   │   ├── 2026-05-22.md
+│   │   │   │   │   └── 2026-05-23.md
 │   │   │   │   ├── Navigation/
 │   │   │   │   │   └── NAVIGATION.md
 │   │   │   │   ├── Outputs/
@@ -1298,6 +1299,13 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   └── notifications.status.txt
 │   │   │   │   │   │   ├── 2026-05-22/
+│   │   │   │   │   │   │   ├── 220042-EDT-agents-dm-requests.json
+│   │   │   │   │   │   │   ├── 220042-EDT-agents-dm-requests.status.txt
+│   │   │   │   │   │   │   ├── 220042-EDT-home.json
+│   │   │   │   │   │   │   ├── 220042-EDT-home.status.txt
+│   │   │   │   │   │   │   ├── 220042-EDT-notifications.json
+│   │   │   │   │   │   │   ├── 220042-EDT-notifications.status.txt
+│   │   │   │   │   │   │   ├── 220105-EDT-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-dm_requests.headers.txt
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-dm_requests.json
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-home.headers.txt
@@ -1306,6 +1314,7 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-notifications.json
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT-summary.json
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-070300-EDT.md
+│   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-213151-EDT.md
 │   │   │   │   │   │   │   └── dm-reply-watcher-110000-EDT.md
 │   │   │   │   │   │   ├── 2026-05-22-000056-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
@@ -1531,7 +1540,37 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── home.headers.txt
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   ├── 2026-05-22-223000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
 │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   ├── 2026-05-22-230000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── notifications.status.txt
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-22-233000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-23-000121-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── agents-dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── notifications.status.txt
 │   │   │   │   │   │   │   └── summary.json
 │   │   │   │   │   │   ├── .code1
 │   │   │   │   │   │   ├── .code2
@@ -2676,11 +2715,16 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-22-190035-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-1930-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-200000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-223000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-22-2330-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-daily-report.md
 │   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-daily-review.md
 │   │   │   │   │   │   ├── 2026-05-22-codi-moltbook-weekly-review.md
 │   │   │   │   │   │   ├── 2026-05-22-curiosity-pulse.md
-│   │   │   │   │   │   └── 2026-05-23-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-23-000121-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-23-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   └── 2026-05-23-curiosity-pulse.md
 │   │   │   │   │   ├── promotion-logs/
 │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
@@ -2689,7 +2733,6 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   ├── skills/
 │   │   │   │   │   └── sqlite/
@@ -2713,13 +2756,19 @@ XLR8ROS/
 │   │   │   │   │       │   │   └── notifications.status.txt
 │   │   │   │   │       │   ├── 2026-05-22-080137-edt-reply-watcher-run/
 │   │   │   │   │       │   │   └── dm-requests.json
+│   │   │   │   │       │   ├── 2026-05-22-213151-edt-reply-watcher-run/
+│   │   │   │   │       │   │   ├── dm-requests.headers.txt
+│   │   │   │   │       │   │   ├── dm-requests.json
+│   │   │   │   │       │   │   ├── home.headers.txt
+│   │   │   │   │       │   │   └── notifications.headers.txt
 │   │   │   │   │       │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-22-060153-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-22-080137-edt-reply-watcher-summary.json
-│   │   │   │   │       │   └── 2026-05-22-123000-edt-reply-watcher-summary.json
+│   │   │   │   │       │   ├── 2026-05-22-123000-edt-reply-watcher-summary.json
+│   │   │   │   │       │   └── 2026-05-22-223000-edt-reply-watcher-summary.json
 │   │   │   │   │       ├── config.json
 │   │   │   │   │       └── dm_attention_state.json
 │   │   │   │   ├── tasks/
@@ -2768,6 +2817,143 @@ XLR8ROS/
 │       └── HQ_XLR8ROS-HQ_Navigation_NAVIGATION.md
 ├── HQ/
 │   ├── HOW-2-HUB/
+│   │   ├── GOOGLE_WORKSPACE_HOWTO_HUB/
+│   │   │   ├── docs/
+│   │   │   │   ├── 00_overview/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_guides_configure-mcp-servers.md
+│   │   │   │   │   │   └── https_github.com_google_mcp.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 01_gmail/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_guides_configure-mcp-server.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_create_draft.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_create_label.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_get_thread.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_label_message.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_label_thread.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_list_drafts.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_list_labels.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_search_threads.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_unlabel_message.md
+│   │   │   │   │   │   └── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_unlabel_thread.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 02_drive/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_guides_configure-mcp-server.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_create_file.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_download_file_content.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_get_file_metadata.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_get_file_permissions.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_list_recent_files.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_read_file_content.md
+│   │   │   │   │   │   └── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_search_files.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 03_calendar/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_guides_configure-mcp-server.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_create_event.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_delete_event.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_get_event.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_list_calendars.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_list_events.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_respond_to_event.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_suggest_time.md
+│   │   │   │   │   │   └── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_update_event.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 04_people/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   └── https_developers.google.com_people_v1_configure-mcp-server.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 05_chat/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_guides_configure-mcp-server.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_list_messages.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_search_conversations.md
+│   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_search_messages.md
+│   │   │   │   │   │   └── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_send_message.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   └── 06_safety_auth/
+│   │   │   │       ├── markdown/
+│   │   │   │       │   ├── https_developers.google.com_identity_protocols_oauth2.md
+│   │   │   │       │   ├── https_developers.google.com_workspace_guides_create-credentials.md
+│   │   │   │       │   ├── https_developers.google.com_workspace_guides_enable-apis.md
+│   │   │   │       │   └── https_developers.google.com_workspace_tools-safety.md
+│   │   │   │       └── SOURCES.txt
+│   │   │   ├── PULL_SUMMARY.md
+│   │   │   ├── README.md
+│   │   │   ├── SMOKE_TESTS.md
+│   │   │   ├── SOP.md
+│   │   │   └── STRUCTURE.md
+│   │   ├── HOH—:XOS/
+│   │   │   ├── AGENT PHASE REPORTING HOW-TO.md
+│   │   │   ├── Agent Project Budget Proposal How-To.md
+│   │   │   ├── AGENT_ORIGINATION_HOWTO.md
+│   │   │   ├── How-To Spawn Sub-Agents.md
+│   │   │   ├── MOLTBOOK_HOWTO.md
+│   │   │   ├── NAVIGATION_HOWTO.md
+│   │   │   ├── REGISTRY_HOWTO.md
+│   │   │   ├── XOS-HQ-HOWTO-GITHUB-ACCESS.md
+│   │   │   ├── XOS_Memory_Flow_HOWTO.md
+│   │   │   └── XOS_Repo_Hygiene_HOWTO.md
+│   │   ├── HOW-TO-HUB(H2H)/
+│   │   ├── OPENAI_HOWTO_HUB/
+│   │   │   ├── docs/
+│   │   │   │   ├── 00_overview/
+│   │   │   │   │   ├── models.md
+│   │   │   │   │   ├── openai-api-docs-overview.md
+│   │   │   │   │   ├── openai-api-quickstart.md
+│   │   │   │   │   ├── pricing.md
+│   │   │   │   │   └── sdks-and-cli.md
+│   │   │   │   ├── 01_api_core/
+│   │   │   │   │   ├── conversation-state.md
+│   │   │   │   │   ├── file-inputs.md
+│   │   │   │   │   ├── function-calling.md
+│   │   │   │   │   ├── structured-outputs.md
+│   │   │   │   │   └── text-generation.md
+│   │   │   │   ├── 02_tools/
+│   │   │   │   │   ├── code-interpreter.md
+│   │   │   │   │   ├── computer-use.md
+│   │   │   │   │   ├── file-search.md
+│   │   │   │   │   ├── image-generation.md
+│   │   │   │   │   ├── using-tools.md
+│   │   │   │   │   └── web-search.md
+│   │   │   │   ├── 03_agents/
+│   │   │   │   ├── 04_audio_realtime/
+│   │   │   │   │   ├── audio-and-speech.md
+│   │   │   │   │   ├── realtime-api.md
+│   │   │   │   │   ├── realtime-transcription.md
+│   │   │   │   │   ├── speech-to-text.md
+│   │   │   │   │   ├── webrtc.md
+│   │   │   │   │   └── websocket.md
+│   │   │   │   ├── 05_memory_retrieval/
+│   │   │   │   │   ├── embeddings.md
+│   │   │   │   │   ├── retrieval.md
+│   │   │   │   │   └── vector-stores.md
+│   │   │   │   ├── 06_ops_reliability/
+│   │   │   │   │   ├── background-mode.md
+│   │   │   │   │   ├── production-best-practices.md
+│   │   │   │   │   ├── rate-limits.md
+│   │   │   │   │   ├── status-page.md
+│   │   │   │   │   └── webhooks.md
+│   │   │   │   ├── 07_safety_security/
+│   │   │   │   │   ├── moderation.md
+│   │   │   │   │   ├── safety-best-practices.md
+│   │   │   │   │   └── your-data.md
+│   │   │   │   ├── 08_chatgpt_apps/
+│   │   │   │   │   ├── apps-in-chatgpt-help-center.md
+│   │   │   │   │   ├── apps-sdk-quickstart.md
+│   │   │   │   │   ├── apps-sdk-security-and-privacy.md
+│   │   │   │   │   └── mcp-server.md
+│   │   │   │   └── 09_codex/
+│   │   │   ├── PULL_ERRORS.md
+│   │   │   ├── README.md
+│   │   │   └── SOURCES.md
+│   │   ├── README 2.md
 │   │   └── README.md
 │   ├── SEAD/
 │   │   ├── XLR8ROS_SEAD/
@@ -3086,143 +3272,6 @@ XLR8ROS/
 │   │   │   └── .DS_Store
 │   │   └── .DS_Store
 │   ├── XLR8ROS-HQ/
-│   │   ├── HOW-TO-HUB(H2H)/
-│   │   │   ├── GOOGLE_WORKSPACE_HOWTO_HUB/
-│   │   │   │   ├── docs/
-│   │   │   │   │   ├── 00_overview/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_guides_configure-mcp-servers.md
-│   │   │   │   │   │   │   └── https_github.com_google_mcp.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   ├── 01_gmail/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_guides_configure-mcp-server.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_create_draft.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_create_label.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_get_thread.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_label_message.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_label_thread.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_list_drafts.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_list_labels.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_search_threads.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_unlabel_message.md
-│   │   │   │   │   │   │   └── https_developers.google.com_workspace_gmail_api_reference_mcp_tools_list_unlabel_thread.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   ├── 02_drive/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_guides_configure-mcp-server.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_create_file.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_download_file_content.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_get_file_metadata.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_get_file_permissions.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_list_recent_files.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_read_file_content.md
-│   │   │   │   │   │   │   └── https_developers.google.com_workspace_drive_api_reference_mcp_tools_list_search_files.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   ├── 03_calendar/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_guides_configure-mcp-server.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_create_event.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_delete_event.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_get_event.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_list_calendars.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_list_events.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_respond_to_event.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_suggest_time.md
-│   │   │   │   │   │   │   └── https_developers.google.com_workspace_calendar_api_v3_reference_mcp_tools_list_update_event.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   ├── 04_people/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   └── https_developers.google.com_people_v1_configure-mcp-server.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   ├── 05_chat/
-│   │   │   │   │   │   ├── markdown/
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_guides_configure-mcp-server.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_list_messages.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_search_conversations.md
-│   │   │   │   │   │   │   ├── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_search_messages.md
-│   │   │   │   │   │   │   └── https_developers.google.com_workspace_chat_api_reference_mcp_tools_list_send_message.md
-│   │   │   │   │   │   └── SOURCES.txt
-│   │   │   │   │   └── 06_safety_auth/
-│   │   │   │   │       ├── markdown/
-│   │   │   │   │       │   ├── https_developers.google.com_identity_protocols_oauth2.md
-│   │   │   │   │       │   ├── https_developers.google.com_workspace_guides_create-credentials.md
-│   │   │   │   │       │   ├── https_developers.google.com_workspace_guides_enable-apis.md
-│   │   │   │   │       │   └── https_developers.google.com_workspace_tools-safety.md
-│   │   │   │   │       └── SOURCES.txt
-│   │   │   │   ├── PULL_SUMMARY.md
-│   │   │   │   ├── README.md
-│   │   │   │   ├── SMOKE_TESTS.md
-│   │   │   │   ├── SOP.md
-│   │   │   │   └── STRUCTURE.md
-│   │   │   ├── OPENAI_HOWTO_HUB/
-│   │   │   │   ├── docs/
-│   │   │   │   │   ├── 00_overview/
-│   │   │   │   │   │   ├── models.md
-│   │   │   │   │   │   ├── openai-api-docs-overview.md
-│   │   │   │   │   │   ├── openai-api-quickstart.md
-│   │   │   │   │   │   ├── pricing.md
-│   │   │   │   │   │   └── sdks-and-cli.md
-│   │   │   │   │   ├── 01_api_core/
-│   │   │   │   │   │   ├── conversation-state.md
-│   │   │   │   │   │   ├── file-inputs.md
-│   │   │   │   │   │   ├── function-calling.md
-│   │   │   │   │   │   ├── structured-outputs.md
-│   │   │   │   │   │   └── text-generation.md
-│   │   │   │   │   ├── 02_tools/
-│   │   │   │   │   │   ├── code-interpreter.md
-│   │   │   │   │   │   ├── computer-use.md
-│   │   │   │   │   │   ├── file-search.md
-│   │   │   │   │   │   ├── image-generation.md
-│   │   │   │   │   │   ├── using-tools.md
-│   │   │   │   │   │   └── web-search.md
-│   │   │   │   │   ├── 03_agents/
-│   │   │   │   │   ├── 04_audio_realtime/
-│   │   │   │   │   │   ├── audio-and-speech.md
-│   │   │   │   │   │   ├── realtime-api.md
-│   │   │   │   │   │   ├── realtime-transcription.md
-│   │   │   │   │   │   ├── speech-to-text.md
-│   │   │   │   │   │   ├── webrtc.md
-│   │   │   │   │   │   └── websocket.md
-│   │   │   │   │   ├── 05_memory_retrieval/
-│   │   │   │   │   │   ├── embeddings.md
-│   │   │   │   │   │   ├── retrieval.md
-│   │   │   │   │   │   └── vector-stores.md
-│   │   │   │   │   ├── 06_ops_reliability/
-│   │   │   │   │   │   ├── background-mode.md
-│   │   │   │   │   │   ├── production-best-practices.md
-│   │   │   │   │   │   ├── rate-limits.md
-│   │   │   │   │   │   ├── status-page.md
-│   │   │   │   │   │   └── webhooks.md
-│   │   │   │   │   ├── 07_safety_security/
-│   │   │   │   │   │   ├── moderation.md
-│   │   │   │   │   │   ├── safety-best-practices.md
-│   │   │   │   │   │   └── your-data.md
-│   │   │   │   │   ├── 08_chatgpt_apps/
-│   │   │   │   │   │   ├── apps-in-chatgpt-help-center.md
-│   │   │   │   │   │   ├── apps-sdk-quickstart.md
-│   │   │   │   │   │   ├── apps-sdk-security-and-privacy.md
-│   │   │   │   │   │   └── mcp-server.md
-│   │   │   │   │   └── 09_codex/
-│   │   │   │   ├── PULL_ERRORS.md
-│   │   │   │   ├── README.md
-│   │   │   │   └── SOURCES.md
-│   │   │   ├── XOS-ITERNAL- How-To Guides/
-│   │   │   │   ├── AGENT PHASE REPORTING HOW-TO.md
-│   │   │   │   ├── Agent Project Budget Proposal How-To.md
-│   │   │   │   ├── AGENT_ORIGINATION_HOWTO.md
-│   │   │   │   ├── How-To Spawn Sub-Agents.md
-│   │   │   │   ├── MOLTBOOK_HOWTO.md
-│   │   │   │   ├── NAVIGATION_HOWTO.md
-│   │   │   │   ├── REGISTRY_HOWTO.md
-│   │   │   │   ├── XOS-HQ-HOWTO-GITHUB-ACCESS.md
-│   │   │   │   ├── XOS_Memory_Flow_HOWTO.md
-│   │   │   │   └── XOS_Repo_Hygiene_HOWTO.md
-│   │   │   └── README.md
 │   │   ├── Navigation/
 │   │   │   └── NAVIGATION.md
 │   │   ├── Workflow/
@@ -3239,6 +3288,7 @@ XLR8ROS/
 │   │   │   ├── XOS-HQ-HOWTO-GITHUB-ACCESS.md
 │   │   │   ├── XOS-HQ-HOWTO-MEMORY-SYSTEM-OPERATION.md
 │   │   │   └── XOS_Memory_Flow_HOWTO.md
+│   │   ├── .DS_Store
 │   │   ├── .gitignore
 │   │   ├── Company SOP 4 XOS-HQ.md
 │   │   ├── Constitution.md
