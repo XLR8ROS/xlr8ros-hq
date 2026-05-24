@@ -249,3 +249,9 @@ latest_summary.txt
 latest_summary.md
 
 # Repo junk / temp
+
+# Repo junk cleanup
+**/.DS_Store
+**/.openclaw/
+latest-summary*
+latest_summary*
