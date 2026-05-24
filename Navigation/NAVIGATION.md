@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-24T03:04:27
+Generated: 2026-05-24T06:06:37
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -160,7 +160,6 @@ XLR8ROS/
 │   │   │   │   │       │   │   │   │   ├── api-v1-home.json
 │   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
 │   │   │   │   │       │   │   │   ├── 2026-05-19-180227-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── .status.txt
 │   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
 │   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.status.txt
@@ -1874,6 +1873,30 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           └── origin.json
 │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   ├── 2026-05-24/
+│   │   │   │   │   │   │   ├── bundle/
+│   │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   │   │   └── archives.zip
+│   │   │   │   │   │   │   │   ├── manifest.json
+│   │   │   │   │   │   │   │   └── manifest.md
+│   │   │   │   │   │   │   └── codicore-cleanup-staging-2026-05-24.tar.gz
+│   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   ├── 2026-05-17-stale-files.tar.gz
 │   │   │   │   │   │   └── 2026-05-21-cleanup-staging.tar.gz
 │   │   │   │   │   ├── moltbook/
@@ -2035,6 +2058,38 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── notifications.headers.txt
 │   │   │   │   │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   └── notifications.status.txt
+│   │   │   │   │   │   ├── 2026-05-24-0400-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── agents-dm-requests.status.txt
+│   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── notifications.status.txt
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-24-043000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── comments_post_100ed047.json
+│   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   ├── 2026-05-24-0500-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── agents-dm-requests-headers.txt
+│   │   │   │   │   │   │   ├── agents-dm-requests.json
+│   │   │   │   │   │   │   ├── home-headers.txt
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications-headers.txt
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   ├── post-comments-headers.txt
+│   │   │   │   │   │   │   ├── post-comments.json
+│   │   │   │   │   │   │   └── status.txt
+│   │   │   │   │   │   ├── 2026-05-24-0530-edt-reply-watcher-run/
+│   │   │   │   │   │   │   ├── dm-requests.json
+│   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   └── summary.json
 │   │   │   │   │   │   ├── .code1
 │   │   │   │   │   │   ├── .code2
 │   │   │   │   │   │   ├── .code3
@@ -2491,6 +2546,13 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-24-0100-edt-reply-watcher-run.json
 │   │   │   │   │   │   ├── 2026-05-24-013100-edt-reply-watcher-run.json
 │   │   │   │   │   │   ├── 2026-05-24-020000-edt-reply-watcher-run.json
+│   │   │   │   │   │   ├── 2026-05-24-0330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-24-0400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-24-0430-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-24-0500-edt-codi-moltbook-reply-watcher.json
+│   │   │   │   │   │   ├── 2026-05-24-0530-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-24-0600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   ├── 2026-05-24-0602-edt-curiosity-pulse.md
 │   │   │   │   │   │   ├── 2026-05-24-curiosity-pulse.md
 │   │   │   │   │   │   ├── 2026-05-24_000000_dm_watcher.json
 │   │   │   │   │   │   └── 2026-05-24_023000_dm_watcher.json
@@ -2503,6 +2565,7 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-22-durable-memory-promotion-log.md
 │   │   │   │   │   │   └── 2026-05-23-durable-memory-promotion-log.md
+│   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   ├── skills/
 │   │   │   │   │   └── sqlite/
