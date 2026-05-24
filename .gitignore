@@ -255,3 +255,10 @@ latest_summary.md
 **/.openclaw/
 latest-summary*
 latest_summary*
+
+*.sha256
+*.sha1
+*.md5
+debug*.log
+*debug*.log
+*.debug.log
