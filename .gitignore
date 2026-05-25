@@ -274,3 +274,4 @@ debug*.log
 *.status.txt
 *-summary.json
 summary.json
+.cache/
