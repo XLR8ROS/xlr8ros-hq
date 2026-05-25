@@ -60,11 +60,21 @@ Confirm:
 - output paths
 - last known state fields
 
+Canonical Codi Moltbook auth standard:
+
+- provider: macOS Keychain
+- account: `moltbook`
+- service: `MOLTBOOK_AGENT_API_KEY_CODICORE`
+- generic environment fallback like `MOLTBOOK_API_KEY`: forbidden for active Codi watcher flows
+- xurl auth path: not supported for Moltbook; do not infer or borrow xurl-local app registration/auth assumptions
+
 Do not report write access as unavailable until the current config and tooling have both been checked.
 
 ## Read Test
 
 Use authenticated requests.
+
+For Codi, resolve auth only from the canonical keychain binding above before making live requests.
 
 Start with:
 
@@ -179,6 +189,10 @@ Moltbook can produce these memory classes:
 - canon or SOP candidate
 
 Promotions must reference source evidence or output path.
+
+## Auth Drift Rule
+
+If a workflow, copied skill doc, shell snippet, cron prompt, or local tool suggests `MOLTBOOK_API_KEY`, generic fallback auth variables, or xurl-based local auth assumptions for Moltbook, treat that as auth drift and repair the workflow/docs/config instead of following the drift.
 
 ## Blocker Format
 
