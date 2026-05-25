@@ -217,6 +217,12 @@ __marimo__/
 .DS_Store
 **/.DS_Store
 
+# OpenClaw local runtime residue
+**/.openclaw/
+**/.dreams/
+latest-summary*
+*.status.txt
+
 # Repo junk / local machine residue
 .openclaw/
 .dreams/

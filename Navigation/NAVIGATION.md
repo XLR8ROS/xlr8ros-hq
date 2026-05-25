@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-25T00:06:46
+Generated: 2026-05-25T03:09:07
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -1089,7 +1089,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-20.md
 │   │   │   │   │   ├── 2026-05-21.md
 │   │   │   │   │   ├── 2026-05-22.md
-│   │   │   │   │   └── 2026-05-23.md
+│   │   │   │   │   ├── 2026-05-23.md
+│   │   │   │   │   └── 2026-05-24.md
 │   │   │   │   ├── event-log/
 │   │   │   │   │   ├── migrations/
 │   │   │   │   │   │   └── 001_init.sql
@@ -1106,7 +1107,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-17-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-05-19-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-05-21-nightly-maintenance.md
-│   │   │   │   │   └── 2026-05-24-nightly-maintenance.md
+│   │   │   │   │   ├── 2026-05-24-nightly-maintenance.md
+│   │   │   │   │   └── 2026-05-25-nightly-maintenance.md
 │   │   │   │   ├── memory/
 │   │   │   │   │   ├── migration-backups/
 │   │   │   │   │   │   └── 20260516-daily-note-normalization/
@@ -2402,7 +2404,11 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-24_023000_dm_watcher.json
 │   │   │   │   │   │   ├── 2026-05-24_180031_EDT_dm_watcher.md
 │   │   │   │   │   │   ├── 2026-05-24_dm_watcher.json
-│   │   │   │   │   │   └── 2026-05-24_moltbook_curiosity_pulse.json
+│   │   │   │   │   │   ├── 2026-05-24_moltbook_curiosity_pulse.json
+│   │   │   │   │   │   ├── 2026-05-25-0007-edt-codi-moltbook-reading-pulse.md
+│   │   │   │   │   │   ├── 2026-05-25-0100-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-0239-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   └── 2026-05-25-0301-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   ├── promotion-logs/
 │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
@@ -2411,7 +2417,9 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   │   └── 2026-05-23-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-05-23-durable-memory-promotion-log.md
+│   │   │   │   │   │   └── 2026-05-24-durable-memory-promotion-log.md
+│   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   ├── skills/
 │   │   │   │   │   └── sqlite/
@@ -2548,6 +2556,99 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   ├── verify_moltbook_verify_0ac512fcf5ef3ef4c367076268aa363e.json
 │   │   │   │   │   │   │   │   └── verify_moltbook_verify_86d3a8dd12591d835d1ec93d7b75ea60.json
 │   │   │   │   │   │   │   ├── 2026-05-24-2200-edt-social-watcher-run/
+│   │   │   │   │   │   │   ├── 2026-05-25-0007-edt-reading-pulse-run/
+│   │   │   │   │   │   │   │   ├── deadman_switch_comment_create.json
+│   │   │   │   │   │   │   │   ├── deadman_switch_comment_verify.json
+│   │   │   │   │   │   │   │   ├── deadman_switch_comments.json
+│   │   │   │   │   │   │   │   ├── feed.headers.txt
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── jenny_intro_comments.json
+│   │   │   │   │   │   │   │   ├── manifest_comments.json
+│   │   │   │   │   │   │   │   ├── success_failure_comments.json
+│   │   │   │   │   │   │   │   ├── unavailable_surfaces_comments.json
+│   │   │   │   │   │   │   │   ├── weekend_feed_comments.json
+│   │   │   │   │   │   │   │   └── xos_continuity_comments.json
+│   │   │   │   │   │   │   ├── 2026-05-25-0100-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── comments_post_100ed.json
+│   │   │   │   │   │   │   │   ├── comments_post_100ed.meta.json
+│   │   │   │   │   │   │   │   ├── comments_post_100ed_refresh.json
+│   │   │   │   │   │   │   │   ├── comments_post_5c1d.json
+│   │   │   │   │   │   │   │   ├── comments_post_5c1d_refresh.json
+│   │   │   │   │   │   │   │   ├── comments_post_bb5e.json
+│   │   │   │   │   │   │   │   ├── comments_post_bb5e.meta.json
+│   │   │   │   │   │   │   │   ├── dms.json
+│   │   │   │   │   │   │   │   ├── dms.meta.json
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── home.meta.json
+│   │   │   │   │   │   │   │   ├── mentions.json
+│   │   │   │   │   │   │   │   ├── mentions.meta.json
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   ├── notifications.meta.json
+│   │   │   │   │   │   │   │   ├── status.json
+│   │   │   │   │   │   │   │   ├── status.meta.json
+│   │   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   │   ├── 2026-05-25-0200-edt-social-watcher-run/
+│   │   │   │   │   │   │   ├── 2026-05-25-0239-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── agent_status.headers
+│   │   │   │   │   │   │   │   ├── agent_status.json
+│   │   │   │   │   │   │   │   ├── comment-151029ce-1e02-477d-9185-e6c447820e42.headers
+│   │   │   │   │   │   │   │   ├── comment-151029ce-1e02-477d-9185-e6c447820e42.json
+│   │   │   │   │   │   │   │   ├── comment-3625ce26-625a-487a-b77f-dbb7ef44e921.headers
+│   │   │   │   │   │   │   │   ├── comment-3625ce26-625a-487a-b77f-dbb7ef44e921.json
+│   │   │   │   │   │   │   │   ├── comment-680a7c94-c331-4ee0-b5ec-db2ad9a33e66.headers
+│   │   │   │   │   │   │   │   ├── comment-680a7c94-c331-4ee0-b5ec-db2ad9a33e66.json
+│   │   │   │   │   │   │   │   ├── comment-69fa75ee-606c-475f-b16f-0059b2a9369e.headers
+│   │   │   │   │   │   │   │   ├── comment-69fa75ee-606c-475f-b16f-0059b2a9369e.json
+│   │   │   │   │   │   │   │   ├── comment-6f25e904-b87d-4436-8056-ba4df8721953.headers
+│   │   │   │   │   │   │   │   ├── comment-6f25e904-b87d-4436-8056-ba4df8721953.json
+│   │   │   │   │   │   │   │   ├── comment-9da4d9dc-c55e-4f15-88b4-146725011cd5.headers
+│   │   │   │   │   │   │   │   ├── comment-9da4d9dc-c55e-4f15-88b4-146725011cd5.json
+│   │   │   │   │   │   │   │   ├── comment-b5d86da4-41df-4cfe-b833-0ff6c1dab6f7.headers
+│   │   │   │   │   │   │   │   ├── comment-b5d86da4-41df-4cfe-b833-0ff6c1dab6f7.json
+│   │   │   │   │   │   │   │   ├── comment-bd13a929-c22d-4845-9a27-3515c17a999f.headers
+│   │   │   │   │   │   │   │   ├── comment-bd13a929-c22d-4845-9a27-3515c17a999f.json
+│   │   │   │   │   │   │   │   ├── comment-f1997842-9401-49f4-b369-38e6b53e59ee.headers
+│   │   │   │   │   │   │   │   ├── comment-f1997842-9401-49f4-b369-38e6b53e59ee.json
+│   │   │   │   │   │   │   │   ├── comment-fde65abd-5005-476b-bfea-85002477e6e6.headers
+│   │   │   │   │   │   │   │   ├── comment-fde65abd-5005-476b-bfea-85002477e6e6.json
+│   │   │   │   │   │   │   │   ├── comment-ff0c1d7c-a902-40df-af00-2d32991748d0.headers
+│   │   │   │   │   │   │   │   ├── comment-ff0c1d7c-a902-40df-af00-2d32991748d0.json
+│   │   │   │   │   │   │   │   ├── comment-ff9d858a-e1fa-4883-9634-ef37d53e8d6b.headers
+│   │   │   │   │   │   │   │   ├── comment-ff9d858a-e1fa-4883-9634-ef37d53e8d6b.json
+│   │   │   │   │   │   │   │   ├── comments-100ed047-0201-409a-9f7f-8d5e39c335a2.headers
+│   │   │   │   │   │   │   │   ├── comments-100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │   │   │   │   ├── comments-5c1d68f2-08da-4450-980c-5851b256f9f4.headers
+│   │   │   │   │   │   │   │   ├── comments-5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │   │   │   │   ├── comments-bb5e35fa-ca11-40da-9bda-8c0d418cff42.headers
+│   │   │   │   │   │   │   │   ├── comments-bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │   │   │   │   ├── dm_check.headers
+│   │   │   │   │   │   │   │   ├── dm_check.json
+│   │   │   │   │   │   │   │   ├── dm_conversations.headers
+│   │   │   │   │   │   │   │   ├── dm_conversations.json
+│   │   │   │   │   │   │   │   ├── dm_requests.headers
+│   │   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   │   ├── feed.headers
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── home.headers
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── mentions.headers
+│   │   │   │   │   │   │   │   ├── mentions.json
+│   │   │   │   │   │   │   │   ├── notifications.headers
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   └── status.json
+│   │   │   │   │   │   │   ├── 2026-05-25-0301-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── agents_status.json
+│   │   │   │   │   │   │   │   ├── comments_100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │   │   │   │   ├── comments_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │   │   │   │   ├── comments_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │   │   │   │   ├── dm_requests.error.txt
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── manifest.json
+│   │   │   │   │   │   │   │   ├── mentions.error.txt
+│   │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
