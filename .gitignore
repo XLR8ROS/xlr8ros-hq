@@ -262,3 +262,9 @@ latest_summary*
 debug*.log
 *debug*.log
 *.debug.log
+
+# Repo junk cleanup
+*.headers.txt
+*.status.txt
+*-summary.json
+summary.json

@@ -1,6 +1,6 @@
 # XOS HQ SOP — OPERATIONS & CONTROL
 
-**Version:** 2026-05-07  
+**Version:** 2026-05-24  
 **Authority:** HQ (Highest)  
 **Status:** Canonical SOP  
 **Owner:** Reg  
@@ -377,53 +377,125 @@
 
 ---
 
-## 11. VERSION CONTROL RULE
+## 11. EVIDENCE-SCOPED DEGRADATION AND EXTERNAL INTERACTION TRACEABILITY
 
-11.1 Every SOP must include a timestamp or version date.
+### 11.1 Evidence-Scoped Degradation
 
-11.2 Newer approved versions override older approved versions at the same authority layer.
+11.1.1 When an evidence surface, tool surface, endpoint, runtime path, wrapper path, file path, memory path, or authenticated access path fails, the agent must shrink authority only around the failed surface.
 
-11.3 Parallel conflicting SOPs are not allowed.
+11.1.2 A failed surface must not be used to claim that unrelated surfaces are unavailable, unreliable, complete, or failed.
 
-11.4 Superseded SOPs must be archived or clearly marked as retired.
+11.1.3 Agents must not invent certainty when a required evidence surface is unavailable.
+
+11.1.4 Agents may continue using independently verified surfaces while clearly marking the unavailable surface and the authority limits created by that failure.
+
+11.1.5 When partial evidence exists, the report must distinguish confirmed truth, partial truth, historical residue, inferred state, unknown state, contradicted state, and blocked state.
+
+11.1.6 Endpoint truth, wrapper truth, runtime truth, filesystem truth, memory truth, repo truth, and platform truth must not be collapsed into one generic status.
+
+11.1.7 A direct API success does not prove wrapper health.
+
+11.1.8 A wrapper failure does not prove platform API failure.
+
+11.1.9 A notification, cached item, old artifact, or historical record is evidence of historical state unless current state is independently verified.
+
+11.1.10 Notification-derived DM, message, mention, request, or platform attention signals must not be promoted to current actionable truth unless the applicable current-state source confirms them or the report explicitly marks the signal as notification-derived and non-authoritative.
+
+11.1.11 If the expected source-of-truth endpoint is unavailable, absent, deprecated, unsupported, or returns a contract-level failure, the agent must report that as a source-contract problem and must not silently treat fallback evidence as equivalent.
+
+### 11.2 External Interaction Traceability
+
+11.2.1 Agents operating on external agent platforms must preserve the actual social interaction, not only the operational metadata.
+
+11.2.2 Any public post, comment, reply, DM, platform message, or original editorial written by an XOS agent must be repeated verbatim in the user-facing report and in the applicable durable capture lane.
+
+11.2.3 Any mention, reply, DM, request, or direct address to an XOS agent must be repeated verbatim in the user-facing report when available.
+
+11.2.4 Any original post or head post that triggered an agent read, reply, or decision must be summarized at minimum and quoted verbatim when it is central to the interaction, when the agent was mentioned, or when the agent’s response depends on the wording.
+
+11.2.5 Reports must state when the interaction happened, who the outside agent or account was, what was read, what was said, what the XOS agent said, and whether the XOS agent replied, declined to reply, suppressed the item, or could not verify the item.
+
+11.2.6 If an agent reads an item and does not respond, the report must state why no response was made.
+
+11.2.7 Valid no-response reasons include lack of useful contribution, duplicate thread, stale or non-authoritative evidence, insufficient verification, blocked surface, standing suppression, low-value engagement, or waiting for better context.
+
+11.2.8 If an agent responds, the report must state why the response was made and what value the agent intended to add.
+
+11.2.9 If a reply, post, DM, verification, or publication action fails, the report must state the attempted action, exact failure, and resulting interaction state.
+
+11.2.10 Verification failure, publication ambiguity, pending state, duplicate challenge state, or platform conflict must be labeled directly and must not be reported as clean publication.
+
+11.2.11 External interaction reports must separate social content from plumbing metadata. Operational metadata may be included, but it must not replace the interaction transcript, summary, or decision reasoning.
+
+11.2.12 External interaction reports must identify recurring outside agents, ongoing conversation arcs, unresolved mentions, unresolved DMs, and follow-up decisions needed from Reg.
+
+### 11.3 Reporting and Recovery Discipline
+
+11.3.1 Reports must not claim that memory, logs, outputs, posts, comments, replies, commits, navigation files, queue checks, or platform actions were updated unless the write or action was verified.
+
+11.3.2 If a write, edit, read, verification, response generation, commit, navigation refresh, queue check, or platform action fails, the agent must preserve a failure receipt with the timestamp, intended action, target surface, exact error, and safest next recovery path.
+
+11.3.3 If canonical capture fails, the agent must write a fallback artifact when possible and mark the state as capture pending instead of memory updated.
+
+11.3.4 If a platform action may have partially executed before a response-generation failure, the next report must verify whether the external state changed before retrying or repeating the action.
+
+11.3.5 Repeated failure on the same surface must be treated as contract drift or process evidence until disproven.
+
+11.3.6 Reports must use precise wording for partial success. Acceptable forms include partial live verification succeeded, public-thread read succeeded, canonical DM verification failed, notification residue observed, platform write verified, platform write pending, and publication state unknown.
+
+11.3.7 Reports must not use broad phrases such as platform unavailable, read completed, memory updated, or action taken when the statement hides a failed required sub-surface.
+
+**Reference:** `MOLTBOOK_HOWTO.md`
+
+---
+
+## 12. VERSION CONTROL RULE
+
+12.1 Every SOP must include a timestamp or version date.
+
+12.2 Newer approved versions override older approved versions at the same authority layer.
+
+12.3 Parallel conflicting SOPs are not allowed.
+
+12.4 Superseded SOPs must be archived or clearly marked as retired.
 
 **Reference:** `REGISTRY_HOWTO.md`
 
 ---
 
-## 12. FAILURE DEFINITION
+## 13. FAILURE DEFINITION
 
-12.1 A failure occurs when:
+13.1 A failure occurs when:
 
-12.1.1 work is performed without trace
+13.1.1 work is performed without trace
 
-12.1.2 logging is skipped
+13.1.2 logging is skipped
 
-12.1.3 duplicate instructions exist
+13.1.3 duplicate instructions exist
 
-12.1.4 root cause is ignored
+13.1.4 root cause is ignored
 
-12.1.5 terminal investigation replaces documentation-first reasoning where documentation exists
+13.1.5 terminal investigation replaces documentation-first reasoning where documentation exists
 
-12.1.6 an agent repeatedly asks for diagnostic output that does not change the decision
+13.1.6 an agent repeatedly asks for diagnostic output that does not change the decision
 
-12.1.7 runtime state, repo state, memory state, and canon state are confused with each other
+13.1.7 runtime state, repo state, memory state, and canon state are confused with each other
 
-12.1.8 an agent claims, simulates, or performs access to an external platform it has not been granted
+13.1.8 an agent claims, simulates, or performs access to an external platform it has not been granted
 
-12.1.9 credentials or platform secrets are exposed outside approved secure storage
+13.1.9 credentials or platform secrets are exposed outside approved secure storage
 
 ---
 
-## 13. SYSTEM PRINCIPLE
+## 14. SYSTEM PRINCIPLE
 
-13.1 Do not ask: “Was this important enough to log?”
+14.1 Do not ask: “Was this important enough to log?”
 
-13.2 Ask: “Did anything happen without a trace?”
+14.2 Ask: “Did anything happen without a trace?”
 
-13.3 Do not ask: “What command can expose the answer?” before asking: “What do the docs and architecture already say?”
+14.3 Do not ask: “What command can expose the answer?” before asking: “What do the docs and architecture already say?”
 
-13.4 XOS values investigation, but investigation must begin from source authority when source authority exists.
+14.4 XOS values investigation, but investigation must begin from source authority when source authority exists.
 
 ---
 
