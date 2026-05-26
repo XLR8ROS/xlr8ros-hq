@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-26T12:09:49
+Generated: 2026-05-26T15:04:31
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -11,6 +11,7 @@ XLR8ROS/
 │   │   │   ├── CodiCore/
 │   │   │   │   ├── .clawhub/
 │   │   │   │   │   └── lock.json
+│   │   │   │   ├── .git-index-alt/
 │   │   │   │   ├── .openclaw/
 │   │   │   │   │   └── workspace-state.json
 │   │   │   │   ├── cleanup-staging/
@@ -1242,6 +1243,7 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   ├── 2026-05-18-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   └── archives.zip
@@ -2872,6 +2874,7 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   │   └── .DS_Store
@@ -5884,6 +5887,7 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   │   │   └── .DS_Store
@@ -9778,7 +9782,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   └── archives.zip
@@ -12042,7 +12045,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   ├── .DS_Store
@@ -12792,7 +12794,10 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-26-0609-edt-codi-moltbook-reading-pulse.md
 │   │   │   │   │   │   ├── 2026-05-26-0631-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   │   ├── 2026-05-26-0700-edt-codi-moltbook-social-watcher.md
-│   │   │   │   │   │   └── 2026-05-26-0931-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-26-0931-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-26-1300-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-26-1400-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   └── 2026-05-26-1430-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   ├── promotion-logs/
 │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
@@ -13327,6 +13332,50 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   ├── mentions.json
 │   │   │   │   │   │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   │   └── status.json
+│   │   │   │   │   │   │   ├── 2026-05-26-140041-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── dm_requests.error.txt
+│   │   │   │   │   │   │   │   ├── dms.error.txt
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── me.json
+│   │   │   │   │   │   │   │   ├── mentions.error.txt
+│   │   │   │   │   │   │   │   ├── notif_slim.jsonl
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │   │   │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments.json
+│   │   │   │   │   │   │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │   │   │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments.json
+│   │   │   │   │   │   │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │   │   │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments.json
+│   │   │   │   │   │   │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7.json
+│   │   │   │   │   │   │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments.json
+│   │   │   │   │   │   │   │   ├── status.json
+│   │   │   │   │   │   │   │   └── summary.json
+│   │   │   │   │   │   │   ├── 2026-05-26-143045-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── agents_me.json
+│   │   │   │   │   │   │   │   ├── agents_me.stderr.txt
+│   │   │   │   │   │   │   │   ├── auth_status.json
+│   │   │   │   │   │   │   │   ├── auth_status.stderr.txt
+│   │   │   │   │   │   │   │   ├── dm_inbox.json
+│   │   │   │   │   │   │   │   ├── dm_inbox.stderr.txt
+│   │   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   │   ├── dm_requests.stderr.txt
+│   │   │   │   │   │   │   │   ├── dms.json
+│   │   │   │   │   │   │   │   ├── dms.stderr.txt
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── feed.stderr.txt
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── home.stderr.txt
+│   │   │   │   │   │   │   │   ├── mentions.json
+│   │   │   │   │   │   │   │   ├── mentions.stderr.txt
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   ├── notifications.stderr.txt
+│   │   │   │   │   │   │   │   ├── status.json
+│   │   │   │   │   │   │   │   ├── status.stderr.txt
+│   │   │   │   │   │   │   │   ├── status.txt
+│   │   │   │   │   │   │   │   ├── summary.json
+│   │   │   │   │   │   │   │   ├── whoami.json
+│   │   │   │   │   │   │   │   └── whoami.stderr.txt
 │   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
@@ -13386,6 +13435,7 @@ XLR8ROS/
 │       └── HQ_XLR8ROS-HQ_Navigation_NAVIGATION.md
 ├── HQ/
 │   ├── HOW-2-HUB/
+│   │   ├── .git-index-alt/
 │   │   ├── CODEX_HOWTO_HUB/
 │   │   │   ├── docs/
 │   │   │   │   ├── 00_openai_codex_developer_docs/
@@ -24782,7 +24832,6 @@ XLR8ROS/
 │   │   │   │           └── 05/
 │   │   │   │               └── sead-shadow-brain/
 │   │   │   │                   ├── .openclaw/
-│   │   │   │                   │   └── workspace-state.json
 │   │   │   │                   ├── maintenance/
 │   │   │   │                   │   └── 2026-04-22.md
 │   │   │   │                   ├── memory/
