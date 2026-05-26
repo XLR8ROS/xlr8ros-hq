@@ -278,3 +278,8 @@ debug*.log
 *-summary.json
 summary.json
 .cache/
+
+# Local junk / caches
+*.pyc
+*.pyo
+.sass-cache/

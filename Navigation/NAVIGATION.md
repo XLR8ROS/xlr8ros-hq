@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-25T04:22:08
+Generated: 2026-05-26T03:07:55
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -14,1060 +14,2985 @@ XLR8ROS/
 │   │   │   │   ├── .openclaw/
 │   │   │   │   │   └── workspace-state.json
 │   │   │   │   ├── cleanup-staging/
-│   │   │   │   │   └── 2026-05-23/
-│   │   │   │   │       ├── files/
-│   │   │   │   │       │   ├── event-log/
-│   │   │   │   │       │   │   └── migrations/
-│   │   │   │   │       │   │       └── 001_init.sql
-│   │   │   │   │       │   ├── maintenance/
-│   │   │   │   │       │   │   └── stale-staging/
-│   │   │   │   │       │   │       └── 2026-05-16/
-│   │   │   │   │       │   │           └── summary.json
-│   │   │   │   │       │   ├── memory/
-│   │   │   │   │       │   │   └── migration-backups/
-│   │   │   │   │       │   │       └── 20260516-daily-note-normalization/
-│   │   │   │   │       │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
-│   │   │   │   │       │   │           ├── 2026-05-07-closed-book.md
-│   │   │   │   │       │   │           ├── 2026-05-08-trust-breach.md
-│   │   │   │   │       │   │           ├── 2026-05-10-0851.md
-│   │   │   │   │       │   │           ├── 2026-05-10-greeting.md
-│   │   │   │   │       │   │           ├── 2026-05-11-1441.md
-│   │   │   │   │       │   │           ├── 2026-05-14 copy.md
-│   │   │   │   │       │   │           ├── 2026-05-14-0305.md
-│   │   │   │   │       │   │           ├── 2026-05-14-1528.md
-│   │   │   │   │       │   │           ├── 2026-05-14-1751.md
-│   │   │   │   │       │   │           ├── 2026-05-14-1957.md
-│   │   │   │   │       │   │           ├── 2026-05-15-0107.md
-│   │   │   │   │       │   │           └── 2026-05-16-0046.md
-│   │   │   │   │       │   ├── Outputs/
-│   │   │   │   │       │   │   ├── cleanup-staging/
-│   │   │   │   │       │   │   │   ├── 2026-05-17/
-│   │   │   │   │       │   │   │   │   ├── files/
-│   │   │   │   │       │   │   │   │   │   ├── .clawhub/
-│   │   │   │   │       │   │   │   │   │   │   └── lock.json
-│   │   │   │   │       │   │   │   │   │   ├── Distilled_Lessons/
-│   │   │   │   │       │   │   │   │   │   │   ├── 2026-03-31.md
-│   │   │   │   │       │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
-│   │   │   │   │       │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
-│   │   │   │   │       │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
-│   │   │   │   │       │   │   │   │   │   ├── event-log/
-│   │   │   │   │       │   │   │   │   │   │   └── minor-action-fallback.md
-│   │   │   │   │       │   │   │   │   │   ├── memory/
-│   │   │   │   │       │   │   │   │   │   │   └── migration-backups/
-│   │   │   │   │       │   │   │   │   │   │       └── 20260516-daily-note-normalization/
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-10-0851.md
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-10-greeting.md
-│   │   │   │   │       │   │   │   │   │   │           ├── 2026-05-11-1441.md
-│   │   │   │   │       │   │   │   │   │   │           └── 2026-05-14-0305.md
-│   │   │   │   │       │   │   │   │   │   └── skills/
-│   │   │   │   │       │   │   │   │   │       └── sqlite/
-│   │   │   │   │       │   │   │   │   │           ├── .clawhub/
-│   │   │   │   │       │   │   │   │   │           │   └── origin.json
-│   │   │   │   │       │   │   │   │   │           └── _meta.json
-│   │   │   │   │       │   │   │   │   └── manifest.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18/
-│   │   │   │   │       │   │   │   │   └── bundle/
-│   │   │   │   │       │   │   │   │       └── memory/
-│   │   │   │   │       │   │   │   │           └── migration-backups/
-│   │   │   │   │       │   │   │   │               └── 20260516-daily-note-normalization/
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-07-closed-book.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-08-trust-breach.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-10-0851.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-10-greeting.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-11-1441.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-14 copy.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-14-0305.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-14-1528.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-14-1751.md
-│   │   │   │   │       │   │   │   │                   ├── 2026-05-14-1957.md
-│   │   │   │   │       │   │   │   │                   └── 2026-05-15-0107.md
-│   │   │   │   │       │   │   │   └── 2026-05-17-stale-files.tar.gz
-│   │   │   │   │       │   │   ├── moltbook/
-│   │   │   │   │       │   │   │   ├── 2026-05-18/
-│   │   │   │   │       │   │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
-│   │   │   │   │       │   │   │   │   └── dm-reply-watcher-233303.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19/
-│   │   │   │   │       │   │   │   │   ├── codi-moltbook-reply-watcher-190000-EDT.md
-│   │   │   │   │       │   │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
-│   │   │   │   │       │   │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-083125-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── home.json
-│   │   │   │   │       │   │   │   │   ├── notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-113208-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-120200-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-143000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1501-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-153036-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1700-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-173101-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-180227-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1830-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
-│   │   │   │   │       │   │   │   │   ├── comment-create.json
-│   │   │   │   │       │   │   │   │   ├── comment-verify.json
-│   │   │   │   │       │   │   │   │   ├── home.json
-│   │   │   │   │       │   │   │   │   ├── notifications.json
-│   │   │   │   │       │   │   │   │   └── post-comments.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-193000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-203000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-213000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-220000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-223000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2300-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-233202-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── home.json
-│   │   │   │   │       │   │   │   │   └── notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0001-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0200-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0301-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-033133-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── home.json
-│   │   │   │   │       │   │   │   │   └── notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-040112-edt-reply-watcher-run/
-│   │   │   │   │       │   │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   │   ├── api-v1-home.json
-│   │   │   │   │       │   │   │   │   └── api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-110138-edt-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-110138-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-110138-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-130113-edt-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-130113-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-130113-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-163053-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-163053-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-163053-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-183052-edt-status.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-190134-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2041-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2103-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-213103-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222555-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222935-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222935-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222935-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-230221-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-16-233114-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-16_083108_dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16_083108_home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16_083108_notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-000416-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-000416-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-000416-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-000416-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-010000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0131-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-020142-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0230-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0301-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-033044-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-043142-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-050046-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-053232-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-060207-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-063000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-070036-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-073057-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-080343-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-090312-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-100116-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-103128-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-103128-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-103128-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-110202-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-110202-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-110202-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-113231-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-113231-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-113231-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-113231-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120220-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-130000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-130000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-130000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-130000-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-133146-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-dm_requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-140000-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-150228-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-183059-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-190128-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-200118-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-203117-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2102-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-213000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-220117-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-223100-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-230101-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-230101-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-230101-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-17-2330-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0100-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-020140-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0230-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-033103-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-040113-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-043053-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-050116-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-053055-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0630-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-070053-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-073000-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-080128-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-083000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-0901-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-093055-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-100000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-110052-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-113151-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1204-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1230-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-140038-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-143103-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-143103-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-143103-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1501-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1501-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1501-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-153143-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1600-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-1700-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-173127-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-check.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-180254-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-183000-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-193000-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-203111-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-203111-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-203111-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-203111-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213052-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213052-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-213104-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-220000-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-2230-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-18-230055-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-codi-moltbook-daily-review.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0030-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-010035-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-020123-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-020123-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-020123-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-020123-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0230-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-030426-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-033039-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-040054-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-040054-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-040054-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-043116-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-050135-edt-summary.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0530-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-060148-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-073154-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0800-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0930-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0930-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0930-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-130141-edt-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-130141-edt-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-130141-edt-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133051-edt-api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133051-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-home.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.headers.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-140142-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-140142-edt-api-v1-home.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-140142-edt-api-v1-notifications.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-143000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1501-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-153036-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-160052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1630-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1700-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-173101-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-180227-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1830-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-1915-edt-codi-moltbook-participation-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-193000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-203000-edt-audio-unavailable.txt
-│   │   │   │   │       │   │   │   ├── 2026-05-19-203000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2101-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2101-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2130-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2130-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-220000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-2300-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-233202-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-233202-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   │   ├── 2026-05-19-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-codi-moltbook-daily-report.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-codi-moltbook-daily-review.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19_moltbook-curiosity-pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19_moltbook_curiosity_pulse.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0001-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0001-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0200-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0200-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   │   ├── 2026-05-20-023156-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-0301-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-033133-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   ├── 2026-05-20-040112-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │       │   │   │   └── 2026-05-20-040112-edt-reply-watcher-run.json
-│   │   │   │   │       │   │   ├── promotion-logs/
-│   │   │   │   │       │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
-│   │   │   │   │       │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
-│   │   │   │   │       │   │   │   ├── 2026-05-18-durable-memory-promotion-log.md
-│   │   │   │   │       │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
-│   │   │   │   │       │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
-│   │   │   │   │       │   │   └── cron-health-sweep-2026-05-19.md
-│   │   │   │   │       │   └── archives.zip
-│   │   │   │   │       ├── manifest.tsv
-│   │   │   │   │       ├── scan.json
-│   │   │   │   │       └── stale-file-staging-2026-05-23.tar.gz
+│   │   │   │   │   ├── 2026-05-23/
+│   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   └── migrations/
+│   │   │   │   │   │   │   │       └── 001_init.sql
+│   │   │   │   │   │   │   ├── maintenance/
+│   │   │   │   │   │   │   │   └── stale-staging/
+│   │   │   │   │   │   │   │       └── 2026-05-16/
+│   │   │   │   │   │   │   │           └── summary.json
+│   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   ├── Outputs/
+│   │   │   │   │   │   │   │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   └── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
+│   │   │   │   │   │   │   │   │   │   └── dm-reply-watcher-233303.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19/
+│   │   │   │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-190000-EDT.md
+│   │   │   │   │   │   │   │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
+│   │   │   │   │   │   │   │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-083125-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-113208-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-120200-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-143000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1501-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-153036-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1700-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-173101-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-180227-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1830-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   │   │   └── post-comments.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-193000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-203000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-213000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-220000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-223000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2300-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-233202-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0001-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0200-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0301-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-033133-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-040112-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-143103-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-143103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1501-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1501-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-check.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-203111-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-203111-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-203111-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213052-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213052-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-020123-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-020123-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-020123-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-040054-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-040054-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-summary.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-api-v1-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-api-v1-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0930-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0930-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-api-v1-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-api-v1-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-api-v1-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-api-v1-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-130141-edt-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-130141-edt-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133051-edt-api-v1-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133051-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-api-v1-agents-dm-requests.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-api-v1-home.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.headers.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-140142-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-140142-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-143000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-153036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-160052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-173101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-180227-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1915-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-203000-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-203000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2101-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-233202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-233202-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0001-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0200-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-023156-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-033133-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-040112-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   └── 2026-05-20-040112-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   ├── promotion-logs/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   └── archives.zip
+│   │   │   │   │   │   ├── manifest.tsv
+│   │   │   │   │   │   ├── scan.json
+│   │   │   │   │   │   └── stale-file-staging-2026-05-23.tar.gz
+│   │   │   │   │   ├── 2026-05-25/
+│   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   ├── Outputs/
+│   │   │   │   │   │   │   │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21/
+│   │   │   │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │   │   ├── Outputs/
+│   │   │   │   │   │   │   │   │   │   │   │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   │   │   │   │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── .code1
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── .code2
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── .code3
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-summary.json
+│   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │   │   │   └── promotion-logs/
+│   │   │   │   │   │   │   │   │   │   │   │       ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │   │   │       ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │   │   │       └── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │   │   ├── skills/
+│   │   │   │   │   │   │   │   │   │   │   │   └── sqlite/
+│   │   │   │   │   │   │   │   │   │   │   │       └── .clawhub/
+│   │   │   │   │   │   │   │   │   │   │   │           └── origin.json
+│   │   │   │   │   │   │   │   │   │   │   └── archives.zip
+│   │   │   │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-24/
+│   │   │   │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       └── files/
+│   │   │   │   │   │   │   │   │   │           ├── memory/
+│   │   │   │   │   │   │   │   │   │           │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │           │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │           │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │           │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   │   │   │           └── archives.zip
+│   │   │   │   │   │   │   │   │   ├── 2026-05-25/
+│   │   │   │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   │       │   └── 2026-05-23/
+│   │   │   │   │   │   │   │   │   │       │       └── files/
+│   │   │   │   │   │   │   │   │   │       │           ├── memory/
+│   │   │   │   │   │   │   │   │   │       │           │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │           │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │       │           │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │       │           │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   │   │   │       │           ├── Outputs/
+│   │   │   │   │   │   │   │   │   │       │           │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   └── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   │   │       │           │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── dm-reply-watcher-233303.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── codi-moltbook-reply-watcher-190000-EDT.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-083125-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-113208-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-120200-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-143000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1501-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-153036-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1700-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-173101-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-180227-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1830-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── post-comments.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-193000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-203000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-213000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-220000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-223000-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2300-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-233202-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0001-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0200-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0301-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-033133-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-040112-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   ├── api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   │   └── api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-110138-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-110138-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-130113-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-130113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-183052-edt-status.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-190134-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-190134-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2031-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2031-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2031-postwrite-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2041-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2041-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2103-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-213103-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-213103-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222555-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222555-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222555-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222935-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222935-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-230221-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-230221-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-230221-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-233114-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-233114-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16_083108_home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16_083108_notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-000416-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-000416-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-000416-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-010000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-010000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0131-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0131-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-020142-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-020142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-020142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0301-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0301-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-033044-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-033044-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-033044-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-043142-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-043142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-043142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-050046-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-050046-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-053232-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-053232-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-053232-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-060207-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-060207-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-063000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-063000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-070036-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-070036-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-073057-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-073057-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-073057-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-080343-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-080343-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-090312-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-090312-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-090312-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-100116-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-100116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-100116-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-103128-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-103128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-110202-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-110202-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-113231-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-113231-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-113231-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120220-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120220-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120220-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120239-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120239-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120239-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-130000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-130000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-130000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-133146-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-133146-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-133146-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-140000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-140000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-140000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-150228-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-150228-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-183059-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-183059-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-190128-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-190128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-190128-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-200118-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-200118-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-203117-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-203117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2102-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-213000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-213000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-220117-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-220117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-223100-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-223100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-230101-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-230101-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2330-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-2330-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0100-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-020140-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0230-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-033103-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-033103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-040113-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-040113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-040113-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-043053-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-043053-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-050116-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-050116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-053055-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-053055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0630-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0630-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-070053-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-070053-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-070053-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-073000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-073000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-073000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-080128-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-080128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-083000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-083000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0901-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-0901-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-093055-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-093055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-100000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-100000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-110052-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-110052-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-113151-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-113151-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1204-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1204-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-140038-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-140038-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-143103-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-143103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1501-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1501-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-153143-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-153143-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1600-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1600-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1600-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1700-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1700-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-1700-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-173127-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-173127-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-180254-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-183000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-183000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-183000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-193000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-193000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-193000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-203111-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-203111-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-203111-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-213052-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-213104-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-213104-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-220000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-220000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-2230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-2230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-230055-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-230055-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0030-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0030-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-010035-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-010035-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-020123-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-020123-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-020123-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-030426-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-030426-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-033039-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-033039-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-040054-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-040054-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-043116-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-043116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-050135-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-050135-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-050135-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0530-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0530-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-060148-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-060148-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-073154-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-073154-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0800-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0800-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-090153-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0930-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0930-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-100046-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-103052-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-130141-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-130141-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-133051-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-133100-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-140142-edt-api-v1-home.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-140142-edt-api-v1-notifications.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-143000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-153036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-160052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-173101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-180227-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-1915-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-203000-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-203000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2101-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-233202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-233202-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0001-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0200-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-023156-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-033133-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-20-040112-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   └── 2026-05-20-040112-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │           │   ├── promotion-logs/
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   ├── 2026-05-19-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │           │   │   └── 2026-05-20-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │           │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   │   │   │       │           └── archives.zip
+│   │   │   │   │   │   │   │   │   │       ├── Outputs/
+│   │   │   │   │   │   │   │   │   │       │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │       │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │       │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── Outputs/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   ├── cleanup-staging/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   ├── files/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   └── lock.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   ├── Distilled_Lessons/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   ├── 2026-03-31.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-requires-verified-state.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   └── Distilled_Lessons__2026-05-05-thorough-verification-before-completion.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   ├── event-log/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   └── minor-action-fallback.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   ├── memory/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   │           └── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │   └── skills/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │       └── sqlite/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │           ├── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │           │   └── origin.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   │           └── _meta.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │       └── memory/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │           └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │               └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   │                   └── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   └── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── .code1
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── .code2
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── .code3
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-020140-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0230-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   ├── 2026-05-18-040113-edt-summary.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   │   └── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── promotion-logs/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │       ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │       ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │       └── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   ├── skills/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │   └── sqlite/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │       └── .clawhub/
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   │           └── origin.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   │   └── archives.zip
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── manifest.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-24/
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── bundle/
+│   │   │   │   │   │   │   │   │   │       │   │   │       └── files/
+│   │   │   │   │   │   │   │   │   │       │   │   │           ├── memory/
+│   │   │   │   │   │   │   │   │   │       │   │   │           │   └── migration-backups/
+│   │   │   │   │   │   │   │   │   │       │   │   │           │       └── 20260516-daily-note-normalization/
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-05-request-timed-out-before-a-res.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-07-closed-book.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-08-trust-breach.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-10-0851.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-10-greeting.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-11-1441.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-14 copy.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-14-0305.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-14-1528.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-14-1751.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-14-1957.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           ├── 2026-05-15-0107.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           │           └── 2026-05-16-0046.md
+│   │   │   │   │   │   │   │   │   │       │   │   │           └── archives.zip
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   │   │       │   │   └── 2026-05-21-cleanup-staging.tar.gz
+│   │   │   │   │   │   │   │   │   │       │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── dm-reply-watcher-233303.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── codi-moltbook-reply-watcher-190000-EDT.md
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── post-comments.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0630-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── agents_dm_requests.status
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── home.status
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── notifications.status
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-191556-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── comment-create-d94dca84.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │       │   │   │   └── feed.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── .code1
+│   │   │   │   │   │   │   │   │   │       │   │   ├── .code2
+│   │   │   │   │   │   │   │   │   │       │   │   ├── .code3
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-143000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-153036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-160052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-173101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-180227-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-1915-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-203000-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-203000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2101-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-233202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-233202-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0001-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0200-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-023156-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-033133-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-040112-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-040112-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-043109-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0531-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0601-edt-codi-moltbook-curiosity-pulse.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0601-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-060115-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-060115-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0700-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-083106-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-090053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-093146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-103139-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-120137-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-123052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-130029-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1430-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-150042-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-160152-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-163105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-170046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-173053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-180122-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-190121-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-190121-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-193051-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-193051-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-200124-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-2030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-210000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-213105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-220044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-230058-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-233050-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-codi-moltbook-reply-watcher.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-000000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-023055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0430-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0500-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0531-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-090131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1202-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-123105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-130052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-133048-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-143100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-150105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-153113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-163051-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-170056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-180048-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-190235-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-190235-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-191556-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-200132-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-203134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-2100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-000056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-0003-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-013107-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-023142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-030000-EDT-dm-reply-watcher.json
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-22-0330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   │   └── 2026-05-22-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   │       │   ├── promotion-logs/
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-19-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-20-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   ├── 2026-05-21-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   │   └── 2026-05-22-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   │       │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   │   │   │       └── archives.zip
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-stale-files.tar.gz
+│   │   │   │   │   │   │   │   │   └── 2026-05-21-cleanup-staging.tar.gz
+│   │   │   │   │   │   │   │   ├── moltbook/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18/
+│   │   │   │   │   │   │   │   │   │   ├── codi_moltbook_reply_watcher_190000EDT.json
+│   │   │   │   │   │   │   │   │   │   └── dm-reply-watcher-233303.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19/
+│   │   │   │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-190000-EDT.md
+│   │   │   │   │   │   │   │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
+│   │   │   │   │   │   │   │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │   └── post-comments.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0630-edt-reply-watcher-run/
+│   │   │   │   │   │   │   │   │   │   ├── agents_dm_requests.status
+│   │   │   │   │   │   │   │   │   │   ├── home.status
+│   │   │   │   │   │   │   │   │   │   └── notifications.status
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-191556-edt-participation-pulse-run/
+│   │   │   │   │   │   │   │   │   │   ├── comment-create-d94dca84.json
+│   │   │   │   │   │   │   │   │   │   ├── comment-create.json
+│   │   │   │   │   │   │   │   │   │   ├── comment-verify.json
+│   │   │   │   │   │   │   │   │   │   └── feed.json
+│   │   │   │   │   │   │   │   │   ├── .code1
+│   │   │   │   │   │   │   │   │   ├── .code2
+│   │   │   │   │   │   │   │   │   ├── .code3
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-0930-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1201-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1400-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1431-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1530-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher-1930-edt.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-reply-watcher-0400EDT.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-163104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-143000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1501-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-153036-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-160052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-173101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-180227-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-1915-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-193000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-203000-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-203000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2101-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2101-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-233202-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-233202-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0001-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0001-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0200-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-023156-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0301-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-033133-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-040112-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-040112-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-043109-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0531-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0601-edt-codi-moltbook-curiosity-pulse.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0601-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-060115-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-060115-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0700-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-083106-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-090053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-093146-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-103139-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-120137-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-123052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-130029-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1430-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-150042-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-160152-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-163105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-170046-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-180122-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-190121-edt-audio-unavailable.txt
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-190121-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-193051-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-193051-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-200124-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-2030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-210000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-213105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-220044-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-230058-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-233050-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-codi-moltbook-reply-watcher.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20_moltbook_curiosity_pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-000000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0130-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-023055-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0430-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0500-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0531-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0630-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0700-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0800-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-090131-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-0930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1202-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-123105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-130052-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-133048-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1400-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-153113-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1600-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-163051-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-170056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1730-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-180048-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1830-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-190235-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-190235-edt-reply-watcher-run.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-191556-edt-codi-moltbook-participation-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-1930-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-200132-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-203134-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-2100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-2130-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-220000-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-2230-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-2300-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-2330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-codi-moltbook-daily-report.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-codi-moltbook-daily-review.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21_moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-000056-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-0003-edt-codi-moltbook-curiosity-pulse.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-0030-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-0100-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-013107-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-0200-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-023142-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-030000-EDT-dm-reply-watcher.json
+│   │   │   │   │   │   │   │   │   ├── 2026-05-22-0330-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   │   └── 2026-05-22-040054-edt-codi-moltbook-reply-watcher.md
+│   │   │   │   │   │   │   │   ├── promotion-logs/
+│   │   │   │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-18-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
+│   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   │   │   └── archives.zip
+│   │   │   │   │   │   ├── .DS_Store
+│   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   ├── .DS_Store
+│   │   │   │   │   └── 2026-05-25-stale-files.tar.gz
 │   │   │   │   ├── Distilled_Lessons/
 │   │   │   │   │   ├── 2026-03-31.md
 │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
@@ -1090,7 +3015,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-21.md
 │   │   │   │   │   ├── 2026-05-22.md
 │   │   │   │   │   ├── 2026-05-23.md
-│   │   │   │   │   └── 2026-05-24.md
+│   │   │   │   │   ├── 2026-05-24.md
+│   │   │   │   │   └── 2026-05-25.md
 │   │   │   │   ├── event-log/
 │   │   │   │   │   ├── migrations/
 │   │   │   │   │   │   └── 001_init.sql
@@ -1108,7 +3034,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-19-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-05-21-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-05-24-nightly-maintenance.md
-│   │   │   │   │   └── 2026-05-25-nightly-maintenance.md
+│   │   │   │   │   ├── 2026-05-25-nightly-maintenance.md
+│   │   │   │   │   └── 2026-05-26-nightly-maintenance.md
 │   │   │   │   ├── memory/
 │   │   │   │   │   ├── migration-backups/
 │   │   │   │   │   │   └── 20260516-daily-note-normalization/
@@ -1161,7 +3088,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-05-24-1914.md
 │   │   │   │   │   ├── 2026-05-24-2017.md
 │   │   │   │   │   ├── 2026-05-24.md
-│   │   │   │   │   └── 2026-05-25.md
+│   │   │   │   │   ├── 2026-05-25.md
+│   │   │   │   │   └── 2026-05-26.md
 │   │   │   │   ├── Navigation/
 │   │   │   │   │   └── NAVIGATION.md
 │   │   │   │   ├── Outputs/
@@ -1265,12 +3193,10 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── .code3
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
@@ -1284,32 +3210,26 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
@@ -1317,7 +3237,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.headers.txt
@@ -1325,7 +3244,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
@@ -1333,12 +3251,10 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
@@ -1347,7 +3263,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
@@ -1366,32 +3281,27 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
@@ -1399,21 +3309,18 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
@@ -1422,7 +3329,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
@@ -1430,14 +3336,12 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
@@ -1445,28 +3349,24 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
@@ -1474,7 +3374,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
@@ -1482,7 +3381,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
@@ -1491,7 +3389,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
@@ -1499,27 +3396,22 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
@@ -1528,14 +3420,12 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
@@ -1543,14 +3433,12 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
@@ -1563,14 +3451,12 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
@@ -1579,7 +3465,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.headers.txt
@@ -1587,7 +3472,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
@@ -1597,32 +3481,27 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
@@ -1640,7 +3519,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
@@ -1652,7 +3530,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
@@ -1664,7 +3541,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
@@ -1674,14 +3550,12 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
@@ -1727,10 +3601,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   ├── cleanup-staging/
 │   │   │   │   │   │   │   │   │   └── 2026-05-23/
 │   │   │   │   │   │   │   │   │       └── files/
-│   │   │   │   │   │   │   │   │           ├── maintenance/
-│   │   │   │   │   │   │   │   │           │   └── stale-staging/
-│   │   │   │   │   │   │   │   │           │       └── 2026-05-16/
-│   │   │   │   │   │   │   │   │           │           └── summary.json
 │   │   │   │   │   │   │   │   │           ├── memory/
 │   │   │   │   │   │   │   │   │           │   └── migration-backups/
 │   │   │   │   │   │   │   │   │           │       └── 20260516-daily-note-normalization/
@@ -1803,64 +3673,33 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   │   ├── dm-reply-watcher-2026-05-19T0630-04-00.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── dm-reply-watcher-2026-05-19T070114-04-00.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-083125-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-113208-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-120200-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-143000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-1501-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-153036-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-1700-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-173101-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-180227-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-1830-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-1915-edt-participation-pulse-run/
@@ -1870,162 +3709,86 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── post-comments.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-193000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-203000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-213000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-220000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-223000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-2300-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-233202-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-20-0001-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-20-0200-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-20-0301-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-20-033133-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-20-040112-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-110138-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-110138-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-110138-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-130113-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-130113-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-130113-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-163053-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-163053-home.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-163053-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-183052-edt-status.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-190134-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2031-postwrite-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2041-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2103-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-213103-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222555-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222935-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222935-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222935-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-230221-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-233114-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
@@ -2041,195 +3804,105 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16-thread-reply-watcher-report.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16_083108_dm_requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16_083108_home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16_083108_notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-000416-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-000416-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-000416-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-000416-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-010000-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0131-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-020142-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0230-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0301-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-033044-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-043142-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-050046-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-053232-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-060207-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-063000-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-070036-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-073057-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-080343-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-090312-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-100116-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-103128-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-103128-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-103128-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-110202-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-110202-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-110202-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-113231-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-113231-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-113231-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-113231-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120220-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-120239-edt-watcher-report.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-130000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-130000-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-130000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-130000-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-133146-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-140000-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-150228-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
@@ -2237,71 +3910,38 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-183059-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-190128-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-200118-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-203117-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2102-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2102-edt-watcher-report.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-213000-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-220117-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-223100-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-230101-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-230101-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-230101-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-2330-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
@@ -2310,280 +3950,142 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-17_moltbook_reply_watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0100-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-020140-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0230-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-033103-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-040113-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-043053-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-050116-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-053055-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-060159-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0630-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-070053-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-073000-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-080128-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-083000-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-0901-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-093055-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-100000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-110052-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-113151-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1204-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1230-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-130126-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-133056-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-140038-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-143103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-143103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-143103-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-143103-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1501-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1501-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1501-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1501-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-153143-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1600-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-163030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-1700-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-173127-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-180254-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-183000-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-193000-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-200000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-203111-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-203111-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-203111-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-203111-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-203111-edt-summary.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-210228-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213052-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213052-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-213104-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-220000-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-2230-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-230055-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-codi-moltbook-daily-report.md
@@ -2591,139 +4093,73 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-18_moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0001-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0030-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-010035-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-013000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-020123-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-020123-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-020123-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-020123-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-020123-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0230-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-030426-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-033039-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-040054-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-040054-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-040054-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-040054-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-043116-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-050135-edt-summary.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0530-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-060148-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0603-edt-codi-moltbook-curiosity-pulse.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-073154-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0800-edt-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-083125-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-090153-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0930-edt-api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0930-edt-api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0930-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-0930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-100046-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-103052-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-110049-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-113208-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-120200-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-123218-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-130141-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-130141-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-130141-edt-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-130141-edt-notifications.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133051-edt-api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133051-edt-api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-home.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-home.json
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.headers.txt
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-133100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-140142-edt-api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-140142-edt-api-v1-home.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-140142-edt-api-v1-notifications.json
 │   │   │   │   │   │   │   │   │           │   │   ├── 2026-05-19-140142-edt-codi-moltbook-reply-watcher.md
@@ -2773,10 +4209,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │           │   │   └── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │           │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   │   │           └── archives.zip
-│   │   │   │   │   │   │   │   ├── maintenance/
-│   │   │   │   │   │   │   │   │   └── stale-staging/
-│   │   │   │   │   │   │   │   │       └── 2026-05-16/
-│   │   │   │   │   │   │   │   │           └── summary.json
 │   │   │   │   │   │   │   │   ├── Outputs/
 │   │   │   │   │   │   │   │   │   ├── cleanup-staging/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17/
@@ -2878,92 +4310,49 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── .code3
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-103218-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-110138-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-123148-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-130113-edt-watcher-status.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-home.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-163053-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-170126-edt-watcher-status.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-status.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-dm-requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-postwrite-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-213103-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2143-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2200-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222555-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-222935-edt-watcher-status.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-230221-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-233114-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-codi-moltbook-daily-report.md
@@ -2979,195 +4368,105 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-thread-reply-watcher-report.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_dm_requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_083108_notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16_2000_codi_moltbook_reply_watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-000416-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-003000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-010000-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0131-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-020142-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0230-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0301-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-033044-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-040000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-043142-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-050046-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-053232-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-060207-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-063000-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-070036-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-073057-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-080343-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-083114-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-090312-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-0930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-100116-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-103128-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-110202-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-dm_requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-113231-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-agents-dm-requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120220-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-120239-edt-watcher-report.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-130000-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-133146-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-dm_requests.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-140000-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-150228-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-153044-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-160000-edt-codi-moltbook-reply-watcher.md
@@ -3175,71 +4474,38 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-170000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1730-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-180206-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-183059-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-190128-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-1930-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-audio-unavailable.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-200118-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-203117-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2102-edt-watcher-report.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-213000-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-220117-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-223100-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-230101-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-2330-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-curiosity-pulse.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17-codi-moltbook-daily-report.md
@@ -3248,57 +4514,33 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-17_moltbook_reply_watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0001-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0030-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0100-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-013131-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-020140-edt-summary.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0230-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-0301-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-check.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-conversations.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-home.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-033103-edt-notifications.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-check.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.headers.txt
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-agents-dm-requests.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-home.json
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.headers.txt
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-notifications.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-18-040113-edt-summary.json
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-18-moltbook-curiosity-pulse.md
@@ -3350,8 +4592,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   ├── agents_dm_requests.status
 │   │   │   │   │   │   │   │   │   │   │   ├── home.status
 │   │   │   │   │   │   │   │   │   │   │   └── notifications.status
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-21-133048-edt-reply-watcher-run/
-│   │   │   │   │   │   │   │   │   │   │   └── agents__dm__requests.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-21-191556-edt-participation-pulse-run/
 │   │   │   │   │   │   │   │   │   │   │   ├── comment-create-d94dca84.json
 │   │   │   │   │   │   │   │   │   │   │   ├── comment-create.json
@@ -3367,7 +4607,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-180214-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-183052-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-190134-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2031-edt-block-opencodeai01-response.json
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2041-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2103-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-16-2130-edt-codi-moltbook-reply-watcher.md
@@ -3701,7 +4940,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   ├── cleanup-staging-2026-05-25.zip
 │   │   │   │   │   │   │   └── manifest.json
-│   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   ├── 2026-05-17-stale-files.tar.gz
 │   │   │   │   │   │   └── 2026-05-21-cleanup-staging.tar.gz
 │   │   │   │   │   ├── moltbook/
@@ -3720,8 +4958,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── agents_dm_requests.status
 │   │   │   │   │   │   │   ├── home.status
 │   │   │   │   │   │   │   └── notifications.status
-│   │   │   │   │   │   ├── 2026-05-21-133048-edt-reply-watcher-run/
-│   │   │   │   │   │   │   └── agents__dm__requests.json
 │   │   │   │   │   │   ├── 2026-05-21-191556-edt-participation-pulse-run/
 │   │   │   │   │   │   │   ├── comment-create-d94dca84.json
 │   │   │   │   │   │   │   ├── comment-create.json
@@ -3733,89 +4969,69 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── codi-moltbook-reply-watcher-213151-EDT.md
 │   │   │   │   │   │   │   └── dm-reply-watcher-110000-EDT.md
 │   │   │   │   │   │   ├── 2026-05-23-0700-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api_v1_agents_dm_requests.json
 │   │   │   │   │   │   │   ├── api_v1_home.json
 │   │   │   │   │   │   │   └── api_v1_notifications.json
-│   │   │   │   │   │   ├── 2026-05-23-073037-edt-reply-watcher-run/
 │   │   │   │   │   │   ├── 2026-05-23-073051-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api_v1_agents_dm_requests.json
 │   │   │   │   │   │   │   ├── api_v1_home.json
 │   │   │   │   │   │   │   └── api_v1_notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-0900-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── agents-dm-requests.body
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.body
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   ├── notifications.body
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-0930-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api_v1_agents_dm_requests.json
 │   │   │   │   │   │   │   ├── api_v1_home.json
 │   │   │   │   │   │   │   └── api_v1_notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-1000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-110020-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-1130-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-120000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-123000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-130054-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-173000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-180000-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── dm-requests.http
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── dm-requests.raw
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-2100-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── comments.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-2200-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-230000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   ├── notifications.json
 │   │   │   │   │   │   │   └── post-comments.json
 │   │   │   │   │   │   ├── 2026-05-24-023000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-0400-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-043000-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── comments_post_100ed047.json
-│   │   │   │   │   │   │   ├── dm_requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-0500-edt-reply-watcher-run/
 │   │   │   │   │   │   │   ├── agents-dm-requests-headers.txt
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home-headers.txt
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   ├── notifications-headers.txt
@@ -3824,11 +5040,9 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── post-comments.json
 │   │   │   │   │   │   │   └── status.txt
 │   │   │   │   │   │   ├── 2026-05-24-0530-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-0630-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── comment-create.json
 │   │   │   │   │   │   │   ├── comment-verify.json
 │   │   │   │   │   │   │   ├── comments.json
@@ -3838,7 +5052,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── reply_payload.json
 │   │   │   │   │   │   │   └── verify-payload.json
 │   │   │   │   │   │   ├── 2026-05-24-0700-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── comment-create-error.json
 │   │   │   │   │   │   │   ├── comment-create.json
 │   │   │   │   │   │   │   ├── comment-verify.json
@@ -3846,20 +5059,16 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-080000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-1000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-1030-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   ├── notifications-summary.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-1100-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents_dm_requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-120000-edt-live-dm-watch/
@@ -3874,21 +5083,16 @@ XLR8ROS/
 │   │   │   │   │   │   │   ├── dm_requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
-│   │   │   │   │   │   ├── 2026-05-24-133000-edt-reply-watcher-run/
 │   │   │   │   │   │   ├── 2026-05-24-143036-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-150047-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents_dm_requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-153000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── api-v1-agents-dm-requests.json
 │   │   │   │   │   │   │   ├── api-v1-home.json
 │   │   │   │   │   │   │   └── api-v1-notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-173000-edt-reply-watcher-run/
-│   │   │   │   │   │   │   ├── agents-dm-requests.json
 │   │   │   │   │   │   │   ├── home.json
 │   │   │   │   │   │   │   └── notifications.json
 │   │   │   │   │   │   ├── .code1
@@ -4284,11 +5488,7 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-23-1000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-23-1000-edt-reply-watcher-run.json
 │   │   │   │   │   │   ├── 2026-05-23-103000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-23-103000-edt-dm-requests.headers.txt
-│   │   │   │   │   │   ├── 2026-05-23-103000-edt-dm-requests.json
-│   │   │   │   │   │   ├── 2026-05-23-103000-edt-home.headers.txt
 │   │   │   │   │   │   ├── 2026-05-23-103000-edt-home.json
-│   │   │   │   │   │   ├── 2026-05-23-103000-edt-notifications.headers.txt
 │   │   │   │   │   │   ├── 2026-05-23-103000-edt-notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-110020-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-23-1130-edt-codi-moltbook-reply-watcher.md
@@ -4302,20 +5502,14 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-23-1430-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-23-150000-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-23-153000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-23-153000-edt-dm-requests.headers.txt
-│   │   │   │   │   │   ├── 2026-05-23-153000-edt-dm-requests.json
-│   │   │   │   │   │   ├── 2026-05-23-153000-edt-home.headers.txt
 │   │   │   │   │   │   ├── 2026-05-23-153000-edt-home.json
-│   │   │   │   │   │   ├── 2026-05-23-153000-edt-notifications.headers.txt
 │   │   │   │   │   │   ├── 2026-05-23-153000-edt-notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-153000-edt-reply-watcher-run.json
 │   │   │   │   │   │   ├── 2026-05-23-160052-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-23-160052-edt-dm-requests.json
 │   │   │   │   │   │   ├── 2026-05-23-160052-edt-home.json
 │   │   │   │   │   │   ├── 2026-05-23-160052-edt-notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-160052-edt-reply-watcher-run.json
 │   │   │   │   │   │   ├── 2026-05-23-163115-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-23-163115-edt-dm-requests.json
 │   │   │   │   │   │   ├── 2026-05-23-163115-edt-home.json
 │   │   │   │   │   │   ├── 2026-05-23-163115-edt-notifications.json
 │   │   │   │   │   │   ├── 2026-05-23-163115-edt-reply-watcher-run.json
@@ -4339,7 +5533,6 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-23_moltbook_curiosity_pulse.json
 │   │   │   │   │   │   ├── 2026-05-23_moltbook_curiosity_pulse.md
 │   │   │   │   │   │   ├── 2026-05-24-003108-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-24-003108-edt-dm-requests.json
 │   │   │   │   │   │   ├── 2026-05-24-003108-edt-home.json
 │   │   │   │   │   │   ├── 2026-05-24-003108-edt-notifications.json
 │   │   │   │   │   │   ├── 2026-05-24-003108-edt-reply-watcher-run.json
@@ -4372,7 +5565,6 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-24-143036-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-24-150047-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-24-153000-edt-codi-moltbook-reply-watcher.md
-│   │   │   │   │   │   ├── 2026-05-24-153000-edt-summary.json
 │   │   │   │   │   │   ├── 2026-05-24-1600EDT-codi-moltbook-reply-watcher.json
 │   │   │   │   │   │   ├── 2026-05-24-1700-edt-codi-moltbook-reply-watcher.md
 │   │   │   │   │   │   ├── 2026-05-24-1700-edt-reply-watcher-run.json
@@ -4389,7 +5581,18 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-25-0007-edt-codi-moltbook-reading-pulse.md
 │   │   │   │   │   │   ├── 2026-05-25-0100-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   │   ├── 2026-05-25-0239-edt-codi-moltbook-social-watcher.md
-│   │   │   │   │   │   └── 2026-05-25-0301-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-0301-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-0500-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-0700-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-0800-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-1030-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-1100-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-1130-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-1631-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-1930-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-2132-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-25-codi-moltbook-social-review.md
+│   │   │   │   │   │   └── 2026-05-26-0201-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   ├── promotion-logs/
 │   │   │   │   │   │   ├── 2026-05-16-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-17-durable-memory-promotion-log.md
@@ -4399,9 +5602,14 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-22-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-05-23-durable-memory-promotion-log.md
-│   │   │   │   │   │   └── 2026-05-24-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-05-24-durable-memory-promotion-log.md
+│   │   │   │   │   │   └── 2026-05-25-durable-memory-promotion-log.md
+│   │   │   │   │   ├── social-watch/
+│   │   │   │   │   │   └── 2026-05-25/
+│   │   │   │   │   │       └── moltbook-social-watcher-2026-05-25T230000-America_New_York.md
 │   │   │   │   │   ├── .DS_Store
-│   │   │   │   │   └── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   ├── cron-health-sweep-2026-05-19.md
+│   │   │   │   │   └── moltbook-reading-pulse-2026-05-25.md
 │   │   │   │   ├── skills/
 │   │   │   │   │   └── sqlite/
 │   │   │   │   │       ├── .clawhub/
@@ -4413,85 +5621,46 @@ XLR8ROS/
 │   │   │   │   │   └── moltbook/
 │   │   │   │   │       ├── runtime/
 │   │   │   │   │       │   ├── 2026-05-21-1600-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── dm-requests.headers.txt
-│   │   │   │   │       │   │   ├── dm-requests.json
 │   │   │   │   │       │   │   ├── dm-requests.status.txt
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   ├── home.status.txt
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   ├── notifications.json
 │   │   │   │   │       │   │   └── notifications.status.txt
-│   │   │   │   │       │   ├── 2026-05-22-080137-edt-reply-watcher-run/
-│   │   │   │   │       │   │   └── dm-requests.json
-│   │   │   │   │       │   ├── 2026-05-22-213151-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── dm-requests.headers.txt
-│   │   │   │   │       │   │   ├── dm-requests.json
-│   │   │   │   │       │   │   ├── home.headers.txt
-│   │   │   │   │       │   │   └── notifications.headers.txt
 │   │   │   │   │       │   ├── 2026-05-23-1900-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── dm-requests.headers.txt
-│   │   │   │   │       │   │   ├── dm-requests.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   └── notifications.json
 │   │   │   │   │       │   ├── 2026-05-23-2000-edt-reply-watcher-run/
 │   │   │   │   │       │   │   ├── comments.json
-│   │   │   │   │       │   │   ├── dm-requests.headers.txt
-│   │   │   │   │       │   │   ├── dm-requests.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   └── notifications.json
 │   │   │   │   │       │   ├── 2026-05-23-2130-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── dm-requests.json
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   ├── notifications.json
-│   │   │   │   │       │   │   ├── post-comments.json
-│   │   │   │   │       │   │   ├── reply-action-response.json
-│   │   │   │   │       │   │   └── reply-action-verify-response.json
+│   │   │   │   │       │   │   └── post-comments.json
 │   │   │   │   │       │   ├── 2026-05-23-2200-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── agents-dm-requests.json
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   └── notifications.json
 │   │   │   │   │       │   ├── 2026-05-24-090038-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── agents_dm_requests.json
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   └── notifications.json
 │   │   │   │   │       │   ├── 2026-05-24-093000-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── agents_dm_requests.json
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   └── notifications.json
-│   │   │   │   │       │   ├── 2026-05-24-130038-edt-reply-watcher-run/
 │   │   │   │   │       │   ├── 2026-05-24-130114-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── agents_dm_requests.headers.txt
-│   │   │   │   │       │   │   ├── agents_dm_requests.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   └── notifications.json
 │   │   │   │   │       │   ├── 2026-05-24-160041-edt-reply-watcher-run/
-│   │   │   │   │       │   │   ├── agents_dm_requests.headers.txt
-│   │   │   │   │       │   │   ├── agents_dm_requests.json
 │   │   │   │   │       │   │   ├── agents_dm_requests.status.txt
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   ├── home.status.txt
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   ├── notifications.json
 │   │   │   │   │       │   │   └── notifications.status.txt
 │   │   │   │   │       │   ├── 2026-05-24-1900-edt-social-watcher-run/
-│   │   │   │   │       │   │   ├── dms.headers.txt
 │   │   │   │   │       │   │   ├── dms.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
-│   │   │   │   │       │   │   ├── mentions.headers.txt
 │   │   │   │   │       │   │   ├── mentions.json
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   ├── notifications.json
 │   │   │   │   │       │   │   ├── notifications_pretty.txt
-│   │   │   │   │       │   │   ├── status.headers.txt
 │   │   │   │   │       │   │   └── status.json
 │   │   │   │   │       │   ├── 2026-05-24-2000-edt-social-watcher-run/
 │   │   │   │   │       │   │   ├── comments_manifest.json
@@ -4501,16 +5670,12 @@ XLR8ROS/
 │   │   │   │   │       │   │   ├── candidate_562ce7ae-70af-4139-affe-ab97a7665783.json
 │   │   │   │   │       │   │   ├── candidate_8483b11b-1fa7-469d-b698-c35d74d9583e.json
 │   │   │   │   │       │   │   ├── candidate_bbc9b57f-ca0e-4de9-b842-ecc45b33e47c.json
-│   │   │   │   │       │   │   ├── dms.headers.txt
 │   │   │   │   │       │   │   ├── dms.json
 │   │   │   │   │       │   │   ├── feed_limit-10_sort-hot.json
 │   │   │   │   │       │   │   ├── feed_limit-10_sort-new.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   ├── home_pretty.txt
-│   │   │   │   │       │   │   ├── mentions.headers.txt
 │   │   │   │   │       │   │   ├── mentions.json
-│   │   │   │   │       │   │   ├── notifications.headers.txt
 │   │   │   │   │       │   │   ├── notifications.json
 │   │   │   │   │       │   │   ├── notifications_page2.json
 │   │   │   │   │       │   │   ├── notifications_pretty.txt
@@ -4526,24 +5691,15 @@ XLR8ROS/
 │   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7.json
 │   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments50.json
 │   │   │   │   │       │   │   ├── post_reply_1_payload.json
-│   │   │   │   │       │   │   ├── post_reply_1_response.json
 │   │   │   │   │       │   │   ├── post_reply_2_payload.json
-│   │   │   │   │       │   │   ├── post_reply_2_response.json
-│   │   │   │   │       │   │   ├── post_reply_3_skipverify_response.json
-│   │   │   │   │       │   │   ├── post_reply_4_skipverify_response.json
-│   │   │   │   │       │   │   ├── status.headers.txt
 │   │   │   │   │       │   │   ├── status.json
-│   │   │   │   │       │   │   ├── summary.json
 │   │   │   │   │       │   │   ├── verify_moltbook_verify_0ac512fcf5ef3ef4c367076268aa363e.json
 │   │   │   │   │       │   │   └── verify_moltbook_verify_86d3a8dd12591d835d1ec93d7b75ea60.json
-│   │   │   │   │       │   ├── 2026-05-24-2200-edt-social-watcher-run/
 │   │   │   │   │       │   ├── 2026-05-25-0007-edt-reading-pulse-run/
 │   │   │   │   │       │   │   ├── deadman_switch_comment_create.json
 │   │   │   │   │       │   │   ├── deadman_switch_comment_verify.json
 │   │   │   │   │       │   │   ├── deadman_switch_comments.json
-│   │   │   │   │       │   │   ├── feed.headers.txt
 │   │   │   │   │       │   │   ├── feed.json
-│   │   │   │   │       │   │   ├── home.headers.txt
 │   │   │   │   │       │   │   ├── home.json
 │   │   │   │   │       │   │   ├── jenny_intro_comments.json
 │   │   │   │   │       │   │   ├── manifest_comments.json
@@ -4568,9 +5724,7 @@ XLR8ROS/
 │   │   │   │   │       │   │   ├── notifications.json
 │   │   │   │   │       │   │   ├── notifications.meta.json
 │   │   │   │   │       │   │   ├── status.json
-│   │   │   │   │       │   │   ├── status.meta.json
-│   │   │   │   │       │   │   └── summary.json
-│   │   │   │   │       │   ├── 2026-05-25-0200-edt-social-watcher-run/
+│   │   │   │   │       │   │   └── status.meta.json
 │   │   │   │   │       │   ├── 2026-05-25-0239-edt-social-watcher-run/
 │   │   │   │   │       │   │   ├── agent_status.headers
 │   │   │   │   │       │   │   ├── agent_status.json
@@ -4609,7 +5763,6 @@ XLR8ROS/
 │   │   │   │   │       │   │   ├── dm_conversations.headers
 │   │   │   │   │       │   │   ├── dm_conversations.json
 │   │   │   │   │       │   │   ├── dm_requests.headers
-│   │   │   │   │       │   │   ├── dm_requests.json
 │   │   │   │   │       │   │   ├── feed.headers
 │   │   │   │   │       │   │   ├── feed.json
 │   │   │   │   │       │   │   ├── home.headers
@@ -4630,7 +5783,215 @@ XLR8ROS/
 │   │   │   │   │       │   │   ├── manifest.json
 │   │   │   │   │       │   │   ├── mentions.error.txt
 │   │   │   │   │       │   │   └── notifications.json
-│   │   │   │   │       │   ├── 2026-05-25-0332-edt-social-watcher-run/
+│   │   │   │   │       │   ├── 2026-05-25-0500-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── dms.json
+│   │   │   │   │       │   │   ├── dms.meta.json
+│   │   │   │   │       │   │   ├── feed_hot.json
+│   │   │   │   │       │   │   ├── feed_hot.meta.json
+│   │   │   │   │       │   │   ├── feed_new.json
+│   │   │   │   │       │   │   ├── feed_new.meta.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── home.meta.json
+│   │   │   │   │       │   │   ├── mentions.json
+│   │   │   │   │       │   │   ├── mentions.meta.json
+│   │   │   │   │       │   │   ├── notifications.json
+│   │   │   │   │       │   │   ├── notifications.meta.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments50.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments50.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments50.json
+│   │   │   │   │       │   │   ├── reply_post_100ed_20260525_0500.json
+│   │   │   │   │       │   │   ├── status.json
+│   │   │   │   │       │   │   ├── status.meta.json
+│   │   │   │   │       │   │   └── verify_post_100ed_20260525_0500.json
+│   │   │   │   │       │   ├── 2026-05-25-0700-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── comments_by_post.json
+│   │   │   │   │       │   │   ├── notifications.json
+│   │   │   │   │       │   │   └── surface_status.json
+│   │   │   │   │       │   ├── 2026-05-25-080030-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_me.json
+│   │   │   │   │       │   │   ├── dm_check.error.txt
+│   │   │   │   │       │   │   ├── dm_conversations.error.txt
+│   │   │   │   │       │   │   ├── dm_requests.error.txt
+│   │   │   │   │       │   │   ├── feed_sort-new_limit-5.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── notifications.json
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   ├── post-100ed047-0201-409a-9f7f-8d5e39c335a2-comments.json
+│   │   │   │   │       │   │   ├── post-100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │       │   │   ├── post-5c1d68f2-08da-4450-980c-5851b256f9f4-comments.json
+│   │   │   │   │       │   │   ├── post-5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── post-bb5e35fa-ca11-40da-9bda-8c0d418cff42-comments.json
+│   │   │   │   │       │   │   ├── post-bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │       │   │   └── status.json
+│   │   │   │   │       │   ├── 2026-05-25-090307-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_me.json
+│   │   │   │   │       │   │   ├── agents_status.json
+│   │   │   │   │       │   │   ├── dm_requests.error.txt
+│   │   │   │   │       │   │   ├── dms_limit50.error.txt
+│   │   │   │   │       │   │   ├── extra_0.json
+│   │   │   │   │       │   │   ├── extra_1.json
+│   │   │   │   │       │   │   ├── feed_new_limit15.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── mentions_limit50.error.txt
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments_old_100.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments_old_100.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments_old_100.json
+│   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments_old_100.json
+│   │   │   │   │       │   │   └── verify_c69607ed-5784-4a2c-801a-b786758f00f8.json
+│   │   │   │   │       │   ├── 2026-05-25-1100-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── dm_inbox.error.txt
+│   │   │   │   │       │   │   ├── dm_requests.error.txt
+│   │   │   │   │       │   │   ├── feed_new_15.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── me.json
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   └── status.json
+│   │   │   │   │       │   ├── 2026-05-25-1130-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agent_me.json
+│   │   │   │   │       │   │   ├── dm_inbox.json
+│   │   │   │   │       │   │   ├── dm_requests.json
+│   │   │   │   │       │   │   ├── feed_new15.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── mentions_limit50.json
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   └── status.json
+│   │   │   │   │       │   ├── 2026-05-25-123526-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_me.headers.txt
+│   │   │   │   │       │   │   ├── agents_me.json
+│   │   │   │   │       │   │   ├── agents_me.status.txt
+│   │   │   │   │       │   │   ├── agents_status.headers.txt
+│   │   │   │   │       │   │   ├── agents_status.json
+│   │   │   │   │       │   │   ├── agents_status.status.txt
+│   │   │   │   │       │   │   ├── dm_requests.headers.txt
+│   │   │   │   │       │   │   ├── dm_requests.json
+│   │   │   │   │       │   │   ├── dm_requests.status.txt
+│   │   │   │   │       │   │   ├── dms_limit50.headers.txt
+│   │   │   │   │       │   │   ├── dms_limit50.json
+│   │   │   │   │       │   │   ├── dms_limit50.status.txt
+│   │   │   │   │       │   │   ├── feed_new_limit15.headers.txt
+│   │   │   │   │       │   │   ├── feed_new_limit15.json
+│   │   │   │   │       │   │   ├── feed_new_limit15.status.txt
+│   │   │   │   │       │   │   ├── home.headers.txt
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── home.status.txt
+│   │   │   │   │       │   │   ├── mentions_limit50.headers.txt
+│   │   │   │   │       │   │   ├── mentions_limit50.json
+│   │   │   │   │       │   │   ├── mentions_limit50.status.txt
+│   │   │   │   │       │   │   ├── notifications_limit50.headers.txt
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   └── notifications_limit50.status.txt
+│   │   │   │   │       │   ├── 2026-05-25-1531-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_me.txt
+│   │   │   │   │       │   │   ├── dm_check.txt
+│   │   │   │   │       │   │   ├── dm_conversations.txt
+│   │   │   │   │       │   │   ├── dm_requests.txt
+│   │   │   │   │       │   │   ├── feed.txt
+│   │   │   │   │       │   │   ├── home.txt
+│   │   │   │   │       │   │   ├── notifications.txt
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments.txt
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments.txt
+│   │   │   │   │       │   │   ├── post_reply_attempt.txt
+│   │   │   │   │       │   │   ├── status.txt
+│   │   │   │   │       │   │   └── verify_reply.txt
+│   │   │   │   │       │   ├── 2026-05-25-170025-edt-social-watcher-run/
+│   │   │   │   │       │   ├── 2026-05-25-183312-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_me.json
+│   │   │   │   │       │   │   ├── dm_check.error.json
+│   │   │   │   │       │   │   ├── dm_conversations_limit50.error.json
+│   │   │   │   │       │   │   ├── dm_requests.error.json
+│   │   │   │   │       │   │   ├── feed_limit20.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── mentions_limit50.error.json
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments_new_50.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_post.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments_new_50.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_post.json
+│   │   │   │   │       │   │   ├── post_8c1d6f0e-457e-4ac0-b6c6-7747185cf0ea_comments_new_50.json
+│   │   │   │   │       │   │   ├── post_8c1d6f0e-457e-4ac0-b6c6-7747185cf0ea_post.json
+│   │   │   │   │       │   │   ├── post_attempt_success.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments_new_50.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_post.json
+│   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments_new_50.json
+│   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_post.json
+│   │   │   │   │       │   │   └── summary.json
+│   │   │   │   │       │   ├── 2026-05-25-213246-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── comments_100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │       │   │   ├── comments_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── comments_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │       │   │   ├── comments_bbd2850e-aec5-44d5-831c-b52007743dd7.json
+│   │   │   │   │       │   │   ├── dm_check.json
+│   │   │   │   │       │   │   ├── dm_conversations.json
+│   │   │   │   │       │   │   ├── dm_requests.json
+│   │   │   │   │       │   │   ├── feed.json
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── me.json
+│   │   │   │   │       │   │   ├── notifications.json
+│   │   │   │   │       │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
+│   │   │   │   │       │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7.json
+│   │   │   │   │       │   │   ├── status.json
+│   │   │   │   │       │   │   └── summary.json
+│   │   │   │   │       │   ├── 2026-05-26-020108-edt-social-watcher-run/
+│   │   │   │   │       │   │   ├── agents_dm_check.headers.txt
+│   │   │   │   │       │   │   ├── agents_dm_check.json
+│   │   │   │   │       │   │   ├── agents_dm_conversations.headers.txt
+│   │   │   │   │       │   │   ├── agents_dm_conversations.json
+│   │   │   │   │       │   │   ├── agents_dm_requests.headers.txt
+│   │   │   │   │       │   │   ├── agents_dm_requests.json
+│   │   │   │   │       │   │   ├── agents_me.headers.txt
+│   │   │   │   │       │   │   ├── agents_me.json
+│   │   │   │   │       │   │   ├── agents_status.headers.txt
+│   │   │   │   │       │   │   ├── agents_status.json
+│   │   │   │   │       │   │   ├── comment_create_error.json
+│   │   │   │   │       │   │   ├── comment_reply_create_error.json
+│   │   │   │   │       │   │   ├── comments_5c0ca97c-5e15-4e82-9fc6-a9ae36c481dd.headers.txt
+│   │   │   │   │       │   │   ├── comments_5c0ca97c-5e15-4e82-9fc6-a9ae36c481dd.json
+│   │   │   │   │       │   │   ├── comments_5c1d68f2-08da-4450-980c-5851b256f9f4.headers.txt
+│   │   │   │   │       │   │   ├── comments_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── comments_5fa09e5d-80f0-4d84-958e-b6070728e902.headers.txt
+│   │   │   │   │       │   │   ├── comments_5fa09e5d-80f0-4d84-958e-b6070728e902.json
+│   │   │   │   │       │   │   ├── comments_6041d968-e68b-482f-9753-0228552e202a.headers.txt
+│   │   │   │   │       │   │   ├── comments_6041d968-e68b-482f-9753-0228552e202a.json
+│   │   │   │   │       │   │   ├── comments_6f3ac774-d543-41b9-807c-2cca831c39a0.headers.txt
+│   │   │   │   │       │   │   ├── comments_6f3ac774-d543-41b9-807c-2cca831c39a0.json
+│   │   │   │   │       │   │   ├── comments_ba1e9ef6-19f0-494b-9e1d-1c056f432910.headers.txt
+│   │   │   │   │       │   │   ├── comments_ba1e9ef6-19f0-494b-9e1d-1c056f432910.json
+│   │   │   │   │       │   │   ├── comments_c0a4484b-6bde-4bde-b0b4-f3f8b59b426a.headers.txt
+│   │   │   │   │       │   │   ├── comments_c0a4484b-6bde-4bde-b0b4-f3f8b59b426a.json
+│   │   │   │   │       │   │   ├── comments_d0ed0c07-6088-4567-a53b-2f83d5ce78a7.headers.txt
+│   │   │   │   │       │   │   ├── comments_d0ed0c07-6088-4567-a53b-2f83d5ce78a7.json
+│   │   │   │   │       │   │   ├── feed_new_15.headers.txt
+│   │   │   │   │       │   │   ├── feed_new_15.json
+│   │   │   │   │       │   │   ├── home.headers.txt
+│   │   │   │   │       │   │   ├── home.json
+│   │   │   │   │       │   │   ├── mentions_limit50.headers.txt
+│   │   │   │   │       │   │   ├── mentions_limit50.json
+│   │   │   │   │       │   │   ├── notifications_limit50.headers.txt
+│   │   │   │   │       │   │   ├── notifications_limit50.json
+│   │   │   │   │       │   │   ├── post_5c0ca97c-5e15-4e82-9fc6-a9ae36c481dd.headers.txt
+│   │   │   │   │       │   │   ├── post_5c0ca97c-5e15-4e82-9fc6-a9ae36c481dd.json
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4.headers.txt
+│   │   │   │   │       │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4.json
+│   │   │   │   │       │   │   ├── post_5fa09e5d-80f0-4d84-958e-b6070728e902.headers.txt
+│   │   │   │   │       │   │   ├── post_5fa09e5d-80f0-4d84-958e-b6070728e902.json
+│   │   │   │   │       │   │   ├── post_6041d968-e68b-482f-9753-0228552e202a.headers.txt
+│   │   │   │   │       │   │   ├── post_6041d968-e68b-482f-9753-0228552e202a.json
+│   │   │   │   │       │   │   ├── post_6f3ac774-d543-41b9-807c-2cca831c39a0.headers.txt
+│   │   │   │   │       │   │   ├── post_6f3ac774-d543-41b9-807c-2cca831c39a0.json
+│   │   │   │   │       │   │   ├── post_ba1e9ef6-19f0-494b-9e1d-1c056f432910.headers.txt
+│   │   │   │   │       │   │   ├── post_ba1e9ef6-19f0-494b-9e1d-1c056f432910.json
+│   │   │   │   │       │   │   ├── post_c0a4484b-6bde-4bde-b0b4-f3f8b59b426a.headers.txt
+│   │   │   │   │       │   │   ├── post_c0a4484b-6bde-4bde-b0b4-f3f8b59b426a.json
+│   │   │   │   │       │   │   ├── post_d0ed0c07-6088-4567-a53b-2f83d5ce78a7.headers.txt
+│   │   │   │   │       │   │   ├── post_d0ed0c07-6088-4567-a53b-2f83d5ce78a7.json
+│   │   │   │   │       │   │   ├── reply_payload.json
+│   │   │   │   │       │   │   └── summary.json
 │   │   │   │   │       │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
 │   │   │   │   │       │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
@@ -15148,13 +16509,763 @@ XLR8ROS/
 │   │   │   │       │   ├── modelcontextprotocol.io_extensions_overview.md.md
 │   │   │   │       │   └── modelcontextprotocol.io_extensions_tasks_overview.md.md
 │   │   │   │       └── SOURCES.txt
+│   │   │   ├── docs 2/
+│   │   │   │   ├── 00_modelcontextprotocol_site_markdown/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1686-tasks.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1699-support-sse-polling-via-server-side-disconnect.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1730-sdks-tiering-system.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1850-pr-based-sep-workflow.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1865-mcp-apps-interactive-user-interfaces-for-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2085-governance-succession-and-amendment.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2106-json-schema-2020-12.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2133-extensions.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2148-contributor-ladder.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2149-working-group-charter-template.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2164-resource-not-found-error.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2207-oidc-refresh-token-guidance.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2243-http-standardization.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2260-Require-Server-requests-to-be-associated-with-Client-requests.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2322-MRTR.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2468-recommend-issuer-claim-for-auth.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2484-conformance-tests-required-for-final-seps.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2549-TTL-for-list-results.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2567-sessionless-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2575-stateless-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2577-deprecate-roots-sampling-and-logging.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2596-spec-feature-lifecycle-and-deprecation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2663-tasks-extension.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_414-request-meta.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_932-model-context-protocol-governance.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_973-expose-additional-metadata-for-implementations-res.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_985-align-oauth-20-protected-resource-metadata-with-rf.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_986-specify-format-for-tool-names.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_990-enable-enterprise-idp-policy-controls-during-mcp-o.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_991-enable-url-based-client-registration-using-oauth-c.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_994-shared-communication-practicesguidelines.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_architecture_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_authorization.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_lifecycle.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_transports.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_cancellation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_ping.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_progress.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_tasks.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_changelog.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_elicitation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_roots.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_sampling.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_schema.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_prompts.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_resources.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_tools.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_utilities_completion.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_utilities_logging.md.md
+│   │   │   │   │   │   └── modelcontextprotocol.io_specification_2025-11-25_server_utilities_pagination.md.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 01_modelcontextprotocol_repo/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── .claude-plugin/
+│   │   │   │   │   │   │   └── marketplace.json
+│   │   │   │   │   │   ├── .github/
+│   │   │   │   │   │   │   ├── ISSUE_TEMPLATE/
+│   │   │   │   │   │   │   │   ├── bug_report.yml
+│   │   │   │   │   │   │   │   ├── config.yml
+│   │   │   │   │   │   │   │   └── work_tracking.yml
+│   │   │   │   │   │   │   ├── workflows/
+│   │   │   │   │   │   │   │   ├── blog-preview.yml
+│   │   │   │   │   │   │   │   ├── deploy-blog.yml
+│   │   │   │   │   │   │   │   ├── labeler.yml
+│   │   │   │   │   │   │   │   ├── main.yml
+│   │   │   │   │   │   │   │   ├── markdown-format.yml
+│   │   │   │   │   │   │   │   ├── render-seps.yml
+│   │   │   │   │   │   │   │   ├── sep-lifecycle-manual.yml
+│   │   │   │   │   │   │   │   ├── sep-lifecycle.yml
+│   │   │   │   │   │   │   │   ├── sep-reminder.yml
+│   │   │   │   │   │   │   │   ├── slash-commands.yml
+│   │   │   │   │   │   │   │   └── stage-blog.yml
+│   │   │   │   │   │   │   ├── dependabot.yml
+│   │   │   │   │   │   │   └── labeler.yml
+│   │   │   │   │   │   ├── blog/
+│   │   │   │   │   │   │   ├── archetypes/
+│   │   │   │   │   │   │   │   └── default.md
+│   │   │   │   │   │   │   └── content/
+│   │   │   │   │   │   │       ├── posts/
+│   │   │   │   │   │   │       │   ├── client_registration/
+│   │   │   │   │   │   │       │   │   └── index.md
+│   │   │   │   │   │   │       │   ├── 2025-07-29-prompts-for-automation.md
+│   │   │   │   │   │   │       │   ├── 2025-07-31-governance-for-mcp.md
+│   │   │   │   │   │   │       │   ├── 2025-09-05-php-sdk.md
+│   │   │   │   │   │   │       │   ├── 2025-09-08-mcp-registry-preview.md
+│   │   │   │   │   │   │       │   ├── 2025-09-26-mcp-next-version-update.md
+│   │   │   │   │   │   │       │   ├── 2025-11-03-using-server-instructions.md
+│   │   │   │   │   │   │       │   ├── 2025-11-20-adopting-mcpb.md
+│   │   │   │   │   │   │       │   ├── 2025-11-21-mcp-apps.md
+│   │   │   │   │   │   │       │   ├── 2025-11-25-first-mcp-anniversary.md
+│   │   │   │   │   │   │       │   ├── 2025-11-28-sep-process-update.md
+│   │   │   │   │   │   │       │   ├── 2025-12-09-mcp-joins-agentic-ai-foundation.md
+│   │   │   │   │   │   │       │   ├── 2025-12-19-mcp-transport-future.md
+│   │   │   │   │   │   │       │   ├── 2026-01-22-core-maintainer-update.md
+│   │   │   │   │   │   │       │   ├── 2026-01-26-mcp-apps.md
+│   │   │   │   │   │   │       │   ├── 2026-03-09-roadmap-update.md
+│   │   │   │   │   │   │       │   ├── 2026-03-11-understanding-mcp-extensions.md
+│   │   │   │   │   │   │       │   ├── 2026-03-16-tool-annotations.md
+│   │   │   │   │   │   │       │   ├── 2026-04-08-maintainer-update.md
+│   │   │   │   │   │   │       │   ├── 2026-05-21-mcp-2026-07-28-rc.md
+│   │   │   │   │   │   │       │   └── welcome-to-mcp-blog.md
+│   │   │   │   │   │   │       ├── _index.md
+│   │   │   │   │   │   │       ├── archives.md
+│   │   │   │   │   │   │       └── search.md
+│   │   │   │   │   │   ├── docs/
+│   │   │   │   │   │   │   ├── .well-known/
+│   │   │   │   │   │   │   │   └── security.txt
+│   │   │   │   │   │   │   ├── community/
+│   │   │   │   │   │   │   │   ├── file-uploads/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── inspector-v2/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── interceptors/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── sdk/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── seps/
+│   │   │   │   │   │   │   │   │   └── 2243-http-standardization.mdx
+│   │   │   │   │   │   │   │   ├── server-card/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── skills-over-mcp/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── triggers-events/
+│   │   │   │   │   │   │   │   │   └── charter.mdx
+│   │   │   │   │   │   │   │   ├── antitrust.mdx
+│   │   │   │   │   │   │   │   ├── charter-template.mdx
+│   │   │   │   │   │   │   │   ├── communication.mdx
+│   │   │   │   │   │   │   │   ├── contributing.mdx
+│   │   │   │   │   │   │   │   ├── contributor-ladder.mdx
+│   │   │   │   │   │   │   │   ├── design-principles.mdx
+│   │   │   │   │   │   │   │   ├── governance.mdx
+│   │   │   │   │   │   │   │   ├── sdk-tiers.mdx
+│   │   │   │   │   │   │   │   ├── sep-guidelines.mdx
+│   │   │   │   │   │   │   │   └── working-interest-groups.mdx
+│   │   │   │   │   │   │   ├── development/
+│   │   │   │   │   │   │   │   └── roadmap.mdx
+│   │   │   │   │   │   │   ├── docs/
+│   │   │   │   │   │   │   │   ├── develop/
+│   │   │   │   │   │   │   │   │   ├── clients/
+│   │   │   │   │   │   │   │   │   │   └── client-best-practices.mdx
+│   │   │   │   │   │   │   │   │   ├── build-client.mdx
+│   │   │   │   │   │   │   │   │   ├── build-server.mdx
+│   │   │   │   │   │   │   │   │   ├── build-with-agent-skills.mdx
+│   │   │   │   │   │   │   │   │   ├── connect-local-servers.mdx
+│   │   │   │   │   │   │   │   │   └── connect-remote-servers.mdx
+│   │   │   │   │   │   │   │   ├── getting-started/
+│   │   │   │   │   │   │   │   │   └── intro.mdx
+│   │   │   │   │   │   │   │   ├── learn/
+│   │   │   │   │   │   │   │   │   ├── architecture.mdx
+│   │   │   │   │   │   │   │   │   ├── client-concepts.mdx
+│   │   │   │   │   │   │   │   │   ├── server-concepts.mdx
+│   │   │   │   │   │   │   │   │   └── versioning.mdx
+│   │   │   │   │   │   │   │   ├── tools/
+│   │   │   │   │   │   │   │   │   ├── debugging.mdx
+│   │   │   │   │   │   │   │   │   └── inspector.mdx
+│   │   │   │   │   │   │   │   ├── tutorials/
+│   │   │   │   │   │   │   │   │   └── security/
+│   │   │   │   │   │   │   │   │       ├── authorization.mdx
+│   │   │   │   │   │   │   │   │       └── security_best_practices.mdx
+│   │   │   │   │   │   │   │   └── sdk.mdx
+│   │   │   │   │   │   │   ├── extensions/
+│   │   │   │   │   │   │   │   ├── apps/
+│   │   │   │   │   │   │   │   │   ├── build.mdx
+│   │   │   │   │   │   │   │   │   └── overview.mdx
+│   │   │   │   │   │   │   │   ├── auth/
+│   │   │   │   │   │   │   │   │   ├── enterprise-managed-authorization.mdx
+│   │   │   │   │   │   │   │   │   ├── oauth-client-credentials.mdx
+│   │   │   │   │   │   │   │   │   └── overview.mdx
+│   │   │   │   │   │   │   │   ├── tasks/
+│   │   │   │   │   │   │   │   │   └── overview.mdx
+│   │   │   │   │   │   │   │   ├── client-matrix.mdx
+│   │   │   │   │   │   │   │   └── overview.mdx
+│   │   │   │   │   │   │   ├── registry/
+│   │   │   │   │   │   │   │   ├── about.mdx
+│   │   │   │   │   │   │   │   ├── authentication.mdx
+│   │   │   │   │   │   │   │   ├── faq.mdx
+│   │   │   │   │   │   │   │   ├── github-actions.mdx
+│   │   │   │   │   │   │   │   ├── moderation-policy.mdx
+│   │   │   │   │   │   │   │   ├── package-types.mdx
+│   │   │   │   │   │   │   │   ├── quickstart.mdx
+│   │   │   │   │   │   │   │   ├── registry-aggregators.mdx
+│   │   │   │   │   │   │   │   ├── remote-servers.mdx
+│   │   │   │   │   │   │   │   ├── terms-of-service.mdx
+│   │   │   │   │   │   │   │   └── versioning.mdx
+│   │   │   │   │   │   │   ├── seps/
+│   │   │   │   │   │   │   │   ├── 1024-mcp-client-security-requirements-for-local-server-.mdx
+│   │   │   │   │   │   │   │   ├── 1034--support-default-values-for-all-primitive-types-in.mdx
+│   │   │   │   │   │   │   │   ├── 1036-url-mode-elicitation-for-secure-out-of-band-intera.mdx
+│   │   │   │   │   │   │   │   ├── 1046-support-oauth-client-credentials-flow-in-authoriza.mdx
+│   │   │   │   │   │   │   │   ├── 1302-formalize-working-groups-and-interest-groups-in-mc.mdx
+│   │   │   │   │   │   │   │   ├── 1303-input-validation-errors-as-tool-execution-errors.mdx
+│   │   │   │   │   │   │   │   ├── 1319-decouple-request-payload-from-rpc-methods-definiti.mdx
+│   │   │   │   │   │   │   │   ├── 1330-elicitation-enum-schema-improvements-and-standards.mdx
+│   │   │   │   │   │   │   │   ├── 1577--sampling-with-tools.mdx
+│   │   │   │   │   │   │   │   ├── 1613-establish-json-schema-2020-12-as-default-dialect-f.mdx
+│   │   │   │   │   │   │   │   ├── 1686-tasks.mdx
+│   │   │   │   │   │   │   │   ├── 1699-support-sse-polling-via-server-side-disconnect.mdx
+│   │   │   │   │   │   │   │   ├── 1730-sdks-tiering-system.mdx
+│   │   │   │   │   │   │   │   ├── 1850-pr-based-sep-workflow.mdx
+│   │   │   │   │   │   │   │   ├── 1865-mcp-apps-interactive-user-interfaces-for-mcp.mdx
+│   │   │   │   │   │   │   │   ├── 2085-governance-succession-and-amendment.mdx
+│   │   │   │   │   │   │   │   ├── 2106-json-schema-2020-12.mdx
+│   │   │   │   │   │   │   │   ├── 2133-extensions.mdx
+│   │   │   │   │   │   │   │   ├── 2148-contributor-ladder.mdx
+│   │   │   │   │   │   │   │   ├── 2149-working-group-charter-template.mdx
+│   │   │   │   │   │   │   │   ├── 2164-resource-not-found-error.mdx
+│   │   │   │   │   │   │   │   ├── 2207-oidc-refresh-token-guidance.mdx
+│   │   │   │   │   │   │   │   ├── 2243-http-standardization.mdx
+│   │   │   │   │   │   │   │   ├── 2260-Require-Server-requests-to-be-associated-with-Client-requests.mdx
+│   │   │   │   │   │   │   │   ├── 2322-MRTR.mdx
+│   │   │   │   │   │   │   │   ├── 2468-recommend-issuer-claim-for-auth.mdx
+│   │   │   │   │   │   │   │   ├── 2484-conformance-tests-required-for-final-seps.mdx
+│   │   │   │   │   │   │   │   ├── 2549-TTL-for-list-results.mdx
+│   │   │   │   │   │   │   │   ├── 2567-sessionless-mcp.mdx
+│   │   │   │   │   │   │   │   ├── 2575-stateless-mcp.mdx
+│   │   │   │   │   │   │   │   ├── 2577-deprecate-roots-sampling-and-logging.mdx
+│   │   │   │   │   │   │   │   ├── 2596-spec-feature-lifecycle-and-deprecation.mdx
+│   │   │   │   │   │   │   │   ├── 2663-tasks-extension.mdx
+│   │   │   │   │   │   │   │   ├── 414-request-meta.mdx
+│   │   │   │   │   │   │   │   ├── 932-model-context-protocol-governance.mdx
+│   │   │   │   │   │   │   │   ├── 973-expose-additional-metadata-for-implementations-res.mdx
+│   │   │   │   │   │   │   │   ├── 985-align-oauth-20-protected-resource-metadata-with-rf.mdx
+│   │   │   │   │   │   │   │   ├── 986-specify-format-for-tool-names.mdx
+│   │   │   │   │   │   │   │   ├── 990-enable-enterprise-idp-policy-controls-during-mcp-o.mdx
+│   │   │   │   │   │   │   │   ├── 991-enable-url-based-client-registration-using-oauth-c.mdx
+│   │   │   │   │   │   │   │   ├── 994-shared-communication-practicesguidelines.mdx
+│   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   ├── snippets/
+│   │   │   │   │   │   │   │   └── snippet-intro.mdx
+│   │   │   │   │   │   │   ├── specification/
+│   │   │   │   │   │   │   │   ├── 2024-11-05/
+│   │   │   │   │   │   │   │   │   ├── architecture/
+│   │   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   │   ├── basic/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── cancellation.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── ping.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── progress.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── lifecycle.mdx
+│   │   │   │   │   │   │   │   │   │   ├── messages.mdx
+│   │   │   │   │   │   │   │   │   │   └── transports.mdx
+│   │   │   │   │   │   │   │   │   ├── client/
+│   │   │   │   │   │   │   │   │   │   ├── roots.mdx
+│   │   │   │   │   │   │   │   │   │   └── sampling.mdx
+│   │   │   │   │   │   │   │   │   ├── server/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── completion.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── logging.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── pagination.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── prompts.mdx
+│   │   │   │   │   │   │   │   │   │   ├── resources.mdx
+│   │   │   │   │   │   │   │   │   │   └── tools.mdx
+│   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   ├── 2025-03-26/
+│   │   │   │   │   │   │   │   │   ├── architecture/
+│   │   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   │   ├── basic/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── cancellation.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── ping.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── progress.mdx
+│   │   │   │   │   │   │   │   │   │   ├── authorization.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── lifecycle.mdx
+│   │   │   │   │   │   │   │   │   │   └── transports.mdx
+│   │   │   │   │   │   │   │   │   ├── client/
+│   │   │   │   │   │   │   │   │   │   ├── roots.mdx
+│   │   │   │   │   │   │   │   │   │   └── sampling.mdx
+│   │   │   │   │   │   │   │   │   ├── server/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── completion.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── logging.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── pagination.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── prompts.mdx
+│   │   │   │   │   │   │   │   │   │   ├── resources.mdx
+│   │   │   │   │   │   │   │   │   │   └── tools.mdx
+│   │   │   │   │   │   │   │   │   ├── changelog.mdx
+│   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   ├── 2025-06-18/
+│   │   │   │   │   │   │   │   │   ├── architecture/
+│   │   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   │   ├── basic/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── cancellation.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── ping.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── progress.mdx
+│   │   │   │   │   │   │   │   │   │   ├── authorization.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── lifecycle.mdx
+│   │   │   │   │   │   │   │   │   │   └── transports.mdx
+│   │   │   │   │   │   │   │   │   ├── client/
+│   │   │   │   │   │   │   │   │   │   ├── elicitation.mdx
+│   │   │   │   │   │   │   │   │   │   ├── roots.mdx
+│   │   │   │   │   │   │   │   │   │   └── sampling.mdx
+│   │   │   │   │   │   │   │   │   ├── server/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── completion.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── logging.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── pagination.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── prompts.mdx
+│   │   │   │   │   │   │   │   │   │   ├── resources.mdx
+│   │   │   │   │   │   │   │   │   │   └── tools.mdx
+│   │   │   │   │   │   │   │   │   ├── changelog.mdx
+│   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   └── schema.mdx
+│   │   │   │   │   │   │   │   ├── 2025-11-25/
+│   │   │   │   │   │   │   │   │   ├── architecture/
+│   │   │   │   │   │   │   │   │   │   └── index.mdx
+│   │   │   │   │   │   │   │   │   ├── basic/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── cancellation.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── ping.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── progress.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── tasks.mdx
+│   │   │   │   │   │   │   │   │   │   ├── authorization.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── lifecycle.mdx
+│   │   │   │   │   │   │   │   │   │   └── transports.mdx
+│   │   │   │   │   │   │   │   │   ├── client/
+│   │   │   │   │   │   │   │   │   │   ├── elicitation.mdx
+│   │   │   │   │   │   │   │   │   │   ├── roots.mdx
+│   │   │   │   │   │   │   │   │   │   └── sampling.mdx
+│   │   │   │   │   │   │   │   │   ├── server/
+│   │   │   │   │   │   │   │   │   │   ├── utilities/
+│   │   │   │   │   │   │   │   │   │   │   ├── completion.mdx
+│   │   │   │   │   │   │   │   │   │   │   ├── logging.mdx
+│   │   │   │   │   │   │   │   │   │   │   └── pagination.mdx
+│   │   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   │   ├── prompts.mdx
+│   │   │   │   │   │   │   │   │   │   ├── resources.mdx
+│   │   │   │   │   │   │   │   │   │   └── tools.mdx
+│   │   │   │   │   │   │   │   │   ├── changelog.mdx
+│   │   │   │   │   │   │   │   │   ├── index.mdx
+│   │   │   │   │   │   │   │   │   └── schema.mdx
+│   │   │   │   │   │   │   │   └── draft/
+│   │   │   │   │   │   │   │       ├── architecture/
+│   │   │   │   │   │   │   │       │   └── index.mdx
+│   │   │   │   │   │   │   │       ├── basic/
+│   │   │   │   │   │   │   │       │   ├── utilities/
+│   │   │   │   │   │   │   │       │   │   ├── cancellation.mdx
+│   │   │   │   │   │   │   │       │   │   ├── mrtr.mdx
+│   │   │   │   │   │   │   │       │   │   ├── progress.mdx
+│   │   │   │   │   │   │   │       │   │   └── subscriptions.mdx
+│   │   │   │   │   │   │   │       │   ├── authorization.mdx
+│   │   │   │   │   │   │   │       │   ├── index.mdx
+│   │   │   │   │   │   │   │       │   ├── lifecycle.mdx
+│   │   │   │   │   │   │   │       │   └── transports.mdx
+│   │   │   │   │   │   │   │       ├── client/
+│   │   │   │   │   │   │   │       │   ├── elicitation.mdx
+│   │   │   │   │   │   │   │       │   ├── roots.mdx
+│   │   │   │   │   │   │   │       │   └── sampling.mdx
+│   │   │   │   │   │   │   │       ├── server/
+│   │   │   │   │   │   │   │       │   ├── utilities/
+│   │   │   │   │   │   │   │       │   │   ├── caching.mdx
+│   │   │   │   │   │   │   │       │   │   ├── completion.mdx
+│   │   │   │   │   │   │   │       │   │   ├── logging.mdx
+│   │   │   │   │   │   │   │       │   │   └── pagination.mdx
+│   │   │   │   │   │   │   │       │   ├── discover.mdx
+│   │   │   │   │   │   │   │       │   ├── index.mdx
+│   │   │   │   │   │   │   │       │   ├── prompts.mdx
+│   │   │   │   │   │   │   │       │   ├── resources.mdx
+│   │   │   │   │   │   │   │       │   └── tools.mdx
+│   │   │   │   │   │   │   │       ├── changelog.mdx
+│   │   │   │   │   │   │   │       ├── index.mdx
+│   │   │   │   │   │   │   │       └── schema.mdx
+│   │   │   │   │   │   │   ├── clients.mdx
+│   │   │   │   │   │   │   ├── docs.json
+│   │   │   │   │   │   │   └── examples.mdx
+│   │   │   │   │   │   ├── plugins/
+│   │   │   │   │   │   │   └── mcp-spec/
+│   │   │   │   │   │   │       ├── .claude-plugin/
+│   │   │   │   │   │   │       │   └── plugin.json
+│   │   │   │   │   │   │       ├── skills/
+│   │   │   │   │   │   │       │   ├── draft-sep/
+│   │   │   │   │   │   │       │   │   └── SKILL.md
+│   │   │   │   │   │   │       │   └── search-mcp-github/
+│   │   │   │   │   │   │       │       └── SKILL.md
+│   │   │   │   │   │   │       └── README.md
+│   │   │   │   │   │   ├── schema/
+│   │   │   │   │   │   │   ├── 2024-11-05/
+│   │   │   │   │   │   │   │   └── schema.json
+│   │   │   │   │   │   │   ├── 2025-03-26/
+│   │   │   │   │   │   │   │   └── schema.json
+│   │   │   │   │   │   │   ├── 2025-06-18/
+│   │   │   │   │   │   │   │   ├── schema.json
+│   │   │   │   │   │   │   │   └── schema.mdx
+│   │   │   │   │   │   │   ├── 2025-11-25/
+│   │   │   │   │   │   │   │   ├── schema.json
+│   │   │   │   │   │   │   │   └── schema.mdx
+│   │   │   │   │   │   │   └── draft/
+│   │   │   │   │   │   │       ├── examples/
+│   │   │   │   │   │   │       │   ├── AudioContent/
+│   │   │   │   │   │   │       │   │   └── audio-wav-content.json
+│   │   │   │   │   │   │       │   ├── BlobResourceContents/
+│   │   │   │   │   │   │       │   │   └── image-file-contents.json
+│   │   │   │   │   │   │       │   ├── BooleanSchema/
+│   │   │   │   │   │   │       │   │   └── boolean-input-schema.json
+│   │   │   │   │   │   │       │   ├── CallToolRequest/
+│   │   │   │   │   │   │       │   │   └── call-tool-request.json
+│   │   │   │   │   │   │       │   ├── CallToolRequestParams/
+│   │   │   │   │   │   │       │   │   ├── get-weather-tool-call-params.json
+│   │   │   │   │   │   │       │   │   └── tool-call-params-with-progress-token.json
+│   │   │   │   │   │   │       │   ├── CallToolResult/
+│   │   │   │   │   │   │       │   │   ├── invalid-tool-input-error.json
+│   │   │   │   │   │   │       │   │   ├── result-with-array-structured-content.json
+│   │   │   │   │   │   │       │   │   ├── result-with-structured-content.json
+│   │   │   │   │   │   │       │   │   └── result-with-unstructured-text.json
+│   │   │   │   │   │   │       │   ├── CallToolResultResponse/
+│   │   │   │   │   │   │       │   │   └── call-tool-result-response.json
+│   │   │   │   │   │   │       │   ├── CancelledNotification/
+│   │   │   │   │   │   │       │   │   └── user-requested-cancellation.json
+│   │   │   │   │   │   │       │   ├── CancelledNotificationParams/
+│   │   │   │   │   │   │       │   │   └── user-requested-cancellation.json
+│   │   │   │   │   │   │       │   ├── ClientCapabilities/
+│   │   │   │   │   │   │       │   │   ├── elicitation-form-and-url-mode-support.json
+│   │   │   │   │   │   │       │   │   ├── elicitation-form-only-implicit.json
+│   │   │   │   │   │   │       │   │   ├── extensions-ui-mime-types.json
+│   │   │   │   │   │   │       │   │   ├── roots-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   ├── sampling-context-inclusion-support-soft-deprecated.json
+│   │   │   │   │   │   │       │   │   ├── sampling-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   └── sampling-tool-use-support.json
+│   │   │   │   │   │   │       │   ├── CompleteRequest/
+│   │   │   │   │   │   │       │   │   └── completion-request.json
+│   │   │   │   │   │   │       │   ├── CompleteRequestParams/
+│   │   │   │   │   │   │       │   │   ├── prompt-argument-completion-with-context.json
+│   │   │   │   │   │   │       │   │   └── prompt-argument-completion.json
+│   │   │   │   │   │   │       │   ├── CompleteResult/
+│   │   │   │   │   │   │       │   │   ├── multiple-completion-values-with-more-available.json
+│   │   │   │   │   │   │       │   │   └── single-completion-value.json
+│   │   │   │   │   │   │       │   ├── CompleteResultResponse/
+│   │   │   │   │   │   │       │   │   └── completion-result-response.json
+│   │   │   │   │   │   │       │   ├── CreateMessageRequest/
+│   │   │   │   │   │   │       │   │   └── sampling-request.json
+│   │   │   │   │   │   │       │   ├── CreateMessageRequestParams/
+│   │   │   │   │   │   │       │   │   ├── basic-request.json
+│   │   │   │   │   │   │       │   │   ├── follow-up-with-tool-results.json
+│   │   │   │   │   │   │       │   │   └── request-with-tools.json
+│   │   │   │   │   │   │       │   ├── CreateMessageResult/
+│   │   │   │   │   │   │       │   │   ├── final-response.json
+│   │   │   │   │   │   │       │   │   ├── text-response.json
+│   │   │   │   │   │   │       │   │   └── tool-use-response.json
+│   │   │   │   │   │   │       │   ├── DiscoverRequest/
+│   │   │   │   │   │   │       │   │   └── server-discover-request.json
+│   │   │   │   │   │   │       │   ├── DiscoverResult/
+│   │   │   │   │   │   │       │   │   └── server-capabilities-discovery.json
+│   │   │   │   │   │   │       │   ├── DiscoverResultResponse/
+│   │   │   │   │   │   │       │   │   └── discover-result-response.json
+│   │   │   │   │   │   │       │   ├── ElicitationCompleteNotification/
+│   │   │   │   │   │   │       │   │   └── elicitation-complete.json
+│   │   │   │   │   │   │       │   ├── ElicitRequest/
+│   │   │   │   │   │   │       │   │   └── elicitation-request.json
+│   │   │   │   │   │   │       │   ├── ElicitRequestFormParams/
+│   │   │   │   │   │   │       │   │   ├── elicit-multiple-fields.json
+│   │   │   │   │   │   │       │   │   └── elicit-single-field.json
+│   │   │   │   │   │   │       │   ├── ElicitRequestURLParams/
+│   │   │   │   │   │   │       │   │   └── elicit-sensitive-data.json
+│   │   │   │   │   │   │       │   ├── ElicitResult/
+│   │   │   │   │   │   │       │   │   ├── accept-url-mode-no-content.json
+│   │   │   │   │   │   │       │   │   ├── input-multiple-fields.json
+│   │   │   │   │   │   │       │   │   └── input-single-field.json
+│   │   │   │   │   │   │       │   ├── EmbeddedResource/
+│   │   │   │   │   │   │       │   │   └── embedded-file-resource-with-annotations.json
+│   │   │   │   │   │   │       │   ├── GetPromptRequest/
+│   │   │   │   │   │   │       │   │   └── get-prompt-request.json
+│   │   │   │   │   │   │       │   ├── GetPromptRequestParams/
+│   │   │   │   │   │   │       │   │   └── get-code-review-prompt.json
+│   │   │   │   │   │   │       │   ├── GetPromptResult/
+│   │   │   │   │   │   │       │   │   └── code-review-prompt.json
+│   │   │   │   │   │   │       │   ├── GetPromptResultResponse/
+│   │   │   │   │   │   │       │   │   └── get-prompt-result-response.json
+│   │   │   │   │   │   │       │   ├── ImageContent/
+│   │   │   │   │   │   │       │   │   └── image-png-content-with-annotations.json
+│   │   │   │   │   │   │       │   ├── InputRequests/
+│   │   │   │   │   │   │       │   │   └── elicitation-and-sampling-input-requests.json
+│   │   │   │   │   │   │       │   ├── InputRequiredResult/
+│   │   │   │   │   │   │       │   │   ├── input-required-result-with-elicitation-and-sampling-and-request-state.json
+│   │   │   │   │   │   │       │   │   └── input-required-result-with-request-state-only.json
+│   │   │   │   │   │   │       │   ├── InputResponses/
+│   │   │   │   │   │   │       │   │   └── elicitation-and-sampling-input-responses.json
+│   │   │   │   │   │   │       │   ├── InternalError/
+│   │   │   │   │   │   │       │   │   └── unexpected-error.json
+│   │   │   │   │   │   │       │   ├── InvalidParamsError/
+│   │   │   │   │   │   │       │   │   ├── invalid-cursor.json
+│   │   │   │   │   │   │       │   │   ├── invalid-tool-arguments.json
+│   │   │   │   │   │   │       │   │   ├── unknown-prompt.json
+│   │   │   │   │   │   │       │   │   └── unknown-tool.json
+│   │   │   │   │   │   │       │   ├── ListPromptsRequest/
+│   │   │   │   │   │   │       │   │   └── list-prompts-request.json
+│   │   │   │   │   │   │       │   ├── ListPromptsResult/
+│   │   │   │   │   │   │       │   │   └── prompts-list-with-cursor-and-ttl.json
+│   │   │   │   │   │   │       │   ├── ListPromptsResultResponse/
+│   │   │   │   │   │   │       │   │   └── list-prompts-result-response.json
+│   │   │   │   │   │   │       │   ├── ListResourcesRequest/
+│   │   │   │   │   │   │       │   │   └── list-resources-request.json
+│   │   │   │   │   │   │       │   ├── ListResourcesResult/
+│   │   │   │   │   │   │       │   │   └── resources-list-with-cursor-and-ttl.json
+│   │   │   │   │   │   │       │   ├── ListResourcesResultResponse/
+│   │   │   │   │   │   │       │   │   └── list-resources-result-response.json
+│   │   │   │   │   │   │       │   ├── ListResourceTemplatesRequest/
+│   │   │   │   │   │   │       │   │   └── list-resource-templates-request.json
+│   │   │   │   │   │   │       │   ├── ListResourceTemplatesResult/
+│   │   │   │   │   │   │       │   │   └── resource-templates-list-with-cursor-and-ttl.json
+│   │   │   │   │   │   │       │   ├── ListResourceTemplatesResultResponse/
+│   │   │   │   │   │   │       │   │   └── list-resource-templates-result-response.json
+│   │   │   │   │   │   │       │   ├── ListRootsRequest/
+│   │   │   │   │   │   │       │   │   └── list-roots-request.json
+│   │   │   │   │   │   │       │   ├── ListRootsResult/
+│   │   │   │   │   │   │       │   │   ├── multiple-root-directories.json
+│   │   │   │   │   │   │       │   │   └── single-root-directory.json
+│   │   │   │   │   │   │       │   ├── ListToolsRequest/
+│   │   │   │   │   │   │       │   │   └── list-tools-request.json
+│   │   │   │   │   │   │       │   ├── ListToolsResult/
+│   │   │   │   │   │   │       │   │   └── tools-list-with-cursor-and-ttl.json
+│   │   │   │   │   │   │       │   ├── ListToolsResultResponse/
+│   │   │   │   │   │   │       │   │   └── list-tools-result-response.json
+│   │   │   │   │   │   │       │   ├── LoggingMessageNotification/
+│   │   │   │   │   │   │       │   │   └── log-database-connection-failed.json
+│   │   │   │   │   │   │       │   ├── LoggingMessageNotificationParams/
+│   │   │   │   │   │   │       │   │   └── log-database-connection-failed.json
+│   │   │   │   │   │   │       │   ├── MethodNotFoundError/
+│   │   │   │   │   │   │       │   │   └── roots-not-supported.json
+│   │   │   │   │   │   │       │   ├── MissingRequiredClientCapabilityError/
+│   │   │   │   │   │   │       │   │   └── missing-elicitation-capability.json
+│   │   │   │   │   │   │       │   ├── ModelPreferences/
+│   │   │   │   │   │   │       │   │   └── with-hints-and-priorities.json
+│   │   │   │   │   │   │       │   ├── NumberSchema/
+│   │   │   │   │   │   │       │   │   └── number-input-schema.json
+│   │   │   │   │   │   │       │   ├── PaginatedRequestParams/
+│   │   │   │   │   │   │       │   │   └── list-with-cursor.json
+│   │   │   │   │   │   │       │   ├── ParseError/
+│   │   │   │   │   │   │       │   │   └── invalid-json.json
+│   │   │   │   │   │   │       │   ├── ProgressNotification/
+│   │   │   │   │   │   │       │   │   └── progress-message.json
+│   │   │   │   │   │   │       │   ├── ProgressNotificationParams/
+│   │   │   │   │   │   │       │   │   └── progress-message.json
+│   │   │   │   │   │   │       │   ├── PromptListChangedNotification/
+│   │   │   │   │   │   │       │   │   └── prompts-list-changed.json
+│   │   │   │   │   │   │       │   ├── ReadResourceRequest/
+│   │   │   │   │   │   │       │   │   └── read-resource-request.json
+│   │   │   │   │   │   │       │   ├── ReadResourceResult/
+│   │   │   │   │   │   │       │   │   └── file-resource-contents.json
+│   │   │   │   │   │   │       │   ├── ReadResourceResultResponse/
+│   │   │   │   │   │   │       │   │   ├── read-resource-result-response-with-ttl.json
+│   │   │   │   │   │   │       │   │   └── read-resource-result-response.json
+│   │   │   │   │   │   │       │   ├── Resource/
+│   │   │   │   │   │   │       │   │   └── file-resource-with-annotations.json
+│   │   │   │   │   │   │       │   ├── ResourceLink/
+│   │   │   │   │   │   │       │   │   └── file-resource-link.json
+│   │   │   │   │   │   │       │   ├── ResourceListChangedNotification/
+│   │   │   │   │   │   │       │   │   └── resources-list-changed.json
+│   │   │   │   │   │   │       │   ├── ResourceUpdatedNotification/
+│   │   │   │   │   │   │       │   │   └── file-resource-updated-notification.json
+│   │   │   │   │   │   │       │   ├── ResourceUpdatedNotificationParams/
+│   │   │   │   │   │   │       │   │   └── file-resource-updated.json
+│   │   │   │   │   │   │       │   ├── Root/
+│   │   │   │   │   │   │       │   │   └── project-directory.json
+│   │   │   │   │   │   │       │   ├── SamplingMessage/
+│   │   │   │   │   │   │       │   │   ├── multiple-content-blocks.json
+│   │   │   │   │   │   │       │   │   └── single-content-block.json
+│   │   │   │   │   │   │       │   ├── ServerCapabilities/
+│   │   │   │   │   │   │       │   │   ├── completions-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   ├── extensions-ui.json
+│   │   │   │   │   │   │       │   │   ├── logging-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   ├── prompts-list-changed-notifications.json
+│   │   │   │   │   │   │       │   │   ├── prompts-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   ├── resources-all-notifications.json
+│   │   │   │   │   │   │       │   │   ├── resources-list-changed-notifications-only.json
+│   │   │   │   │   │   │       │   │   ├── resources-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   │   ├── resources-subscription-to-individual-resource-updates-only.json
+│   │   │   │   │   │   │       │   │   ├── tools-list-changed-notifications.json
+│   │   │   │   │   │   │       │   │   └── tools-minimum-baseline-support.json
+│   │   │   │   │   │   │       │   ├── StringSchema/
+│   │   │   │   │   │   │       │   │   └── email-input-schema.json
+│   │   │   │   │   │   │       │   ├── SubscriptionsAcknowledgedNotification/
+│   │   │   │   │   │   │       │   │   └── listen-acknowledged.json
+│   │   │   │   │   │   │       │   ├── SubscriptionsListenRequest/
+│   │   │   │   │   │   │       │   │   └── listen-for-list-changes.json
+│   │   │   │   │   │   │       │   ├── TextContent/
+│   │   │   │   │   │   │       │   │   └── text-content.json
+│   │   │   │   │   │   │       │   ├── TextResourceContents/
+│   │   │   │   │   │   │       │   │   └── text-file-contents.json
+│   │   │   │   │   │   │       │   ├── TitledMultiSelectEnumSchema/
+│   │   │   │   │   │   │       │   │   └── titled-color-multi-select-schema.json
+│   │   │   │   │   │   │       │   ├── TitledSingleSelectEnumSchema/
+│   │   │   │   │   │   │       │   │   └── titled-color-select-schema.json
+│   │   │   │   │   │   │       │   ├── Tool/
+│   │   │   │   │   │   │       │   │   ├── tool-with-array-output-schema.json
+│   │   │   │   │   │   │       │   │   ├── tool-with-composition-input-schema.json
+│   │   │   │   │   │   │       │   │   ├── with-default-2020-12-input-schema.json
+│   │   │   │   │   │   │       │   │   ├── with-explicit-draft-07-input-schema.json
+│   │   │   │   │   │   │       │   │   ├── with-no-parameters.json
+│   │   │   │   │   │   │       │   │   └── with-output-schema-for-structured-content.json
+│   │   │   │   │   │   │       │   ├── ToolListChangedNotification/
+│   │   │   │   │   │   │       │   │   └── tools-list-changed.json
+│   │   │   │   │   │   │       │   ├── ToolResultContent/
+│   │   │   │   │   │   │       │   │   └── get-weather-tool-result.json
+│   │   │   │   │   │   │       │   ├── ToolUseContent/
+│   │   │   │   │   │   │       │   │   └── get-weather-tool-use.json
+│   │   │   │   │   │   │       │   ├── UnsupportedProtocolVersionError/
+│   │   │   │   │   │   │       │   │   └── unsupported-version.json
+│   │   │   │   │   │   │       │   ├── UntitledMultiSelectEnumSchema/
+│   │   │   │   │   │   │       │   │   └── color-multi-select-schema.json
+│   │   │   │   │   │   │       │   └── UntitledSingleSelectEnumSchema/
+│   │   │   │   │   │   │       │       └── color-select-schema.json
+│   │   │   │   │   │   │       ├── schema.json
+│   │   │   │   │   │   │       └── schema.mdx
+│   │   │   │   │   │   ├── seps/
+│   │   │   │   │   │   │   ├── 1024-mcp-client-security-requirements-for-local-server-.md
+│   │   │   │   │   │   │   ├── 1034--support-default-values-for-all-primitive-types-in.md
+│   │   │   │   │   │   │   ├── 1036-url-mode-elicitation-for-secure-out-of-band-intera.md
+│   │   │   │   │   │   │   ├── 1046-support-oauth-client-credentials-flow-in-authoriza.md
+│   │   │   │   │   │   │   ├── 1302-formalize-working-groups-and-interest-groups-in-mc.md
+│   │   │   │   │   │   │   ├── 1303-input-validation-errors-as-tool-execution-errors.md
+│   │   │   │   │   │   │   ├── 1319-decouple-request-payload-from-rpc-methods-definiti.md
+│   │   │   │   │   │   │   ├── 1330-elicitation-enum-schema-improvements-and-standards.md
+│   │   │   │   │   │   │   ├── 1577--sampling-with-tools.md
+│   │   │   │   │   │   │   ├── 1613-establish-json-schema-2020-12-as-default-dialect-f.md
+│   │   │   │   │   │   │   ├── 1686-tasks.md
+│   │   │   │   │   │   │   ├── 1699-support-sse-polling-via-server-side-disconnect.md
+│   │   │   │   │   │   │   ├── 1730-sdks-tiering-system.md
+│   │   │   │   │   │   │   ├── 1850-pr-based-sep-workflow.md
+│   │   │   │   │   │   │   ├── 1865-mcp-apps-interactive-user-interfaces-for-mcp.md
+│   │   │   │   │   │   │   ├── 2085-governance-succession-and-amendment.md
+│   │   │   │   │   │   │   ├── 2106-json-schema-2020-12.md
+│   │   │   │   │   │   │   ├── 2133-extensions.md
+│   │   │   │   │   │   │   ├── 2148-contributor-ladder.md
+│   │   │   │   │   │   │   ├── 2149-working-group-charter-template.md
+│   │   │   │   │   │   │   ├── 2164-resource-not-found-error.md
+│   │   │   │   │   │   │   ├── 2207-oidc-refresh-token-guidance.md
+│   │   │   │   │   │   │   ├── 2243-http-standardization.md
+│   │   │   │   │   │   │   ├── 2260-Require-Server-requests-to-be-associated-with-Client-requests.md
+│   │   │   │   │   │   │   ├── 2322-MRTR.md
+│   │   │   │   │   │   │   ├── 2468-recommend-issuer-claim-for-auth.md
+│   │   │   │   │   │   │   ├── 2484-conformance-tests-required-for-final-seps.md
+│   │   │   │   │   │   │   ├── 2549-TTL-for-list-results.md
+│   │   │   │   │   │   │   ├── 2567-sessionless-mcp.md
+│   │   │   │   │   │   │   ├── 2575-stateless-mcp.md
+│   │   │   │   │   │   │   ├── 2577-deprecate-roots-sampling-and-logging.md
+│   │   │   │   │   │   │   ├── 2596-spec-feature-lifecycle-and-deprecation.md
+│   │   │   │   │   │   │   ├── 2663-tasks-extension.md
+│   │   │   │   │   │   │   ├── 414-request-meta.md
+│   │   │   │   │   │   │   ├── 932-model-context-protocol-governance.md
+│   │   │   │   │   │   │   ├── 973-expose-additional-metadata-for-implementations-res.md
+│   │   │   │   │   │   │   ├── 985-align-oauth-20-protected-resource-metadata-with-rf.md
+│   │   │   │   │   │   │   ├── 986-specify-format-for-tool-names.md
+│   │   │   │   │   │   │   ├── 990-enable-enterprise-idp-policy-controls-during-mcp-o.md
+│   │   │   │   │   │   │   ├── 991-enable-url-based-client-registration-using-oauth-c.md
+│   │   │   │   │   │   │   ├── 994-shared-communication-practicesguidelines.md
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   └── TEMPLATE.md
+│   │   │   │   │   │   ├── tools/
+│   │   │   │   │   │   │   └── sep-automation/
+│   │   │   │   │   │   │       ├── package-lock.json
+│   │   │   │   │   │   │       ├── package.json
+│   │   │   │   │   │   │       └── tsconfig.json
+│   │   │   │   │   │   ├── .prettierrc.json
+│   │   │   │   │   │   ├── AGENTS.md
+│   │   │   │   │   │   ├── ANTITRUST.md
+│   │   │   │   │   │   ├── CODE_OF_CONDUCT.md
+│   │   │   │   │   │   ├── CONTRIBUTING.md
+│   │   │   │   │   │   ├── GOVERNANCE.md
+│   │   │   │   │   │   ├── MAINTAINERS.md
+│   │   │   │   │   │   ├── package-lock.json
+│   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── SECURITY.md
+│   │   │   │   │   │   └── tsconfig.json
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 02_mcp_specification/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_architecture_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_authorization.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_lifecycle.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_transports.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_cancellation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_ping.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_progress.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_basic_utilities_tasks.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_changelog.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_elicitation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_roots.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_client_sampling.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_schema.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_index.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_prompts.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_resources.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_tools.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_utilities_completion.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_specification_2025-11-25_server_utilities_logging.md.md
+│   │   │   │   │   │   └── modelcontextprotocol.io_specification_2025-11-25_server_utilities_pagination.md.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 03_mcp_seps/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1686-tasks.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1699-support-sse-polling-via-server-side-disconnect.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1730-sdks-tiering-system.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1850-pr-based-sep-workflow.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_1865-mcp-apps-interactive-user-interfaces-for-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2085-governance-succession-and-amendment.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2106-json-schema-2020-12.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2133-extensions.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2148-contributor-ladder.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2149-working-group-charter-template.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2164-resource-not-found-error.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2207-oidc-refresh-token-guidance.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2243-http-standardization.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2260-Require-Server-requests-to-be-associated-with-Client-requests.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2322-MRTR.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2468-recommend-issuer-claim-for-auth.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2484-conformance-tests-required-for-final-seps.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2549-TTL-for-list-results.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2567-sessionless-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2575-stateless-mcp.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2577-deprecate-roots-sampling-and-logging.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2596-spec-feature-lifecycle-and-deprecation.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_2663-tasks-extension.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_414-request-meta.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_932-model-context-protocol-governance.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_973-expose-additional-metadata-for-implementations-res.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_985-align-oauth-20-protected-resource-metadata-with-rf.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_986-specify-format-for-tool-names.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_990-enable-enterprise-idp-policy-controls-during-mcp-o.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_991-enable-url-based-client-registration-using-oauth-c.md.md
+│   │   │   │   │   │   ├── modelcontextprotocol.io_seps_994-shared-communication-practicesguidelines.md.md
+│   │   │   │   │   │   └── modelcontextprotocol.io_seps_index.md.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 04_mcp_registry/
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   └── 05_mcp_extensions/
+│   │   │   │       └── SOURCES.txt
 │   │   │   ├── sources/
 │   │   │   │   └── llms.txt
+│   │   │   ├── sources 2/
+│   │   │   ├── DOC_INDEX 2.md
 │   │   │   ├── DOC_INDEX.md
+│   │   │   ├── PULL_ERRORS 2.md
 │   │   │   ├── PULL_ERRORS.md
+│   │   │   ├── PULL_SUMMARY 2.md
 │   │   │   ├── PULL_SUMMARY.md
+│   │   │   ├── README 2.md
 │   │   │   ├── README.md
+│   │   │   ├── SOURCES 2.md
 │   │   │   ├── SOURCES.md
+│   │   │   ├── STRUCTURE 2.md
 │   │   │   └── STRUCTURE.md
 │   │   ├── MOLTBOOK_HOWTO_HUB/
 │   │   │   ├── developers__dashboard.md
