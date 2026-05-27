@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-27T12:06:40
+Generated: 2026-05-27T15:04:19
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -1021,7 +1021,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   ├── 2026-05-18-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
-│   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   └── archives.zip
@@ -2204,7 +2203,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
-│   │   │   │   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   │   └── .DS_Store
@@ -4766,7 +4764,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   │   │   │   ├── 2026-05-19-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   │   └── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
-│   │   │   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   │   │   └── archives.zip
 │   │   │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   │   │   └── .DS_Store
@@ -10375,7 +10372,6 @@ XLR8ROS/
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-20-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   ├── 2026-05-21-durable-memory-promotion-log.md
 │   │   │   │   │   │   │   │   │   │   └── 2026-05-22-durable-memory-promotion-log.md
-│   │   │   │   │   │   │   │   │   ├── .DS_Store
 │   │   │   │   │   │   │   │   │   └── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   │   │   │   └── .DS_Store
 │   │   │   │   │   │   │   ├── .DS_Store
@@ -22813,9 +22809,7 @@ bbd2850e-aec5-44d5-831c-b52007743dd7.json
 │   │   │   │   ├── proposals/
 │   │   │   │   │   └── 2026-04-21_manifest-setup-snapshot/
 │   │   │   │   │       └── 260421230832_manifest-setup-snapshot-budget-v4.md
-│   │   │   │   ├── .DS_Store
 │   │   │   │   └── Position SOP 4 XOS SEAD CHEIF.md
-│   │   │   ├── .DS_Store
 │   │   │   ├── .gitignore
 │   │   │   ├── Division SOP 4 XOS SEAD.md
 │   │   │   └── README.md
@@ -22892,6 +22886,24 @@ bbd2850e-aec5-44d5-831c-b52007743dd7.json
 │   │   │   └── .DS_Store
 │   │   └── .DS_Store
 │   ├── XLR8ROS-HQ/
+│   │   ├── HOW-TO-HUB(H2H)/
+│   │   │   └── MNFST_HOWTO_HUB/
+│   │   │       ├── docs/
+│   │   │       │   └── UPSTREAM_README.md
+│   │   │       ├── notes/
+│   │   │       │   ├── LOCAL_STACK_CHECKLIST.md
+│   │   │       │   ├── PORTS_AND_RUNTIME.md
+│   │   │       │   ├── SOURCES.md
+│   │   │       │   ├── TROUBLESHOOTING.md
+│   │   │       │   └── UPDATE_PROCEDURE_DRAFT.md
+│   │   │       ├── repo/
+│   │   │       │   ├── github-releases.json
+│   │   │       │   ├── github-repo.json
+│   │   │       │   └── github-tags.json
+│   │   │       ├── schemas/
+│   │   │       ├── scripts/
+│   │   │       │   └── capture_manifest_state.sh
+│   │   │       └── README.md
 │   │   ├── Navigation/
 │   │   │   └── NAVIGATION.md
 │   │   ├── Workflow/
