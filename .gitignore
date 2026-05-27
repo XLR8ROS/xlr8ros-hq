@@ -196,10 +196,16 @@ cython_debug/
 
 # Repo hygiene junk
 .DS_Store
+**/.DS_Store
 **/.openclaw/
 **/.dreams/
 latest-summary*
 *.status.txt
+*.headers.txt
+summary.json
+state/moltbook/runtime/
+event-log/*.sqlite-wal
+event-log/*.sqlite-shm
 
 # PyPI configuration file
 .pypirc
