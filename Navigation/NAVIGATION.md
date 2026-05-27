@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-05-26T21:04:21
+Generated: 2026-05-27T00:09:09
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -12783,8 +12783,10 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-05-26-1804-edt-codi-moltbook-reading-pulse.md
 │   │   │   │   │   │   ├── 2026-05-26-1900-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   │   ├── 2026-05-26-1930-edt-codi-moltbook-social-watcher.md
+│   │   │   │   │   │   ├── 2026-05-26-2230-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   │   ├── 2026-05-26-codi-moltbook-daily-report.md
-│   │   │   │   │   │   └── 2026-05-26-codi-moltbook-social-review.md
+│   │   │   │   │   │   ├── 2026-05-26-codi-moltbook-social-review.md
+│   │   │   │   │   │   └── 2026-05-27-0001-edt-codi-moltbook-social-watcher.md
 │   │   │   │   │   ├── MoltbookSocialWatcher/
 │   │   │   │   │   │   └── 2026-05-26/
 │   │   │   │   │   │       └── social-watcher-2026-05-26T1832-EDT.txt
@@ -13425,6 +13427,55 @@ bbd2850e-aec5-44d5-831c-b52007743dd7.json
 │   │   │   │   │   │   │   │   ├── thread_6c6beabb-ad09-41b0-b25d-ff39eaa8ccbe.json
 │   │   │   │   │   │   │   │   ├── thread_bb5e35fa-ca11-40da-9bda-8c0d418cff42.json
 │   │   │   │   │   │   │   │   └── thread_bbd2850e-aec5-44d5-831c-b52007743dd7.json
+│   │   │   │   │   │   │   ├── 2026-05-26-223101-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── agents_me.headers.txt
+│   │   │   │   │   │   │   │   ├── agents_me.json
+│   │   │   │   │   │   │   │   ├── dm_inbox.headers.txt
+│   │   │   │   │   │   │   │   ├── dm_inbox.json
+│   │   │   │   │   │   │   │   ├── dm_requests.headers.txt
+│   │   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   │   ├── dms.headers.txt
+│   │   │   │   │   │   │   │   ├── dms.json
+│   │   │   │   │   │   │   │   ├── feed_hot.headers.txt
+│   │   │   │   │   │   │   │   ├── feed_hot.json
+│   │   │   │   │   │   │   │   ├── feed_new.headers.txt
+│   │   │   │   │   │   │   │   ├── feed_new.json
+│   │   │   │   │   │   │   │   ├── home.headers.txt
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── mark_all_read.json
+│   │   │   │   │   │   │   │   ├── mark_read_crate_dig.json
+│   │   │   │   │   │   │   │   ├── mentions.headers.txt
+│   │   │   │   │   │   │   │   ├── mentions.json
+│   │   │   │   │   │   │   │   ├── notifications.headers.txt
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments.json
+│   │   │   │   │   │   │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments.json
+│   │   │   │   │   │   │   │   ├── post_6c6beabb-ad09-41b0-b25d-ff39eaa8ccbe_comments.json
+│   │   │   │   │   │   │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments.json
+│   │   │   │   │   │   │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments.json
+│   │   │   │   │   │   │   │   ├── status.headers.txt
+│   │   │   │   │   │   │   │   └── status.json
+│   │   │   │   │   │   │   ├── 2026-05-27-000146-edt-social-watcher-run/
+│   │   │   │   │   │   │   │   ├── agents_me.json
+│   │   │   │   │   │   │   │   ├── agents_me.status.txt
+│   │   │   │   │   │   │   │   ├── dm_conversations.json
+│   │   │   │   │   │   │   │   ├── dm_conversations.status.txt
+│   │   │   │   │   │   │   │   ├── dm_requests.json
+│   │   │   │   │   │   │   │   ├── dm_requests.status.txt
+│   │   │   │   │   │   │   │   ├── feed.json
+│   │   │   │   │   │   │   │   ├── feed.status.txt
+│   │   │   │   │   │   │   │   ├── home.json
+│   │   │   │   │   │   │   │   ├── home.status.txt
+│   │   │   │   │   │   │   │   ├── notifications.json
+│   │   │   │   │   │   │   │   ├── notifications.status.txt
+│   │   │   │   │   │   │   │   ├── post_100ed047-0201-409a-9f7f-8d5e39c335a2_comments.json
+│   │   │   │   │   │   │   │   ├── post_5c1d68f2-08da-4450-980c-5851b256f9f4_comments.json
+│   │   │   │   │   │   │   │   ├── post_6c6beabb-ad09-41b0-b25d-ff39eaa8ccbe_comments.json
+│   │   │   │   │   │   │   │   ├── post_bb5e35fa-ca11-40da-9bda-8c0d418cff42_comments.json
+│   │   │   │   │   │   │   │   ├── post_bbd2850e-aec5-44d5-831c-b52007743dd7_comments.json
+│   │   │   │   │   │   │   │   ├── status.json
+│   │   │   │   │   │   │   │   ├── status.status.txt
+│   │   │   │   │   │   │   │   └── summary.json
 │   │   │   │   │   │   │   ├── 2026-05-20-173053-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-143100-edt-reply-watcher-summary.json
 │   │   │   │   │   │   │   ├── 2026-05-21-150105-edt-reply-watcher-summary.json
@@ -23072,6 +23123,709 @@ bbd2850e-aec5-44d5-831c-b52007743dd7.json
 │   │   │   ├── XOS_Memory_Flow_HOWTO.md
 │   │   │   └── XOS_Repo_Hygiene_HOWTO.md
 │   │   ├── HOW-TO-HUB(H2H)/
+│   │   ├── JSON_SCHEMA_HOWTO_HUB/
+│   │   │   ├── docs/
+│   │   │   │   ├── 00_json_schema_site/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── json-schema.org_learn.md
+│   │   │   │   │   │   └── json-schema.org_specification.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 01_json_schema_spec_repo/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── .github/
+│   │   │   │   │   │   │   ├── ISSUE_TEMPLATE/
+│   │   │   │   │   │   │   │   ├── clarification.yml
+│   │   │   │   │   │   │   │   └── proposal.yml
+│   │   │   │   │   │   │   ├── workflows/
+│   │   │   │   │   │   │   │   ├── ci.yml
+│   │   │   │   │   │   │   │   ├── minimum-open-time.yml
+│   │   │   │   │   │   │   │   └── pr-dependencies.yml
+│   │   │   │   │   │   │   ├── config.yaml
+│   │   │   │   │   │   │   ├── PULL_REQUEST_TEMPLATE.md
+│   │   │   │   │   │   │   └── SECURITY.md
+│   │   │   │   │   │   ├── adr/
+│   │   │   │   │   │   │   ├── 2022-04-08-cref-for-ambiguity-and-fix-later-gh-spec-issue-1172.md
+│   │   │   │   │   │   │   ├── 2022-09-decouple-from-ietf.md
+│   │   │   │   │   │   │   ├── 2022-11-stable-spec.md
+│   │   │   │   │   │   │   ├── 2023-04-sva-prefix.md
+│   │   │   │   │   │   │   ├── 2024-02-object-contains.md
+│   │   │   │   │   │   │   ├── 2024-05-08-extract-unstable-keywords.md
+│   │   │   │   │   │   │   ├── 2024-11-2-assertion-format.md
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   └── template.md
+│   │   │   │   │   │   ├── ietf/
+│   │   │   │   │   │   │   └── json-schema-media-types.md
+│   │   │   │   │   │   ├── specs/
+│   │   │   │   │   │   │   ├── meta/
+│   │   │   │   │   │   │   │   ├── meta.json
+│   │   │   │   │   │   │   │   └── README.md
+│   │   │   │   │   │   │   ├── output/
+│   │   │   │   │   │   │   │   ├── jsonschema-validation-output-machines.md
+│   │   │   │   │   │   │   │   └── schema.json
+│   │   │   │   │   │   │   ├── proposals/
+│   │   │   │   │   │   │   │   ├── propertyDependencies-adr.md
+│   │   │   │   │   │   │   │   ├── propertyDependencies.md
+│   │   │   │   │   │   │   │   ├── proposal-template.md
+│   │   │   │   │   │   │   │   ├── vocabularies-adr.md
+│   │   │   │   │   │   │   │   └── vocabularies.md
+│   │   │   │   │   │   │   ├── registries/
+│   │   │   │   │   │   │   │   └── format.json
+│   │   │   │   │   │   │   ├── jsonschema-core.md
+│   │   │   │   │   │   │   └── jsonschema-validation.md
+│   │   │   │   │   │   ├── CONTRIBUTING.md
+│   │   │   │   │   │   ├── docker-compose.yml
+│   │   │   │   │   │   ├── package-lock.json
+│   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   ├── PROCESS.md
+│   │   │   │   │   │   └── README.md
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   ├── 02_json_schema_test_suite/
+│   │   │   │   │   ├── markdown/
+│   │   │   │   │   │   ├── .github/
+│   │   │   │   │   │   │   └── workflows/
+│   │   │   │   │   │   │       ├── annotation-tests.yml
+│   │   │   │   │   │   │       ├── ci.yml
+│   │   │   │   │   │   │       ├── pr-dependencies.yml
+│   │   │   │   │   │   │       └── show_specification_annotations.yml
+│   │   │   │   │   │   ├── annotations/
+│   │   │   │   │   │   │   ├── tests/
+│   │   │   │   │   │   │   │   ├── applicators.json
+│   │   │   │   │   │   │   │   ├── content.json
+│   │   │   │   │   │   │   │   ├── core.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── meta-data.json
+│   │   │   │   │   │   │   │   ├── unevaluated.json
+│   │   │   │   │   │   │   │   └── unknown.json
+│   │   │   │   │   │   │   ├── assertion.schema.json
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── test-case.schema.json
+│   │   │   │   │   │   │   ├── test-suite.schema.json
+│   │   │   │   │   │   │   └── test.schema.json
+│   │   │   │   │   │   ├── bin/
+│   │   │   │   │   │   │   └── specification_urls.json
+│   │   │   │   │   │   ├── output-tests/
+│   │   │   │   │   │   │   ├── draft2019-09/
+│   │   │   │   │   │   │   │   ├── content/
+│   │   │   │   │   │   │   │   │   ├── escape.json
+│   │   │   │   │   │   │   │   │   ├── general.json
+│   │   │   │   │   │   │   │   │   ├── readOnly.json
+│   │   │   │   │   │   │   │   │   └── type.json
+│   │   │   │   │   │   │   │   └── output-schema.json
+│   │   │   │   │   │   │   ├── draft2020-12/
+│   │   │   │   │   │   │   │   ├── content/
+│   │   │   │   │   │   │   │   │   ├── escape.json
+│   │   │   │   │   │   │   │   │   ├── general.json
+│   │   │   │   │   │   │   │   │   ├── readOnly.json
+│   │   │   │   │   │   │   │   │   └── type.json
+│   │   │   │   │   │   │   │   └── output-schema.json
+│   │   │   │   │   │   │   ├── v1/
+│   │   │   │   │   │   │   │   ├── content/
+│   │   │   │   │   │   │   │   │   ├── general.json
+│   │   │   │   │   │   │   │   │   ├── readOnly.json
+│   │   │   │   │   │   │   │   │   └── type.json
+│   │   │   │   │   │   │   │   └── output-schema.json
+│   │   │   │   │   │   │   └── README.md
+│   │   │   │   │   │   ├── remotes/
+│   │   │   │   │   │   │   ├── baseUriChange/
+│   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   ├── baseUriChangeFolder/
+│   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   ├── baseUriChangeFolderInSubschema/
+│   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   ├── draft2019-09/
+│   │   │   │   │   │   │   │   ├── baseUriChange/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolder/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolderInSubschema/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── nested/
+│   │   │   │   │   │   │   │   │   ├── foo-ref-string.json
+│   │   │   │   │   │   │   │   │   └── string.json
+│   │   │   │   │   │   │   │   ├── dependentRequired.json
+│   │   │   │   │   │   │   │   ├── detached-ref.json
+│   │   │   │   │   │   │   │   ├── different-id-ref-string.json
+│   │   │   │   │   │   │   │   ├── extendible-dynamic-ref.json
+│   │   │   │   │   │   │   │   ├── ignore-prefixItems.json
+│   │   │   │   │   │   │   │   ├── integer.json
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── metaschema-no-validation.json
+│   │   │   │   │   │   │   │   ├── metaschema-optional-vocabulary.json
+│   │   │   │   │   │   │   │   ├── name-defs.json
+│   │   │   │   │   │   │   │   ├── nested-absolute-ref-to-string.json
+│   │   │   │   │   │   │   │   ├── ref-and-defs.json
+│   │   │   │   │   │   │   │   ├── subSchemas.json
+│   │   │   │   │   │   │   │   └── urn-ref-string.json
+│   │   │   │   │   │   │   ├── draft2020-12/
+│   │   │   │   │   │   │   │   ├── baseUriChange/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolder/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolderInSubschema/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── nested/
+│   │   │   │   │   │   │   │   │   ├── foo-ref-string.json
+│   │   │   │   │   │   │   │   │   └── string.json
+│   │   │   │   │   │   │   │   ├── detached-dynamicref.json
+│   │   │   │   │   │   │   │   ├── detached-ref.json
+│   │   │   │   │   │   │   │   ├── different-id-ref-string.json
+│   │   │   │   │   │   │   │   ├── extendible-dynamic-ref.json
+│   │   │   │   │   │   │   │   ├── format-assertion-false.json
+│   │   │   │   │   │   │   │   ├── format-assertion-true.json
+│   │   │   │   │   │   │   │   ├── integer.json
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── metaschema-no-validation.json
+│   │   │   │   │   │   │   │   ├── metaschema-optional-vocabulary.json
+│   │   │   │   │   │   │   │   ├── name-defs.json
+│   │   │   │   │   │   │   │   ├── nested-absolute-ref-to-string.json
+│   │   │   │   │   │   │   │   ├── prefixItems.json
+│   │   │   │   │   │   │   │   ├── ref-and-defs.json
+│   │   │   │   │   │   │   │   ├── subSchemas.json
+│   │   │   │   │   │   │   │   ├── tree.json
+│   │   │   │   │   │   │   │   └── urn-ref-string.json
+│   │   │   │   │   │   │   ├── draft3/
+│   │   │   │   │   │   │   │   └── subSchemas.json
+│   │   │   │   │   │   │   ├── draft4/
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── name.json
+│   │   │   │   │   │   │   │   └── subSchemas.json
+│   │   │   │   │   │   │   ├── draft6/
+│   │   │   │   │   │   │   │   ├── detached-ref.json
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── name.json
+│   │   │   │   │   │   │   │   ├── ref-and-definitions.json
+│   │   │   │   │   │   │   │   └── subSchemas.json
+│   │   │   │   │   │   │   ├── draft7/
+│   │   │   │   │   │   │   │   ├── detached-ref.json
+│   │   │   │   │   │   │   │   ├── ignore-dependentRequired.json
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── name.json
+│   │   │   │   │   │   │   │   ├── ref-and-definitions.json
+│   │   │   │   │   │   │   │   └── subSchemas.json
+│   │   │   │   │   │   │   ├── nested/
+│   │   │   │   │   │   │   │   ├── foo-ref-string.json
+│   │   │   │   │   │   │   │   └── string.json
+│   │   │   │   │   │   │   ├── v1/
+│   │   │   │   │   │   │   │   ├── baseUriChange/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolder/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── baseUriChangeFolderInSubschema/
+│   │   │   │   │   │   │   │   │   └── folderInteger.json
+│   │   │   │   │   │   │   │   ├── nested/
+│   │   │   │   │   │   │   │   │   ├── foo-ref-string.json
+│   │   │   │   │   │   │   │   │   └── string.json
+│   │   │   │   │   │   │   │   ├── detached-dynamicref.json
+│   │   │   │   │   │   │   │   ├── detached-ref.json
+│   │   │   │   │   │   │   │   ├── different-id-ref-string.json
+│   │   │   │   │   │   │   │   ├── extendible-dynamic-ref.json
+│   │   │   │   │   │   │   │   ├── integer.json
+│   │   │   │   │   │   │   │   ├── locationIndependentIdentifier.json
+│   │   │   │   │   │   │   │   ├── name-defs.json
+│   │   │   │   │   │   │   │   ├── nested-absolute-ref-to-string.json
+│   │   │   │   │   │   │   │   ├── ref-and-defs.json
+│   │   │   │   │   │   │   │   ├── subSchemas.json
+│   │   │   │   │   │   │   │   ├── tree.json
+│   │   │   │   │   │   │   │   └── urn-ref-string.json
+│   │   │   │   │   │   │   └── integer.json
+│   │   │   │   │   │   ├── tests/
+│   │   │   │   │   │   │   ├── draft2019-09/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── date.json
+│   │   │   │   │   │   │   │   │   │   ├── duration.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-email.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv4.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── iri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── iri.json
+│   │   │   │   │   │   │   │   │   │   ├── json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── regex.json
+│   │   │   │   │   │   │   │   │   │   ├── relative-json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── time.json
+│   │   │   │   │   │   │   │   │   │   ├── unknown.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-template.json
+│   │   │   │   │   │   │   │   │   │   ├── uri.json
+│   │   │   │   │   │   │   │   │   │   └── uuid.json
+│   │   │   │   │   │   │   │   │   ├── anchor.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── cross-draft.json
+│   │   │   │   │   │   │   │   │   ├── dependencies-compatibility.json
+│   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   ├── float-overflow.json
+│   │   │   │   │   │   │   │   │   ├── id.json
+│   │   │   │   │   │   │   │   │   ├── no-schema.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   ├── refOfUnknownKeyword.json
+│   │   │   │   │   │   │   │   │   └── unknownKeyword.json
+│   │   │   │   │   │   │   │   ├── additionalItems.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── allOf.json
+│   │   │   │   │   │   │   │   ├── anchor.json
+│   │   │   │   │   │   │   │   ├── anyOf.json
+│   │   │   │   │   │   │   │   ├── boolean_schema.json
+│   │   │   │   │   │   │   │   ├── const.json
+│   │   │   │   │   │   │   │   ├── contains.json
+│   │   │   │   │   │   │   │   ├── content.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── defs.json
+│   │   │   │   │   │   │   │   ├── dependentRequired.json
+│   │   │   │   │   │   │   │   ├── dependentSchemas.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMaximum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMinimum.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── if-then-else.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maxContains.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── maxProperties.json
+│   │   │   │   │   │   │   │   ├── minContains.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── minProperties.json
+│   │   │   │   │   │   │   │   ├── multipleOf.json
+│   │   │   │   │   │   │   │   ├── not.json
+│   │   │   │   │   │   │   │   ├── oneOf.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── propertyNames.json
+│   │   │   │   │   │   │   │   ├── recursiveRef.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   ├── unevaluatedItems.json
+│   │   │   │   │   │   │   │   ├── unevaluatedProperties.json
+│   │   │   │   │   │   │   │   ├── uniqueItems.json
+│   │   │   │   │   │   │   │   └── vocabulary.json
+│   │   │   │   │   │   │   ├── draft2020-12/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── date.json
+│   │   │   │   │   │   │   │   │   │   ├── duration.json
+│   │   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-email.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv4.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── iri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── iri.json
+│   │   │   │   │   │   │   │   │   │   ├── json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── regex.json
+│   │   │   │   │   │   │   │   │   │   ├── relative-json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── time.json
+│   │   │   │   │   │   │   │   │   │   ├── unknown.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-template.json
+│   │   │   │   │   │   │   │   │   │   ├── uri.json
+│   │   │   │   │   │   │   │   │   │   └── uuid.json
+│   │   │   │   │   │   │   │   │   ├── anchor.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── cross-draft.json
+│   │   │   │   │   │   │   │   │   ├── dependencies-compatibility.json
+│   │   │   │   │   │   │   │   │   ├── dynamicRef.json
+│   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   ├── float-overflow.json
+│   │   │   │   │   │   │   │   │   ├── format-assertion.json
+│   │   │   │   │   │   │   │   │   ├── id.json
+│   │   │   │   │   │   │   │   │   ├── no-schema.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   ├── refOfUnknownKeyword.json
+│   │   │   │   │   │   │   │   │   └── unknownKeyword.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── allOf.json
+│   │   │   │   │   │   │   │   ├── anchor.json
+│   │   │   │   │   │   │   │   ├── anyOf.json
+│   │   │   │   │   │   │   │   ├── boolean_schema.json
+│   │   │   │   │   │   │   │   ├── const.json
+│   │   │   │   │   │   │   │   ├── contains.json
+│   │   │   │   │   │   │   │   ├── content.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── defs.json
+│   │   │   │   │   │   │   │   ├── dependentRequired.json
+│   │   │   │   │   │   │   │   ├── dependentSchemas.json
+│   │   │   │   │   │   │   │   ├── dynamicRef.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMaximum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMinimum.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── if-then-else.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maxContains.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── maxProperties.json
+│   │   │   │   │   │   │   │   ├── minContains.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── minProperties.json
+│   │   │   │   │   │   │   │   ├── multipleOf.json
+│   │   │   │   │   │   │   │   ├── not.json
+│   │   │   │   │   │   │   │   ├── oneOf.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── prefixItems.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── propertyNames.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   ├── unevaluatedItems.json
+│   │   │   │   │   │   │   │   ├── unevaluatedProperties.json
+│   │   │   │   │   │   │   │   ├── uniqueItems.json
+│   │   │   │   │   │   │   │   └── vocabulary.json
+│   │   │   │   │   │   │   ├── draft3/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── color.json
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── date.json
+│   │   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── host-name.json
+│   │   │   │   │   │   │   │   │   │   ├── ip-address.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── regex.json
+│   │   │   │   │   │   │   │   │   │   ├── time.json
+│   │   │   │   │   │   │   │   │   │   └── uri.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   └── zeroTerminatedFloats.json
+│   │   │   │   │   │   │   │   ├── additionalItems.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── dependencies.json
+│   │   │   │   │   │   │   │   ├── disallow.json
+│   │   │   │   │   │   │   │   ├── divisibleBy.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── extends.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   └── uniqueItems.json
+│   │   │   │   │   │   │   ├── draft4/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv4.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── unknown.json
+│   │   │   │   │   │   │   │   │   │   └── uri.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   ├── float-overflow.json
+│   │   │   │   │   │   │   │   │   ├── id.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   └── zeroTerminatedFloats.json
+│   │   │   │   │   │   │   │   ├── additionalItems.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── allOf.json
+│   │   │   │   │   │   │   │   ├── anyOf.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── definitions.json
+│   │   │   │   │   │   │   │   ├── dependencies.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── maxProperties.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── minProperties.json
+│   │   │   │   │   │   │   │   ├── multipleOf.json
+│   │   │   │   │   │   │   │   ├── not.json
+│   │   │   │   │   │   │   │   ├── oneOf.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   └── uniqueItems.json
+│   │   │   │   │   │   │   ├── draft6/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv4.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── unknown.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-template.json
+│   │   │   │   │   │   │   │   │   │   └── uri.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   ├── float-overflow.json
+│   │   │   │   │   │   │   │   │   ├── id.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   └── unknownKeyword.json
+│   │   │   │   │   │   │   │   ├── additionalItems.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── allOf.json
+│   │   │   │   │   │   │   │   ├── anyOf.json
+│   │   │   │   │   │   │   │   ├── boolean_schema.json
+│   │   │   │   │   │   │   │   ├── const.json
+│   │   │   │   │   │   │   │   ├── contains.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── definitions.json
+│   │   │   │   │   │   │   │   ├── dependencies.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMaximum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMinimum.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── maxProperties.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── minProperties.json
+│   │   │   │   │   │   │   │   ├── multipleOf.json
+│   │   │   │   │   │   │   │   ├── not.json
+│   │   │   │   │   │   │   │   ├── oneOf.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── propertyNames.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   └── uniqueItems.json
+│   │   │   │   │   │   │   ├── draft7/
+│   │   │   │   │   │   │   │   ├── optional/
+│   │   │   │   │   │   │   │   │   ├── format/
+│   │   │   │   │   │   │   │   │   │   ├── date-time.json
+│   │   │   │   │   │   │   │   │   │   ├── date.json
+│   │   │   │   │   │   │   │   │   │   ├── email.json
+│   │   │   │   │   │   │   │   │   │   ├── hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-email.json
+│   │   │   │   │   │   │   │   │   │   ├── idn-hostname.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv4.json
+│   │   │   │   │   │   │   │   │   │   ├── ipv6.json
+│   │   │   │   │   │   │   │   │   │   ├── iri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── iri.json
+│   │   │   │   │   │   │   │   │   │   ├── json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── regex.json
+│   │   │   │   │   │   │   │   │   │   ├── relative-json-pointer.json
+│   │   │   │   │   │   │   │   │   │   ├── time.json
+│   │   │   │   │   │   │   │   │   │   ├── unknown.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-reference.json
+│   │   │   │   │   │   │   │   │   │   ├── uri-template.json
+│   │   │   │   │   │   │   │   │   │   └── uri.json
+│   │   │   │   │   │   │   │   │   ├── bignum.json
+│   │   │   │   │   │   │   │   │   ├── content.json
+│   │   │   │   │   │   │   │   │   ├── cross-draft.json
+│   │   │   │   │   │   │   │   │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │   │   │   ├── float-overflow.json
+│   │   │   │   │   │   │   │   │   ├── id.json
+│   │   │   │   │   │   │   │   │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │   │   │   └── unknownKeyword.json
+│   │   │   │   │   │   │   │   ├── additionalItems.json
+│   │   │   │   │   │   │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │   │   ├── allOf.json
+│   │   │   │   │   │   │   │   ├── anyOf.json
+│   │   │   │   │   │   │   │   ├── boolean_schema.json
+│   │   │   │   │   │   │   │   ├── const.json
+│   │   │   │   │   │   │   │   ├── contains.json
+│   │   │   │   │   │   │   │   ├── default.json
+│   │   │   │   │   │   │   │   ├── definitions.json
+│   │   │   │   │   │   │   │   ├── dependencies.json
+│   │   │   │   │   │   │   │   ├── enum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMaximum.json
+│   │   │   │   │   │   │   │   ├── exclusiveMinimum.json
+│   │   │   │   │   │   │   │   ├── format.json
+│   │   │   │   │   │   │   │   ├── if-then-else.json
+│   │   │   │   │   │   │   │   ├── infinite-loop-detection.json
+│   │   │   │   │   │   │   │   ├── items.json
+│   │   │   │   │   │   │   │   ├── maximum.json
+│   │   │   │   │   │   │   │   ├── maxItems.json
+│   │   │   │   │   │   │   │   ├── maxLength.json
+│   │   │   │   │   │   │   │   ├── maxProperties.json
+│   │   │   │   │   │   │   │   ├── minimum.json
+│   │   │   │   │   │   │   │   ├── minItems.json
+│   │   │   │   │   │   │   │   ├── minLength.json
+│   │   │   │   │   │   │   │   ├── minProperties.json
+│   │   │   │   │   │   │   │   ├── multipleOf.json
+│   │   │   │   │   │   │   │   ├── not.json
+│   │   │   │   │   │   │   │   ├── oneOf.json
+│   │   │   │   │   │   │   │   ├── pattern.json
+│   │   │   │   │   │   │   │   ├── patternProperties.json
+│   │   │   │   │   │   │   │   ├── properties.json
+│   │   │   │   │   │   │   │   ├── propertyNames.json
+│   │   │   │   │   │   │   │   ├── ref.json
+│   │   │   │   │   │   │   │   ├── refRemote.json
+│   │   │   │   │   │   │   │   ├── required.json
+│   │   │   │   │   │   │   │   ├── type.json
+│   │   │   │   │   │   │   │   └── uniqueItems.json
+│   │   │   │   │   │   │   └── v1/
+│   │   │   │   │   │   │       ├── format/
+│   │   │   │   │   │   │       │   ├── date-time.json
+│   │   │   │   │   │   │       │   ├── date.json
+│   │   │   │   │   │   │       │   ├── duration.json
+│   │   │   │   │   │   │       │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │       │   ├── email.json
+│   │   │   │   │   │   │       │   ├── hostname.json
+│   │   │   │   │   │   │       │   ├── idn-email.json
+│   │   │   │   │   │   │       │   ├── idn-hostname.json
+│   │   │   │   │   │   │       │   ├── ipv4.json
+│   │   │   │   │   │   │       │   ├── ipv6.json
+│   │   │   │   │   │   │       │   ├── iri-reference.json
+│   │   │   │   │   │   │       │   ├── iri.json
+│   │   │   │   │   │   │       │   ├── json-pointer.json
+│   │   │   │   │   │   │       │   ├── regex.json
+│   │   │   │   │   │   │       │   ├── relative-json-pointer.json
+│   │   │   │   │   │   │       │   ├── time.json
+│   │   │   │   │   │   │       │   ├── uri-reference.json
+│   │   │   │   │   │   │       │   ├── uri-template.json
+│   │   │   │   │   │   │       │   ├── uri.json
+│   │   │   │   │   │   │       │   └── uuid.json
+│   │   │   │   │   │   │       ├── optional/
+│   │   │   │   │   │   │       │   ├── anchor.json
+│   │   │   │   │   │   │       │   ├── bignum.json
+│   │   │   │   │   │   │       │   ├── dependencies-compatibility.json
+│   │   │   │   │   │   │       │   ├── dynamicRef.json
+│   │   │   │   │   │   │       │   ├── ecmascript-regex.json
+│   │   │   │   │   │   │       │   ├── float-overflow.json
+│   │   │   │   │   │   │       │   ├── format-annotation.json
+│   │   │   │   │   │   │       │   ├── id.json
+│   │   │   │   │   │   │       │   ├── non-bmp-regex.json
+│   │   │   │   │   │   │       │   ├── refOfUnknownKeyword.json
+│   │   │   │   │   │   │       │   └── unknownKeyword.json
+│   │   │   │   │   │   │       ├── proposals/
+│   │   │   │   │   │   │       │   ├── propertyDependencies/
+│   │   │   │   │   │   │       │   │   ├── additionalProperties.json
+│   │   │   │   │   │   │       │   │   ├── dynamicRef.json
+│   │   │   │   │   │   │       │   │   ├── propertyDependencies.json
+│   │   │   │   │   │   │       │   │   └── unevaluatedProperties.json
+│   │   │   │   │   │   │       │   └── README.md
+│   │   │   │   │   │   │       ├── additionalProperties.json
+│   │   │   │   │   │   │       ├── allOf.json
+│   │   │   │   │   │   │       ├── anchor.json
+│   │   │   │   │   │   │       ├── anyOf.json
+│   │   │   │   │   │   │       ├── boolean_schema.json
+│   │   │   │   │   │   │       ├── const.json
+│   │   │   │   │   │   │       ├── contains.json
+│   │   │   │   │   │   │       ├── content.json
+│   │   │   │   │   │   │       ├── default.json
+│   │   │   │   │   │   │       ├── dependentRequired.json
+│   │   │   │   │   │   │       ├── dependentSchemas.json
+│   │   │   │   │   │   │       ├── dynamicRef.json
+│   │   │   │   │   │   │       ├── enum.json
+│   │   │   │   │   │   │       ├── exclusiveMaximum.json
+│   │   │   │   │   │   │       ├── exclusiveMinimum.json
+│   │   │   │   │   │   │       ├── if-then-else.json
+│   │   │   │   │   │   │       ├── infinite-loop-detection.json
+│   │   │   │   │   │   │       ├── items.json
+│   │   │   │   │   │   │       ├── maxContains.json
+│   │   │   │   │   │   │       ├── maximum.json
+│   │   │   │   │   │   │       ├── maxItems.json
+│   │   │   │   │   │   │       ├── maxLength.json
+│   │   │   │   │   │   │       ├── maxProperties.json
+│   │   │   │   │   │   │       ├── minContains.json
+│   │   │   │   │   │   │       ├── minimum.json
+│   │   │   │   │   │   │       ├── minItems.json
+│   │   │   │   │   │   │       ├── minLength.json
+│   │   │   │   │   │   │       ├── minProperties.json
+│   │   │   │   │   │   │       ├── multipleOf.json
+│   │   │   │   │   │   │       ├── not.json
+│   │   │   │   │   │   │       ├── oneOf.json
+│   │   │   │   │   │   │       ├── pattern.json
+│   │   │   │   │   │   │       ├── patternProperties.json
+│   │   │   │   │   │   │       ├── prefixItems.json
+│   │   │   │   │   │   │       ├── properties.json
+│   │   │   │   │   │   │       ├── propertyNames.json
+│   │   │   │   │   │   │       ├── ref.json
+│   │   │   │   │   │   │       ├── refRemote.json
+│   │   │   │   │   │   │       ├── required.json
+│   │   │   │   │   │   │       ├── type.json
+│   │   │   │   │   │   │       ├── unevaluatedItems.json
+│   │   │   │   │   │   │       ├── unevaluatedProperties.json
+│   │   │   │   │   │   │       └── uniqueItems.json
+│   │   │   │   │   │   ├── CONTRIBUTING.md
+│   │   │   │   │   │   ├── output-test-schema.json
+│   │   │   │   │   │   ├── package.json
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   └── test-schema.json
+│   │   │   │   │   └── SOURCES.txt
+│   │   │   │   └── 03_meta_schemas/
+│   │   │   │       ├── markdown/
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_applicator.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_content.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_core.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_format-annotation.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_format-assertion.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_meta-data.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_unevaluated.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_meta_validation.json
+│   │   │   │       │   ├── json-schema.org_draft_2020-12_output_schema.json
+│   │   │   │       │   └── json-schema.org_draft_2020-12_schema.json
+│   │   │   │       └── SOURCES.txt
+│   │   │   ├── sources/
+│   │   │   │   ├── html/
+│   │   │   │   │   ├── json-schema.org_learn.html
+│   │   │   │   │   └── json-schema.org_specification.html
+│   │   │   │   ├── json/
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_applicator.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_content.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_core.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_format-annotation.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_format-assertion.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_meta-data.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_unevaluated.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_meta_validation.json
+│   │   │   │   │   ├── json-schema.org_draft_2020-12_output_schema.json
+│   │   │   │   │   └── json-schema.org_draft_2020-12_schema.json
+│   │   │   │   └── repo/
+│   │   │   ├── DOC_INDEX.md
+│   │   │   ├── PULL_ERRORS.md
+│   │   │   ├── PULL_SUMMARY.md
+│   │   │   ├── README.md
+│   │   │   ├── SOURCES.md
+│   │   │   └── STRUCTURE.md
 │   │   ├── MACOS_HOWTO_HUB/
 │   │   │   ├── docs/
 │   │   │   │   ├── 00_macos_manpages/
