@@ -1,0 +1,302 @@
+[
+  {
+    "name": "v5.0.5",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/v5.0.5",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/v5.0.5",
+    "commit": {
+      "sha": "e079844dd54a30fa8b6ad3daff3a014d4bf42f32",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/e079844dd54a30fa8b6ad3daff3a014d4bf42f32"
+    },
+    "node_id": "REF_kwDOIFEZF7ByZWZzL3RhZ3MvdjUuMC41"
+  },
+  {
+    "name": "v5.0.4",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/v5.0.4",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/v5.0.4",
+    "commit": {
+      "sha": "c4276e35f1662579b2db038d1c90c8d43a389326",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/c4276e35f1662579b2db038d1c90c8d43a389326"
+    },
+    "node_id": "REF_kwDOIFEZF7ByZWZzL3RhZ3MvdjUuMC40"
+  },
+  {
+    "name": "v5.0.3",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/v5.0.3",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/v5.0.3",
+    "commit": {
+      "sha": "4d8627ed165f8e37e8795a35af53c0ac4d205449",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/4d8627ed165f8e37e8795a35af53c0ac4d205449"
+    },
+    "node_id": "REF_kwDOIFEZF7ByZWZzL3RhZ3MvdjUuMC4z"
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/v1.0.0",
+    "commit": {
+      "sha": "7c38212956d3a01817489a4d18cec37ba788ab6d",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/7c38212956d3a01817489a4d18cec37ba788ab6d"
+    },
+    "node_id": "REF_kwDOIFEZF7ByZWZzL3RhZ3MvdjEuMC4w"
+  },
+  {
+    "name": "@mnfst/server@5.5.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.5.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.5.0",
+    "commit": {
+      "sha": "dc140f57042e7275f2d6803ffc033886f9c826c3",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/dc140f57042e7275f2d6803ffc033886f9c826c3"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjUuMA"
+  },
+  {
+    "name": "@mnfst/server@5.4.2",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.4.2",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.4.2",
+    "commit": {
+      "sha": "ab4cf9f5eeb66ad1e3ca977241ea77952593aaad",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/ab4cf9f5eeb66ad1e3ca977241ea77952593aaad"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjQuMg"
+  },
+  {
+    "name": "@mnfst/server@5.4.1",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.4.1",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.4.1",
+    "commit": {
+      "sha": "a451439d5fcbcadba931dfe8556f986dd1654ea5",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/a451439d5fcbcadba931dfe8556f986dd1654ea5"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjQuMQ"
+  },
+  {
+    "name": "@mnfst/server@5.4.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.4.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.4.0",
+    "commit": {
+      "sha": "da4da9e78283ff53a0cdd4b3edf876cb79d09f91",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/da4da9e78283ff53a0cdd4b3edf876cb79d09f91"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjQuMA"
+  },
+  {
+    "name": "@mnfst/server@5.3.5",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.3.5",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.3.5",
+    "commit": {
+      "sha": "3613b948266a9cfecba0eb768618ac6539cf8922",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/3613b948266a9cfecba0eb768618ac6539cf8922"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjMuNQ"
+  },
+  {
+    "name": "@mnfst/server@5.3.4",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.3.4",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.3.4",
+    "commit": {
+      "sha": "17699602055a739cf6901f0524a330330cdd451a",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/17699602055a739cf6901f0524a330330cdd451a"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjMuNA"
+  },
+  {
+    "name": "@mnfst/server@5.3.3",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.3.3",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.3.3",
+    "commit": {
+      "sha": "6cb51ed75b203c1590f376524a9f426e7372c331",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/6cb51ed75b203c1590f376524a9f426e7372c331"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjMuMw"
+  },
+  {
+    "name": "@mnfst/server@5.3.2",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.3.2",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.3.2",
+    "commit": {
+      "sha": "7c3d1409e335cf86fe4cdc1e3aa1e3d1e8255f3c",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/7c3d1409e335cf86fe4cdc1e3aa1e3d1e8255f3c"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjMuMg"
+  },
+  {
+    "name": "@mnfst/server@5.3.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.3.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.3.0",
+    "commit": {
+      "sha": "9062666a002acf38294e61597b6221d7fc5ef559",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/9062666a002acf38294e61597b6221d7fc5ef559"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjMuMA"
+  },
+  {
+    "name": "@mnfst/server@5.2.11",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.11",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.11",
+    "commit": {
+      "sha": "5ead46b8756f49707e82760837bdf719f5d4d81b",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/5ead46b8756f49707e82760837bdf719f5d4d81b"
+    },
+    "node_id": "REF_kwDOIFEZF75yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuMTE"
+  },
+  {
+    "name": "@mnfst/server@5.2.10",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.10",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.10",
+    "commit": {
+      "sha": "c4b722a6b6e4f0583550aa1ee60416b8d0652014",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/c4b722a6b6e4f0583550aa1ee60416b8d0652014"
+    },
+    "node_id": "REF_kwDOIFEZF75yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuMTA"
+  },
+  {
+    "name": "@mnfst/server@5.2.9",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.9",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.9",
+    "commit": {
+      "sha": "3240074e49a84ca615a48146335b63fcaa32757c",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/3240074e49a84ca615a48146335b63fcaa32757c"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuOQ"
+  },
+  {
+    "name": "@mnfst/server@5.2.8",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.8",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.8",
+    "commit": {
+      "sha": "9e37cbf08bedb5ed16adc46c15fa7e2a32f71e8e",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/9e37cbf08bedb5ed16adc46c15fa7e2a32f71e8e"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuOA"
+  },
+  {
+    "name": "@mnfst/server@5.2.7",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.7",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.7",
+    "commit": {
+      "sha": "3bdaef0dca033870ecbb749fa382c816173916c5",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/3bdaef0dca033870ecbb749fa382c816173916c5"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuNw"
+  },
+  {
+    "name": "@mnfst/server@5.2.6",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.6",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.6",
+    "commit": {
+      "sha": "2283c807017ba81ee92874eeafb878008f718791",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/2283c807017ba81ee92874eeafb878008f718791"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuNg"
+  },
+  {
+    "name": "@mnfst/server@5.2.5",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.5",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.5",
+    "commit": {
+      "sha": "645e9c2e806174e4c77fc3974f02e891fe83ed7c",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/645e9c2e806174e4c77fc3974f02e891fe83ed7c"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuNQ"
+  },
+  {
+    "name": "@mnfst/server@5.2.4",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.4",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.4",
+    "commit": {
+      "sha": "3dbcce108702aadebdba538523e11231e294cdfb",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/3dbcce108702aadebdba538523e11231e294cdfb"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuNA"
+  },
+  {
+    "name": "@mnfst/server@5.2.3",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/server@5.2.3",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/server@5.2.3",
+    "commit": {
+      "sha": "53c14f77bbfbc9df1f1ced59f9fe85b664cfbc51",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/53c14f77bbfbc9df1f1ced59f9fe85b664cfbc51"
+    },
+    "node_id": "REF_kwDOIFEZF71yZWZzL3RhZ3MvQG1uZnN0L3NlcnZlckA1LjIuMw"
+  },
+  {
+    "name": "@mnfst/sdk@1.3.2",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.3.2",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.3.2",
+    "commit": {
+      "sha": "c6dcf012ded84c005c11c7350542fc2887b5ca27",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/c6dcf012ded84c005c11c7350542fc2887b5ca27"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjMuMg"
+  },
+  {
+    "name": "@mnfst/sdk@1.3.1",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.3.1",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.3.1",
+    "commit": {
+      "sha": "10f50656a359b5020415d8c68564b2787b30f9b4",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/10f50656a359b5020415d8c68564b2787b30f9b4"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjMuMQ"
+  },
+  {
+    "name": "@mnfst/sdk@1.3.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.3.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.3.0",
+    "commit": {
+      "sha": "97993e68a0f85b4cc2d58338a75084edd26ac215",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/97993e68a0f85b4cc2d58338a75084edd26ac215"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjMuMA"
+  },
+  {
+    "name": "@mnfst/sdk@1.2.2",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.2.2",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.2.2",
+    "commit": {
+      "sha": "30f6f49194cff959597e1cedb87ef307bc8c1e04",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/30f6f49194cff959597e1cedb87ef307bc8c1e04"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjIuMg"
+  },
+  {
+    "name": "@mnfst/sdk@1.2.1",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.2.1",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.2.1",
+    "commit": {
+      "sha": "31d67961787a20cfc6dc341fceb3d714dd82290b",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/31d67961787a20cfc6dc341fceb3d714dd82290b"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjIuMQ"
+  },
+  {
+    "name": "@mnfst/sdk@1.2.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.2.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.2.0",
+    "commit": {
+      "sha": "032e3d287b1f63ab947a47cbe4b04c94b3c48c7e",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/032e3d287b1f63ab947a47cbe4b04c94b3c48c7e"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjIuMA"
+  },
+  {
+    "name": "@mnfst/sdk@1.1.0",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/@mnfst/sdk@1.1.0",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/@mnfst/sdk@1.1.0",
+    "commit": {
+      "sha": "9f05e9ea8fc54d1dc00a9c278ce11cf277b39b99",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/9f05e9ea8fc54d1dc00a9c278ce11cf277b39b99"
+    },
+    "node_id": "REF_kwDOIFEZF7pyZWZzL3RhZ3MvQG1uZnN0L3Nka0AxLjEuMA"
+  },
+  {
+    "name": "manifest-provider@5.33.5",
+    "zipball_url": "https://api.github.com/repos/mnfst/manifest/zipball/refs/tags/manifest-provider@5.33.5",
+    "tarball_url": "https://api.github.com/repos/mnfst/manifest/tarball/refs/tags/manifest-provider@5.33.5",
+    "commit": {
+      "sha": "db0d8922f9282e06be07c1c9c562234e4c3eb4a5",
+      "url": "https://api.github.com/repos/mnfst/manifest/commits/db0d8922f9282e06be07c1c9c562234e4c3eb4a5"
+    },
+    "node_id": "REF_kwDOIFEZF9oAInJlZnMvdGFncy9tYW5pZmVzdC1wcm92aWRlckA1LjMzLjU"
+  }
+]
