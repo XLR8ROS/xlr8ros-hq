@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-06-07T02:27:50
+Generated: 2026-06-10T04:00:07
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -13,6 +13,14 @@ XLR8ROS/
 │   │   │   │   │   └── lock.json
 │   │   │   │   ├── .openclaw/
 │   │   │   │   │   └── workspace-state.json
+│   │   │   │   ├── cleanup-staging/
+│   │   │   │   │   ├── 20260610T012656Z-staging/
+│   │   │   │   │   │   ├── filelist.txt
+│   │   │   │   │   │   ├── manifest.tsv
+│   │   │   │   │   │   └── stale-bundle.tar.gz
+│   │   │   │   │   ├── stale-20260607-022843/
+│   │   │   │   │   │   └── manifest.json
+│   │   │   │   │   └── stale-20260607-022843.tar.gz
 │   │   │   │   ├── Distilled_Lessons/
 │   │   │   │   │   ├── 2026-03-31.md
 │   │   │   │   │   ├── Distilled_Lessons__2026-05-05-completion-is-verified-state-not-milestone.md
@@ -43,7 +51,11 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-03.md
 │   │   │   │   │   ├── 2026-06-04.md
 │   │   │   │   │   ├── 2026-06-05.md
-│   │   │   │   │   └── 2026-06-06.md
+│   │   │   │   │   ├── 2026-06-06.md
+│   │   │   │   │   ├── 2026-06-07.md
+│   │   │   │   │   ├── 2026-06-08.md
+│   │   │   │   │   ├── 2026-06-09.md
+│   │   │   │   │   └── 2026-06-10.md
 │   │   │   │   ├── event-log/
 │   │   │   │   │   ├── migrations/
 │   │   │   │   │   │   └── 001_init.sql
@@ -80,7 +92,9 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-03-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-06-04-nightly-maintenance.md
 │   │   │   │   │   ├── 2026-06-05-nightly-maintenance.md
-│   │   │   │   │   └── 2026-06-07-nightly-maintenance.md
+│   │   │   │   │   ├── 2026-06-07-nightly-maintenance.md
+│   │   │   │   │   ├── 2026-06-08-nightly-maintenance.md
+│   │   │   │   │   └── 2026-06-09-nightly-maintenance.json
 │   │   │   │   ├── memory/
 │   │   │   │   │   ├── migration-backups/
 │   │   │   │   │   │   └── 20260516-daily-note-normalization/
@@ -146,7 +160,10 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-04.md
 │   │   │   │   │   ├── 2026-06-05.md
 │   │   │   │   │   ├── 2026-06-06-2351.md
-│   │   │   │   │   └── 2026-06-06.md
+│   │   │   │   │   ├── 2026-06-06.md
+│   │   │   │   │   ├── 2026-06-07.md
+│   │   │   │   │   ├── 2026-06-08.md
+│   │   │   │   │   └── 2026-06-09.md
 │   │   │   │   ├── Navigation/
 │   │   │   │   │   └── NAVIGATION.md
 │   │   │   │   ├── Outputs/
@@ -297,7 +314,11 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-06-03-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-06-04-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-06-05-durable-memory-promotion-log.md
-│   │   │   │   │   │   └── 2026-06-06-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-06-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-07-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-08-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-09-durable-memory-promotion-log.md
+│   │   │   │   │   │   └── 2026-06-10-durable-memory-promotion-log.md
 │   │   │   │   │   ├── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   └── moltbook-reading-pulse-2026-05-25.md
 │   │   │   │   ├── skills/
@@ -12220,7 +12241,6 @@ XLR8ROS/
 │   │   │   │   ├── proposals/
 │   │   │   │   │   └── 2026-04-21_manifest-setup-snapshot/
 │   │   │   │   │       └── 260421230832_manifest-setup-snapshot-budget-v4.md
-│   │   │   │   ├── .DS_Store
 │   │   │   │   └── Position SOP 4 XOS SEAD CHEIF.md
 │   │   │   ├── .DS_Store
 │   │   │   ├── .gitignore
