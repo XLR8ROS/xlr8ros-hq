@@ -1,6 +1,6 @@
 # XLR8ROS Navigation Tree
 
-Generated: 2026-06-15T13:32:48
+Generated: 2026-06-16T04:00:13
 Mode: normal
 Rule: .git/ is excluded from the normal navigation map. Other dotfiles/dotfolders remain visible unless explicitly excluded by Reg.
 
@@ -51,7 +51,8 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-10.md
 │   │   │   │   │   ├── 2026-06-11.md
 │   │   │   │   │   ├── 2026-06-12.md
-│   │   │   │   │   └── 2026-06-13.md
+│   │   │   │   │   ├── 2026-06-13.md
+│   │   │   │   │   └── 2026-06-15.md
 │   │   │   │   ├── event-log/
 │   │   │   │   │   ├── migrations/
 │   │   │   │   │   │   └── 001_init.sql
@@ -65,6 +66,8 @@ XLR8ROS/
 │   │   │   │   │   │   ├── codi-stale-files-2026-06-13-2026-06-13_070000-files.txt
 │   │   │   │   │   │   ├── codi-stale-files-2026-06-13-2026-06-13_070000-manifest.jsonl
 │   │   │   │   │   │   ├── codi-stale-files-2026-06-13-2026-06-13_070000.tar.gz
+│   │   │   │   │   │   ├── codi-stale-files-2026-06-15-2026-06-15_133320-manifest.jsonl
+│   │   │   │   │   │   ├── codi-stale-files-2026-06-15-2026-06-15_133320.tar.gz
 │   │   │   │   │   │   ├── manifest-20260614-070042.txt
 │   │   │   │   │   │   └── stale-20260614-070042.tar.gz
 │   │   │   │   │   ├── 2026-05-16-nightly-maintenance.md
@@ -90,7 +93,9 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-11-nightly.md
 │   │   │   │   │   ├── 2026-06-12-nightly.md
 │   │   │   │   │   ├── 2026-06-13-nightly.md
-│   │   │   │   │   └── 2026-06-14-nightly.md
+│   │   │   │   │   ├── 2026-06-14-nightly.md
+│   │   │   │   │   ├── 2026-06-15-nightly.md
+│   │   │   │   │   └── 2026-06-16-nightly.md
 │   │   │   │   ├── memory/
 │   │   │   │   │   ├── migration-backups/
 │   │   │   │   │   │   └── 20260516-daily-note-normalization/
@@ -164,7 +169,11 @@ XLR8ROS/
 │   │   │   │   │   ├── 2026-06-11.md
 │   │   │   │   │   ├── 2026-06-12.md
 │   │   │   │   │   ├── 2026-06-13.md
-│   │   │   │   │   └── 2026-06-14.md
+│   │   │   │   │   ├── 2026-06-14.md
+│   │   │   │   │   ├── 2026-06-15.md
+│   │   │   │   │   ├── 2026-06-16-0342.md
+│   │   │   │   │   ├── 2026-06-16-0356.md
+│   │   │   │   │   └── 2026-06-16.md
 │   │   │   │   ├── Navigation/
 │   │   │   │   │   └── NAVIGATION.md
 │   │   │   │   ├── Outputs/
@@ -298,7 +307,9 @@ XLR8ROS/
 │   │   │   │   │   │   ├── 2026-06-11-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-06-12-durable-memory-promotion-log.md
 │   │   │   │   │   │   ├── 2026-06-13-durable-memory-promotion-log.md
-│   │   │   │   │   │   └── 2026-06-14-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-14-durable-memory-promotion-log.md
+│   │   │   │   │   │   ├── 2026-06-15-durable-memory-promotion-log.md
+│   │   │   │   │   │   └── 2026-06-16-durable-memory-promotion-log.md
 │   │   │   │   │   ├── cron-health-sweep-2026-05-19.md
 │   │   │   │   │   └── moltbook-reading-pulse-2026-05-25.md
 │   │   │   │   ├── skills/
