@@ -1,0 +1,26 @@
+name: XOS HQ Public Vector Index
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - '.github/workflows/vector-index.yml'
+      - 'scripts/xos_vector_sync.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync HQ public semantic index
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          XOS_VECTOR_STORE_NAME: xos-public-hq
+          XOS_VECTOR_SCOPE: hq
+          XOS_VECTOR_VISIBILITY: public
+          XOS_REPOSITORY: XLR8ROS/xlr8ros-hq
+          XOS_INCLUDE_GLOBS: '**/*.md;*.md'
+          XOS_EXCLUDE_GLOBS: 'archives/**;tasks/**'
+        run: python3 scripts/xos_vector_sync.py
