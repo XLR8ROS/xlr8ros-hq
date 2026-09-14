@@ -1,102 +1,110 @@
 # XOS Memory Flow HOWTO
 
-**XOS Timestamp:** 2026-05-15
-**Scope:** CodiCore repo-local operational procedure; mirrorable into XOS canon.
-**Status:** Operational how-to, not root canon by itself.
+**XOS Timestamp:** 2026-09-14
+**Scope:** XOS memory-flow procedure
+**Status:** Operational How-To; governed by the Global Memory Contract and XOS HQ SOP
 
 ## Purpose
 
-This how-to explains how Codi captures events, preserves evidence, and converts evidence into durable operational memory without editing protected root files.
+Define the end-to-end XOS memory flow from live event capture through complete episodic preservation, durable promotion, chunking, vector embedding, semantic indexing, selective retrieval, and separate lesson distillation.
+
+## Core Flow
+
+**Capture → preserve source chronology → finalize/weave → promote complete episode → chunk → embed → index → retrieve selectively → distill separately.**
+
+Preservation is exhaustive. Retrieval is selective.
 
 ## Event-First Capture
 
-Every meaningful turn, action, tool call, output, correction, decision, blocker, failure, recovery, and changed understanding is captured first as an event.
+Capture every meaningful turn, action, tool call, output, correction, decision, blocker, failure, recovery, external interaction, and changed understanding before it disappears from operational context.
 
-Write live capture to:
+Do not decide at capture time that something is not important enough to record.
 
-`memory/YYYY-MM-DD.md`
+Daily Notes preserve the operational layer. Verbatim episodic source preserves what was actually said or happened. Both matter.
 
-Use one active daily note per date. Append chronologically. Use timestamps to seconds when possible and milliseconds when runtime supports it.
+## WDN
 
-Do not decide at capture time that something is not important enough to record. Later review can lower weight, supersede, classify, distill, or promote.
+`WDN` is an explicit instruction to append the current timestamped operational state to the active Daily Note using the available persistent write path. Acknowledging WDN without writing the note is incomplete execution.
 
-## Three Whys
+## Verbatim Episodic Capture
 
-Each meaningful event should record three whys when knowable:
+When transcript or conversation material is recoverable, preserve the complete substantive episode. Keep timestamps, speaker attribution, corrections, mistakes, tangents, topic shifts, and incidental details. Mark missing material as missing rather than reconstructing it as fact.
 
-1. proximate why — why now; what triggered the current turn/action/decision
-2. method why — why this response/action/method; what current thought, belief, uncertainty, or understanding shaped it
-3. historical why — why this pattern/rule exists; what prior memory, correction, failure, canon, lesson, or precedent shaped it
+Do not filter source episodes according to present usefulness.
 
-If Reg's why is not explicit, Codi may record an inferred why clearly marked as inferred.
+## Daily Finalization
 
-## Event Dimensions
+For each date being finalized:
 
-Each event may carry multiple dimensions:
+1. load the existing Daily Note
+2. collect all recoverable timestamped verbatim episodes
+3. order them chronologically
+4. weave them with operational Daily Note entries
+5. distinguish verbatim source from agent-authored narration
+6. retain tool/system context invisible in the transcript
+7. record gaps explicitly
+8. save the final Markdown file
 
-- dialogue: user direction, correction, clarification, approval, rejection, open question, answer
-- thought: belief, assumption, uncertainty, anchor, intent, confidence, pressure signal, changed understanding
-- knowledge: new information, belief, understanding, fact, truth record, canon, canonized truth
-- action/output: command, file change, cron change, Moltbook post/comment/reply, report, artifact, commit
-- problem/recovery: blocker, failure, contradiction, rollback, restore, resolved blocker
-- rule/standard: standing rule, procedure, canon candidate, policy conflict
+## Durable Promotion
 
-Open question means real missing evidence or conflict. It does not mean asking Reg permission for something Reg already instructed.
+Promote the complete substantive episodic record to the applicable `Durable_Memory/` lane.
 
-## Evidence Feeds
+Promotion may normalize timestamps, add metadata/provenance, suppress exact technical duplicates without information loss, chunk content, and cross-link evidence. Promotion must not remove substantive material because it seems low-value.
 
-Review these feeds for promotion and durable extraction:
+There is no usefulness qualification gate for preserving episodic history.
 
-1. `memory/YYYY-MM-DD.md` — active daily chronological event capture
-2. `sessions/` — session records, handoffs, transcripts, focused work blocks
-3. `Outputs/` — proposals, reports, proofs, healthchecks, heartbeat reports, cleanup reports, promotion logs, generated artifacts
-4. `event-log/` — structured SQLite event ledger and audits
-5. `DREAMS.md` / `dreams.md` — OpenClaw Dreaming review diary if present
-6. relevant legacy evidence when needed
+## Chunking and Embeddings
 
-`memory/.dreams/` is machine state, not human memory. Do not promote raw `.dreams` state.
+After durable preservation:
 
-## Promotion Flow
+1. split the corpus at useful semantic boundaries without substantive loss
+2. attach source/provenance metadata where supported
+3. generate approved vector embeddings
+4. upsert into the applicable semantic/vector store
+5. verify the indexing job
+6. retain the source even if downstream processing fails
 
-Event capture → evidence review → classify dimensions/status → extract facts/truth/procedures/tool states/lessons → `Durable_Memory/` → promotion log in `Outputs/promotion-logs/` → refresh semantic hooks/indexes where supported.
+The purpose is future semantic recovery: obscure details can become relevant months later.
 
-No `memory/candidates/` folder. Promotion is one pass.
+## Retrieval
 
-Do not copy raw daily notes into durable memory as promotion. Durable memory is derived from source-backed events and keeps evidence references.
+Retrieval is where selectivity belongs. Use semantic similarity, exact search, metadata, provenance, recency, authority, and other ranking/filtering methods to surface the most relevant chunks for the current task.
 
-## What Qualifies
+Selective retrieval never authorizes selective source preservation.
 
-Promote when remembering it would reduce future friction, prevent repeated mistakes, improve routing, preserve a resolved blocker, document stable tool state, preserve user direction, improve safety/speed, or explain a recurring why.
+## Distilled Lessons
 
-Qualifying durable memory includes distilled lessons, failure lessons, user corrections, standing rules, stable procedures, resolved blockers, tool/environment facts, truth records, durable preferences, decisions/conventions, relationship context, and "do not repeat this" lessons.
+Distilled Lessons are a separate derived layer. Extract recurring patterns, stable procedures, corrections, lessons, preferences, tool states, and other reusable knowledge when useful.
+
+Distillation may be selective because the full episodic source remains preserved underneath it.
 
 ## Provenance and Supersession
 
-Use simple precedence:
+Preserve source identity, timestamps, conversation/session references, file paths, commits, tasks, and tool evidence when available.
 
-- evidence beats belief
-- truth checks canon when canon conflicts with reality
-- canon guides behavior when aligned with truth or accepted as rule
-- Reg's direction beats Codi inference, but does not automatically make factual claims true
-- newer verified understanding can supersede older understanding without deleting old evidence
-- stronger why/provenance beats surface keyword similarity
+New verified understanding may supersede old understanding without deleting historical evidence. Preserve the correction sequence when it explains how understanding changed.
 
-When superseding, record old memory reference, new memory, evidence path, reason, timestamp, and approval status.
+## Recovery Flow
+
+When memory is missing:
+
+1. report the gap
+2. search authorized evidence surfaces, including conversation history, agent repo, HQ/Canon, files, connectors, Paperclip, commits, and external evidence
+3. recover verbatim source where possible
+4. preserve timestamps and provenance
+5. reconstruct chronology without invention
+6. finalize the Daily Note
+7. promote the complete recovered episode
+8. chunk/embed/index it
+9. verify downstream processing
+10. record unresolved gaps
 
 ## Approval Boundary
 
-Codi does not need Reg approval for routine durable operational memory promotion into `Durable_Memory/`.
+Routine memory capture, episodic promotion, and indexing follow the governing contract and do not require repeated approval when already authorized. Changes to protected Canon, contracts, SOPs, authority rules, or operating doctrine require Reg authorization. Reg explicitly authorized the 2026-09-14 correction aligning this How-To with exhaustive episodic preservation.
 
-Codi does need exact Reg approval before editing protected docs, canon, authority rules, role definitions, policy, SOP/governance docs, or operating doctrine.
+## Completion Rule
 
-A memory may mention canon-sensitive material without changing canon.
+Promotion is complete only when source preservation is verified and all requested downstream stages are either verified successful or explicitly reported blocked.
 
-## Promotion Log Minimum
-
-Each promotion log must include sources reviewed, source/evidence paths, event dimensions/classes applied, three-why gaps or weak inferred whys when relevant, promoted memory summary, destination path, qualification reason, rejected/lowered items if relevant, approval-sensitive items, and timestamp.
-
-## Dreaming Boundary
-
-OpenClaw Dreaming may produce `DREAMS.md` and machine state under `memory/.dreams/`. Use `DREAMS.md` as evidence if present.
-
-Do not allow Dreaming deep promotion to write into CodiCore `MEMORY.md` unless Reg explicitly authorizes it, because CodiCore uses `MEMORY.md` as protected contract.
+**Learn once. Forget nothing. Remember everything. Because everything has value.**
