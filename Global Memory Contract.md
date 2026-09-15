@@ -1,4 +1,4 @@
-**Learn once. Forget nothing. Remember everything. Because everything has value.**
+Learn once, forget nothing, remember everything, because everything has value.
 
 # Global Memory Contract
 
@@ -52,13 +52,15 @@ For complete episodic promotion, the underlying source record is preserved exhau
 
 Distilled Lessons are a separate selective layer derived from preserved evidence. They may summarize recurring patterns, procedures, failures, preferences, decisions, and lessons.
 
-Distillation never replaces the underlying episodic record.
+Distillation is an optional, selective Compound Engineering-derived layer. It never determines whether source memory survives and never replaces the underlying episodic record.
+
+Consult the authoritative Compound Engineering documentation and runtime SKILL.md procedures through the XOS How-To Hub when episodic evidence can inform reusable lessons, patterns, solutions, or concepts, including evidence retrieved months later. Maintain provenance from distilled knowledge to Durable Memory. The Memory How-To Hub must point to these maintained procedures; stale copied paraphrases are not current authority.
 
 ## 4. Capture Rule
 
 Capture comes before classification, weighting, distillation, or promotion.
 
-Every meaningful turn, action, tool call, correction, decision, blocker, failure, recovery, output, external interaction, and changed understanding must be captured before it disappears from operational context.
+Every recoverable turn, action, tool call, correction, decision, blocker, failure, recovery, output, external interaction, and changed understanding must be captured before it disappears from operational context.
 
 A completed action without traceable memory is operationally incomplete.
 
@@ -72,12 +74,14 @@ Saying that WDN was triggered without persisting the entry does not satisfy the 
 
 ## 6. Daily Finalization and Verbatim Weave
 
-When a day's verbatim conversation material is available, the final Daily Note for that date should weave together:
+For each agent/day, the final Daily Note must weave all available verbatim communications and operational records into one timestamped chronological record, including:
 
 1. the existing operational Daily Note entries
 2. recovered timestamped verbatim conversation episodes
 3. tool and system state not visible in the transcript
 4. corrections, blockers, decisions, and unresolved work
+5. interactions with Reg, other agents/entities, computers, tools, and any other recoverable record
+6. attachments, photos, media, and their source references preserved with the Daily Note package
 
 Preserve chronology. Clearly distinguish verbatim/recovered source material from agent-authored operational narration.
 
@@ -85,7 +89,7 @@ Do not selectively omit episodes from the final source chronology based on prese
 
 ## 7. Promotion Rule
 
-The complete recoverable episodic source is eligible for promotion into Durable Memory.
+EVERYTHING recoverable is promoted into Durable Memory. There is no usefulness or relevance gate for promotion; Durable Memory is the complete preserved episodic record.
 
 Promotion is not a relevance contest. The promotion process must preserve the complete substantive episode while adding structure needed for retrieval.
 
@@ -105,7 +109,9 @@ Promotion must not remove substantive content because an agent thinks it is curr
 
 ## 8. Chunking, Embeddings, and Retrieval
 
-After preservation and promotion, durable episodic material should be chunked at useful semantic boundaries, vector embedded where supported, and added to the applicable semantic index.
+After weaving/finalization, the Daily Note is chunked at useful semantic boundaries. All embeddable material, including supported text, file, image, and media representations, is embedded and indexed. The complete source is preserved and promoted into Durable Memory regardless of embedding eligibility or indexing success.
+
+Source preservation and retrieval indexing are separate concerns. Chunks, embeddings, and indexes never replace the complete preserved source.
 
 Search and retrieval may be selective, ranked, filtered, weighted, or context-limited. This selectivity belongs at retrieval time, not preservation time.
 
@@ -143,6 +149,8 @@ The authoritative Global Memory Contract is maintained in XOS HQ canon.
 
 Agent repositories that require a locked local contract copy must contain an exact local copy unless a later governing rule defines a synchronization mechanism.
 
+Agent-local identity, copy status, synchronization receipts, and lock metadata must remain in a separate file outside this governing text. Synchronization must verify complete textual equality, including the exact motto at the beginning and end. A label saying 'locked' is not proof of technical enforcement; verify the actual protection mechanism.
+
 If an agent's bootstrap requires a local contract and that file is missing, stale, or only a placeholder, bootstrap is incomplete until the defect is reported and repaired.
 
 ## 13. Separation of Memory Layers
@@ -165,8 +173,20 @@ If capture fails on a critical or system-changing action, stop before continuing
 
 If promotion or embedding fails, do not discard the source. Preserve the source first and retry downstream processing later.
 
-## 15. Governing Rule
+## 15. Daily Note Storage Lifecycle
+
+Keep a rolling window of two finalized Daily Notes in Recent (approximately 48 hours). When a third finalized note is added, move the oldest into its calendar month's Daily Notes folder; do not delete it. A 72-hour window requires a separate explicit change.
+
+Keep the current month plus the two immediately preceding months of Daily Notes uncompressed. When a new month makes an older month the fourth in the rolling set, compress that complete monthly folder losslessly and archive it under that calendar year's Daily Notes archive.
+
+After the year is sufficiently past (approximately three months into the next year), the prior year's archived Daily Notes may be packaged into a lossless yearly archive. The exact annual trigger must be specified in the approved How-To; it is not fixed by this contract.
+
+Daily Notes and ordinary source files become eligible for compression only after their complete content has been promoted into Durable Memory and preservation/provenance has been verified. Verify archive integrity before removing redundant working copies. Failed promotion or verification preserves the source and creates a retry/blocker record.
+
+Durable Memory is the protected preservation layer and is not subject to destructive compression or loss. Compression and archival must never destroy Durable Memory, delete source content, or break provenance and pointers needed to recover the original episode.
+
+## 16. Governing Rule
 
 When in doubt between preserving and discarding substantive episodic material, preserve it.
 
-**Learn once. Forget nothing. Remember everything. Because everything has value.**
+Learn once, forget nothing, remember everything, because everything has value.
