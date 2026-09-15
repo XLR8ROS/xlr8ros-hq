@@ -16,7 +16,7 @@ Preservation is exhaustive. Retrieval is selective.
 
 ## Event-First Capture
 
-Capture every meaningful turn, action, tool call, output, correction, decision, blocker, failure, recovery, external interaction, and changed understanding before it disappears from operational context.
+Capture every recoverable turn, action, tool call, output, correction, decision, blocker, failure, recovery, external interaction, and changed understanding before it disappears from operational context.
 
 Do not decide at capture time that something is not important enough to record.
 
@@ -108,3 +108,16 @@ Routine memory capture, episodic promotion, and indexing follow the governing co
 Promotion is complete only when source preservation is verified and all requested downstream stages are either verified successful or explicitly reported blocked.
 
 **Learn once. Forget nothing. Remember everything. Because everything has value.**
+
+## Current contract lifecycle and consultation requirements
+
+The [HQ Global Memory Contract](../Global%20Memory%20Contract.md) governs this procedure. Its September 14 reconciliation supersedes earlier selective-promotion wording.
+
+- Preserve every recoverable episode and its attachments/photos/media references. Promote all content to Durable Memory independently of embedding eligibility or indexing success.
+- Use the accepted America/New_York day boundary, retaining original timestamps/offsets and UTC. A two-finalized-note Recent window is a storage rule, distinct from rolling 48-hour bootstrap recall.
+- When a third finalized note arrives, move the oldest into its calendar-month Daily Notes folder and update provenance pointers. Never delete source because indexing failed.
+- Keep the current month and two preceding months uncompressed. Older complete monthly packages become eligible for lossless compression only after complete Durable Memory promotion and provenance verification. Verify archive inventory/integrity before removing redundant working copies.
+- No exact yearly recompression trigger is approved. Retain monthly archives unchanged until Reg approves that trigger; approximately three months into the next year is context, not a schedule.
+- Consult the maintained Compound Engineering source index in the XOS Paperclip How-To Hub, task XOS-20, document key `compound-engineering`. Read its version-pinned upstream documentation and runtime SKILL.md references before applying a procedure. Re-consult before planning/debugging/review in a documented area, after qualifying verified work, and when months-old Durable Memory becomes relevant. Distillation remains selective and separate from preservation.
+- The finalized Memory How-To Hub is in XOS Paperclip task XOS-21, document key `memory-how-to-hub`; its linked `memory-vector-procedure` records the selected implementation and verification limits. These are Paperclip document identifiers, not repository file paths. If unavailable, report the missing reference rather than inventing procedure details.
+- Opera capture remains validation-gated in XOS-15. Live promotion/indexing/retrieval acceptance remains in XOS-13. Documentation and a successful file comparison do not establish runtime success or contract lock enforcement.
