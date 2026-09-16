@@ -101,7 +101,17 @@ Do not selectively omit episodes from the final source chronology based on prese
 
 After the live document has been woven and verified, export or reproduce its complete finalized content as the canonical Markdown Daily Note in the agent repository. That repository Markdown artifact is the committed finalized Daily Note. The working Google Doc is the live authoring and inspection surface; the repository Markdown file is the canonical finalized storage representation.
 
+Each finalized date is stored as a self-contained Daily Note package under that month's Daily Notes directory. The package uses one folder per date, containing the canonical Markdown Daily Note and every recoverable attachment/media/file asset associated with that date. Example: `memory/Daily_Notes/2026-09/2026-09-13/2026-09-13.md` plus that date's recovered attachment files.
+
 Finalization must verify that no substantive information present in the working document or prior canonical Daily Note is lost. Exact technical duplicates may be suppressed when no substantive information is lost.
+
+### 6.1 Attachment and File Recovery Obligation
+
+Attachments are not limited to images. They include photos, screenshots, audio, video, PDFs, text files, spreadsheets, archives, code, documents, and any other file associated with the episode.
+
+When the primary conversation/operator surface exposes an attachment reference but does not provide usable bytes, the agent must not stop at the reference if another authorized evidence surface can recover the original file. The agent must follow the approved attachment-recovery How-To and search alternate authorized sources, including ChatGPT Library when applicable, using filename, file ID, conversation context, timestamps, captions/OCR, and other provenance clues.
+
+When the original file is recovered, preserve a durable copy in the applicable date package when technically supported, link or embed it at the correct chronological position in the Daily Note, and retain source provenance. If the asset cannot be recovered after the required fallback search, preserve the reference and record the unresolved gap. Never fabricate a substitute asset.
 
 ## 7. Promotion Rule
 
@@ -135,6 +145,8 @@ Search and retrieval may be selective, ranked, filtered, weighted, or context-li
 
 The purpose of semantic indexing is to allow future queries to surface details whose relevance could not have been predicted when the episode occurred.
 
+Index verification must identify the actual currently approved indexing implementation before claiming success. Historical or retired backends must not be assumed from memory. A successful source commit, documentation update, or earlier index design is not proof that the current indexing pipeline accepted a new Daily Note package.
+
 ## 9. Provenance, Expansion, and Supersession
 
 Memory must preserve source provenance whenever available, including date/time, conversation or session identity, live Google Doc identity, repository file path, commit, task, external source, media asset path, and tool evidence.
@@ -155,16 +167,17 @@ If expected memory material is missing, the agent must state the gap explicitly 
 
 ## 11. Recovery of Missing Memory
 
-When missing Daily Notes, transcripts, or episodic records are discovered:
+When missing Daily Notes, transcripts, attachments, or episodic records are discovered:
 
-1. search available conversation history, repositories, Google Drive Daily Note documents, files, connectors, shared links, task systems, and other evidence surfaces
+1. search available conversation history, repositories, Google Drive Daily Note documents, files, connectors, ChatGPT Library when applicable, shared links, task systems, and other evidence surfaces
 2. recover source material verbatim when possible
-3. preserve timestamps and provenance
-4. reconstruct chronology without inventing missing content
-5. weave recovered material into the applicable working/final Daily Note
-6. promote the recovered episode into the durable episodic corpus after finalization
-7. chunk, embed, and index it where supported
-8. record unresolved gaps explicitly
+3. recover original attachments/files through the approved fallback ladder when the primary surface cannot provide them
+4. preserve timestamps and provenance
+5. reconstruct chronology without inventing missing content
+6. weave recovered material into the applicable working/final Daily Note
+7. promote the recovered episode into the durable episodic corpus after finalization
+8. chunk, embed, and index it where supported
+9. record unresolved gaps explicitly
 
 ## 12. Contract Copies
 
@@ -182,12 +195,13 @@ Do not collapse the following into one artifact:
 
 - live working Daily Note Google Doc
 - verbatim episodic source
-- finalized canonical Daily Note Markdown
+- finalized canonical Daily Note Markdown package
+- attachment/media/file assets
 - Durable Memory corpus
 - Distilled Lessons
 - Canon, SOPs, and How-Tos
 
-These artifacts may be woven or transformed into one another at designated lifecycle stages, but their roles are distinct. The live Google Doc is the active working surface. The finalized repository Markdown is the canonical closed Daily Note. Durable Memory is the long-term episodic preservation layer. Higher-order summaries and doctrine may be selective. The underlying episodic evidence remains preserved.
+These artifacts may be woven or transformed into one another at designated lifecycle stages, but their roles are distinct. The live Google Doc is the active working surface. The finalized repository Markdown plus its date-folder assets form the canonical closed Daily Note package. Durable Memory is the long-term episodic preservation layer. Higher-order summaries and doctrine may be selective. The underlying episodic evidence remains preserved.
 
 ## 14. Failure Handling
 
@@ -197,11 +211,13 @@ If capture fails on a critical or system-changing action, stop before continuing
 
 If the live Google Doc path fails, preserve the active note in another non-destructive working surface and record the deviation. Do not silently switch to a per-WDN repository commit pattern.
 
+If attachment retrieval fails from the primary operator surface, continue through the approved authorized fallback ladder before declaring the asset unavailable.
+
 If promotion or embedding fails, do not discard the source. Preserve the source first and retry downstream processing later.
 
 ## 15. Daily Note Storage Lifecycle
 
-During the active day, the working Daily Note remains in the agent's designated Google Drive Daily Notes folder. It may remain there after finalization as a readable working/history copy, but the canonical finalized Daily Note is the repository Markdown artifact.
+During the active day, the working Daily Note remains in the agent's designated Google Drive Daily Notes folder. It may remain there after finalization as a readable working/history copy, but the canonical finalized Daily Note is the repository date-folder package containing the Markdown and recoverable associated assets.
 
 Keep a rolling window of two finalized Daily Notes in Recent (approximately 48 hours). When a third finalized note is added, move the oldest into its calendar month's Daily Notes folder; do not delete it. A 72-hour window requires a separate explicit change.
 
