@@ -24,6 +24,9 @@ REPOSITORY = os.environ.get("XOS_REPOSITORY", os.environ.get("GITHUB_REPOSITORY"
 BASE_URL = os.environ.get("XOS_OPENAI_BASE_URL", "https://api.openai.com/v1").rstrip("/")
 INCLUDES = [x for x in os.environ.get("XOS_INCLUDE_GLOBS", "**/*.md;*.md").split(";") if x]
 EXCLUDES = [x for x in os.environ.get("XOS_EXCLUDE_GLOBS", "").split(";") if x]
+VERIFY_QUERY = os.environ.get("XOS_VERIFY_QUERY", "").strip()
+VERIFY_EXPECTED_PATH = os.environ.get("XOS_VERIFY_EXPECTED_PATH", "").strip()
+VERIFY_EXPECTED_TERMS = [x for x in os.environ.get("XOS_VERIFY_EXPECTED_TERMS", "").split(";") if x]
 
 
 def fail(msg: str) -> None:
@@ -42,7 +45,13 @@ for key, value in {
         fail(f"Missing required environment variable: {key}")
 
 
-def request(method: str, path: str, body: bytes | None = None, content_type: str = "application/json"):
+def request(
+    method: str,
+    path: str,
+    body: bytes | None = None,
+    content_type: str = "application/json",
+    allow_not_found: bool = False,
+):
     req = urllib.request.Request(BASE_URL + path, data=body, method=method)
     req.add_header("Authorization", f"Bearer {API_KEY}")
     if body is not None:
@@ -53,12 +62,19 @@ def request(method: str, path: str, body: bytes | None = None, content_type: str
             return json.loads(raw.decode("utf-8")) if raw else {}
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")
+        if allow_not_found and exc.code == 404:
+            return {"_ignored_http_status": 404, "_detail": detail}
         fail(f"OpenAI API {method} {path} returned {exc.code}: {detail}")
 
 
-def json_request(method: str, path: str, payload: dict | None = None):
+def json_request(
+    method: str,
+    path: str,
+    payload: dict | None = None,
+    allow_not_found: bool = False,
+):
     body = None if payload is None else json.dumps(payload).encode("utf-8")
-    return request(method, path, body)
+    return request(path=path, method=method, body=body, allow_not_found=allow_not_found)
 
 
 def list_all(path: str):
@@ -156,7 +172,75 @@ def attach(store_id: str, uploaded_file_id: str, rel: str, sha: str) -> dict:
 
 def detach_and_delete(store_id: str, file_id: str) -> None:
     json_request("DELETE", f"/vector_stores/{store_id}/files/{file_id}")
-    json_request("DELETE", f"/files/{file_id}")
+    deleted = json_request("DELETE", f"/files/{file_id}", allow_not_found=True)
+    if deleted.get("_ignored_http_status") == 404:
+        print(f"Underlying File object {file_id} was already absent; cleanup remains complete")
+
+
+def verify_retrieval(store_id: str, local: dict[str, tuple[pathlib.Path, str]]) -> None:
+    if not VERIFY_QUERY:
+        return
+    if not VERIFY_EXPECTED_PATH:
+        fail("XOS_VERIFY_EXPECTED_PATH is required when XOS_VERIFY_QUERY is set")
+    if VERIFY_EXPECTED_PATH not in local:
+        fail(f"Verification path is not an eligible local source: {VERIFY_EXPECTED_PATH}")
+
+    payload = {
+        "query": VERIFY_QUERY,
+        "max_num_results": 10,
+        "filters": {
+            "type": "and",
+            "filters": [
+                {"type": "eq", "key": "repo", "value": REPOSITORY},
+                {"type": "eq", "key": "path", "value": VERIFY_EXPECTED_PATH},
+            ],
+        },
+    }
+    response = json_request("POST", f"/vector_stores/{store_id}/search", payload)
+    results = response.get("data", [])
+    match = next(
+        (
+            item
+            for item in results
+            if (item.get("attributes") or {}).get("repo") == REPOSITORY
+            and (item.get("attributes") or {}).get("path") == VERIFY_EXPECTED_PATH
+        ),
+        None,
+    )
+    if match is None:
+        fail(f"Verification query returned no result for {VERIFY_EXPECTED_PATH}")
+
+    content_text = "\n".join(
+        part.get("text", "")
+        for part in match.get("content", [])
+        if part.get("type") == "text" and part.get("text")
+    )
+    missing = [term for term in VERIFY_EXPECTED_TERMS if term not in content_text]
+    if missing:
+        fail(f"Verification result omitted expected terms: {missing}")
+
+    expected_sha = local[VERIFY_EXPECTED_PATH][1]
+    attrs = match.get("attributes") or {}
+    if attrs.get("blob_sha") != expected_sha:
+        fail(
+            "Verification result version mismatch: "
+            f"expected blob_sha={expected_sha}, got {attrs.get('blob_sha')}"
+        )
+
+    receipt = {
+        "query": VERIFY_QUERY,
+        "result_count": len(results),
+        "matched_terms": VERIFY_EXPECTED_TERMS,
+        "match": {
+            "file_id": match.get("file_id"),
+            "filename": match.get("filename"),
+            "score": match.get("score"),
+            "attributes": attrs,
+            "content_excerpt": content_text[:1200],
+        },
+    }
+    print("Retrieval verification receipt:")
+    print(json.dumps(receipt, indent=2))
 
 
 def main() -> None:
@@ -220,6 +304,7 @@ def main() -> None:
     print(json.dumps(summary, indent=2))
     if failed or len(final) != len(local):
         fail("Post-sync verification failed")
+    verify_retrieval(store_id, local)
 
 
 if __name__ == "__main__":
