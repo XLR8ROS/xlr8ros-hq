@@ -251,12 +251,24 @@ def main() -> None:
 
     remote_all = list_all(f"/vector_stores/{store_id}/files")
     remote = {}
+    orphaned_repo_files = []
     for obj in remote_all:
         attrs = obj.get("attributes") or {}
-        if attrs.get("repo") == REPOSITORY and attrs.get("path"):
-            remote.setdefault(attrs["path"], []).append(obj)
+        if attrs.get("repo") != REPOSITORY:
+            continue
+        if not attrs.get("path"):
+            orphaned_repo_files.append(obj)
+            continue
+        remote.setdefault(attrs["path"], []).append(obj)
 
     added = updated = removed = unchanged = 0
+    for orphan in orphaned_repo_files:
+        file_id = orphan.get("id")
+        if not file_id:
+            continue
+        detach_and_delete(store_id, file_id)
+        removed += 1
+        print(f"Removed malformed repository-scoped vector file without path: {file_id}")
     for rel, (path, sha) in local.items():
         candidates = remote.get(rel, [])
         current = next((x for x in candidates if (x.get("attributes") or {}).get("blob_sha") == sha and x.get("status") == "completed"), None)
