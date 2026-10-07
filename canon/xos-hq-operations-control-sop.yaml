@@ -14,8 +14,8 @@ recovery:
 render:
   markdown_path: Company SOP 4 XOS-HQ.md
   mode: literal
-mirrors:
-  registry: canon/mirrors.yaml
+synchronization:
+  registry: canon/synchronization.yaml
 content: |
   # XOS HQ SOP — OPERATIONS & CONTROL
   
