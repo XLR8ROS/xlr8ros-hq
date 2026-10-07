@@ -6,24 +6,25 @@ This directory contains machine-readable canonical sources for XOS material whos
 
 If a governing artifact is global, its canonical source lives here as YAML.
 
-Human-readable Markdown copies are generated mirrors. They are not independent authorities and must not be hand-edited as competing sources.
+Human-readable Markdown copies retain the governing document's exact filename and content. They are synchronized copies, not independent authorities.
 
 The synchronization model is:
 
-`canonical YAML -> generated HQ Markdown -> registered downstream mirrors`
+`canonical YAML -> synchronized HQ Markdown -> synchronized downstream copies`
 
-A downstream mirror may be local to an agent repository for bootstrap resilience, but its content is derived from the canonical YAML and must identify its source.
+A synchronized downstream copy may live in an agent repository for bootstrap resilience. The document itself must not be renamed, branded, or modified to describe synchronization metadata; that metadata belongs in HQ infrastructure.
 
 ## Drift Rule
 
-A mirror that differs from its canonical YAML is stale or corrupted. The YAML wins.
+A synchronized copy that differs from its canonical YAML is stale or corrupted. The YAML wins.
 
-Do not reconcile divergent mirrors by hand. Regenerate them from the canonical source.
+Do not reconcile divergent copies by hand. Regenerate them from the canonical source.
 
 ## Current Migration State
 
 - Global Memory Contract: migrated to canonical YAML
-- Constitution: migrated to canonical YAML; Markdown copies are generated mirrors
-- SOPs: canonical global SOP YAML sources not currently present in this repository; recover authoritative sources before migration
+- Constitution: migrated to canonical YAML; Markdown copies retain the canonical document name and content
+- XOS HQ Company SOP: migrated to canonical YAML
+- Administrative Services SOP: migrated to canonical YAML
 
 Do not create placeholder governing content merely to satisfy the directory structure.
