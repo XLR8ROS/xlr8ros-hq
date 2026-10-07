@@ -1,3 +1,10 @@
+<!--
+GENERATED MIRROR - DO NOT EDIT DIRECTLY
+Canonical source: XLR8ROS/xlr8ros-hq/canon/global-memory-contract.yaml
+Scope: global
+Regenerate from canonical YAML when the source changes.
+-->
+
 Learn once, forget nothing, remember everything, because everything has value.
 
 # Global Memory Contract
