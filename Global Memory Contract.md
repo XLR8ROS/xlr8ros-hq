@@ -1,10 +1,3 @@
-<!--
-GENERATED MIRROR - DO NOT EDIT DIRECTLY
-Canonical source: XLR8ROS/xlr8ros-hq/canon/global-memory-contract.yaml
-Scope: global
-Regenerate from canonical YAML when the source changes.
--->
-
 Learn once, forget nothing, remember everything, because everything has value.
 
 # Global Memory Contract
@@ -225,3 +218,4 @@ Durable Memory is the protected preservation layer and is not subject to destruc
 When in doubt between preserving and discarding substantive episodic material, preserve it.
 
 Learn once, forget nothing, remember everything, because everything has value.
+
