@@ -1,4 +1,4 @@
-schema: xos.canon-mirror-registry/v1
+schema: xos.canon-synchronization/v1
 canonical_repository: XLR8ROS/xlr8ros-hq
 artifacts:
   global-memory-contract:

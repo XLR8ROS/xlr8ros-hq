@@ -10,8 +10,8 @@ source_of_truth: true
 render:
   markdown_path: Global Memory Contract.md
   mode: literal
-mirrors:
-  registry: canon/mirrors.yaml
+synchronization:
+  registry: canon/synchronization.yaml
 content: |
   Learn once, forget nothing, remember everything, because everything has value.
   
