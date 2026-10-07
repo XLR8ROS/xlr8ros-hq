@@ -23,7 +23,7 @@ Do not reconcile divergent mirrors by hand. Regenerate them from the canonical s
 ## Current Migration State
 
 - Global Memory Contract: migrated to canonical YAML
-- Constitution: canonical source not currently present in this repository; recover the authoritative source before migration
+- Constitution: migrated to canonical YAML; Markdown copies are generated mirrors
 - SOPs: canonical global SOP YAML sources not currently present in this repository; recover authoritative sources before migration
 
 Do not create placeholder governing content merely to satisfy the directory structure.

@@ -13,3 +13,15 @@ artifacts:
         path: Global Memory Contract.md
       - repository: XLR8ROS/PaigeCore
         path: Global Memory Contract.md
+  constitution:
+    source: canon/constitution.yaml
+    hq_markdown: Constitution.md
+    downstream:
+      - repository: reginaldberry02-sys/NexCore
+        path: Constitution.md
+      - repository: reginaldberry02-sys/EddieCore
+        path: Constitution.md
+      - repository: reginaldberry02-sys/AddisonCore
+        path: Constitution.md
+      - repository: XLR8ROS/PaigeCore
+        path: Constitution.md
