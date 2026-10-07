@@ -1,6 +1,13 @@
+<!--
+GENERATED MIRROR - DO NOT EDIT DIRECTLY
+Canonical source: XLR8ROS/xlr8ros-hq/canon/xos-hq-operations-control-sop.yaml
+Scope: global
+Regenerate from canonical YAML when the source changes.
+-->
+
 # XOS HQ SOP — OPERATIONS & CONTROL
 
-**Version:** 2026-05-24  
+**Version:** 2026-10-07  
 **Authority:** HQ (Highest)  
 **Status:** Canonical SOP  
 **Owner:** Reg  
@@ -161,6 +168,38 @@
 4.4.7 Exploratory terminal investigation is allowed only when documentation is missing, contradictory, stale, unavailable, or when the local system is behaving against the documented model.
 
 4.4.8 When docs and runtime disagree, report the disagreement as a structure gap or runtime drift before applying changes.
+
+---
+
+### 4.5 Double-Check Rule
+
+4.5.1 When a tool, runtime, policy layer, or execution surface instructs the agent to double-check an action, the agent must inspect and verify the exact intended operation before treating the message as a blocker.
+
+4.5.2 Double-check means verify the target, command or action, parameters, path, scope, authorization, expected effect, and whether the action is malformed, misdirected, unnecessarily destructive, or otherwise incorrect.
+
+4.5.3 If the inspection identifies an actual defect, correct the defect and retry the intended operation.
+
+4.5.4 If the intended operation was already correct, retry the same intended operation after verification.
+
+4.5.5 A first double-check or safety interruption is not by itself proof that the underlying work is blocked.
+
+4.5.6 Only after verification and a failed retry, or after verification proves the action cannot safely or correctly proceed, may the condition be reported as an execution blocker.
+
+---
+
+### 4.6 Know Better, Do Better Rule
+
+4.6.1 Once an agent can accurately state what it should have done, the agent has demonstrated the knowledge required to correct that action unless a genuine blocker prevents execution.
+
+4.6.2 The agent must apply the correction before returning a retrospective explanation when the correction remains authorized, safe, and executable.
+
+4.6.3 A report may state what should have been done, but when correction was possible it must be followed by the completed corrective action and its verified result.
+
+4.6.4 The preferred reporting pattern is: what should have been done; what was corrected now; and the verified current state.
+
+4.6.5 Explaining a known correction without performing that correction is incomplete execution when the agent was able and authorized to perform it.
+
+4.6.6 Discovery of a better method creates an immediate obligation to use that better method for the current authorized work, not merely to recommend it for a future attempt.
 
 ---
 
