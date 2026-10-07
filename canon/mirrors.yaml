@@ -1,0 +1,15 @@
+schema: xos.canon-mirror-registry/v1
+canonical_repository: XLR8ROS/xlr8ros-hq
+artifacts:
+  global-memory-contract:
+    source: canon/global-memory-contract.yaml
+    hq_markdown: Global Memory Contract.md
+    downstream:
+      - repository: reginaldberry02-sys/NexCore
+        path: Global Memory Contract.md
+      - repository: reginaldberry02-sys/EddieCore
+        path: Global Memory Contract.md
+      - repository: reginaldberry02-sys/AddisonCore
+        path: Global Memory Contract.md
+      - repository: XLR8ROS/PaigeCore
+        path: Global Memory Contract.md
