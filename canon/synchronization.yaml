@@ -26,7 +26,7 @@ artifacts:
       - repository: XLR8ROS/PaigeCore
         path: Constitution.md
   xos-hq-operations-control-sop:
-    source: canon/xos-hq-operations-control-sop.yaml
+    source: canon/company-sop-xos-hq.yaml
     hq_markdown: Company SOP 4 XOS-HQ.md
     downstream:
       - repository: reginaldberry02-sys/NexCore
