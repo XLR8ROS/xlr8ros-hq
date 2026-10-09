@@ -519,6 +519,20 @@ content: |
   
   12.4 Superseded SOPs must be archived or clearly marked as retired.
   
+  12.5 CANONICAL SOURCE AND MIRROR INTEGRITY
+  
+  12.5.1 Every canonical document must have one explicitly designated authoritative source. YAML-governed canon is edited at the authoritative YAML source; generated renderings and mirrors are downstream outputs, not separate editing authorities.
+  
+  12.5.2 Literal file mirrors must be byte-for-byte identical to their authoritative source. Divergent copies are invalid mirrors, not alternate authority.
+  
+  12.5.3 A missing literal mirror must be recreated from its source. A divergent literal mirror must be replaced with an exact source copy, never independently edited or merged; the authoritative source must not be changed merely to match a mirror.
+  
+  12.5.4 Approved YAML changes must trigger automatic generation and synchronization of all registered downstream renderings and mirrors. Rendered derivatives, including Markdown generated from YAML, must follow the declared rendering contract rather than matching YAML bytes.
+  
+  12.5.5 Synchronization must verify literal mirror equality using SHA-256 or an equivalently exact content comparison, and verify rendered derivatives against their prescribed output. No conflicting derivative may remain active as competing canon.
+  
+  12.5.6 An update is complete only after propagation and verification of all required outputs. Incomplete, inaccessible, missing, or divergent outputs must be reported with the exact affected locations and evidence. Correctable mismatches must be corrected rather than merely reported.
+  
   **Reference:** `REGISTRY_HOWTO.md`
   
   ---
