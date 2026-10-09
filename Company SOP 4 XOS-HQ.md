@@ -1,5 +1,3 @@
-<!-- Generated readable copy. Canonical YAML: XLR8ROS/xlr8ros-hq/canon/company-sop-xos-hq.yaml. Do not edit independently. -->
-
 # XOS HQ SOP — OPERATIONS & CONTROL
 
 **Version:** 2026-10-07  
