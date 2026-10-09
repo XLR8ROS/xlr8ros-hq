@@ -50,7 +50,7 @@ artifacts:
       - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DEPARTMENT-ASD-
         path: Administrative Services SOP.md
       - repository: reginaldberry02-sys/AddieCore
-        path: SOPs/Administrative Services SOP.md
+        path: Administrative Services SOP.md
   position-sop-administrative-clerk:
     source: canon/position-sop-administrative-clerk.yaml
     hq_markdown: Position SOP 4 Administrative Clerk.md
