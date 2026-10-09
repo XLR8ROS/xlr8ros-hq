@@ -43,3 +43,9 @@ artifacts:
     downstream:
       - repository: reginaldberry02-sys/AlphaCore
         path: Position SOP 4 CEO.md
+  administrative-services-sop:
+    source: canon/administrative-services-sop.yaml
+    hq_markdown: SOPs/Administrative Services SOP.md
+    downstream:
+      - repository: reginaldberry02-sys/AddieCore
+        path: SOPs/Administrative Services SOP.md
