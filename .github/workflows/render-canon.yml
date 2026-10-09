@@ -1,4 +1,4 @@
-name: Render canonical YAML
+name: Render and synchronize XOS Canon
 on:
   push:
     branches: [main]
@@ -9,19 +9,24 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: xos-canon-sync-main
+  cancel-in-progress: false
 jobs:
-  render:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
-      - name: Render and verify canonical documents
+      - name: Render HQ Markdown and synchronize registered mirrors
+        env:
+          XOS_CANON_SYNC_TOKEN: ${{ secrets.XOS_CANON_SYNC_TOKEN }}
         run: python3 scripts/render_canon.py
-      - name: Commit generated changes, if any
+      - name: Commit HQ generated files
         run: |
-          git add 'Company SOP 4 XOS-HQ.md'
+          git add -- '*.md' 'SOPs/*.md'
           if ! git diff --cached --quiet; then
-            git -c user.name='xos-canon-bot' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'render: synchronize HQ SOP from YAML'
+            git -c user.name='xos-canon-bot' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'canon: regenerate HQ markdown mirrors'
             git push
           fi
