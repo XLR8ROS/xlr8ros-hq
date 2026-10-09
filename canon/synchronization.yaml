@@ -37,3 +37,9 @@ artifacts:
         path: Company SOP 4 XOS-HQ.md
       - repository: XLR8ROS/PaigeCore
         path: Company SOP 4 XOS-HQ.md
+  position-sop-ceo:
+    source: canon/position-sop-ceo.yaml
+    hq_markdown: Position SOP 4 CEO.md
+    downstream:
+      - repository: reginaldberry02-sys/AlphaCore
+        path: Position SOP 4 CEO.md
