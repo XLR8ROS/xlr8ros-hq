@@ -1,0 +1,281 @@
+global_memory_contract:
+  title: Global Memory Contract
+  status: current
+  authority: XOS HQ
+  effective_date: '2026-09-14'
+  motto: Learn once, forget nothing, remember everything, because everything has value.
+  sections:
+  - id: '1'
+    title: Purpose
+    clauses:
+    - id: '1.1'
+      title: Scope
+      rule: This contract governs memory capture, preservation, reconstruction, recall, finalization,
+        promotion, retrieval, retention, synchronization, and recovery for all XOS agents and memory-capable
+        systems.
+    - id: '1.2'
+      title: Continuity
+      rule: Preserve continuity across conversations, Projects, models, runtimes, computers, tools, platforms,
+        assignments, and time.
+  - id: '2'
+    title: Foundational Rules
+    clauses:
+    - id: '2.1'
+      title: Core principle
+      rule: Preservation is exhaustive; retrieval is selective. Unknown future relevance is never a reason
+        to omit recoverable evidence.
+    - id: '2.2'
+      title: Order of operations
+      rule: Capture before classification, distillation, promotion, or summarization.
+      subclauses:
+      - id: 2.2.1
+        title: Non-destructive processing
+        rule: Normalization, exact technical deduplication, segmentation, embeddings, and indexing must
+          preserve substantive source content and provenance.
+    - id: '2.3'
+      title: Evidence and assertions
+      rule: Distinguish observed, attempted, completed, verified, failed, and unknown states. Never fabricate
+        missing chronology or claim persistence without a write receipt.
+    - id: '2.4'
+      title: Authority boundaries
+      rule: A memory record preserves what happened; it does not independently authorize actions or override
+        Constitution, applicable SOPs, or source permissions.
+  - id: '3'
+    title: Distinct Memory Layers
+    clauses:
+    - id: '3.1'
+      title: Raw and verbatim source
+      rule: Preserve all recoverable conversations, messages, tool calls and results, external communications,
+        media references, execution events, corrections, mistakes, and chronological source records in
+        full when available.
+    - id: '3.2'
+      title: Active Daily Notes / Agent Recall
+      rule: 'Preserve chronological, timestamped operational context: what happened, what changed, why
+        decisions were made, tools, outcomes, blockers, corrections, assignments, and handoffs. Include
+        context not obvious from verbatim transcripts; avoid purely transactional bullet dumps.'
+    - id: '3.3'
+      title: Finalized Daily Notes
+      rule: At designated close, weave operational entries and recovered verbatim evidence into a verified
+        chronological record. Preserve attribution and clearly label source quotations versus agent-authored
+        narration.
+    - id: '3.4'
+      title: Durable Memory
+      rule: The long-term, fully preserved episodic corpus. Complete recoverable source content is promoted
+        with provenance; retrieval indexes are secondary.
+    - id: '3.5'
+      title: Distilled Lessons
+      rule: Selective derivative lessons and reusable patterns may be generated only as a separate layer
+        linked back to preserved evidence. Distillation is not a survival gate.
+    - id: '3.6'
+      title: Canon and procedures
+      rule: Constitution, SOPs, agent identity instructions, and How-Tos are separate governing artifacts.
+        Do not confuse them with episodic memory.
+  - id: '4'
+    title: Memory Record Integrity
+    clauses:
+    - id: '4.1'
+      title: Substantive preservation
+      rule: Memory records must preserve substantive information and source provenance. Do not discard
+        material merely because its future value is unknown.
+    - id: '4.2'
+      title: Accurate state
+      rule: A memory record must distinguish verified facts from reported, attempted, pending, failed,
+        and unknown states. Do not invent missing content.
+    - id: '4.3'
+      title: Program boundaries
+      rule: This contract defines memory governance for XOS agents and memory-capable systems. Individual
+        software programs are governed by their technical specifications, configuration, and applicable
+        operational procedures; they do not acquire agent identity, personal duties, or an agent SOP by
+        being mentioned here.
+  - id: '5'
+    title: WDN and Live Note
+    clauses:
+    - id: '5.1'
+      title: Instruction
+      rule: WDN or WDNE requires an immediate, timestamped operational Daily Note entry, with persistence
+        verified.
+    - id: '5.2'
+      title: Content
+      rule: 'Record substantive context: status, decisions, corrections, judgment summaries safe to preserve,
+        meaningful activity, tools and outcomes, blockers, unresolved matters, and learning.'
+    - id: '5.3'
+      title: Working destination
+      rule: Use the configured designated live Daily Note surface when accessible; Google Docs may be
+        the working surface. The specific platform is an implementation detail, not a prerequisite to
+        capture.
+    - id: '5.4'
+      title: Lifecycle separation
+      rule: A WDN append alone does not finalize a day, create a canonical repository commit, promote
+        durable memory, or trigger embeddings unless a separately approved workflow explicitly performs
+        those stages.
+    - id: '5.5'
+      title: Fallback
+      rule: If the intended live surface fails, use a non-destructive persistent fallback, preserve the
+        complete entry, and record where it was written and why.
+  - id: '6'
+    title: Finalization and Verbatim Weave
+    clauses:
+    - id: '6.1'
+      title: Source gathering
+      rule: Collect operational entries, full recoverable verbatim episodes, tool/runtime details, corrections,
+        blockers, decisions, source links, media/attachment references, and execution disclosures for
+        the applicable day.
+    - id: '6.2'
+      title: Chronology
+      rule: Weave material into a single logical chronological record with timestamps and speaker/agent
+        attribution, preserving out-of-order receipt information where relevant.
+    - id: '6.3'
+      title: Verification
+      rule: Check that finalized content does not lose substantive information from the live source, older
+        canonical record, or recovered sources. Suppress only exact technical duplicates.
+    - id: '6.4'
+      title: Canonical final form
+      rule: Produce a canonical finalized Markdown Daily Note in the designated agent repository when
+        that destination and authorized access exist. Retain a traceable live working copy; if finalization
+        cannot be persisted, mark it pending.
+    - id: '6.5'
+      title: Separation
+      rule: Working note, raw source, finalized Markdown, durable corpus, distilled lessons, and canon
+        remain distinct logical artifacts, even if one system stores references to several layers.
+  - id: '7'
+    title: Durable Promotion and Search
+    clauses:
+    - id: '7.1'
+      title: Promotion scope
+      rule: Promote EVERYTHING recoverable into Durable Memory. There is no subjective usefulness or relevance
+        gate.
+    - id: '7.2'
+      title: Promotion order
+      rule: Normally promote after verified weave and finalization, with approved recovery procedures
+        permitted for source protection. Never discard raw source while waiting.
+    - id: '7.3'
+      title: Provenance
+      rule: Preserve source timestamps, agents, session/Project identity, event IDs, tool references,
+        file locations, commits, tasks, Google Doc references, and media paths when available.
+    - id: '7.4'
+      title: Embeddings
+      rule: Chunk at useful semantic boundaries and embed/index supported representations including text
+        and media where supported. Embedding failure does not invalidate or destroy preserved source.
+    - id: '7.5'
+      title: Retrieval
+      rule: Ranking, selection, weighting, summarization, filtering, and context limits are appropriate
+        at retrieval time, not the capture or preservation stage.
+    - id: '7.6'
+      title: Supersession and expansion
+      rule: Additive recovery expands existing knowledge without deleting unique earlier content. Verified
+        changed understanding may supersede a conclusion but must preserve the historical record and links.
+  - id: '8'
+    title: Agent Bootstrap and Rolling Recall
+    clauses:
+    - id: '8.1'
+      title: Startup obligation
+      rule: At startup load the active Constitution, applicable SOPs, agent instructions, this contract,
+        assignment context, and most recent 48 hours of available Agent Recall, following the approved
+        bootstrap sequence.
+    - id: '8.2'
+      title: Exact window
+      rule: The recall window is measured by event timestamps over the preceding 48 elapsed hours, not
+        merely the last two files or two calendar days.
+    - id: '8.3'
+      title: Agent-specific material
+      rule: Build each agent recall from that agent's relevant chronological source records. A per-agent
+        rolling recall file may be a cache or view, not a substitute for full source preservation.
+    - id: '8.4'
+      title: Incomplete bootstraps
+      rule: When expected sources cannot be read or a local contract is missing or stale, state precisely
+        what was verified and what is missing; continue only with supported continuity and without pretending
+        completion.
+  - id: '9'
+    title: Missing Memory Recovery
+    clauses:
+    - id: '9.1'
+      title: Search order
+      rule: Search permitted conversation history, Daily Notes, agent repositories, drive documents, files,
+        connectors, tasks, links, and other available evidence surfaces.
+    - id: '9.2'
+      title: Restoration
+      rule: Recover verbatim when possible, preserve original timestamps and sources, reconstruct chronology
+        without invention, weave into the applicable record, and promote/index after verifying preservation.
+    - id: '9.3'
+      title: Gaps
+      rule: Record missing passages, inaccessible systems, incomplete provenance, and retry state explicitly.
+    - id: '9.4'
+      title: Safe deduplication
+      rule: Compare content before eliminating redundant containers; never delete unique information because
+        a richer copy exists without verified coverage.
+  - id: '10'
+    title: Authority, YAML and Mirrors
+    clauses:
+    - id: '10.1'
+      title: Primary source
+      rule: The approved Global Memory Contract YAML in the designated XOS HQ canon is the single authoritative
+        contract representation.
+    - id: '10.2'
+      title: Derived representations
+      rule: Markdown, PDF, and locked agent-local copies must be generated or synchronized from the authoritative
+        YAML without changes to meaning, scope, obligations, or numbering.
+    - id: '10.3'
+      title: Mirror equality
+      rule: For identical-format mirrors verify file-byte/hash equality. For cross-format representations
+        verify complete semantic and section-by-section parity, not impossible byte equality between YAML
+        and Markdown.
+    - id: '10.4'
+      title: Local metadata
+      rule: Agent identity, lock state, hashes, sync receipts, and local paths belong in separate metadata
+        files, not as divergent amendments to the governing contract.
+    - id: '10.5'
+      title: Protection
+      rule: Verify actual lock or file protection and authorized synchronization procedures. A label alone
+        does not prove enforcement.
+    - id: '10.6'
+      title: Change control
+      rule: An approved replacement is the operative contract from its effective adoption. Superseded
+        operating instructions must not remain as active requirements or competing authority.
+  - id: '11'
+    title: Retention and Archives
+    clauses:
+    - id: '11.1'
+      title: Recent working view
+      rule: Maintain an agent-accessible rolling 48-hour recall view based on exact timestamps; this is
+        distinct from any repository Recent-folder file count.
+    - id: '11.2'
+      title: Finalized file organization
+      rule: When applicable, keep two recently finalized daily notes in Recent, then move the oldest to
+        the month folder when a third is finalized. This is a file organization rule, not the 48-hour
+        recall boundary.
+    - id: '11.3'
+      title: Monthly retention
+      rule: Keep the current month and two immediately preceding months uncompressed. Then archive older
+        complete months losslessly under the calendar year.
+    - id: '11.4'
+      title: Annual archives
+      rule: Package prior-year material into a lossless yearly archive only at the trigger defined by
+        the approved How-To; do not silently invent a date.
+    - id: '11.5'
+      title: Archive preconditions
+      rule: Archive or compress ordinary source working copies only after complete Durable Memory promotion,
+        source verification, provenance verification, and archive-integrity verification.
+    - id: '11.6'
+      title: Non-destruction
+      rule: Never destructively compress, truncate, or delete Durable Memory. Keep original episode recovery
+        and pointers intact.
+  - id: '12'
+    title: Failure Handling and Compliance
+    clauses:
+    - id: '12.1'
+      title: Capture failure
+      rule: Attempt non-destructive fallback immediately and record failure and recovery. Critical changes
+        must pause where necessary to prevent evidence loss.
+    - id: '12.2'
+      title: Promotion failure
+      rule: Preserve raw and finalized source, record retry state, and retry indexing/promotion without
+        pretending success.
+    - id: '12.3'
+      title: Validation
+      rule: A release candidate must validate YAML syntax, unique numeric hierarchical identifiers, parent-child
+        ordering, required invariant clauses, and absence of contradictory superseded rules.
+    - id: '12.4'
+      title: Governing rule
+      rule: When choosing between preserving and discarding substantive episodic evidence, preserve it.
+  closing_motto: Learn once, forget nothing, remember everything, because everything has value.
+  revision_date: '2026-10-08'

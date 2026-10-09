@@ -1,0 +1,45 @@
+schema: xos.canon-synchronization/v1
+canonical_repository: XLR8ROS/xlr8ros-hq
+artifacts:
+  global-memory-contract:
+    source: canon/global-memory-contract.yaml
+    hq_markdown: Global Memory Contract.md
+    downstream:
+      - repository: reginaldberry02-sys/AlphaCore
+        path: Global Memory Contract.md
+      - repository: reginaldberry02-sys/EddieCore
+        path: Global Memory Contract.md
+      - repository: reginaldberry02-sys/AddieCore
+        path: Global Memory Contract.md
+      - repository: XLR8ROS/PaigeCore
+        path: Global Memory Contract.md
+  constitution:
+    source: canon/constitution.yaml
+    hq_markdown: Constitution.md
+    downstream:
+      - repository: reginaldberry02-sys/AlphaCore
+        path: Constitution.md
+      - repository: reginaldberry02-sys/EddieCore
+        path: Constitution.md
+      - repository: reginaldberry02-sys/AddieCore
+        path: Constitution.md
+      - repository: XLR8ROS/PaigeCore
+        path: Constitution.md
+  xos-hq-operations-control-sop:
+    source: canon/company-sop-xos-hq.yaml
+    hq_markdown: Company SOP 4 XOS-HQ.md
+    downstream:
+      - repository: reginaldberry02-sys/AlphaCore
+        path: Company SOP 4 XOS-HQ.md
+      - repository: reginaldberry02-sys/EddieCore
+        path: Company SOP 4 XOS-HQ.md
+      - repository: reginaldberry02-sys/AddieCore
+        path: Company SOP 4 XOS-HQ.md
+      - repository: XLR8ROS/PaigeCore
+        path: Company SOP 4 XOS-HQ.md
+  position-sop-ceo:
+    source: canon/position-sop-ceo.yaml
+    hq_markdown: Position SOP 4 CEO.md
+    downstream:
+      - repository: reginaldberry02-sys/AlphaCore
+        path: Position SOP 4 CEO.md

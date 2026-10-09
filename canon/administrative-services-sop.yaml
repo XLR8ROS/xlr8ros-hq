@@ -4,8 +4,9 @@ title: Administrative Services SOP
 scope: administrative-services
 authority_level: office
 authority: XOS Administrative Services
-status: authoritative
-source_of_truth: true
+status: superseded
+source_of_truth: false
+superseded_by: reginaldberry02-sys/AddisonCore/SOPs/Administrative Services SOP.yaml
 render:
   markdown_path: SOPs/Administrative Services SOP.md
   mode: literal

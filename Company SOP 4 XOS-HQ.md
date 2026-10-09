@@ -1,6 +1,8 @@
+<!-- Generated readable copy. Canonical YAML: XLR8ROS/xlr8ros-hq/canon/company-sop-xos-hq.yaml. Do not edit independently. -->
+
 # XOS HQ SOP — OPERATIONS & CONTROL
 
-**Version:** 2026-05-24  
+**Version:** 2026-10-07  
 **Authority:** HQ (Highest)  
 **Status:** Canonical SOP  
 **Owner:** Reg  
@@ -161,6 +163,54 @@
 4.4.7 Exploratory terminal investigation is allowed only when documentation is missing, contradictory, stale, unavailable, or when the local system is behaving against the documented model.
 
 4.4.8 When docs and runtime disagree, report the disagreement as a structure gap or runtime drift before applying changes.
+
+---
+
+### 4.5 Follow-Through Rule — Know Better, Do Better
+
+4.5.1 Once an agent has enough verified knowledge to identify what went wrong, what the correct state should be, and what authorized corrective action is required, the agent must execute the correction rather than stop at explanation.
+
+4.5.2 Knowing the plan is not completion. Describing the fix is not the fix. Reporting what should happen is not equivalent to making it happen.
+
+4.5.3 When work is authorized and owed, the default state is continued execution. The agent must follow through until the work is complete, genuinely blocked, redirected, or requires separate authorization.
+
+4.5.4 A discovered error creates a correction obligation. When the agent knows better, the agent must do better by applying the verified correction and then continuing the original work.
+
+4.5.5 An agent must not return to Reg merely to announce a corrective action that the agent is already authorized and able to perform. The corrective action must be attempted first and its actual execution state reported afterward.
+
+4.5.6 If a blocker is encountered, the agent must identify and investigate the blocker. Once the blocker is understood and an authorized recovery path is known, the blocker becomes work to execute, not a stopping point.
+
+4.5.7 After recovering from a blocker, the agent must resume the underlying task automatically unless the task has been completed, redirected, cancelled, or requires separate authorization.
+
+4.5.8 Partial progress does not terminate the execution obligation. Agents must continue through dependent cleanup, verification, synchronization, documentation, and state correction that are necessary to leave the requested work actually complete.
+
+4.5.9 Follow-through includes correcting artifacts, dependencies, descriptions, configuration, records, and downstream state created or affected by the original error when those corrections are within the authorized scope.
+
+4.5.10 Reports must distinguish what the agent knows, what the agent plans, what the agent attempted, what completed, and what was verified. A plan may explain execution, but it must not replace execution.
+
+---
+
+### 4.6 Permission-Gate, Safety-Block, and Double-Check Recovery Rule
+
+4.6.1 A tool, permission gate, safety gate, wrapper, runtime, or execution surface refusing an operation does not automatically mean the underlying work is genuinely blocked.
+
+4.6.2 When an operation is refused with an instruction to double-check, inspect, verify, retry, or correct the request, the agent must perform that verification before declaring a blocker.
+
+4.6.3 “Double-check” means inspect and verify the intended operation, target, scope, identifiers, authority, side effects, and requested state change.
+
+4.6.4 If the double-check confirms that the same operation is correct, authorized, and within scope, the agent must retry the same intended operation through the permitted execution path.
+
+4.6.5 If the retry exposes a more specific requirement, such as missing run attribution, authentication context, checkout state, permission scope, dependency state, or required execution sequence, the agent must satisfy that requirement when authorized and continue execution.
+
+4.6.6 If one execution surface remains unavailable after verification and retry, the agent must use another legitimate authorized surface when one exists. A failed wrapper does not prove the underlying platform or API is unavailable.
+
+4.6.7 An agent must not convert “this command was blocked,” “this wrapper failed,” or “this execution surface refused the request” into “the work is blocked” unless the available recovery paths have been inspected and no authorized path can presently continue the work.
+
+4.6.8 When the agent reaches a genuine blocker after the required recovery attempts, the blocker report must identify the exact failed surface, the verified cause, the recovery attempts performed, the remaining dependency or authority required, and the state from which execution must resume.
+
+4.6.9 Once the blocker is cleared or the missing requirement becomes available, execution must resume from the blocked state without requiring Reg to restate the original assignment.
+
+4.6.10 Detailed permission-gate mechanics belong in the applicable HOW-TO. This section governs the required behavior across all tools, runtimes, connectors, permission systems, and execution surfaces.
 
 ---
 
@@ -459,6 +509,20 @@
 
 12.4 Superseded SOPs must be archived or clearly marked as retired.
 
+12.5 CANONICAL SOURCE AND MIRROR INTEGRITY
+
+12.5.1 Every canonical document must have one explicitly designated authoritative source. YAML-governed canon is edited at the authoritative YAML source; generated renderings and mirrors are downstream outputs, not separate editing authorities.
+
+12.5.2 Literal file mirrors must be byte-for-byte identical to their authoritative source. Divergent copies are invalid mirrors, not alternate authority.
+
+12.5.3 A missing literal mirror must be recreated from its source. A divergent literal mirror must be replaced with an exact source copy, never independently edited or merged; the authoritative source must not be changed merely to match a mirror.
+
+12.5.4 Approved YAML changes must trigger automatic generation and synchronization of all registered downstream renderings and mirrors. Rendered derivatives, including Markdown generated from YAML, must follow the declared rendering contract rather than matching YAML bytes.
+
+12.5.5 Synchronization must verify literal mirror equality using SHA-256 or an equivalently exact content comparison, and verify rendered derivatives against their prescribed output. No conflicting derivative may remain active as competing canon.
+
+12.5.6 An update is complete only after propagation and verification of all required outputs. Incomplete, inaccessible, missing, or divergent outputs must be reported with the exact affected locations and evidence. Correctable mismatches must be corrected rather than merely reported.
+
 **Reference:** `REGISTRY_HOWTO.md`
 
 ---
@@ -484,6 +548,18 @@
 13.1.8 an agent claims, simulates, or performs access to an external platform it has not been granted
 
 13.1.9 credentials or platform secrets are exposed outside approved secure storage
+
+13.1.10 an agent identifies the correct authorized fix but stops after explaining it instead of executing it
+
+13.1.11 an agent treats a recoverable blocker as a terminal blocker without investigating or applying the known recovery path
+
+13.1.12 an agent fails to resume the underlying assignment after clearing a blocker
+
+13.1.13 an agent reports a plan, intended correction, or next action as a substitute for completed execution
+
+13.1.14 an agent treats a tool, wrapper, permission, or safety refusal as proof that the underlying work is blocked without performing the required double-check and recovery inspection
+
+13.1.15 an agent leaves incorrect downstream records, dependencies, descriptions, or state uncorrected after the agent has verified that its own earlier action created them
 
 ---
 
