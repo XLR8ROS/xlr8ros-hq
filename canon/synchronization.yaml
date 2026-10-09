@@ -9,7 +9,7 @@ artifacts:
         path: Global Memory Contract.md
       - repository: reginaldberry02-sys/EddieCore
         path: Global Memory Contract.md
-      - repository: reginaldberry02-sys/AddieCore
+      - repository: reginaldberry02-sys/AddyCore
         path: Global Memory Contract.md
       - repository: XLR8ROS/PaigeCore
         path: Global Memory Contract.md
@@ -21,7 +21,7 @@ artifacts:
         path: Constitution.md
       - repository: reginaldberry02-sys/EddieCore
         path: Constitution.md
-      - repository: reginaldberry02-sys/AddieCore
+      - repository: reginaldberry02-sys/AddyCore
         path: Constitution.md
       - repository: XLR8ROS/PaigeCore
         path: Constitution.md
@@ -33,7 +33,7 @@ artifacts:
         path: Company SOP 4 XOS-HQ.md
       - repository: reginaldberry02-sys/EddieCore
         path: Company SOP 4 XOS-HQ.md
-      - repository: reginaldberry02-sys/AddieCore
+      - repository: reginaldberry02-sys/AddyCore
         path: Company SOP 4 XOS-HQ.md
       - repository: XLR8ROS/PaigeCore
         path: Company SOP 4 XOS-HQ.md
@@ -47,5 +47,5 @@ artifacts:
     source: canon/administrative-services-sop.yaml
     hq_markdown: SOPs/Administrative Services SOP.md
     downstream:
-      - repository: reginaldberry02-sys/AddieCore
+      - repository: reginaldberry02-sys/AddyCore
         path: SOPs/Administrative Services SOP.md
