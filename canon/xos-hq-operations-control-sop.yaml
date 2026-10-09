@@ -3,14 +3,15 @@ id: xos-hq-operations-control-sop
 title: XOS HQ SOP — Operations & Control
 scope: global
 authority: XOS HQ
-status: authoritative
+status: superseded
 effective: 2026-05-24
 revised: 2026-10-07
-source_of_truth: true
+source_of_truth: false
 recovery:
   repository: XLR8ROS/xlr8ros-hq
   ref: 82a73014c20132d4f11d782c9337eceae59f752d
   source_path: Company SOP 4 XOS-HQ.md
+superseded_by: canon/company-sop-xos-hq.yaml
 render:
   markdown_path: Company SOP 4 XOS-HQ.md
   mode: literal
