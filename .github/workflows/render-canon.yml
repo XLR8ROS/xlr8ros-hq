@@ -1,32 +1,27 @@
-name: Render and synchronize XOS Canon
+name: Render and synchronize canon mirrors
 on:
   push:
     branches: [main]
     paths:
       - 'canon/*.yaml'
-      - 'scripts/render_canon.py'
+      - 'scripts/sync_canon_mirrors.py'
       - '.github/workflows/render-canon.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
 permissions:
-  contents: write
+  contents: read
 concurrency:
-  group: xos-canon-sync-main
+  group: xos-canon-mirror-sync
   cancel-in-progress: false
 jobs:
-  sync:
+  synchronize:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - name: Render HQ Markdown and synchronize registered mirrors
+      - name: Install YAML parser
+        run: python3 -m pip install --user PyYAML
+      - name: Render and synchronize registered mirrors
         env:
           XOS_CANON_SYNC_TOKEN: ${{ secrets.XOS_CANON_SYNC_TOKEN }}
-        run: python3 scripts/render_canon.py
-      - name: Commit HQ generated files
-        run: |
-          git add -- '*.md' 'SOPs/*.md'
-          if ! git diff --cached --quiet; then
-            git -c user.name='xos-canon-bot' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'canon: regenerate HQ markdown mirrors'
-            git push
-          fi
+        run: python3 scripts/sync_canon_mirrors.py
