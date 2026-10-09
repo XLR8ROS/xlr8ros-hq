@@ -5,11 +5,11 @@ artifacts:
     source: canon/global-memory-contract.yaml
     hq_markdown: Global Memory Contract.md
     downstream:
-      - repository: reginaldberry02-sys/NexCore
+      - repository: reginaldberry02-sys/AlphaCore
         path: Global Memory Contract.md
       - repository: reginaldberry02-sys/EddieCore
         path: Global Memory Contract.md
-      - repository: reginaldberry02-sys/AddisonCore
+      - repository: reginaldberry02-sys/AddieCore
         path: Global Memory Contract.md
       - repository: XLR8ROS/PaigeCore
         path: Global Memory Contract.md
@@ -17,11 +17,11 @@ artifacts:
     source: canon/constitution.yaml
     hq_markdown: Constitution.md
     downstream:
-      - repository: reginaldberry02-sys/NexCore
+      - repository: reginaldberry02-sys/AlphaCore
         path: Constitution.md
       - repository: reginaldberry02-sys/EddieCore
         path: Constitution.md
-      - repository: reginaldberry02-sys/AddisonCore
+      - repository: reginaldberry02-sys/AddieCore
         path: Constitution.md
       - repository: XLR8ROS/PaigeCore
         path: Constitution.md
@@ -29,11 +29,11 @@ artifacts:
     source: canon/company-sop-xos-hq.yaml
     hq_markdown: Company SOP 4 XOS-HQ.md
     downstream:
-      - repository: reginaldberry02-sys/NexCore
+      - repository: reginaldberry02-sys/AlphaCore
         path: Company SOP 4 XOS-HQ.md
       - repository: reginaldberry02-sys/EddieCore
         path: Company SOP 4 XOS-HQ.md
-      - repository: reginaldberry02-sys/AddisonCore
+      - repository: reginaldberry02-sys/AddieCore
         path: Company SOP 4 XOS-HQ.md
       - repository: XLR8ROS/PaigeCore
         path: Company SOP 4 XOS-HQ.md
