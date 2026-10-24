@@ -5,6 +5,8 @@ artifacts:
     source: canon/global-memory-contract.yaml
     hq_markdown: Global Memory Contract.md
     downstream:
+      - repository: reginaldberry02-sys/QuanCore
+        path: Global Memory Contract.md
       - repository: reginaldberry02-sys/AlphaCore
         path: Global Memory Contract.md
       - repository: reginaldberry02-sys/EddieCore
@@ -17,6 +19,8 @@ artifacts:
     source: canon/constitution.yaml
     hq_markdown: Constitution.md
     downstream:
+      - repository: reginaldberry02-sys/QuanCore
+        path: Constitution.md
       - repository: reginaldberry02-sys/AlphaCore
         path: Constitution.md
       - repository: reginaldberry02-sys/EddieCore
@@ -29,6 +33,8 @@ artifacts:
     source: canon/company-sop-xos-hq.yaml
     hq_markdown: Company SOP 4 XOS-HQ.md
     downstream:
+      - repository: reginaldberry02-sys/QuanCore
+        path: Company SOP 4 XOS-HQ.md
       - repository: reginaldberry02-sys/AlphaCore
         path: Company SOP 4 XOS-HQ.md
       - repository: reginaldberry02-sys/EddieCore
@@ -47,6 +53,8 @@ artifacts:
     source: canon/administrative-services-sop.yaml
     hq_markdown: SOPs/Administrative Services SOP.md
     downstream:
+      - repository: reginaldberry02-sys/QuanCore
+        path: Administrative Services SOP.md
       - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DEPARTMENT-ASD-
         path: Administrative Services SOP.md
       - repository: reginaldberry02-sys/AddieCore
@@ -59,3 +67,10 @@ artifacts:
         path: Position SOP 4 Administrative Clerk.md
       - repository: reginaldberry02-sys/AddieCore
         path: Position SOP 4 Administrative Clerk.md
+
+  position-sop-quality-control-auditor:
+    source: canon/position-sop-quality-control-auditor.yaml
+    hq_markdown: Position SOP 4 Quality Control Auditor.md
+    downstream:
+      - repository: reginaldberry02-sys/QuanCore
+        path: Position SOP 4 Quality Control Auditor.md
