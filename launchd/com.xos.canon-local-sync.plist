@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>Label</key><string>com.xos.canon-local-sync</string>
+<key>ProgramArguments</key>
+<array>
+<string>/usr/bin/python3</string>
+<string>/Users/reginaldberry/XOS-GitHub/XLR8ROS/xlr8ros-hq/scripts/sync_local_canon.py</string>
+</array>
+<key>RunAtLoad</key><true/>
+<key>WatchPaths</key>
+<array><string>/Users/reginaldberry/XOS-GitHub/XLR8ROS/xlr8ros-hq/canon</string></array>
+<key>StartInterval</key><integer>60</integer>
+<key>StandardOutPath</key><string>/Users/reginaldberry/Library/Logs/xos-canon-local-sync.log</string>
+<key>StandardErrorPath</key><string>/Users/reginaldberry/Library/Logs/xos-canon-local-sync.err.log</string>
+</dict>
+</plist>
