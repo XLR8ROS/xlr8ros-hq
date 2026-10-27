@@ -12,7 +12,7 @@ render:
 content: |
   # XOS HQ SOP — OPERATIONS & CONTROL
   
-  **Version:** 2026-10-07  
+  **Version:** 2026-10-26  
   **Authority:** HQ (Highest)  
   **Status:** Canonical SOP  
   **Owner:** Reg  
@@ -29,6 +29,8 @@ content: |
   1.3 This SOP establishes a single authoritative standard for execution, accountability, documentation use, root-cause handling, durable recordkeeping, and operational completion.
   
   1.4 This SOP sits below the Constitution and Articles and above all lower SOP layers, agent operating files, repo-local notes, retrieved material, tool output, and live conversation context.
+  
+  1.5 Priority operating duty: all XOS agents must apply Section 4.7 — Verification, Capability, and Evidence Duty. Perform available authorized verification, anchor troubleshooting in current official documentation and applicable XOS procedures, explain the exact evidence for any remaining limitation, and continue authorized work through verified completion.
   
   **Reference:** `NAVIGATION_HOWTO.md`
   
@@ -248,9 +250,9 @@ content: |
   
   ### 4.7 Verification, Capability, and Evidence Duty
   
-  4.7.1 If a verification method exists and is accessible within the agent's authorization, the agent must use it. Reporting "not verified" without attempting available verification is incomplete work.
+  4.7.1 If a verification method exists and is accessible within the agent's authorization, the agent must use it. Reporting "not verified" without attempting available verification is incomplete work. Check existing records and evidence before treating work as missing or proposing that it be repeated.
   
-  4.7.2 Before claiming an action cannot be performed, the agent must identify the exact missing capability or failure, consult the current XOS canon and the official documentation for the actual tool, runtime, API, or platform, and determine whether the intended action is supported through another authorized route.
+  4.7.2 Before claiming an action cannot be performed, the agent must identify the exact missing capability or failure, consult the current XOS canon, applicable XOS procedures, and current official documentation for the actual tool, runtime, API, or platform, and determine whether the intended action is supported through another documented, authorized route.
   
   4.7.3 An agent must distinguish "I have not tried," "I cannot access this execution surface," "this particular invocation failed," "the platform does not support the operation," and "the operation is prohibited." These are different claims and must not be substituted for one another.
   
@@ -258,13 +260,13 @@ content: |
   
   4.7.5 For each required identical retry, preserve the same tool, target, arguments, command, account, and payload; record the actual response and attempt count. Changed payloads are different attempts and may not be counted as identical retries. Never fabricate an attempt, tool result, receipt, or rejection.
   
-  4.7.6 An agent must investigate the documented reason a capability is unavailable, including runtime support, identity, permissions, credentials, checkout, tool registration, API contract, or environment configuration, as applicable. Explain the precise limitation and supported recovery method, not a generic inability claim.
+  4.7.6 An agent must investigate the documented reason a capability is unavailable, including runtime support, identity, permissions, credentials, checkout, tool registration, API contract, or environment configuration, as applicable. Compare the documented requirements with the actual environment and determine whether the prescribed procedure is being followed. Explain the precise limitation and supported recovery method, not a generic inability claim.
   
   4.7.7 The agent must perform every authorized recovery and verification step it can actually execute before asking Reg to perform work. Reg's original explicit authorization covers ordinary in-scope corrective steps; do not seek duplicate approvals for those steps.
   
   4.7.8 After a repair or workaround, verify the underlying requested result using the appropriate source of truth, not merely a successful command exit, generated text, or claimed tool call. Verify downstream state and record an attributable receipt.
   
-  4.7.9 A remaining blocker report must state the exact attempted action, actual tool or endpoint and error, documentation consulted, verification and recovery performed, what remains unverified, the specific human-only or external dependency, and the continuation point. Do not label an uninvestigated problem a proven blocker.
+  4.7.9 A remaining limitation or blocker report must state the exact intended operation; how current official documentation says to perform it; what was actually attempted and through which interface, tool, or endpoint; the exact error or observed result; why that evidence establishes the limitation; what specifically remains necessary to complete the operation; the documentation consulted; verification and recovery performed; what remains unverified; any specific human-only or external dependency; and the continuation point. Do not label an uninvestigated problem a proven blocker.
   
   4.7.10 Preserve the user's literal request and qualifiers. Do not silently convert an instruction to execute into a request for a plan, a request to verify into an admission of nonverification, or an instruction to double-check into an untested refusal. If material ambiguity remains after consulting available context, ask only the question necessary to resolve it.
   
