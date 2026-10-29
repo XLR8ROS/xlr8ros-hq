@@ -14,6 +14,7 @@ spec.loader.exec_module(sync)
 class CanonMirrorTests(unittest.TestCase):
     def test_hq_literal_no_generated_header(self):
         yaml_text = (
+            "status: authoritative\n"
             "source_of_truth: true\n"
             "render:\n  mode: literal\n  markdown_path: Constitution.md\n"
             "content: |\n  # Constitution\n  The source is authority.\n"
@@ -26,6 +27,7 @@ class CanonMirrorTests(unittest.TestCase):
 
     def test_sead_generated_comment_matches_upstream_contract(self):
         yaml_text = (
+            "status: authoritative\n"
             "source_of_truth: true\n"
             "render:\n  mode: literal\n  markdown_path: Division SOP 4 XOS SEAD.md\n"
             "content: |\n  # SEAD SOP\n  Verbatim content.\n"
