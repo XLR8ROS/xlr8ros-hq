@@ -15,6 +15,14 @@ artifacts:
         path: Global Memory Contract.md
       - repository: XLR8ROS/PaigeCore
         path: Global Memory Contract.md
+      - repository: XLR8ROS/CodiCore
+        path: Global Memory Contract.md
+      - repository: XLR8ROS/ALPHACORE-SR.
+        path: Global Memory Contract.md
+      - repository: XLR8ROS/COCOCORE
+        path: Global Memory Contract.md
+      - repository: XLR8ROS/NexCore
+        path: Global Memory Contract.md
   constitution:
     source: canon/constitution.yaml
     hq_markdown: Constitution.md
@@ -29,6 +37,14 @@ artifacts:
         path: Constitution.md
       - repository: XLR8ROS/PaigeCore
         path: Constitution.md
+      - repository: XLR8ROS/CodiCore
+        path: Constitution.md
+      - repository: XLR8ROS/ALPHACORE-SR.
+        path: Constitution.md
+      - repository: XLR8ROS/COCOCORE
+        path: Constitution.md
+      - repository: XLR8ROS/NexCore
+        path: Constitution.md
   xos-hq-operations-control-sop:
     source: canon/company-sop-xos-hq.yaml
     hq_markdown: Company SOP 4 XOS-HQ.md
@@ -42,6 +58,14 @@ artifacts:
       - repository: reginaldberry02-sys/AddieCore
         path: Company SOP 4 XOS-HQ.md
       - repository: XLR8ROS/PaigeCore
+        path: Company SOP 4 XOS-HQ.md
+      - repository: XLR8ROS/CodiCore
+        path: Company SOP 4 XOS-HQ.md
+      - repository: XLR8ROS/ALPHACORE-SR.
+        path: Company SOP 4 XOS-HQ.md
+      - repository: XLR8ROS/COCOCORE
+        path: Company SOP 4 XOS-HQ.md
+      - repository: XLR8ROS/NexCore
         path: Company SOP 4 XOS-HQ.md
   position-sop-ceo:
     source: canon/position-sop-ceo.yaml
@@ -74,3 +98,19 @@ artifacts:
     downstream:
       - repository: reginaldberry02-sys/QuanCore
         path: Position SOP 4 Quality Control Auditor.md
+  sead-division-sop:
+    source_repository: XLR8ROS/XLR8ROS_SEAD
+    source: canon/sead-division-sop.yaml
+    source_markdown: Division SOP 4 XOS SEAD.md
+    header_style: sead-generated
+    downstream:
+      - repository: XLR8ROS/CodiCore
+        path: Division SOP 4 XOS SEAD.md
+  position-sop-chief-of-sead:
+    source_repository: XLR8ROS/XLR8ROS_SEAD
+    source: canon/chief-of-sead-position-sop.yaml
+    source_markdown: XOS SEAD Chief Executive Suite/Position SOP 4 XOS SEAD CHEIF.md
+    header_style: sead-generated
+    downstream:
+      - repository: XLR8ROS/CodiCore
+        path: Position SOP 4 XOS SEAD CHEIF.md

@@ -1,27 +1,52 @@
-name: Render and synchronize canon mirrors
+name: Render and synchronize XOS canonical mirrors
+
 on:
   push:
     branches: [main]
     paths:
-      - 'canon/*.yaml'
+      - 'canon/**'
       - 'scripts/sync_canon_mirrors.py'
+      - 'tests/test_sync_canon_mirrors.py'
       - '.github/workflows/render-canon.yml'
+  repository_dispatch:
+    types: [xos-canon-source-updated]
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '*/15 * * * *'
+
 permissions:
   contents: read
+
 concurrency:
-  group: xos-canon-mirror-sync
+  group: xos-canon-mirror-sync-main
   cancel-in-progress: false
+
 jobs:
-  synchronize:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Install YAML parser
         run: python3 -m pip install --user PyYAML
-      - name: Render and synchronize registered mirrors
+      - name: Check canonical source, registry, and syntax
+        run: |
+          python3 -m py_compile scripts/sync_canon_mirrors.py
+          python3 -m unittest discover -s tests -p 'test_sync_canon_mirrors.py' -v
+          python3 scripts/sync_canon_mirrors.py --validate
+
+  synchronize:
+    needs: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install YAML parser
+        run: python3 -m pip install --user PyYAML
+      - name: Update registered mirrors and verify read-back
         env:
           XOS_CANON_SYNC_TOKEN: ${{ secrets.XOS_CANON_SYNC_TOKEN }}
-        run: python3 scripts/sync_canon_mirrors.py
+        run: |
+          if [ -z "$XOS_CANON_SYNC_TOKEN" ]; then
+            echo "::error::XOS_CANON_SYNC_TOKEN is missing; downstream synchronization cannot run"
+            exit 1
+          fi
+          python3 scripts/sync_canon_mirrors.py
