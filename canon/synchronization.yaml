@@ -1,6 +1,14 @@
 schema: xos.canon-synchronization/v1
 canonical_repository: XLR8ROS/xlr8ros-hq
 artifacts:
+  agent-core-navigation:
+    source: canon/core-navigation.yaml
+    hq_markdown: SOPs/Core Navigation.md
+    downstream:
+      - repository: reginaldberry02-sys/AddieCore
+        path: NAVIGATION.md
+      - repository: XLR8ROS/ALPHACORE-SR.
+        path: NAVIGATION.md
   global-memory-contract:
     source: canon/global-memory-contract.yaml
     hq_markdown: Global Memory Contract.md
