@@ -131,5 +131,23 @@ class CanonMirrorTests(unittest.TestCase):
             self.assertTrue(any(repo == "XLR8ROS/CodiCore" for repo, _ in targets))
 
 
+    def test_approved_president_sop_mirrors_from_governed_yaml(self):
+        entries = {name: (source, targets) for name, source, targets in sync.load_registry()}
+        self.assertIn("position-sop-president", entries)
+        source, targets = entries["position-sop-president"]
+        self.assertEqual(source[1], "canon/position-sop-president.yaml")
+        self.assertEqual(targets, [
+            (sync.HQ, "Position SOP 4 President.md"),
+            ("XLR8ROS/ALPHACORE-SR.", "Position SOP 4 President.md"),
+        ])
+        self.assertNotIn("position-sop-svp-executive-affairs", entries)
+        yaml_text = (sync.ROOT / source[1]).read_text(encoding="utf-8")
+        approved = sync.yaml.safe_load(yaml_text)
+        self.assertEqual(approved.get("status"), "authoritative")
+        self.assertTrue(approved.get("source_of_truth"))
+        result = sync.rendered_content(*source[:2], yaml_text, source[2], source[3])
+        self.assertEqual(result, (sync.ROOT / source[2]).read_bytes())
+
+
 if __name__ == "__main__":
     unittest.main()

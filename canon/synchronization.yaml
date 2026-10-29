@@ -134,3 +134,9 @@ artifacts:
     downstream:
       - repository: XLR8ROS/CodiCore
         path: Position SOP 4 XOS SEAD CHEIF.md
+  position-sop-president:
+    source: canon/position-sop-president.yaml
+    hq_markdown: Position SOP 4 President.md
+    downstream:
+      - repository: XLR8ROS/ALPHACORE-SR.
+        path: Position SOP 4 President.md
