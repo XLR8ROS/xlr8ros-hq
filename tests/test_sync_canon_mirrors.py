@@ -131,5 +131,18 @@ class CanonMirrorTests(unittest.TestCase):
             self.assertTrue(any(repo == "XLR8ROS/CodiCore" for repo, _ in targets))
 
 
+    def test_xos105_executive_position_sop_mirrors_are_registered(self):
+        artifacts = {name: (source, targets) for name, source, targets in sync.load_registry()}
+        expected = {
+            "position-sop-president": ("XLR8ROS/ALPHACORE-SR.", "Position SOP 4 President.md"),
+            "position-sop-svp-executive-affairs": ("XLR8ROS/COCOCORE", "Position SOP 4 Senior VP of Executive Affairs.md"),
+        }
+        for name, target in expected.items():
+            self.assertIn(name, artifacts)
+            source, destinations = artifacts[name]
+            self.assertEqual(source[0], sync.HQ)
+            self.assertIn(target, destinations)
+
+
 if __name__ == "__main__":
     unittest.main()
