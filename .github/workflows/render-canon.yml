@@ -8,6 +8,12 @@ on:
       - 'scripts/sync_canon_mirrors.py'
       - 'tests/test_sync_canon_mirrors.py'
       - '.github/workflows/render-canon.yml'
+  pull_request:
+    paths:
+      - 'canon/**'
+      - 'scripts/sync_canon_mirrors.py'
+      - 'tests/test_sync_canon_mirrors.py'
+      - '.github/workflows/render-canon.yml'
   repository_dispatch:
     types: [xos-canon-source-updated]
   workflow_dispatch:
@@ -35,6 +41,7 @@ jobs:
           python3 scripts/sync_canon_mirrors.py --validate
 
   synchronize:
+    if: github.event_name != 'pull_request'
     needs: validate
     runs-on: ubuntu-latest
     steps:
