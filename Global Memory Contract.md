@@ -218,4 +218,3 @@ Durable Memory is the protected preservation layer and is not subject to destruc
 When in doubt between preserving and discarding substantive episodic material, preserve it.
 
 Learn once, forget nothing, remember everything, because everything has value.
-
