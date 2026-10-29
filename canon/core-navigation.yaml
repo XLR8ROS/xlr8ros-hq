@@ -22,6 +22,7 @@ content: |
   - `AGENTS.md`: agent-owned operating identity and coordination rules.
   - `BOOTSTRAP.md` and `OPENAI.md`: when present and approved, additional bootstrap and external-runtime guidance.
   - `NAVIGATION.md`: this shared navigational mirror.
+  - No duplicate root `SOPs/`, `Protocol SOPs/`, `support/`, `Protocol Support/`, `reflections/`, `archives/`, or templates folders. Root SOPs/canon stay at root; lessons under memory.
 
   The agent's own `README.md` and approved governing instructions determine the exact reading sequence. Missing or unapproved root artifacts must be reported, not silently invented.
 
@@ -31,6 +32,7 @@ content: |
   - `memory/Durable_Memory/`: promoted episodic memory when used.
   - `memory/Compound_Engineering/`: one unified home for reflections, distilled lessons and reusable engineering; do not create a parallel `Distilled_Lessons/` folder.
   - Other historical material belongs within `memory/` with its source and superseded/active status identified.
+  - `memory/Compound_Engineering/Core Integrity Lessons.md`: shared HQ-YAML-synchronized lessons. Read at the memory-recall stage; never independently edit this derivative.
 
   The only normal content folder at an agent Core root is `memory/`. Hidden `.github/` and other required version-control/runtime metadata are infrastructure, not second content hierarchies. Preserve evidence, provenance and history; do not delete unique lessons to tidy folders.
 
