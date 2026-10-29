@@ -12,7 +12,7 @@ render:
 content: |
   # XOS HQ SOP — OPERATIONS & CONTROL
   
-  **Version:** 2026-10-26  
+  **Version:** 2026-10-29  
   **Authority:** HQ (Highest)  
   **Status:** Canonical SOP  
   **Owner:** Reg  
@@ -241,10 +241,10 @@ content: |
   4.6.9 Once the blocker is cleared or the missing requirement becomes available, execution must resume from the blocked state without requiring Reg to restate the original assignment.
   
   4.6.10 Detailed permission-gate mechanics belong in the applicable HOW-TO. This section governs the required behavior across all tools, runtimes, connectors, permission systems, and execution surfaces.
-
+  
   4.6.11 Triple-check supersedes the earlier double-check retry count. When an execution tool directs an agent to double-check a refused request, first inspect the exact original invocation, including account, device, tool, arguments, command, authority, target, and intended effects. If the original invocation is confirmed safe and authorized, submit that identical original invocation three times within the current conversation turn, counting only actual submissions in that turn. No changed invocation may be described or counted as an identical retry. Record the actual response to each submission. Do not treat a prior turn's attempts as satisfying this turn's requirement. This rule never overrides an explicit denial or authorizes circumventing a safety control; if the tool continues to refuse, stop using that surface and investigate an authorized alternative.
-
-
+  
+  
   
   ---
   
@@ -632,6 +632,25 @@ content: |
   14.3 Do not ask: “What command can expose the answer?” before asking: “What do the docs and architecture already say?”
   
   14.4 XOS values investigation, but investigation must begin from source authority when source authority exists.
+  
+  ---
+  
+  
+  ## 15. AGENT CORE ROOT-ONLY STANDARD
+  
+  15.1 Applicability. Every XOS agent's personal Core repository, existing or new, must use a root-only governance and memory layout. This requirement is general; each agent retains their own identity, position, authority, and memory.
+  
+  15.2 Permitted tracked root entries. Only the agent's \`README.md\`, \`AGENTS.md\`, authoritative XOS Constitution, Global Memory Contract, applicable Company and division/department/office/team governing SOP mirrors, the agent's current personal Position SOP, personal \`MEMORY.md\`, and one \`memory/\` directory may appear at the top level. Use the exact authoritative or registered mirror filenames. Do not add unrelated instructions, tool scripts, configuration folders, logs, navigation maps, output collections, agent-runtime workspaces, or duplicate canon to that root.
+  
+  15.3 The \`memory/\` directory contains memory material only: daily notes, Agent Recall or episodic records, durable/event memory, distilled lessons, memory-specific evidence, necessary memory migration backups, and subfolders required by the current Global Memory Contract. It is not a substitute location for operational scripts, credentials, deployed services, CI workflows, ordinary outputs, or unrelated archives.
+  
+  15.4 Root documents establish the startup order: begin with \`README.md\`, read \`AGENTS.md\`, then the actual authoritative constitutional and SOP hierarchy through the agent's current personal Position SOP, followed by personal \`MEMORY.md\`, the valid memory material, and the official Paperclip/operational context as required. Do not replace one agent's identity, instructions, or personal SOP with another agent's. Load ancillary current instructions through their authorized external source rather than copying them indiscriminately into the Core root.
+  
+  15.5 Governing mirrors are never independent writing authorities. Obtain literal mirrors from current authoritative sources and verify exact SHA-256/byte equality; YAML-governed canon and generated Markdown must follow the declared render and synchronization contracts. Do not rewrite authoritative canon to fit a preexisting local copy.
+  
+  15.6 Existing non-memory files must be preserved in a documented, authorized external operational home before root cleanup. Preserve full Git history, recoverable pre-migration references, exact original bytes, names, configuration and consumer references. Do not relocate operational assets into \`memory/\` merely to satisfy the root listing. Intrinsic Git metadata (\`.git\` in a checkout) is not an additional tracked Core document.
+  
+  15.7 Stage structural migrations reversibly and verify each affected agent runtime, startup, tools, navigation, active memory writers, scheduled jobs, output destinations, links, and rollback before activating or merging a production root-only change. A compliant branch or passing file hash alone does not prove runtime acceptance. Do not delete historical material or modify other agents' work without proper authorization, evidence, and assignment scope.
   
   ---
   
