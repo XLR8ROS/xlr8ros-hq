@@ -144,5 +144,44 @@ class CanonMirrorTests(unittest.TestCase):
             self.assertIn(target, destinations)
 
 
+    def test_proposed_personal_sop_is_not_authoritative(self):
+        text = (
+            "status: proposed_reg_review\n"
+            "source_of_truth: false\n"
+            "render:\n  mode: literal\n  markdown_path: Position SOP 4 President.md\n"
+            "content: |\n  # Proposed President\n"
+        )
+        with self.assertRaises(ValueError):
+            sync.rendered_content(sync.HQ, "canon/position-sop-president.yaml",
+                                  text, "Position SOP 4 President.md", "none")
+
+    def test_pending_personal_sop_skips_writes(self):
+        yaml_text = (
+            "status: proposed_reg_review\n"
+            "source_of_truth: false\n"
+            "render:\n  mode: literal\n  markdown_path: Draft.md\n"
+            "content: |\n  # Draft\n"
+        )
+        with TemporaryDirectory() as temp:
+            home = Path(temp)
+            (home / "canon").mkdir()
+            (home / "canon" / "draft.yaml").write_text(yaml_text, encoding="utf-8")
+            old_root = sync.ROOT
+            old_token = sync.TOKEN
+            try:
+                sync.ROOT = home
+                sync.TOKEN = "test-without-real-network"
+                with patch.object(sync, "load_registry", return_value=[
+                    ("draft", (sync.HQ, "canon/draft.yaml", "Draft.md", "none"),
+                     [("owner/repo", "Draft.md")])
+                ]):
+                    with patch.object(sync, "ensure") as ensure:
+                        self.assertEqual(sync.synchronize("sync"), 0)
+                        ensure.assert_not_called()
+            finally:
+                sync.ROOT = old_root
+                sync.TOKEN = old_token
+
+
 if __name__ == "__main__":
     unittest.main()

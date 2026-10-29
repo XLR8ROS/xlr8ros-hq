@@ -107,8 +107,8 @@ def rendered_content(source_repo, source, text, render_path, header_style):
     doc = yaml.safe_load(text)
     if not isinstance(doc, dict):
         raise ValueError(f"Invalid source document: {source_repo}/{source}")
-    if doc.get("source_of_truth") is not True:
-        raise ValueError(f"Not authoritative: {source_repo}/{source}")
+    if doc.get("status") != "authoritative" or doc.get("source_of_truth") is not True:
+        raise ValueError(f"Not approved authoritative canon: {source_repo}/{source}")
     if doc.get("render", {}).get("mode") != "literal":
         raise ValueError(f"Not a literal-render canon: {source_repo}/{source}")
     if doc["render"].get("markdown_path") != render_path:
@@ -213,6 +213,13 @@ def synchronize(mode="sync"):
                 if blob is None:
                     raise RuntimeError(f"Missing or inaccessible authoritative YAML: {source_repo}/{source}")
                 text = blob.decode("utf-8")
+            # Draft Position SOP sources may be registered for review without activating
+            # any downstream writes. Promotion requires BOTH approval status and
+            # source_of_truth=true in the same governed source revision.
+            metadata = yaml.safe_load(text)
+            if isinstance(metadata, dict) and metadata.get("status") == "proposed_reg_review" and metadata.get("source_of_truth") is False:
+                print(f"PENDING_REG_APPROVAL {name} {source_repo}/{source}", flush=True)
+                continue
             rendered = rendered_content(source_repo, source, text, render_path, header_style)
             source_count += 1
             if mode == "validate":

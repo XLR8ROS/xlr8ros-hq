@@ -5,7 +5,7 @@ scope: company-executive
 authority_level: position
 authority: XOS HQ
 status: proposed_reg_review
-source_of_truth: true
+source_of_truth: false
 render:
   markdown_path: Position SOP 4 President.md
   mode: literal
