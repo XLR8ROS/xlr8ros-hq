@@ -213,9 +213,8 @@ def synchronize(mode="sync"):
                 if blob is None:
                     raise RuntimeError(f"Missing or inaccessible authoritative YAML: {source_repo}/{source}")
                 text = blob.decode("utf-8")
-            # Draft Position SOP sources may be registered for review without activating
-            # any downstream writes. Promotion requires BOTH approval status and
-            # source_of_truth=true in the same governed source revision.
+            # Proposed canonical sources must not write to any downstream destination
+            # before an authorized approval and source-of-truth promotion.
             metadata = yaml.safe_load(text)
             if isinstance(metadata, dict) and metadata.get("status") == "proposed_reg_review" and metadata.get("source_of_truth") is False:
                 print(f"PENDING_REG_APPROVAL {name} {source_repo}/{source}", flush=True)

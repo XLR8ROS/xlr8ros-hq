@@ -133,18 +133,28 @@ class CanonMirrorTests(unittest.TestCase):
             self.assertTrue(any(repo == "XLR8ROS/CodiCore" for repo, _ in targets))
 
 
-    def test_xos105_executive_position_sop_mirrors_are_registered(self):
-        artifacts = {name: (source, targets) for name, source, targets in sync.load_registry()}
-        expected = {
-            "position-sop-president": ("XLR8ROS/ALPHACORE-SR.", "Position SOP 4 President.md"),
-            "position-sop-svp-executive-affairs": ("XLR8ROS/COCOCORE", "Position SOP 4 Senior VP of Executive Affairs.md"),
-        }
-        for name, target in expected.items():
-            self.assertIn(name, artifacts)
-            source, destinations = artifacts[name]
-            self.assertEqual(source[0], sync.HQ)
-            self.assertIn(target, destinations)
-
+    def test_approved_president_sop_mirrors_from_governed_yaml(self):
+        entries = {name: (source, targets) for name, source, targets in sync.load_registry()}
+        self.assertIn("position-sop-president", entries)
+        source, targets = entries["position-sop-president"]
+        self.assertEqual(source[1], "canon/position-sop-president.yaml")
+        self.assertEqual(targets, [
+            (sync.HQ, "Position SOP 4 President.md"),
+            ("XLR8ROS/ALPHACORE-SR.", "Position SOP 4 President.md"),
+        ])
+        self.assertIn("position-sop-svp-executive-affairs", entries)
+        proposed_source, proposed_targets = entries["position-sop-svp-executive-affairs"]
+        self.assertEqual(proposed_source[1], "canon/position-sop-svp-executive-affairs.yaml")
+        self.assertIn(("XLR8ROS/COCOCORE", "Position SOP 4 Senior VP of Executive Affairs.md"), proposed_targets)
+        proposal = sync.yaml.safe_load((sync.ROOT / proposed_source[1]).read_text(encoding="utf-8"))
+        self.assertEqual(proposal.get("status"), "proposed_reg_review")
+        self.assertIs(proposal.get("source_of_truth"), False)
+        yaml_text = (sync.ROOT / source[1]).read_text(encoding="utf-8")
+        approved = sync.yaml.safe_load(yaml_text)
+        self.assertEqual(approved.get("status"), "authoritative")
+        self.assertTrue(approved.get("source_of_truth"))
+        result = sync.rendered_content(*source[:2], yaml_text, source[2], source[3])
+        self.assertEqual(result, (sync.ROOT / source[2]).read_bytes())
 
     def test_proposed_personal_sop_is_not_authoritative(self):
         text = (
