@@ -107,7 +107,7 @@ def rendered_content(source_repo, source, text, render_path, header_style):
     doc = yaml.safe_load(text)
     if not isinstance(doc, dict):
         raise ValueError(f"Invalid source document: {source_repo}/{source}")
-    if doc.get("status") != "authoritative" or doc.get("source_of_truth") is not True:
+    if doc.get("status") not in ("authoritative", "authoritative-reference") or doc.get("source_of_truth") is not True:
         raise ValueError(f"Not approved authoritative canon: {source_repo}/{source}")
     if doc.get("render", {}).get("mode") != "literal":
         raise ValueError(f"Not a literal-render canon: {source_repo}/{source}")
