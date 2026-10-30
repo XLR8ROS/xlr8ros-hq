@@ -195,5 +195,18 @@ class CanonMirrorTests(unittest.TestCase):
                 sync.TOKEN = old_token
 
 
+    def test_approved_reference_preserves_original_company_contract(self):
+        yaml_text = (
+            "status: authoritative-reference\\n"
+            "source_of_truth: true\\n"
+            "render:\\n  mode: literal\\n  markdown_path: reference/Test.md\\n"
+            "content: |\\n  # Shared reference\\n"
+        )
+        rendered = sync.rendered_content(sync.HQ, "canon/reference.yaml", yaml_text,
+                                          "reference/Test.md", "none")
+        self.assertEqual(rendered, b"# Shared reference\\n")
+
+
+
 if __name__ == "__main__":
     unittest.main()
