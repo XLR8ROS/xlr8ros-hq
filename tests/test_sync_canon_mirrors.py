@@ -131,6 +131,20 @@ class CanonMirrorTests(unittest.TestCase):
             self.assertTrue(any(repo == "XLR8ROS/CodiCore" for repo, _ in targets))
 
 
+    def test_codi_core_navigation_and_integrity_lessons_are_auto_registered(self):
+        entries = {name: (src, targets) for name, src, targets in sync.load_registry()}
+        expected = {
+            "agent-core-navigation": "NAVIGATION.md",
+            "shared-agent-core-integrity-lessons": "memory/Compound_Engineering/Core Integrity Lessons.md",
+        }
+        for name, dest in expected.items():
+            with self.subTest(name=name):
+                source, targets = entries[name]
+                self.assertEqual(source[0], sync.HQ)
+                self.assertIn(("XLR8ROS/CodiCore", dest), targets)
+                self.assertEqual(sum(1 for target in targets if target == ("XLR8ROS/CodiCore", dest)), 1)
+
+
     def test_approved_president_sop_mirrors_from_governed_yaml(self):
         entries = {name: (source, targets) for name, source, targets in sync.load_registry()}
         self.assertIn("position-sop-president", entries)

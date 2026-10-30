@@ -11,6 +11,8 @@ artifacts:
         path: memory/Compound_Engineering/Core Integrity Lessons.md
       - repository: reginaldberry02-sys/AddieCore
         path: memory/Compound_Engineering/Core Integrity Lessons.md
+      - repository: XLR8ROS/CodiCore
+        path: memory/Compound_Engineering/Core Integrity Lessons.md
   agent-core-navigation:
     source: canon/core-navigation.yaml
     hq_markdown: SOPs/Core Navigation.md
@@ -20,6 +22,8 @@ artifacts:
       - repository: XLR8ROS/ALPHACORE-SR.
         path: NAVIGATION.md
       - repository: XLR8ROS/COCOCORE
+        path: NAVIGATION.md
+      - repository: XLR8ROS/CodiCore
         path: NAVIGATION.md
   global-memory-contract:
     source: canon/global-memory-contract.yaml
