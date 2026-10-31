@@ -14,6 +14,7 @@ spec.loader.exec_module(sync)
 class CanonMirrorTests(unittest.TestCase):
     def test_hq_literal_no_generated_header(self):
         yaml_text = (
+            "status: authoritative\n"
             "source_of_truth: true\n"
             "render:\n  mode: literal\n  markdown_path: Constitution.md\n"
             "content: |\n  # Constitution\n  The source is authority.\n"
@@ -26,6 +27,7 @@ class CanonMirrorTests(unittest.TestCase):
 
     def test_sead_generated_comment_matches_upstream_contract(self):
         yaml_text = (
+            "status: authoritative\n"
             "source_of_truth: true\n"
             "render:\n  mode: literal\n  markdown_path: Division SOP 4 XOS SEAD.md\n"
             "content: |\n  # SEAD SOP\n  Verbatim content.\n"
@@ -154,13 +156,70 @@ class CanonMirrorTests(unittest.TestCase):
             (sync.HQ, "Position SOP 4 President.md"),
             ("XLR8ROS/ALPHACORE-SR.", "Position SOP 4 President.md"),
         ])
-        self.assertNotIn("position-sop-svp-executive-affairs", entries)
+        self.assertIn("position-sop-svp-executive-affairs", entries)
+        proposed_source, proposed_targets = entries["position-sop-svp-executive-affairs"]
+        self.assertEqual(proposed_source[1], "canon/position-sop-svp-executive-affairs.yaml")
+        self.assertIn(("XLR8ROS/COCOCORE", "Position SOP 4 Senior VP of Executive Affairs.md"), proposed_targets)
+        proposal = sync.yaml.safe_load((sync.ROOT / proposed_source[1]).read_text(encoding="utf-8"))
+        self.assertEqual(proposal.get("status"), "proposed_reg_review")
+        self.assertIs(proposal.get("source_of_truth"), False)
         yaml_text = (sync.ROOT / source[1]).read_text(encoding="utf-8")
         approved = sync.yaml.safe_load(yaml_text)
         self.assertEqual(approved.get("status"), "authoritative")
         self.assertTrue(approved.get("source_of_truth"))
         result = sync.rendered_content(*source[:2], yaml_text, source[2], source[3])
         self.assertEqual(result, (sync.ROOT / source[2]).read_bytes())
+
+    def test_proposed_personal_sop_is_not_authoritative(self):
+        text = (
+            "status: proposed_reg_review\n"
+            "source_of_truth: false\n"
+            "render:\n  mode: literal\n  markdown_path: Position SOP 4 President.md\n"
+            "content: |\n  # Proposed President\n"
+        )
+        with self.assertRaises(ValueError):
+            sync.rendered_content(sync.HQ, "canon/position-sop-president.yaml",
+                                  text, "Position SOP 4 President.md", "none")
+
+    def test_pending_personal_sop_skips_writes(self):
+        yaml_text = (
+            "status: proposed_reg_review\n"
+            "source_of_truth: false\n"
+            "render:\n  mode: literal\n  markdown_path: Draft.md\n"
+            "content: |\n  # Draft\n"
+        )
+        with TemporaryDirectory() as temp:
+            home = Path(temp)
+            (home / "canon").mkdir()
+            (home / "canon" / "draft.yaml").write_text(yaml_text, encoding="utf-8")
+            old_root = sync.ROOT
+            old_token = sync.TOKEN
+            try:
+                sync.ROOT = home
+                sync.TOKEN = "test-without-real-network"
+                with patch.object(sync, "load_registry", return_value=[
+                    ("draft", (sync.HQ, "canon/draft.yaml", "Draft.md", "none"),
+                     [("owner/repo", "Draft.md")])
+                ]):
+                    with patch.object(sync, "ensure") as ensure:
+                        self.assertEqual(sync.synchronize("sync"), 0)
+                        ensure.assert_not_called()
+            finally:
+                sync.ROOT = old_root
+                sync.TOKEN = old_token
+
+
+    def test_approved_reference_preserves_original_company_contract(self):
+        yaml_text = (
+            "status: authoritative-reference\n"
+            "source_of_truth: true\n"
+            "render:\n  mode: literal\n  markdown_path: reference/Test.md\n"
+            "content: |\n  # Shared reference\n"
+        )
+        rendered = sync.rendered_content(sync.HQ, "canon/reference.yaml", yaml_text,
+                                          "reference/Test.md", "none")
+        self.assertEqual(rendered, b"# Shared reference\n")
+
 
 
 if __name__ == "__main__":

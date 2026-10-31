@@ -144,3 +144,9 @@ artifacts:
     downstream:
       - repository: XLR8ROS/ALPHACORE-SR.
         path: Position SOP 4 President.md
+  position-sop-svp-executive-affairs:
+    source: canon/position-sop-svp-executive-affairs.yaml
+    hq_markdown: Position SOP 4 Senior VP of Executive Affairs.md
+    downstream:
+      - repository: XLR8ROS/COCOCORE
+        path: Position SOP 4 Senior VP of Executive Affairs.md
