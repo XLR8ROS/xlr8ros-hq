@@ -145,8 +145,10 @@ artifacts:
       - repository: XLR8ROS/ALPHACORE-SR.
         path: Position SOP 4 President.md
   position-sop-senior-vice-president-of-executive-affairs:
+    source_repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DIVISION-ASD
     source: canon/position-sop-senior-vice-president-of-executive-affairs.yaml
-    hq_markdown: Position SOP 4 Senior Vice President of Executive Affairs.md
+    source_markdown: Position SOP 4 Senior Vice President of Executive Affairs.md
+    header_style: none
     downstream:
       - repository: XLR8ROS/COCOCORE
         path: Position SOP 4 Senior Vice President of Executive Affairs.md
