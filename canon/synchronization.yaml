@@ -103,7 +103,7 @@ artifacts:
     downstream:
       - repository: reginaldberry02-sys/QuanCore
         path: Administrative Services SOP.md
-      - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DEPARTMENT-ASD-
+      - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DIVISION-ASD
         path: Administrative Services SOP.md
       - repository: reginaldberry02-sys/AddieCore
         path: Administrative Services SOP.md
@@ -111,7 +111,7 @@ artifacts:
     source: canon/position-sop-administrative-clerk.yaml
     hq_markdown: Position SOP 4 Administrative Clerk.md
     downstream:
-      - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DEPARTMENT-ASD-
+      - repository: XLR8ROS/XOS-ADMINISTRATIVE-SERVICES-DIVISION-ASD
         path: Position SOP 4 Administrative Clerk.md
       - repository: reginaldberry02-sys/AddieCore
         path: Position SOP 4 Administrative Clerk.md
