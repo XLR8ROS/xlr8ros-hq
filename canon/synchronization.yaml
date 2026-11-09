@@ -45,8 +45,6 @@ artifacts:
         path: Global Memory Contract.md
       - repository: XLR8ROS/COCOCORE
         path: Global Memory Contract.md
-      - repository: XLR8ROS/NexCore
-        path: Global Memory Contract.md
   constitution:
     source: canon/constitution.yaml
     hq_markdown: Constitution.md
@@ -67,8 +65,6 @@ artifacts:
         path: Constitution.md
       - repository: XLR8ROS/COCOCORE
         path: Constitution.md
-      - repository: XLR8ROS/NexCore
-        path: Constitution.md
   xos-hq-operations-control-sop:
     source: canon/company-sop-xos-hq.yaml
     hq_markdown: Company SOP 4 XOS-HQ.md
@@ -88,8 +84,6 @@ artifacts:
       - repository: XLR8ROS/ALPHACORE-SR.
         path: Company SOP 4 XOS-HQ.md
       - repository: XLR8ROS/COCOCORE
-        path: Company SOP 4 XOS-HQ.md
-      - repository: XLR8ROS/NexCore
         path: Company SOP 4 XOS-HQ.md
   position-sop-ceo:
     source: canon/position-sop-ceo.yaml
